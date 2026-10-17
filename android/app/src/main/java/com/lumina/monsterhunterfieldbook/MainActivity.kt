@@ -21,6 +21,7 @@ class MainActivity:Activity(){
     lateinit var prefs:NativePrefs
     lateinit var catalogue:Catalogue
     private lateinit var audio:FieldAudio
+    val music get()=audio
     lateinit var root:FrameLayout
     private lateinit var base:LinearLayout
     private lateinit var content:FrameLayout
@@ -29,6 +30,7 @@ class MainActivity:Activity(){
     private lateinit var titleFont:Typeface
     private val handler=Handler(Looper.getMainLooper())
     private val images=Executors.newFixedThreadPool(2)
+    private val fileIo=Executors.newSingleThreadExecutor()
     private val cache=object:android.util.LruCache<String,Bitmap>(16*1024){override fun sizeOf(key:String,value:Bitmap)=value.byteCount/1024}
     private var ready=false
     private var foreground=false
@@ -46,11 +48,16 @@ class MainActivity:Activity(){
     private var resultScroll:ScrollView?=null
     private var settings:SettingsPanel?=null
     private var activeSection="overview"
+    private var library:LibraryScreen?=null
+    private val libraryStates=mutableMapOf<String,JSONObject>()
+    lateinit var libraryData:JSONObject
+    lateinit var backups:BackupController
+    val currentEdition get()=edition
     private val sectionHistory=java.util.ArrayDeque<String>()
     private var edition="world"
     private var recent=JSONArray()
     private var bookmarks=JSONArray()
-    private val sections=listOf("overview" to "Overview","bestiary" to "Bestiary","weapons" to "Weapons","equipment" to "Equipment","locales" to "Locales","progression" to "Speedrun","preparation" to "Item Libraries","notes" to "Field Notes")
+    private val sections=listOf("overview" to "Overview","bestiary" to "Bestiary","weapons" to "Weapons","equipment" to "Equipment","locales" to "Locales","progression" to "Speedrun","preparation" to "Item Libraries","notes" to "Field Notes","quests" to "Quests")
     private data class Overlay(val kind:String,val container:FrameLayout,val panel:View,var closing:Boolean=false)
     private val overlays=mutableListOf<Overlay>()
     val isIce get()=edition=="iceborne"
@@ -62,9 +69,10 @@ class MainActivity:Activity(){
     val line:Int get()=blend(bg,ink,.2f)
     val wide get()=resources.configuration.screenWidthDp>=650
     val landscape get()=resources.configuration.orientation==Configuration.ORIENTATION_LANDSCAPE
+    val useSplitLibrary get()=resources.configuration.screenWidthDp>=600 || (landscape && resources.configuration.screenWidthDp>=560)
     val historyEnabled get()=prefs.flag("searchHistory")
     fun dp(n:Number)=(n.toFloat()*resources.displayMetrics.density).roundToInt()
-    fun motionDuration(base:Long):Long{val speed=prefs.number("speed",50);return if(speed==0)0L else (base*(1.65f-speed*.013f)).toLong()}
+    fun motionDuration(base:Long):Long{if(!prefs.flag("animations"))return 0L;val speed=prefs.number("speed",50);return if(speed==0)0L else (base*(1.65f-speed*.013f)).toLong()}
     fun themeColours():IntArray{
         val theme=prefs.text("theme","game")
         val default=if(isIce)intArrayOf(Color.rgb(12,20,34),Color.rgb(159,212,237),Color.rgb(231,239,243))else intArrayOf(Color.rgb(13,21,18),Color.rgb(217,183,122),Color.rgb(238,233,220))
@@ -72,9 +80,11 @@ class MainActivity:Activity(){
     }
     override fun onCreate(state:Bundle?){
         super.onCreate(state);volumeControlStream=android.media.AudioManager.STREAM_MUSIC
-        prefs=NativePrefs(this);edition=state?.getString("edition")?:prefs.text("edition","world")
+        prefs=NativePrefs(this);libraryData=assets.open("library.json").bufferedReader().use{JSONObject(it.readText())};backups=BackupController(this);edition=state?.getString("edition")?:prefs.text("edition","world")
         activeSection=state?.getString("section")?:if(prefs.text("startup","overview")=="last")prefs.text("lastSection","overview")else "overview"
         searchQuery=state?.getString("query")?:"";searchKind=state?.getString("kind")?:"All"
+        state?.getString("libraries")?.let{raw->runCatching{JSONObject(raw)}.getOrNull()?.let{saved->saved.keys().forEach{key->libraryStates[key]=saved.getJSONObject(key)}}}
+        state?.getStringArrayList("navigation")?.forEach{sectionHistory.addLast(it)}
         recent=runCatching{JSONArray(prefs.text("recent","[]"))}.getOrDefault(JSONArray())
         bookmarks=runCatching{JSONArray(prefs.text("bookmarks","[]"))}.getOrDefault(JSONArray())
         titleFont=runCatching{Typeface.createFromAsset(assets,"fonts/title.ttf")}.getOrDefault(Typeface.create("serif",Typeface.NORMAL))
@@ -88,6 +98,11 @@ class MainActivity:Activity(){
         if(state==null)showIntro()else{
             introDone=true;audio.introductionFinished()
             when(state.getString("overlay")){"settings"->showSettings(state.getString("settingsTab")?:"Appearance");"search"->showSearch()}
+            val recordIds=state.getStringArrayList("records")?:arrayListOf()
+            if(recordIds.isNotEmpty())catalogue.executor.execute{
+                val records=recordIds.mapNotNull{catalogue.record(it)}
+                runOnUiThread{if(!destroyed)records.forEach{showRecord(it)}}
+            }
         }
     }
     private fun fullscreen(){
@@ -99,9 +114,16 @@ class MainActivity:Activity(){
     override fun onWindowFocusChanged(hasFocus:Boolean){super.onWindowFocusChanged(hasFocus);if(hasFocus)fullscreen()}
     override fun onResume(){super.onResume();foreground=true;audio.resume();if(!introDone&&introStarted)introAnimator?.resume()}
     override fun onPause(){foreground=false;audio.pause();introAnimator?.pause();super.onPause()}
-    override fun onDestroy(){destroyed=true;searchGeneration.incrementAndGet();handler.removeCallbacksAndMessages(null);introAnimator?.cancel();audio.release();images.shutdownNow();catalogue.close();super.onDestroy()}
+    override fun onDestroy(){destroyed=true;searchGeneration.incrementAndGet();handler.removeCallbacksAndMessages(null);introAnimator?.cancel();audio.release();backups.release();fileIo.shutdownNow();images.shutdownNow();catalogue.close();super.onDestroy()}
     override fun onConfigurationChanged(config:Configuration){super.onConfigurationChanged(config);fullscreen();val scroll=(content.getChildAt(0) as? ScrollView)?.scrollY?:0;renderBase();(content.getChildAt(0) as? ScrollView)?.post{(content.getChildAt(0) as? ScrollView)?.scrollTo(0,scroll)};settings?.takeIf{overlays.lastOrNull()?.kind=="settings"}?.rebuild();root.requestLayout()}
-    override fun onSaveInstanceState(out:Bundle){out.putString("edition",edition);out.putString("section",activeSection);out.putString("query",searchQuery);out.putString("kind",searchKind);out.putString("overlay",overlays.lastOrNull()?.kind);out.putString("settingsTab",settings?.category);super.onSaveInstanceState(out)}
+    override fun onSaveInstanceState(out:Bundle){
+        library?.let{libraryStates[activeSection]=it.snapshot()}
+        out.putString("edition",edition);out.putString("section",activeSection);out.putString("query",searchQuery);out.putString("kind",searchKind)
+        out.putString("overlay",overlays.lastOrNull{it.kind!="record"}?.kind);out.putString("settingsTab",settings?.category)
+        out.putString("libraries",JSONObject(libraryStates as Map<*,*>).toString());out.putStringArrayList("navigation",ArrayList(sectionHistory))
+        out.putStringArrayList("records",ArrayList(overlays.mapNotNull{(it.panel as? ViewGroup)?.getChildAt(0) as? RecordPanel}.map{it.record.id}))
+        super.onSaveInstanceState(out)
+    }
 
     fun text(value:String,size:Float=14f,title:Boolean=false,colour:Int=ink):TextView=TextView(this).apply{
         text=spaced(value);textSize=size*prefs.number("font",100)/100f;typeface=if(title)titleFont else bodyFont;setTextColor(colour)
@@ -123,7 +145,7 @@ class MainActivity:Activity(){
     }
     fun touch(view:View,onClick:()->Unit){
         val effect=prefs.text("touch","ripple");val body=view.background?:surface(Color.TRANSPARENT,false)
-        if(effect!="none"){
+        if(effect!="none"&&prefs.flag("animations")&&prefs.number("speed",50)>0){
             val tint=when(effect){"halo"->alphaColour(accent,40);"glow"->alphaColour(accent,85);"sparks"->alphaColour(accent,105);else->alphaColour(Color.rgb(217,183,122),70)}
             view.background=RippleDrawable(android.content.res.ColorStateList.valueOf(tint),body,GradientDrawable().apply{setColor(Color.WHITE);cornerRadius=dp(4).toFloat()}).apply{if(effect=="ripple")radius=dp(280)}
         }
@@ -138,6 +160,7 @@ class MainActivity:Activity(){
     fun rule(parent:LinearLayout){parent.addView(View(this).apply{setBackgroundColor(line)},LinearLayout.LayoutParams(-1,dp(1)))}
     fun toast(message:String)=Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
     private fun renderBase(){
+        library?.let{libraryStates[activeSection]=it.snapshot()};library=null
         if(::base.isInitialized)root.removeView(base)
         base=column();base.setBackgroundColor(bg);root.addView(base,0,FrameLayout.LayoutParams(-1,-1))
         val header=row();header.setPadding(dp(16),dp(10),dp(12),dp(8));header.minimumHeight=dp(70)
@@ -153,9 +176,9 @@ class MainActivity:Activity(){
         header.addView(iconButton("settings","Settings"){showSettings()},LinearLayout.LayoutParams(dp(38),dp(44)))
         base.addView(header);rule(base)
         val editions=row()
-        listOf("world" to "WORLD","iceborne" to "ICEBORNE").forEach{(id,name)->
+        (if(activeSection=="progression"&&!worldComplete())listOf("world" to "WORLD")else listOf("world" to "WORLD","iceborne" to "ICEBORNE")).forEach{(id,name)->
             val selected=edition==id
-            val tab=button((if(selected)"◆ " else "◇ ")+name){if(edition!=id){edition=id;prefs.set("edition",id);audio.play(id);renderBase()}}.apply{
+            val tab=button((if(selected)"◆ " else "◇ ")+name){switchEdition(id)}.apply{
                 setTextColor(if(selected)accent else muted);textSize=17f*prefs.number("font",100)/100;letterSpacing=.12f
                 background=if(selected)GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,intArrayOf(bg,blend(bg,accent,.09f))).apply{setStroke(dp(1),line)}else android.graphics.drawable.ColorDrawable(bg)
             }
@@ -163,9 +186,28 @@ class MainActivity:Activity(){
         };base.addView(editions)
         content=FrameLayout(this);base.addView(content,LinearLayout.LayoutParams(-1,0,1f));renderSection()
     }
-    private fun navigate(section:String,remember:Boolean=true){if(remember&&section!=activeSection)sectionHistory.addLast(activeSection);activeSection=section;prefs.set("lastSection",section);renderBase()}
-    private fun renderSection(){content.removeAllViews();if(activeSection=="overview")overview()else previewSection()}
-    private fun assetImage(path:String,view:ImageView){
+    fun navigate(section:String,remember:Boolean=true){library?.let{libraryStates[activeSection]=it.snapshot()};library=null;if(section=="progression"&&!worldComplete()&&edition=="iceborne"){edition="world";prefs.set("edition",edition);audio.play(edition)};if(remember&&section!=activeSection)sectionHistory.addLast(activeSection);activeSection=section;prefs.set("lastSection",section);renderBase()}
+    private fun renderSection(){
+        library?.let{libraryStates[activeSection]=it.snapshot()};library=null;content.removeAllViews()
+        when(activeSection){
+            "overview"->overview()
+            "progression"->{if(!worldComplete()&&edition=="iceborne")switchEdition("world")else content.addView(ProgressScreen(this),FrameLayout.LayoutParams(-1,-1))}
+            else->{library=LibraryScreen(this,activeSection,libraryStates[activeSection]);content.addView(library,FrameLayout.LayoutParams(-1,-1))}
+        }
+    }
+    fun refreshCurrentSection(){
+        val position=(content.getChildAt(0) as? ScrollView)?.scrollY?:0
+        renderBase()
+        (content.getChildAt(0) as? ScrollView)?.let{view->view.post{view.scrollTo(0,position)}}
+    }
+    fun replaceLibraryState(section:String,state:JSONObject){library=null;libraryStates[section]=state}
+    fun worldComplete()=RouteProgress.completeAll(libraryData.getJSONObject("speedrun").getJSONArray("world"),RouteProgress.state(prefs,"world"))
+    fun switchEdition(next:String){if(edition==next)return;if(activeSection=="progression"&&next=="iceborne"&&!worldComplete())return;edition=next;prefs.set("edition",next);audio.play(next);renderBase()}
+    fun loadBitmap(path:String,callback:(Bitmap?)->Unit){
+        cache.get(path)?.let{callback(it);return}
+        images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull();if(bitmap!=null)cache.put(path,bitmap);runOnUiThread{if(!destroyed)callback(bitmap)}}
+    }
+    fun assetImage(path:String,view:ImageView){
         view.tag=path;cache.get(path)?.let{view.setImageBitmap(it);return}
         images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull()
             if(bitmap!=null){cache.put(path,bitmap);runOnUiThread{if(!destroyed&&view.tag==path)view.setImageBitmap(bitmap)}}}
@@ -189,20 +231,8 @@ class MainActivity:Activity(){
         searchWrap.addView(search,FrameLayout.LayoutParams(dp(68),dp(68),Gravity.CENTER));copy.addView(searchWrap,LinearLayout.LayoutParams(dp(140),dp(118)))
         hero.addView(copy,FrameLayout.LayoutParams(-1,-2,Gravity.CENTER))
     }
-    private fun previewSection(){
-        val scroll=ScrollView(this);val body=column();pad(body,20);scroll.addView(body);content.addView(scroll)
-        body.addView(text(sections.find{it.first==activeSection}?.second?:activeSection,30f,true));gap(body);rule(body);gap(body,16)
-        val notice=text("MILESTONE PREVIEW\nThis section’s full native screens arrive in a later build. Search already includes its offline records.",13f,colour=accent);pad(notice);notice.background=surface();body.addView(notice);gap(body,18)
-        body.addView(button("Search this library"){showSearch(when(activeSection){"bestiary"->"Monsters";"weapons"->"Weapons";"equipment"->"Equipment";"locales"->"Locales";"notes"->"Field Notes";else->"Items"})})
-        if(!ready){gap(body);body.addView(text("Preparing offline catalogue…",13f,colour=muted));return}
-        val kind=when(activeSection){"bestiary"->"Monsters";"weapons"->"Weapons";"equipment"->"Equipment";"locales"->"Locales";"notes"->"Field Notes";else->"Items"}
-        catalogue.executor.execute{
-            val examples=catalogue.search(when(kind){"Monsters"->"rath";"Weapons"->"iron";"Equipment"->"leather";"Locales"->"forest";"Field Notes"->"hunt";else->"potion"},kind).take(12)
-            runOnUiThread{if(!destroyed&&body.isAttachedToWindow){gap(body);examples.forEach{record->body.addView(recordRow(record));gap(body,10)}}}
-        }
-    }
     fun afterPreference(key:String){
-        if(key in listOf("musicEnabled","volume")){audio.play(edition);audio.updateVolume();return}
+        if(key in listOf("musicEnabled","volume","followTheme","musicMode","rememberMusicPosition")){audio.play(edition);audio.updateVolume();return}
         if(key=="reset"){audio.play(edition);audio.updateVolume()}
         renderBase();overlays.forEach{it.container.setBackgroundColor(alphaColour(bg,190))}
     }
@@ -232,7 +262,7 @@ class MainActivity:Activity(){
     private fun present(kind:String,body:View,width:Int=840,menu:Boolean=false):View{
         val container=FrameLayout(this);container.setBackgroundColor(alphaColour(bg,205));container.isClickable=true
         val holder=BoundPanel();holder.capWidth=width;holder.background=surface();holder.elevation=dp(12).toFloat();holder.isClickable=true
-        holder.fill=kind in listOf("search","settings","record","saved","credits")
+        holder.fill=kind in listOf("search","settings","record","saved","credits","checklist")
         holder.addView(body,FrameLayout.LayoutParams(-1,if(holder.fill)-1 else -2));val p=FrameLayout.LayoutParams(-1,if(holder.fill) -1 else -2,if(menu)Gravity.TOP or Gravity.START else Gravity.CENTER)
         p.setMargins(dp(12),dp(if(menu)80 else 12),dp(12),dp(12));container.addView(holder,p)
         val overlay=Overlay(kind,container,holder);overlays+=overlay;root.addView(container,FrameLayout.LayoutParams(-1,-1))
@@ -273,6 +303,7 @@ class MainActivity:Activity(){
         val host=column();settings=SettingsPanel(this,host,category);settings!!.rebuild();present("settings",host,if(prefs.text("settingsLayout","center")=="split"&&wide)1000 else 840)
     }
     fun closeTop()=dismiss()
+    fun rebuildSettings(){settings?.rebuild()}
     fun settingsHeading(title:String)=heading(title)
     fun showSearch(kind:String?=null){
         if(overlays.lastOrNull()?.kind=="search")return
@@ -287,7 +318,7 @@ class MainActivity:Activity(){
         searchRow.addView(iconButton("back","Close search"){dismiss()},LinearLayout.LayoutParams(dp(44),dp(48)));body.addView(searchRow);rule(body)
         body.addView(text("WORLD + ICEBORNE · OFFLINE",10f,colour=accent).apply{setPadding(dp(18),dp(9),dp(12),dp(9));letterSpacing=.12f})
         val chips=HorizontalScrollView(this);chips.isHorizontalScrollBarEnabled=false;val chipRow=row();chipRow.setPadding(dp(10),0,dp(10),dp(8));chips.addView(chipRow)
-        val categories=listOf("All","Monsters","Weapons","Equipment","Items","Recipes","Quests","Locales","Field Notes","Creatures")
+        val categories=listOf("All","Monsters","Weapons","Weapon Guides","Equipment","Builds","Items","Recipes","Preparation","Quests","Locales","Maps","Field Notes","Creatures")
         categories.forEach{category->val chip=button(category){searchKind=category;for(i in 0 until chipRow.childCount)(chipRow.getChildAt(i) as TextView).setTextColor(if(categories[i]==category)accent else muted);runSearch()};chip.setTextColor(if(category==searchKind)accent else muted);val lp=LinearLayout.LayoutParams(-2,dp(40));lp.marginEnd=dp(6);chipRow.addView(chip,lp)};body.addView(chips);rule(body)
         resultScroll=ScrollView(this);resultBody=column();resultBody!!.setPadding(dp(10),dp(6),dp(10),dp(16));resultScroll!!.addView(resultBody);body.addView(resultScroll,LinearLayout.LayoutParams(-1,0,1f))
         present("search",body,900)
@@ -319,60 +350,89 @@ class MainActivity:Activity(){
             runOnUiThread{if(!destroyed&&generation==searchGeneration.get()&&body===resultBody){
                 body.removeAllViews();records.onFailure{body.addView(text("Search could not finish. Try another name.",14f,colour=muted))}
                 records.onSuccess{hits->
-                    body.addView(text(if(hits.isEmpty())"No matching records. Try a shorter name."else "${hits.size}${if(hits.size==80)"+" else ""} results${if(searchRelated)" · related records" else ""}",12f,colour=muted).apply{setPadding(dp(10),dp(10),0,dp(10))})
+                    body.addView(text(if(hits.isEmpty())"No matching records. Try a shorter name."else "${hits.size}${if(hits.size==100)"+" else ""} results${if(searchRelated)" · related records" else ""}",12f,colour=muted).apply{setPadding(dp(10),dp(10),0,dp(10))})
                     val groups=hits.groupBy{it.kind};groups.forEach{(group,list)->body.addView(text(group.uppercase(),10f,colour=accent).apply{letterSpacing=.14f;setPadding(dp(10),dp(14),0,dp(8))});list.forEach{body.addView(recordRow(it));rule(body)}}
                     resultScroll?.scrollTo(0,0)
                 }
             }}
         }
     }
-    private fun recordRow(record:FieldRecord):LinearLayout=row().apply{
+    fun recordRow(record:FieldRecord,onOpen:()->Unit={rememberQuery();hideKeyboard();showRecord(record)}):LinearLayout=row().apply{
         val spacing=if(prefs.text("density","compact")=="compact")13 else 20
         setPadding(dp(12),dp(spacing),dp(12),dp(spacing));minimumHeight=dp(86)
         if(record.image.isNotBlank()){
             val image=ImageView(this@MainActivity).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription="${record.name} artwork"};val size=if(record.image.contains("/icons/"))40 else 68;addView(image,LinearLayout.LayoutParams(dp(size*prefs.number("iconSize",100)/100),dp(size)));assetImage(record.image,image)
         }else addView(EmblemView(this@MainActivity,accent),LinearLayout.LayoutParams(dp(38),dp(40)))
         val info=column();info.setPadding(dp(14),0,dp(4),0);info.addView(text(record.name,16f));info.addView(text(record.summary.take(180),12f,colour=muted).apply{maxLines=3;ellipsize=TextUtils.TruncateAt.END});info.addView(text(when(record.game){"world"->"WORLD";"iceborne"->"ICEBORNE";else->"WORLD + ICEBORNE"},9f,colour=accent).apply{letterSpacing=.12f;setPadding(0,dp(6),0,0)});addView(info,LinearLayout.LayoutParams(0,-2,1f))
-        touch(this){rememberQuery();hideKeyboard();showRecord(record)}
+        touch(this){onOpen()}
     }
     private fun rememberQuery(){if(!historyEnabled||searchQuery.isBlank())return;val values=mutableListOf(searchQuery.trim());for(i in 0 until recent.length()){val term=recent.getString(i);if(term!=searchQuery.trim())values+=term};recent=JSONArray(values.take(12));prefs.set("recent",recent.toString())}
-    private fun showRecord(record:FieldRecord){
-        val body=column();body.addView(heading(record.name));rule(body);val scroll=ScrollView(this);val detail=column();pad(detail,20);scroll.addView(detail);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
-        detail.addView(text("NATIVE RECORD PREVIEW",10f,colour=accent).apply{letterSpacing=.15f});gap(detail,8)
-        detail.addView(text("Full ${record.kind.lowercase()} screens are planned for the next milestones. This preview reads the bundled catalogue.",12f,colour=muted));gap(detail,16)
-        if(record.image.isNotBlank()){val image=ImageView(this).apply{scaleType=ImageView.ScaleType.FIT_CENTER};detail.addView(image,LinearLayout.LayoutParams(-1,dp(180)));assetImage(record.image,image)}
-        detail.addView(text(record.summary,15f));gap(detail,16)
-        val payload=runCatching{JSONObject(record.payload)}.getOrDefault(JSONObject())
-        val labels=mapOf("rarity" to "Rarity","attack" to "Attack","affinity" to "Affinity (%)","defense" to "Defence","rank" to "Rank","slots" to "Decoration slots","elements" to "Element / status","description" to "Description","habitats" to "Habitats","category" to "Category","locale" to "Locale","carry" to "Carry limit","sell" to "Sell value","stars" to "Quest stars","summary" to "Summary")
-        labels.forEach{(key,label)->val value=payload.opt(key);if(value!=null&&value!=JSONObject.NULL&&value.toString().isNotBlank()&&value.toString()!="0"&&value.toString()!="[]"){
-            detail.addView(text(label,11f,colour=muted));detail.addView(text(readable(value),14f));gap(detail,14)
-        }}
-        val saved=(0 until bookmarks.length()).any{bookmarks.optString(it)==record.id}
-        detail.addView(button(if(saved)"Remove bookmark"else "Bookmark record"){
-            val ids=(0 until bookmarks.length()).map{bookmarks.getString(it)}.toMutableList();if(ids.contains(record.id))ids.remove(record.id)else ids+=record.id;bookmarks=JSONArray(ids);prefs.set("bookmarks",bookmarks.toString());toast(if(saved)"Bookmark removed"else "Bookmarked");dismiss()
-        });gap(detail,12)
-        detail.addView(button("Find related records"){
-            dismiss();if(queryInput==null)showSearch();queryInput?.setText(record.name);searchRelated=true;runSearch()
-        });present("record",body,900)
+    fun showRecord(record:FieldRecord){present("record",RecordPanel(this,record){dismiss()},1000)}
+    fun closeLibraryDetail():Boolean=library?.closeSelection()?:false
+    fun openReference(value:String,kind:String?=null){
+        if(!catalogue.ready){toast("Preparing offline catalogue…");return}
+        catalogue.executor.execute{val hits=catalogue.reference(value,kind);runOnUiThread{if(!destroyed){
+            when(hits.size){0->toast("No separate record is available for this reference.");1->showRecord(hits.first());else->showRecordList("Choose a record",hits)}
+        }}}
+    }
+    fun showRecordList(title:String,records:List<FieldRecord>){
+        val body=column();body.addView(heading(title));val list=ListView(this)
+        list.adapter=object:BaseAdapter(){override fun getCount()=records.size;override fun getItem(position:Int)=records[position];override fun getItemId(position:Int)=position.toLong();override fun getView(position:Int,convertView:View?,parent:ViewGroup):View=recordRow(records[position])}
+        body.addView(list,LinearLayout.LayoutParams(-1,0,1f));present("saved",body,950)
+    }
+    fun isBookmarked(id:String)=(0 until bookmarks.length()).any{bookmarks.optString(it)==id}
+    fun toggleBookmark(id:String){val ids=(0 until bookmarks.length()).map{bookmarks.getString(it)}.toMutableList();if(!ids.remove(id))ids+=id;bookmarks=JSONArray(ids);prefs.set("bookmarks",bookmarks.toString())}
+    fun reloadStoredState(){bookmarks=runCatching{JSONArray(prefs.text("bookmarks","[]"))}.getOrDefault(JSONArray());recent=runCatching{JSONArray(prefs.text("recent","[]"))}.getOrDefault(JSONArray());libraryStates.clear();library=null;renderBase()}
+    fun importMusic(uri:android.net.Uri){
+        toast("Adding audio to the offline music library…")
+        fileIo.execute{
+            val result=runCatching{
+                val id=java.util.UUID.randomUUID().toString();val folder=java.io.File(filesDir,"music").apply{mkdirs()};val file=java.io.File(folder,"custom-$id.audio")
+                try{
+                    contentResolver.openInputStream(uri)!!.use{input->file.outputStream().use{output->
+                        val buffer=ByteArray(65536);var total=0L
+                        while(true){val count=input.read(buffer);if(count<0)break;total+=count;require(total<=100L*1024*1024){"Choose an audio file smaller than 100 MB."};output.write(buffer,0,count)}
+                    }}
+                    val probe=android.media.MediaMetadataRetriever()
+                    try{probe.setDataSource(file.path);require((probe.extractMetadata(android.media.MediaMetadataRetriever.METADATA_KEY_DURATION)?.toLongOrNull()?:0)>0){"That audio format could not be opened."}}finally{probe.release()}
+                    val title=contentResolver.query(uri,arrayOf(android.provider.OpenableColumns.DISPLAY_NAME),null,null,null)?.use{cursor->if(cursor.moveToFirst())cursor.getString(0)else null}?:"Imported track"
+                    JSONObject().put("id",id).put("title",title.take(100)).put("file",file.name)
+                }catch(error:Exception){file.delete();throw error}
+            }
+            runOnUiThread{if(!destroyed){result.onSuccess{track->
+                val tracks=JSONArray(prefs.text("tracks","[]"));tracks.put(track);prefs.set("tracks",tracks.toString());toast("Audio added for offline playback.");settings?.rebuild()
+            }.onFailure{toast(it.message?:"Could not import that audio.")}}}
+        }
+    }
+    fun showCampChecklist(){
+        val body=column();body.addView(heading("Before leaving camp"));val checks=runCatching{JSONObject(prefs.text("campChecks","{}"))}.getOrDefault(JSONObject());val items=libraryData.getJSONArray("checklist")
+        val scroll=ScrollView(this);val list=column();pad(list,12);scroll.addView(list);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
+        for(i in 0 until items.length())list.addView(CheckBox(this).apply{text=items.getString(i);setTextColor(ink);isChecked=checks.optBoolean(i.toString());minHeight=dp(50);setOnCheckedChangeListener{_,v->checks.put(i.toString(),v);prefs.set("campChecks",checks.toString())}})
+        body.addView(button("Clear camp checklist"){
+            prefs.set("campChecks","{}");for(i in 0 until list.childCount)(list.getChildAt(i) as? CheckBox)?.isChecked=false
+        });present("checklist",body,650)
     }
     private fun readable(value:Any):String=when(value){is JSONArray->(0 until value.length()).joinToString(" · "){readable(value.get(it))};is JSONObject->value.keys().asSequence().filter{value.opt(it)!=JSONObject.NULL&&value.opt(it).toString()!="0"}.joinToString(" · "){key->"${key.replaceFirstChar{it.uppercase()}}: ${readable(value.get(key))}"};else->value.toString()}
     private fun showSaved(){
         val body=column();body.addView(heading("Saved entries"));rule(body);val scroll=ScrollView(this);val list=column();pad(list);scroll.addView(list);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
+        if(!catalogue.ready){list.addView(text("Preparing saved entries…",14f));present("saved",body);return}
         if(bookmarks.length()==0)list.addView(text("No bookmarks yet. Search for a record to save it.",14f,colour=muted))else catalogue.executor.execute{val records=(0 until bookmarks.length()).mapNotNull{catalogue.record(bookmarks.getString(it))};runOnUiThread{if(!destroyed)records.forEach{list.addView(recordRow(it))}}}
         present("saved",body)
     }
-    private fun showCredits(){
+    fun showCredits(){
         val body=column();body.addView(heading("Sources & credits"));rule(body);val scroll=ScrollView(this);val notes=column();pad(notes,20);scroll.addView(notes);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
-        notes.addView(text("Unofficial fan project. Monster Hunter game material belongs to Capcom and the respective rights holders.\n\nNative Kotlin milestone 0.1.0\nSource data and artwork are retained from the completed HTML guide.",14f));gap(notes)
+        notes.addView(text("Unofficial fan project. Monster Hunter game material belongs to Capcom and the respective rights holders.\n\nNative Kotlin milestone 0.2.0\nSource data and artwork are retained from the completed HTML guide.",14f));gap(notes)
         val credits=assets.open("credits.json").bufferedReader().use{JSONObject(it.readText())};val sources=credits.optJSONArray("sources")?:JSONArray()
         for(i in 0 until sources.length()){val source=sources.getJSONObject(i);notes.addView(text(source.optString("name"),14f,colour=accent));notes.addView(text(source.optString("url"),11f,colour=muted));gap(notes,12)}
         notes.addView(text(credits.optJSONObject("iconLicense")?.optString("licenseText")?:"",10f,colour=muted));gap(notes)
         notes.addView(text(credits.optString("databaseLicense"),10f,colour=muted));gap(notes)
         notes.addView(text(credits.optString("fontLicense"),10f,colour=muted));present("credits",body)
     }
+    @Deprecated("Activity result supports Android 7+") override fun onActivityResult(request:Int,result:Int,data:Intent?){super.onActivityResult(request,result,data);backups.onResult(request,result,data)}
     @Deprecated("Back handling supports Android 7+") override fun onBackPressed(){
         if(!introDone)return
         if(overlays.isNotEmpty()){dismiss();return}
+        if(closeLibraryDetail())return
         if(sectionHistory.isNotEmpty()){navigate(sectionHistory.removeLast(),false);return}
         if(activeSection!="overview"){navigate("overview",false);return}
         if(prefs.flag("confirmExit"))AlertDialog.Builder(this).setTitle("Leave Field Book?").setMessage("Your settings and bookmarks are saved on this device.").setNegativeButton("Stay",null).setPositiveButton("Exit"){_,_->finish()}.show()else finish()

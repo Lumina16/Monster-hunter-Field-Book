@@ -12,17 +12,28 @@ Verification: eight tests passed, including Android API 24/36 framework checks a
 
 APK SHA-256: `5c07e0474f33a5d396ba83e055dd641fd7045d235e5e6c2b35d9f350c3d88fe4`. Full evidence is recorded in `ANDROID_0.1.0_VERIFICATION.json`. These are framework/render tests, not physical-device performance or audio tests.
 
-## Planned journey
+## 0.2.0 — Offline libraries & progress
 
-The sequence can change based on test feedback; these are not completed releases.
+The development order is now **content and working functions first, visual matching last**, following device feedback on 0.1.0. The source record payloads are fully retained and accessible through native libraries and expandable profiles.
+
+Added paged browsing, exact-count Bestiary grids, per-collection filters/sorts, weapon family trees, linked materials/equipment/quests, maps with zoom/floors/layers, field notes and handbooks, campaign goals, camp checklists and staged World/Iceborne Speedrun progress with gating and reset undo.
+
+Settings now connect native backups, scoped resets, the interactive rarity/slot/effect legend, per-collection default sorting and imported offline music controls. Existing native bookmarks/settings remain in app storage. The retained test certificate is used for the downloadable update; no private key is published.
+
+Data comparison: all 10,174 records, 528,819 nested values and 296 embedded media references match the frozen HTML. Database integrity passes and all link targets exist. All 22 native checks passed, including the API 24/36 matrix. Lint has zero errors and 46 warnings, mostly English UI strings, drawing allocations and programmatic View constructors. The retained development certificate verifies with APK v2/v3, and all uncompressed ZIP entries are aligned to 4 bytes. Full evidence is in `ANDROID_0.2.0_VERIFICATION.json`.
+
+APK: `Monster_Hunter_Field_Book_0.2.0.apk` (101,972,285 bytes). SHA-256: `bdba4e9a2be08a5ed343a9239b7ae8d9279a1d9848f8f4c370efa96151e7f703`.
+
+The source contains 71 large monsters, 120 creatures, 3,544 weapons, 3,610 equipment entries, 1,778 items, 403 recipes, 522 quests, 7 locales, 6 map/base directories, 70 field notes, 14 weapon handbooks, 8 build templates and 21 preparation notes. Counts refer to the supplied reference, not a claim of newly researched game coverage.
+
+The UI is deliberately functional at this stage. Exact visual matching, decorative motion, device performance and audio interruption checks remain future work.
+
+## Remaining journey
 
 | Milestone | Focus |
 | --- | --- |
-| 0.2 | Bestiary and complete monster profiles; responsive list/detail layouts |
-| 0.3 | Weapons, database details and interactive family trees |
-| 0.4 | Equipment, skills, decorations/slots and Item Libraries |
-| 0.5 | Locales, layered maps, bases and field-note compendium |
-| 0.6 | Speedrun stages, unlocking effects and progress persistence |
-| 0.7 | Complete preference coverage, accessibility and polish |
+| 0.3 | User testing and functional parity fixes across the new libraries |
+| 0.4 | Responsive reading and settings refinements; accessibility and large-library performance |
+| 0.5–0.8 | HTML visual matching, trademark panel movement, effects and animation polish |
 | 0.9 | Real-device compatibility/performance and release-candidate fixes |
 | 1.0 | Completed native application; prepare Google Play distribution |

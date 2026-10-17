@@ -28,7 +28,7 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
             "parchment" to intArrayOf(Color.rgb(238,230,213),Color.rgb(110,80,42),Color.rgb(40,46,37)),
             "snow" to intArrayOf(Color.rgb(233,240,245),Color.rgb(38,87,119),Color.rgb(19,43,58))
         )
-        private val visualKeys=setOf("font","lineSpacing","letterSpacing","wordSpacing","density","iconSize","theme","customBg","customAccent","customInk","gradients","gradientStrength","gradientAngle","speed","transition","touch","glow","particles","blur","imageMotion","performance")
+        val visualKeys=setOf("font","lineSpacing","letterSpacing","wordSpacing","density","iconSize","theme","customBg","customAccent","customInk","gradients","gradientStrength","gradientAngle","animations","speed","transition","touch","glow","particles","blur","imageMotion","performance")
     }
     private val p get()=a.prefs
     fun rebuild(){
@@ -93,7 +93,7 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
         group(body,"Cards & icons"){
             choice(it,"density","Card spacing",listOf("compact" to "Compact","comfortable" to "Comfortable"),"compact")
             range(it,"iconSize","Icon size",75,140,100,"%")
-            help(it,"Catalogue card settings are retained for the full native library milestones.")
+            help(it,"Applies to native library cards and search result icons.")
         }
         group(body,"Theme presets & custom colours"){
             choice(it,"theme","Theme",listOf("game" to "Follow World / Iceborne")+palettes.keys.map{key->key to key.replaceFirstChar{c->c.uppercase()}}+listOf("custom" to "Custom colours"),"game")
@@ -127,8 +127,7 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
             }
         }
         group(body,"Icon & rarity legend"){
-            help(it,"The trademark snowflake keeps the original hexagonal frame and 180° flip. Full equipment/rarity icon coverage belongs to the catalogue milestones.")
-            it.addView(a.text("Rarity 1–12 · original equipment colours\nElement/status icons appear only when data applies.",13f))
+            addLegend(it)
         }
     }
     private fun pickColour(key:String,label:String,initial:Int){
@@ -148,6 +147,7 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
     }
     private fun motion(body:LinearLayout){
         group(body,"Animation controls"){
+            toggle(it,"animations","Global animations")
             range(it,"speed","Animation speed · 0 means off",0,100,50)
             help(it,"The launch snowflake and audio fades remain part of the fixed opening sequence.")
         }
@@ -192,7 +192,7 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
             toggle(it,"rememberScroll","Remember section position")
             toggle(it,"singleGroup","One expandable reading group at a time",false)
             toggle(it,"rememberGroups","Remember reading groups")
-            help(it,"Settings groups always start closed. Reading-group preferences apply when the complete library screens arrive.")
+            help(it,"Settings groups always start closed. Reading preferences apply to profiles, maps and campaign guidance.")
         }
         group(body,"Search history"){
             toggle(it,"searchHistory","Remember searches on this device")
@@ -200,31 +200,64 @@ class SettingsPanel(private val a:MainActivity,private val host:LinearLayout,var
                 AlertDialog.Builder(a).setTitle("Clear search history?").setNegativeButton("Keep",null).setPositiveButton("Clear"){_,_->a.clearSearchHistory();a.toast("History cleared.")}.show()
             })
         }
-        group(body,"Default sorting · preview"){
-            help(it,"Retained preferences for the full catalogue milestones.")
+        group(body,"Default sorting"){
             choice(it,"sortResources","Resources",listOf("name" to "Name A–Z","rarity" to "Rarity"),"name")
             choice(it,"sortWeapons","Weapons",listOf("source" to "Original order","name" to "Name A–Z","attack" to "Attack"),"source")
+            listOf("armours" to "Armour","armourSets" to "Armour sets","decorations" to "Decorations","skills" to "Skills","charms" to "Charms","kinsects" to "Kinsects","palicoEquipment" to "Palico equipment","palicoGadgets" to "Palico gadgets","tools" to "Tools","canteen" to "Canteen","foodSkills" to "Food skills","Monsters" to "Large monsters","smallMonsters" to "Small monsters","endemicLife" to "Endemic life","Quests" to "Quests").forEach{(key,label)->
+                choice(it,"sort:"+key,label,listOf("name" to "Name A–Z","rarity" to "Highest rarity","source" to "Source order"),"name")
+            }
+            help(it,"Clear a collection’s filters to use its new default sorting order.")
         }
     }
     private fun music(body:LinearLayout){
         group(body,"Camp music"){
             toggle(it,"musicEnabled","Play music automatically")
             range(it,"volume","Music volume",0,100,25,"%")
+            toggle(it,"followTheme","Follow World / Iceborne music")
+            toggle(it,"rememberMusicPosition","Resume from saved track position")
+            choice(it,"musicMode","Playback order",listOf("library" to "Loop library","one" to "Repeat current track","shuffle" to "Shuffle"),"library")
             help(it,"World: Stars at Our Backs\nIceborne: Nay! The Honor is All Ours\n\nMusic pauses when minimised and resumes on return. Theme changes crossfade between bundled tracks. The launch chime respects media volume.")
         }
+        group(body,"Player & offline music library"){it.addView(MusicPanel(a),LinearLayout.LayoutParams(-1,-2))}
     }
     private fun about(body:LinearLayout){
         group(body,"This milestone"){
-            it.addView(a.text("Monster Hunter Field Book\n0.1.0 · Native foundation",19f,true));a.gap(it)
-            help(it,"Working: launch snowflake, Overview, native local search, history/bookmarks, Settings, the 3D navigation emblem/menu and audio lifecycle.\n\nLibrary sections and detailed records are clearly labelled native previews. No WebView is used. Android 7.0 and later are targeted; physical-device testing is still needed.")
+            it.addView(a.text("Monster Hunter Field Book\n0.2.0 · Offline libraries & progress",19f,true));a.gap(it)
+            help(it,"Native libraries, complete source record data, weapon trees, maps, campaign tracking, bookmarks, backups and local music. All content is bundled. Source videos and reference links open online. Visual matching and decorative polish remain for a later milestone.")
+            it.addView(a.button("Sources & credits"){a.showCredits()})
+        }
+        group(body,"Backup & restore"){
+            help(it,"Export native settings, filters, bookmarks and progress. Restore validates the file before asking for confirmation. Imported audio files are kept on this device and are not included in the backup. HTML backups are not supported.")
+            it.addView(a.button("Export native backup"){a.backups.export()});a.gap(it,8)
+            it.addView(a.button("Restore native backup"){a.backups.importBackup()})
+        }
+        group(body,"Selective reset"){
+            help(it,"Choose exactly which settings or progress to clear, then review the selection.")
+            it.addView(a.button("Choose what to reset"){a.backups.selectiveReset()})
         }
         group(body,"Reset All Settings"){
-            help(it,"Keeps bookmarks, search history and saved visual presets. No reset happens until you confirm.")
-            it.addView(a.button("Reset All Settings"){
-                AlertDialog.Builder(a).setTitle("Reset All Settings?").setMessage("Appearance, effects, browsing and music return to defaults. Bookmarks, history and saved looks are kept.").setNegativeButton("Cancel",null).setPositiveButton("Reset"){_,_->
-                    val keep=JSONObject();listOf("bookmarks","recent","visualProfiles","edition").forEach{key->if(p.values.has(key))keep.put(key,p.values.get(key))};p.applySnapshot(keep);a.afterPreference("reset");rebuild()
-                }.show()
-            })
+            help(it,"Keeps bookmarks, campaign progress, camp checks, music files, search history and saved looks. Tick the scope and confirm to reset settings.")
+            it.addView(a.button("Reset All Settings"){a.backups.resetAllSettings()})
         }
+    }
+    private fun addLegend(body:LinearLayout){
+        help(body,"Tap an icon to inspect its meaning. Rarity is a tier, not a guarantee of the best equipment.")
+        fun icon(label:String,path:String,description:String,colour:Int?=null){
+            val row=a.row();val image=ImageView(a).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription=label}
+            row.addView(image,LinearLayout.LayoutParams(a.dp(35),a.dp(35)));if(path.isNotBlank())a.assetImage(path,image)
+            row.addView(a.text(label,13f,colour=colour?:a.ink).apply{setPadding(a.dp(12),0,0,0)},LinearLayout.LayoutParams(0,a.dp(46),1f))
+            a.touch(row){
+                val box=a.column();a.pad(box,18);val enlarged=ImageView(a).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription=label}
+                box.addView(enlarged,LinearLayout.LayoutParams(-1,a.dp(150)));if(path.isNotBlank())a.assetImage(path,enlarged)
+                box.addView(a.text(description,14f));AlertDialog.Builder(a).setTitle(label).setView(box).setPositiveButton("Close",null).show()
+            };body.addView(row)
+        }
+        val colours=a.libraryData.getJSONObject("rarityColours")
+        val equipment=a.libraryData.optJSONObject("legendEquipment")?.optJSONObject("armour-head")
+        for(rarity in 1..12){val key=rarity.toString();icon("Rarity "+key,equipment?.optString(key)?:"","Equipment rarity "+key+". Weapon and armour icons use this tier’s colour.",runCatching{Color.parseColor(colours.getString(key))}.getOrDefault(a.accent))}
+        val slots=a.libraryData.optJSONObject("legendSlots")?:JSONObject()
+        for(level in 1..4)icon("Decoration slot "+level,slots.optString(level.toString()),"A level "+level+" slot accepts jewels of level "+level+" or lower. A jewel’s slot size is distinct from its rarity.")
+        val names=a.libraryData.optJSONObject("effectNames")?:JSONObject();val legend=a.libraryData.optJSONObject("legend")?:JSONObject()
+        names.keys().forEach{key->icon(ContentText.label(names.getString(key)),legend.optString(key),"Identifies the "+names.getString(key)+" element, ailment or effect in the guide. Consult each profile for its recorded effectiveness.")}
     }
 }

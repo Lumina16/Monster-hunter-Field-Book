@@ -43,3 +43,7 @@
 ## First milestone
 
 Prioritise launch/Overview, global search, Settings and 3D navigation. Remaining sections should show clearly labelled previews, not pretend to be finished.
+
+## Revised development order after 0.1 device testing
+
+The user confirmed that the APK runs on the iQOO, then chose content and all working functions before visual matching. Migrate every available reference record, complete native libraries/profiles and cross-links, then progression, maps, preferences and music. Test functionality and repair missing content before the 90–100% visual pass. Each milestone retains a GitHub tag, APK and honest release notes.

@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "versionCode": 2,
+  "applicationId": "com.lumina.monsterhunterfieldbook",
+  "minimumSdk": 24,
+  "targetSdk": 36,
+  "apk": "Monster_Hunter_Field_Book_0.2.0.apk",
+  "sizeBytes": 101972285,
+  "sha256": "bdba4e9a2be08a5ed343a9239b7ae8d9279a1d9848f8f4c370efa96151e7f703",
+  "signing": "Retained development key; APK v2/v3 verification passed",
+  "certificateSha256": "45c1e2b2caacdb676a7ec4314efbe495601f766cb0ffa04ef4f949222f095511",
+  "zipAlignment": "All uncompressed entries aligned to 4 bytes",
+  "webViewTypeInDex": false,
+  "permissions": [],
+  "testsPassed": 22,
+  "testsFailed": 0,
+  "testMatrix": [
+    24,
+    36
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 46,
+  "lintWarningGroups": {
+    "OldTargetApi": 1,
+    "UnusedAttribute": 1,
+    "AndroidGradlePluginVersion": 1,
+    "NewerVersionAvailable": 1,
+    "DataExtractionRules": 1,
+    "DrawAllocation": 12,
+    "ViewConstructor": 10,
+    "ClickableViewAccessibility": 1,
+    "SetTextI18n": 18
+  },
+  "data": {
+    "version": "0.2.0",
+    "records": 10174,
+    "kinds": {
+      "Builds": 8,
+      "Creatures": 120,
+      "Equipment": 3610,
+      "Field Notes": 70,
+      "Items": 1778,
+      "Locales": 7,
+      "Maps": 6,
+      "Monsters": 71,
+      "Preparation": 21,
+      "Quests": 522,
+      "Recipes": 403,
+      "Weapon Guides": 14,
+      "Weapons": 3544
+    },
+    "nestedValuesCompared": 528819,
+    "embeddedMediaCompared": 296,
+    "links": 133586,
+    "orphanLinks": 0,
+    "sourceSha256": "9d719eba5e65a62b70201ff7ddc08940105087547bee7f5e09153073ed3d4515",
+    "integrity": "ok"
+  },
+  "testedSourceCommit": "841f5e6abfe5155d839a977ba1334ef8b07e3b89",
+  "workflowRun": 39051302591,
+  "physicalDeviceTesting": false,
+  "visualFidelity": "Deferred until functionality testing, per user request"
+}

@@ -91,7 +91,7 @@ class HaloView(context:Context,var tint:Int,val prefs:NativePrefs):View(context)
     override fun onAttachedToWindow(){super.onAttachedToWindow();active=true;invalidate()}
     override fun onDetachedFromWindow(){active=false;super.onDetachedFromWindow()}
     override fun onDraw(c:Canvas){
-        if(!prefs.flag("glow")||prefs.number("speed",50)==0||prefs.text("performance","full")=="light")return
+        if(!prefs.flag("animations")||!prefs.flag("glow")||prefs.number("speed",50)==0||prefs.text("performance","full")=="light")return
         val r=min(width,height)/2.8f;phase+=.025f
         paint.shader=RadialGradient(width/2f,height/2f,r*1.4f,intArrayOf(Color.TRANSPARENT,alphaColour(tint,(35+18*sin(phase)).toInt()),Color.TRANSPARENT),floatArrayOf(0f,.68f,1f),Shader.TileMode.CLAMP)
         c.drawCircle(width/2f,height/2f,r*1.4f,paint);paint.shader=null
