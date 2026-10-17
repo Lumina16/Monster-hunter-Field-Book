@@ -99,6 +99,7 @@ class NativeLibrariesTest {
         assertFalse(reset.isEnabled)
         walk(dialog.window!!.decorView).filterIsInstance<CheckBox>().single().isChecked=true
         assertTrue(reset.isEnabled);reset.performClick()
+        Shadows.shadowOf(android.os.Looper.getMainLooper()).idle()
         assertEquals("game",a.prefs.text("theme","game"));assertEquals("[\"saved-entry\"]",a.prefs.text("bookmarks","[]"));assertEquals("{\"task\":true}",a.prefs.text("progress:world","{}"))
         controller.pause().stop().destroy()
     }
