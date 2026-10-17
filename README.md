@@ -2,6 +2,8 @@
 
 An offline, unofficial field guide for **Monster Hunter: World and Iceborne**.
 
+Native Android development is tracked separately under [`android/`](android/README.md). See the [approved requirements](docs/ANDROID_REQUIREMENTS.md) and [milestone journey](docs/ANDROID_CHANGELOG.md). The HTML edition below remains the completed reference; native test releases use `android-v…` tags and clearly identify unfinished screens.
+
 ## Use the app
 
 Download `Hunter_Field_Guide_World_Iceborne.html` from this repository's **Releases** page, then open it in a modern browser. The single file includes the guide, frozen databases, images, icons, fonts and supplied music. External references and linked videos require internet access.

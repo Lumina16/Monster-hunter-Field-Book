@@ -1,0 +1,61 @@
+{
+  "version": "0.1.0",
+  "apk": "Monster_Hunter_Field_Book_0.1.0.apk",
+  "sizeBytes": 41166067,
+  "sha256": "5c07e0474f33a5d396ba83e055dd641fd7045d235e5e6c2b35d9f350c3d88fe4",
+  "applicationId": "com.lumina.monsterhunterfieldbook",
+  "minimumSdk": 24,
+  "targetSdk": 36,
+  "signing": "development certificate; APK v2 verified",
+  "zipAlignment": "verified",
+  "catalogueRecords": 10125,
+  "databaseIntegrity": "ok",
+  "missingReferencedImages": 0,
+  "tests": [
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.NativeVisualTest",
+      "name": "renderFoundationForVisualReview",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.NativeFoundationTest",
+      "name": "bundledCatalogueSupportsNamesTyposAndAttributeQueries[24]",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.NativeFoundationTest",
+      "name": "nativeOverviewSettingsAndSearchRetainState[24]",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.NativeFoundationTest",
+      "name": "bundledCatalogueSupportsNamesTyposAndAttributeQueries",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.NativeFoundationTest",
+      "name": "nativeOverviewSettingsAndSearchRetainState",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.SearchRankingTest",
+      "name": "exactNamesComeBeforePartialNames",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.SearchRankingTest",
+      "name": "untrustedQueryPunctuationCannotBecomeFtsSyntax",
+      "passed": true
+    },
+    {
+      "suite": "com.lumina.monsterhunterfieldbook.SearchRankingTest",
+      "name": "minorSpellingMistakesAreBounded",
+      "passed": true
+    }
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 19,
+  "renderReview": "Robolectric native Skia, API 28, portrait Overview and Settings inspected",
+  "physicalDeviceTesting": false,
+  "sourceHtmlSha256": "9d719eba5e65a62b70201ff7ddc08940105087547bee7f5e09153073ed3d4515"
+}

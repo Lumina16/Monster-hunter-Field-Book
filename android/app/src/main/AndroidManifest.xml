@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:allowBackup="false" android:label="Monster Hunter Field Book"
+        android:icon="@drawable/field_emblem" android:theme="@style/FieldTheme" android:supportsRtl="true"
+        android:usesCleartextTraffic="false" android:hardwareAccelerated="true" android:enableOnBackInvokedCallback="false">
+        <activity android:name=".MainActivity" android:exported="true"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>
