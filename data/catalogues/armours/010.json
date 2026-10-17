@@ -1,0 +1,3718 @@
+[
+  {
+    "id": "armour-491",
+    "sourceId": 491,
+    "name": "Rath Soul Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta",
+    "setName": "Rath Soul β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-353",
+          "name": "Azure Rathalos Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-492",
+    "sourceId": 492,
+    "name": "Diablos Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha",
+    "setName": "Diablos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-358",
+          "name": "Diablos Fang",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-493",
+    "sourceId": 493,
+    "name": "Diablos Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha",
+    "setName": "Diablos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-494",
+    "sourceId": 494,
+    "name": "Diablos Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 2
+      },
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha",
+    "setName": "Diablos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-357",
+          "name": "Diablos Tailcase",
+          "quantity": 3
+        },
+        {
+          "id": "item-196",
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-495",
+    "sourceId": 495,
+    "name": "Diablos Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha",
+    "setName": "Diablos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-358",
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-195",
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-496",
+    "sourceId": 496,
+    "name": "Diablos Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha",
+    "setName": "Diablos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 6
+        },
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 1
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-497",
+    "sourceId": 497,
+    "name": "Diablos Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta",
+    "setName": "Diablos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-358",
+          "name": "Diablos Fang",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-498",
+    "sourceId": 498,
+    "name": "Diablos Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta",
+    "setName": "Diablos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-499",
+    "sourceId": 499,
+    "name": "Diablos Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta",
+    "setName": "Diablos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-357",
+          "name": "Diablos Tailcase",
+          "quantity": 3
+        },
+        {
+          "id": "item-196",
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-500",
+    "sourceId": 500,
+    "name": "Diablos Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta",
+    "setName": "Diablos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-358",
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-195",
+          "name": "Kestodon Scalp",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-501",
+    "sourceId": 501,
+    "name": "Diablos Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta",
+    "setName": "Diablos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-362",
+          "name": "Diablos Ridge+",
+          "quantity": 6
+        },
+        {
+          "id": "item-361",
+          "name": "Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 1
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-502",
+    "sourceId": 502,
+    "name": "Diablos Nero Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha",
+    "setName": "Diablos Nero α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-503",
+    "sourceId": 503,
+    "name": "Diablos Nero Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha",
+    "setName": "Diablos Nero α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-504",
+    "sourceId": 504,
+    "name": "Diablos Nero Braces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha",
+    "setName": "Diablos Nero α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-505",
+    "sourceId": 505,
+    "name": "Diablos Nero Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha",
+    "setName": "Diablos Nero α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-357",
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "id": "item-198",
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-506",
+    "sourceId": 506,
+    "name": "Diablos Nero Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-normal-shots",
+        "name": "Normal Shots",
+        "level": 1
+      },
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha",
+    "setName": "Diablos Nero α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 6
+        },
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-507",
+    "sourceId": 507,
+    "name": "Diablos Nero Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta",
+    "setName": "Diablos Nero β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-363",
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-508",
+    "sourceId": 508,
+    "name": "Diablos Nero Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta",
+    "setName": "Diablos Nero β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-509",
+    "sourceId": 509,
+    "name": "Diablos Nero Braces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta",
+    "setName": "Diablos Nero β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 4
+        },
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-510",
+    "sourceId": 510,
+    "name": "Diablos Nero Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta",
+    "setName": "Diablos Nero β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 3
+        },
+        {
+          "id": "item-357",
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "id": "item-198",
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-511",
+    "sourceId": 511,
+    "name": "Diablos Nero Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-normal-shots",
+        "name": "Normal Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta",
+    "setName": "Diablos Nero β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Diablos Mastery",
+      "skills": [
+        {
+          "id": "skill-bludgeoner",
+          "name": "Bludgeoner",
+          "pieces": 2
+        },
+        {
+          "id": "skill-non-elemental-boost",
+          "name": "Non-elemental Boost",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 6
+        },
+        {
+          "id": "item-365",
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-367",
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-512",
+    "sourceId": 512,
+    "name": "Uragaan Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-alpha",
+    "setName": "Uragaan α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-513",
+    "sourceId": 513,
+    "name": "Uragaan Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-alpha",
+    "setName": "Uragaan α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 3
+        },
+        {
+          "id": "item-392",
+          "name": "Uragaan Jaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-395",
+          "name": "Uragaan Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-514",
+    "sourceId": 514,
+    "name": "Uragaan Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      },
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha",
+    "setName": "Uragaan α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-515",
+    "sourceId": 515,
+    "name": "Uragaan Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha",
+    "setName": "Uragaan α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-516",
+    "sourceId": 516,
+    "name": "Uragaan Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-alpha",
+    "setName": "Uragaan α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 2
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-517",
+    "sourceId": 517,
+    "name": "Uragaan Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta",
+    "setName": "Uragaan β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-518",
+    "sourceId": 518,
+    "name": "Uragaan Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta",
+    "setName": "Uragaan β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 3
+        },
+        {
+          "id": "item-392",
+          "name": "Uragaan Jaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-395",
+          "name": "Uragaan Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-519",
+    "sourceId": 519,
+    "name": "Uragaan Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta",
+    "setName": "Uragaan β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-520",
+    "sourceId": 520,
+    "name": "Uragaan Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta",
+    "setName": "Uragaan β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-521",
+    "sourceId": 521,
+    "name": "Uragaan Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta",
+    "setName": "Uragaan β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Uragaan Protection",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-391",
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-390",
+          "name": "Uragaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 2
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-522",
+    "sourceId": 522,
+    "name": "Bazel Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bazel-alpha",
+    "setName": "Bazel α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-402",
+          "name": "Bazelgeuse Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-403",
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-523",
+    "sourceId": 523,
+    "name": "Bazel Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-alpha",
+    "setName": "Bazel α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-524",
+    "sourceId": 524,
+    "name": "Bazel Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bazel-alpha",
+    "setName": "Bazel α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-399",
+          "name": "Bazelgeuse Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-525",
+    "sourceId": 525,
+    "name": "Bazel Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bazel-alpha",
+    "setName": "Bazel α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 2
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-526",
+    "sourceId": 526,
+    "name": "Bazel Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bazel-alpha",
+    "setName": "Bazel α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-382",
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-527",
+    "sourceId": 527,
+    "name": "Bazel Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-beta",
+    "setName": "Bazel β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-402",
+          "name": "Bazelgeuse Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-403",
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-528",
+    "sourceId": 528,
+    "name": "Bazel Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-beta",
+    "setName": "Bazel β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-529",
+    "sourceId": 529,
+    "name": "Bazel Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-beta",
+    "setName": "Bazel β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-399",
+          "name": "Bazelgeuse Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-530",
+    "sourceId": 530,
+    "name": "Bazel Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-beta",
+    "setName": "Bazel β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 2
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-531",
+    "sourceId": 531,
+    "name": "Bazel Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bazel-beta",
+    "setName": "Bazel β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Bazelgeuse Protection",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 58,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -4,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-397",
+          "name": "Bazelgeuse Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-398",
+          "name": "Bazelgeuse Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-401",
+          "name": "Bazelgeuse Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-382",
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-532",
+    "sourceId": 532,
+    "name": "Damascus Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-alpha",
+    "setName": "Damascus α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-307",
+          "name": "Great Girros Hood+",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-533",
+    "sourceId": 533,
+    "name": "Damascus Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-alpha",
+    "setName": "Damascus α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-534",
+    "sourceId": 534,
+    "name": "Damascus Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-alpha",
+    "setName": "Damascus α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-535",
+    "sourceId": 535,
+    "name": "Damascus Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-alpha",
+    "setName": "Damascus α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-383",
+          "name": "Dodogama Jaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-536",
+    "sourceId": 536,
+    "name": "Damascus Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-alpha",
+    "setName": "Damascus α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-537",
+    "sourceId": 537,
+    "name": "Damascus Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-beta",
+    "setName": "Damascus β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-307",
+          "name": "Great Girros Hood+",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-538",
+    "sourceId": 538,
+    "name": "Damascus Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-beta",
+    "setName": "Damascus β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-393",
+          "name": "Uragaan Scute",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-539",
+    "sourceId": 539,
+    "name": "Damascus Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-beta",
+    "setName": "Damascus β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-366",
+          "name": "Black Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-540",
+    "sourceId": 540,
+    "name": "Damascus Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-beta",
+    "setName": "Damascus β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-383",
+          "name": "Dodogama Jaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

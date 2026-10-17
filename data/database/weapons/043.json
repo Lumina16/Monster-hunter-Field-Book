@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "weapon-light-bowgun-990",
+    "name": "Blacksteel Crossbow II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 143,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-989",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-991",
+    "name": "Icesteel Wasp",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 221,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-990",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kushala Daora"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-992",
+    "name": "Daora's Hornet",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 234,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-991",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2955",
+    "name": "Daora's Yellowjacket",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 338,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-992",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Hardhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Daora Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-993",
+    "name": "Xeno Neqiina",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 234,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-light-bowgun-990",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-994",
+    "name": "Cross Bowgun",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 234,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Rathalos Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Gama Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Rathalos Coin"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-995",
+    "name": "Great Bowgun",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 260,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-light-bowgun-994",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Ace Hunter Coin"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2956",
+    "name": "Neo Cross Bowgun",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 338,
+    "affinity": 0,
+    "defense": 40,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-light-bowgun-995",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Glavenus Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Coin",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1181",
+    "name": "Devil's Grin",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 273,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000,
+      "unlock": "Deviljho Hide"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1182",
+    "name": "Devil's Madness",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 299,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-1181",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2957",
+    "name": "Diregun \"Dementia\"",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 364,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-1182",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1243",
+    "name": "Empress Shell",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 247,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1244",
+    "name": "Empress Shell \"Blaze\"",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 247,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-1243",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2958",
+    "name": "Soulfire Rasp \"Blaze\"",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 338,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-light-bowgun-1244",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1245",
+    "name": "Empress Shell \"Ruin\"",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 260,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-1243",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2959",
+    "name": "Soulfire Rasp \"Ruin\"",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 351,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-light-bowgun-1245",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-1246",
+    "name": "Empress Shell \"Styx\"",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 247,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-light-bowgun-1243",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2960",
+    "name": "Soulfire Rasp \"Styx\"",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 338,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-light-bowgun-1246",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": null,
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3178",
+    "name": "Rajang Barrage",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 377,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3179",
+    "name": "Ten Thousand Volts",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 403,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-light-bowgun-3178",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3180",
+    "name": "Demonlord Cannon",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 377,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3181",
+    "name": "Brimstren Drakekiss",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 338,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3182",
+    "name": "Brimstren Drakevow",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 351,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-3181",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3183",
+    "name": "Lightbreak Gun",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 364,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4,
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3216",
+    "name": "Alatreon Razer",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 325,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3217",
+    "name": "Alatreon Dominator",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 338,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-light-bowgun-3216",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3260",
+    "name": "Fatalis Pit",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 351,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-3261",
+    "name": "Fatalis Depths",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 371,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-light-bowgun-3260",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2961",
+    "name": "Guild Palace Bowgun",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 325,
+    "affinity": 15,
+    "defense": 30,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2962",
+    "name": "Royal Surefire Shot",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 351,
+    "affinity": 20,
+    "defense": 30,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-light-bowgun-2961",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2963",
+    "name": "Defender Heavy Bowgun I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2964",
+    "name": "Defender Heavy Bowgun II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-2963",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2965",
+    "name": "Defender Heavy Bowgun III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 285,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-2964",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2966",
+    "name": "Defender Heavy Bowgun IV",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 315,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-2965",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2967",
+    "name": "Defender Heavy Bowgun V",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 330,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-2966",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-996",
+    "name": "Iron Assault I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 150,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-997",
+    "name": "Iron Assault II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 165,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-996",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-998",
+    "name": "Iron Assault III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 180,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-997",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-999",
+    "name": "Steel Assault I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-998",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1000",
+    "name": "Steel Assault II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-999",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1001",
+    "name": "Steel Assault III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 225,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1000",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1002",
+    "name": "Chrome Assault I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 240,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1001",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1003",
+    "name": "Chrome Assault II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1002",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 13
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2968",
+    "name": "Fatal Assault I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 330,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1003",
+    "forge": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2969",
+    "name": "Fatal Assault II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 360,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-2968",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2970",
+    "name": "Fatal Assault III",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-2969",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Pure Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2971",
+    "name": "Icicle Assault I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 345,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-2968",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Barioth"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2972",
+    "name": "Icicle Assault II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 360,
+    "affinity": 30,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-2971",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3234",
+    "name": "Final Guerilla",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 420,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-2971",
+    "forge": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Frostfang Barioth Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1004",
+    "name": "Nergal Roar",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 270,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1002",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Nergigante Tree"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "items": {
+    "$include": "database/items.json"
+  },
+  "recipes": {
+    "$include": "database/recipes.json"
+  },
+  "weapons": {
+    "$include": "database/weapons.json"
+  },
+  "monsters": {
+    "$include": "database/monsters.json"
+  },
+  "quests": {
+    "$include": "database/quests.json"
+  },
+  "sources": {
+    "$include": "database/sources.json"
+  },
+  "license": {
+    "$include": "database/license.json"
+  },
+  "coverage": {
+    "$include": "database/coverage.json"
+  }
+}

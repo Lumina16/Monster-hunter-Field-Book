@@ -1,0 +1,2944 @@
+[
+  {
+    "id": "weapon-switch-axe-2712",
+    "name": "Dios Smasher II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 875,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-2711",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Pounder+",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-switch-axe-737",
+    "name": "Diablos Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 595,
+    "affinity": -30,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-732",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-738",
+    "name": "Diablos Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 630,
+    "affinity": -30,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 90,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-737",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Ridge",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-739",
+    "name": "Axe Semper Tyrannis",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 735,
+    "affinity": -30,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-738",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Majestic Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Blos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-740",
+    "name": "Axe of Thanatos",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 770,
+    "affinity": -30,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-739",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 2
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Black Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-741",
+    "name": "Axe of Demons",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 805,
+    "affinity": -30,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-740",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      50,
+      60,
+      120,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Black Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2713",
+    "name": "Axe of Demons+",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 910,
+    "affinity": -30,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-741",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Cortex",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Chine",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Chine"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Black Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2714",
+    "name": "Axe of Hades",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1015,
+    "affinity": -30,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-2713",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      70,
+      50,
+      90,
+      70,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Black Diablos Tree"
+  },
+  {
+    "id": "weapon-switch-axe-742",
+    "name": "Flammenbeil",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 455,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-731",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-743",
+    "name": "Flammenbeil+",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 560,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-742",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Anjanath Scale+"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-744",
+    "name": "Gnashing Flammenbeil",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 735,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-743",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2715",
+    "name": "Gnashing Flammenbeil+",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 805,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-744",
+    "forge": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Conflagrant Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2716",
+    "name": "Lohenbeil",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 945,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2715",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Fur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2717",
+    "name": "Donnerbeil",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 840,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2715",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Fulgur Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2718",
+    "name": "Donnerbeil+",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 875,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2717",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Fulgur Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2719",
+    "name": "Fulguration's Bite",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 910,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2718",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 5
+        },
+        {
+          "name": "Fulgur Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-switch-axe-745",
+    "name": "Dragonbone Slicer I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Warped Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Warped Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-746",
+    "name": "Dragonbone Slicer II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 385,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-745",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 8
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-747",
+    "name": "Dragonbone Slicer III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 560,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-746",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 10
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      120,
+      110,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2720",
+    "name": "Dragonseal Axe I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 735,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-747",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2721",
+    "name": "Dragonseal Axe II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 840,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-2720",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2722",
+    "name": "Evanescent Glow",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 980,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-2720",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 6
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 2
+        },
+        {
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      170,
+      30,
+      30,
+      60,
+      50,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Shara Ishvalda Tree"
+  },
+  {
+    "id": "weapon-switch-axe-748",
+    "name": "Peal",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 385,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-745",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Kirin"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-switch-axe-749",
+    "name": "Peal+",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 490,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-748",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kirin Hide+"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      150,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-switch-axe-750",
+    "name": "Kirin Thunderpeal",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 560,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-749",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      140,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2723",
+    "name": "Archbeast Kirin",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 840,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-750",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2724",
+    "name": "Hydra Strobila",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 910,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-750",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Namielle"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Namielle Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2725",
+    "name": "Black Strobila",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 980,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2724",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 4
+        },
+        {
+          "name": "Namielle Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Namielle Tree"
+  },
+  {
+    "id": "weapon-switch-axe-751",
+    "name": "Blacksteel Switch Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 350,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Dragonvein Crystal"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      110,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-switch-axe-752",
+    "name": "Blacksteel Switch Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 385,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-751",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-switch-axe-753",
+    "name": "Teostra's Arx",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 630,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-752",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Teostra"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-754",
+    "name": "Teostra's Castle",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 665,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-753",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2726",
+    "name": "Teostra's Hellebarde",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 910,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-754",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Hardhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Teostra Cortex"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-755",
+    "name": "Xeno Martshu",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 595,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-switch-axe-752",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      130,
+      30,
+      60,
+      80,
+      40,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1166",
+    "name": "Tyrannos",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 700,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000,
+      "unlock": "Deviljho Hide"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      120,
+      80,
+      60,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1167",
+    "name": "Terror Tyrannos",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 770,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-1166",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      50,
+      120,
+      80,
+      60,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2727",
+    "name": "Saligia Vileaxe",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 980,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-1167",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": [
+      160,
+      30,
+      30,
+      60,
+      50,
+      20,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1228",
+    "name": "Empress Axe",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 630,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1229",
+    "name": "Empress Axe \"Blaze\"",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 630,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-switch-axe-1228",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2728",
+    "name": "Soulfire Scourge \"Blaze\"",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 875,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-switch-axe-1229",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1230",
+    "name": "Empress Axe \"Ruin\"",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 665,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-switch-axe-1228",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2729",
+    "name": "Soulfire Scourge \"Ruin\"",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 945,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-switch-axe-1230",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-switch-axe-1231",
+    "name": "Empress Axe \"Styx\"",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 630,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-switch-axe-1228",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2730",
+    "name": "Soulfire Scourge \"Styx\"",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 875,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-switch-axe-1231",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3160",
+    "name": "Undying Axe",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1015,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      100,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3161",
+    "name": "Undying Light",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1085,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-3160",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3162",
+    "name": "Demonlord Edge",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1015,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3163",
+    "name": "Infernal Cleave-axe",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 875,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3164",
+    "name": "Infernal Cleave-axe+",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 945,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-3163",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-switch-axe-3165",
+    "name": "Lightbreak Axe",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1050,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      50,
+      20
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  }
+]

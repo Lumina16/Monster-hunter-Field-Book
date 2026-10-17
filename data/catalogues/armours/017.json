@@ -1,0 +1,3268 @@
+[
+  {
+    "id": "armour-851",
+    "sourceId": 851,
+    "name": "Tzitzi Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-alpha-plus",
+    "setName": "Tzitzi α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-852",
+    "sourceId": 852,
+    "name": "Tzitzi Headgear β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-beta-plus",
+    "setName": "Tzitzi β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-853",
+    "sourceId": 853,
+    "name": "Tzitzi Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-beta-plus",
+    "setName": "Tzitzi β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-854",
+    "sourceId": 854,
+    "name": "Tzitzi Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-beta-plus",
+    "setName": "Tzitzi β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-855",
+    "sourceId": 855,
+    "name": "Tzitzi Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-tzitzi-beta-plus",
+    "setName": "Tzitzi β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-856",
+    "sourceId": 856,
+    "name": "Tzitzi Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-beta-plus",
+    "setName": "Tzitzi β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-857",
+    "sourceId": 857,
+    "name": "Girros Headgear α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-horn-maestro",
+        "name": "Horn Maestro",
+        "level": 2
+      },
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros-alpha-plus",
+    "setName": "Girros α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-771",
+          "name": "Great Girros Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-858",
+    "sourceId": 858,
+    "name": "Girros Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros-alpha-plus",
+    "setName": "Girros α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-770",
+          "name": "Great Girros Hardhood",
+          "quantity": 1
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-859",
+    "sourceId": 859,
+    "name": "Girros Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-girros-alpha-plus",
+    "setName": "Girros α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-770",
+          "name": "Great Girros Hardhood",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-860",
+    "sourceId": 860,
+    "name": "Girros Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      },
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-girros-alpha-plus",
+    "setName": "Girros α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-772",
+          "name": "Great Girros Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-861",
+    "sourceId": 861,
+    "name": "Girros Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros-alpha-plus",
+    "setName": "Girros α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-771",
+          "name": "Great Girros Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-862",
+    "sourceId": 862,
+    "name": "Girros Headgear β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-horn-maestro",
+        "name": "Horn Maestro",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-girros-beta-plus",
+    "setName": "Girros β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-771",
+          "name": "Great Girros Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-863",
+    "sourceId": 863,
+    "name": "Girros Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-girros-beta-plus",
+    "setName": "Girros β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-770",
+          "name": "Great Girros Hardhood",
+          "quantity": 1
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-864",
+    "sourceId": 864,
+    "name": "Girros Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros-beta-plus",
+    "setName": "Girros β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-770",
+          "name": "Great Girros Hardhood",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-865",
+    "sourceId": 865,
+    "name": "Girros Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros-beta-plus",
+    "setName": "Girros β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-772",
+          "name": "Great Girros Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-866",
+    "sourceId": 866,
+    "name": "Girros Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-girros-beta-plus",
+    "setName": "Girros β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-769",
+          "name": "Great Girros Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-771",
+          "name": "Great Girros Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-768",
+          "name": "Great Girros Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-867",
+    "sourceId": 867,
+    "name": "Dodogama Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-alpha-plus",
+    "setName": "Dodogama α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-868",
+    "sourceId": 868,
+    "name": "Dodogama Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-alpha-plus",
+    "setName": "Dodogama α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-777",
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-869",
+    "sourceId": 869,
+    "name": "Dodogama Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-alpha-plus",
+    "setName": "Dodogama α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-776",
+          "name": "Dodogama Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-870",
+    "sourceId": 870,
+    "name": "Dodogama Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-alpha-plus",
+    "setName": "Dodogama α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-871",
+    "sourceId": 871,
+    "name": "Dodogama Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-capacity-boost",
+        "name": "Capacity Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-alpha-plus",
+    "setName": "Dodogama α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-777",
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-776",
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-872",
+    "sourceId": 872,
+    "name": "Dodogama Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dodogama-beta-plus",
+    "setName": "Dodogama β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-873",
+    "sourceId": 873,
+    "name": "Dodogama Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dodogama-beta-plus",
+    "setName": "Dodogama β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-777",
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-874",
+    "sourceId": 874,
+    "name": "Dodogama Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 1
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-beta-plus",
+    "setName": "Dodogama β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-776",
+          "name": "Dodogama Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-875",
+    "sourceId": 875,
+    "name": "Dodogama Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dodogama-beta-plus",
+    "setName": "Dodogama β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-773",
+          "name": "Dodogama Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-775",
+          "name": "Dodogama Mandible",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-876",
+    "sourceId": 876,
+    "name": "Dodogama Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-capacity-boost",
+        "name": "Capacity Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dodogama-beta-plus",
+    "setName": "Dodogama β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-774",
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-777",
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-776",
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-877",
+    "sourceId": 877,
+    "name": "Kulu Headpiece α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-alpha-plus",
+    "setName": "Kulu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-878",
+    "sourceId": 878,
+    "name": "Kulu Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kulu-alpha-plus",
+    "setName": "Kulu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "id": "item-720",
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-879",
+    "sourceId": 879,
+    "name": "Kulu Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-pro-transporter",
+        "name": "Pro Transporter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-alpha-plus",
+    "setName": "Kulu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-880",
+    "sourceId": 880,
+    "name": "Kulu Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-alpha-plus",
+    "setName": "Kulu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-720",
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-881",
+    "sourceId": 881,
+    "name": "Kulu Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-alpha-plus",
+    "setName": "Kulu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-882",
+    "sourceId": 882,
+    "name": "Kulu Headpiece β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kulu-beta-plus",
+    "setName": "Kulu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-883",
+    "sourceId": 883,
+    "name": "Kulu Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-beta-plus",
+    "setName": "Kulu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        },
+        {
+          "id": "item-720",
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-884",
+    "sourceId": 884,
+    "name": "Kulu Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-beta-plus",
+    "setName": "Kulu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-885",
+    "sourceId": 885,
+    "name": "Kulu Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kulu-beta-plus",
+    "setName": "Kulu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-720",
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-886",
+    "sourceId": 886,
+    "name": "Kulu Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      },
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulu-beta-plus",
+    "setName": "Kulu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-718",
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-717",
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-887",
+    "sourceId": 887,
+    "name": "Pukei Hat α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-alpha-plus",
+    "setName": "Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-888",
+    "sourceId": 888,
+    "name": "Pukei Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 2
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-alpha-plus",
+    "setName": "Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-889",
+    "sourceId": 889,
+    "name": "Pukei Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-alpha-plus",
+    "setName": "Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-890",
+    "sourceId": 890,
+    "name": "Pukei Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-alpha-plus",
+    "setName": "Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-725",
+          "name": "Pukei-Pukei Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-891",
+    "sourceId": 891,
+    "name": "Pukei Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-pukei-alpha-plus",
+    "setName": "Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-892",
+    "sourceId": 892,
+    "name": "Pukei Hat β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-pukei-beta-plus",
+    "setName": "Pukei β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-893",
+    "sourceId": 893,
+    "name": "Pukei Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-beta-plus",
+    "setName": "Pukei β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-894",
+    "sourceId": 894,
+    "name": "Pukei Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-beta-plus",
+    "setName": "Pukei β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-895",
+    "sourceId": 895,
+    "name": "Pukei Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-pukei-beta-plus",
+    "setName": "Pukei β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-725",
+          "name": "Pukei-Pukei Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-896",
+    "sourceId": 896,
+    "name": "Pukei Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-pukei-beta-plus",
+    "setName": "Pukei β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 118,
+      "maxDefence": 156,
+      "augmentedDefence": 176,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-722",
+          "name": "Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-721",
+          "name": "Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-724",
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-897",
+    "sourceId": 897,
+    "name": "Pukei Lagoon Hat α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-item-prolonger",
+        "name": "Item Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-coral-pukei-alpha-plus",
+    "setName": "Coral Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-727",
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-728",
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-729",
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-701",
+          "name": "Flood Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-898",
+    "sourceId": 898,
+    "name": "Pukei Lagoon Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-coral-pukei-alpha-plus",
+    "setName": "Coral Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-727",
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-726",
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-899",
+    "sourceId": 899,
+    "name": "Pukei Lagoon Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-coral-pukei-alpha-plus",
+    "setName": "Coral Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-727",
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-726",
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-900",
+    "sourceId": 900,
+    "name": "Pukei Lagoon Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-coral-pukei-alpha-plus",
+    "setName": "Coral Pukei α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 0,
+        "water": 3,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-727",
+          "name": "Coral Pukei-Pukei Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-726",
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-729",
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

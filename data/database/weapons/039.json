@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "weapon-insect-glaive-2867",
+    "name": "Kadachi Fury II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 713,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2866",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Cathode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Membrane+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Hard Odogaron Sinew"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2868",
+    "name": "Kadachi Vipertail I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 713,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2866",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Viper Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Viper Tobi-Kadachi Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Ultraplegia Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Viper Tobi-Kadachi"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Viper Kadachi Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2869",
+    "name": "Kadachi Vipertail II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 775,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-2868",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Thorn",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Viper Tobi-Kadachi Membrane+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Viper Kadachi Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-897",
+    "name": "Garon Rod I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 403,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-892",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Fang",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Odogaron"
+    },
+    "sharpness": [
+      90,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-898",
+    "name": "Garon Rod II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 434,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 90,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-897",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Quality Bone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-899",
+    "name": "Temptation's Trident",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 465,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-898",
+    "forge": {
+      "materials": [
+        {
+          "name": "Odogaron Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        },
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Baptism by Ice"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Odogaron Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Odogaron Scale+"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-900",
+    "name": "Vice",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 496,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-899",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 6
+        },
+        {
+          "name": "Odogaron Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Odogaron Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      200,
+      70,
+      20,
+      20,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2870",
+    "name": "Vice+",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 682,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-900",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Hard Odogaron Sinew"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2871",
+    "name": "Cruelty",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 713,
+    "affinity": 35,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-2870",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2872",
+    "name": "Nether Vajra",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 713,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2870",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Ebony Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2873",
+    "name": "Deadline",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 744,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2872",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Ebony Odogaron Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Namielle"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Ebony Odogaron Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-901",
+    "name": "Dragonbone Glaive I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 310,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Warped Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Warped Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-902",
+    "name": "Dragonbone Glaive II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 341,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-901",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 8
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-903",
+    "name": "Dragonbone Glaive III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-902",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 10
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      120,
+      110,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2874",
+    "name": "Dragonseal Aldstaff I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 651,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-903",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      60,
+      60,
+      60,
+      100,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2875",
+    "name": "Dragonseal Aldstaff II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-2874",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      50,
+      60,
+      20,
+      150,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2876",
+    "name": "Infinite Wisdom",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 868,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-2874",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 6
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 2
+        },
+        {
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      160,
+      30,
+      30,
+      60,
+      50,
+      20,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Shara Ishvalda Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-904",
+    "name": "Indigo Flash",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 341,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-901",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Kirin"
+    },
+    "sharpness": [
+      40,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-905",
+    "name": "Azure Bolt",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 434,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-904",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kirin Hide+"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      140,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-906",
+    "name": "Verdant Levin",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-905",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      120,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2877",
+    "name": "Celestial Spire",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-906",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      50,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-907",
+    "name": "Blacksteel Glaive I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 310,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Dragonvein Crystal"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      110,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-908",
+    "name": "Blacksteel Glaive II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 341,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-907",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-909",
+    "name": "Daora's Entom",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 527,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-908",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kushala Daora"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-910",
+    "name": "Daora's Tethidine",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 558,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-909",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2878",
+    "name": "Daora's Samudra",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 806,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-910",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Hardhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Daora Cortex"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-911",
+    "name": "Xeno Shmaena",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 558,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-insect-glaive-908",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      130,
+      30,
+      60,
+      80,
+      40,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "stamina"
+    },
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1179",
+    "name": "Bad Wing",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 620,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000,
+      "unlock": "Deviljho Hide"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      120,
+      80,
+      60,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1180",
+    "name": "Grunge Storm",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 682,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-1179",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      50,
+      120,
+      80,
+      60,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2879",
+    "name": "Fate's Wing",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 868,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-1180",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1237",
+    "name": "Gae Bolg",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 558,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Behemoth Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Behemoth Shearclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Aetheryte Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Behemoth Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      80,
+      60,
+      80,
+      80,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Gae Bolg"
+  },
+  {
+    "id": "weapon-insect-glaive-1238",
+    "name": "True Gae Bolg",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 589,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-1237",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Behemoth Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Behemoth Great Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Behemoth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Behemoth Bone"
+    },
+    "sharpness": [
+      60,
+      60,
+      20,
+      150,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Gae Bolg"
+  },
+  {
+    "id": "weapon-insect-glaive-2880",
+    "name": "Nexus Gae Bolg",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 744,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-insect-glaive-1238",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Unity Symbol",
+          "quantity": 1
+        },
+        {
+          "name": "Behemoth Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Unity Symbol"
+    },
+    "sharpness": [
+      80,
+      30,
+      90,
+      30,
+      30,
+      90,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Gae Bolg"
+  },
+  {
+    "id": "weapon-insect-glaive-1239",
+    "name": "Empress Cane",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 589,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      30,
+      60,
+      80,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1240",
+    "name": "Empress Cane \"Blaze\"",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 589,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-1239",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      100,
+      30,
+      60,
+      80,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2881",
+    "name": "Soulfire Reach \"Blaze\"",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 775,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-insect-glaive-1240",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      90,
+      30,
+      30,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1241",
+    "name": "Empress Cane \"Ruin\"",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 620,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-1239",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      100,
+      30,
+      60,
+      80,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2882",
+    "name": "Soulfire Reach \"Ruin\"",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 837,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-1241",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      90,
+      30,
+      30,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-1242",
+    "name": "Empress Cane \"Styx\"",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 589,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-insect-glaive-1239",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      100,
+      30,
+      60,
+      80,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2883",
+    "name": "Soulfire Reach \"Styx\"",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 775,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-insect-glaive-1242",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      110,
+      30,
+      90,
+      30,
+      30,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3172",
+    "name": "Metal Mauler",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 899,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3173",
+    "name": "Metalmangler",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 961,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-insect-glaive-3172",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3174",
+    "name": "Demonlord Cudgel",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 899,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      20,
+      20,
+      70,
+      40,
+      30,
+      60
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3175",
+    "name": "Brimstren Drakerod",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 775,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3176",
+    "name": "Stygian Oblivia",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 837,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-3175",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      70,
+      40,
+      30,
+      60
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3177",
+    "name": "Lightbreak Press",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 930,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      60,
+      30
+    ],
+    "attributes": {
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3214",
+    "name": "Alatreon Dragonspire",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 775,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3215",
+    "name": "Alatreon Embrace",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 868,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-3214",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": [
+      80,
+      20,
+      20,
+      70,
+      40,
+      30,
+      90
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3258",
+    "name": "Fatalis Glaive",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 961,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3259",
+    "name": "True Fatalis Dyaus",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1101,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-insect-glaive-3258",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  }
+]

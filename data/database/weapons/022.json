@@ -1,0 +1,2746 @@
+[
+  {
+    "id": "weapon-hunting-horn-1215",
+    "name": "Empress Roar \"Blaze\"",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 798,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-1214",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PRO",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2487",
+    "name": "Soulfire Chorus \"Blaze\"",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1050,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-hunting-horn-1215",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "notes": "PRO",
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-1216",
+    "name": "Empress Roar \"Ruin\"",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 840,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hunting-horn-1214",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PGO",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2488",
+    "name": "Soulfire Chorus \"Ruin\"",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1134,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-1216",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "notes": "PGO",
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-1217",
+    "name": "Empress Roar \"Styx\"",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 798,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-hunting-horn-1214",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PBO",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2489",
+    "name": "Soulfire Chorus \"Styx\"",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1050,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-hunting-horn-1217",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "notes": "PBO",
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3142",
+    "name": "Denden Daiko",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1218,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      100,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBO"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3143",
+    "name": "Denden Doomsounder",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1302,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-hunting-horn-3142",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBO"
+    },
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3144",
+    "name": "Demonlord Wardrum",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1176,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "notes": "PRG"
+    },
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3145",
+    "name": "Brimstren Drakesong",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1050,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "notes": "PYO"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3146",
+    "name": "Stygian Tristitia",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1134,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hunting-horn-3145",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "notes": "PYO"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3147",
+    "name": "Lightbreak Timbre",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1260,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      50,
+      20
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3204",
+    "name": "Alatreon Harmony",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1050,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 630,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PYO"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3205",
+    "name": "Alatreon Revival",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1176,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 780,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-3204",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": [
+      80,
+      20,
+      20,
+      70,
+      40,
+      30,
+      90
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PYO"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3248",
+    "name": "Fatalis Menace",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1302,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PRO"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-3249",
+    "name": "Fatalis Menace Wailer",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1470,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-hunting-horn-3248",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PRO"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2490",
+    "name": "Guild Palace Bard",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1050,
+    "affinity": 10,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 450,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2491",
+    "name": "Royal Song Symphony",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1134,
+    "affinity": 15,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 540,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-hunting-horn-2490",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-lance-2492",
+    "name": "Defender Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "upgrade": null,
+    "sharpness": [
+      30,
+      60,
+      20,
+      90,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-lance-2493",
+    "name": "Defender Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 391,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2492",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      30,
+      60,
+      20,
+      140,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-lance-2494",
+    "name": "Defender Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 437,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2493",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": [
+      50,
+      50,
+      50,
+      80,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-lance-2495",
+    "name": "Defender Lance IV",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 483,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2494",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": [
+      30,
+      50,
+      50,
+      80,
+      90,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-lance-2496",
+    "name": "Defender Lance V",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 506,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2495",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-lance-514",
+    "name": "Iron Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 184,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      50,
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-515",
+    "name": "Iron Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 207,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-514",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      80,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-516",
+    "name": "Iron Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 230,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-515",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-517",
+    "name": "Steel Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 253,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-516",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      80,
+      50,
+      80,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-518",
+    "name": "Steel Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-517",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-519",
+    "name": "Steel Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 322,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-518",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-520",
+    "name": "Chrome Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-519",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      70,
+      50,
+      50,
+      80,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-521",
+    "name": "Chrome Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 414,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-lance-520",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 13
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      60,
+      60,
+      20,
+      150,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-2497",
+    "name": "Chrome Drill I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 506,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-lance-521",
+    "forge": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-2498",
+    "name": "Chrome Drill II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-lance-2497",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-2499",
+    "name": "Chrome Drill III",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 598,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-lance-2498",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Pure Dragon Blood"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-lance-2500",
+    "name": "Incessant Raven",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 598,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-lance-2498",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Garuga Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Garuga Silverpelt",
+          "quantity": 4
+        },
+        {
+          "name": "Garuga Auricle",
+          "quantity": 2
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Yian Garuga"
+    },
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      20,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Yian Garuga Tree"
+  },
+  {
+    "id": "weapon-lance-2501",
+    "name": "Incessant Wolf",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 621,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-lance-2500",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Scratched Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Garuga Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Fancy Beak",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Scratched Shell"
+    },
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      20,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Yian Garuga Tree"
+  },
+  {
+    "id": "weapon-lance-522",
+    "name": "Nergal Impaler",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 460,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-520",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      120,
+      120,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-lance-523",
+    "name": "Perdition's Hand",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 483,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-522",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Talon",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-lance-2502",
+    "name": "Ruinous Perdition",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 667,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-523",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Ruiner Nergigante"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      110,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-lance-524",
+    "name": "Glacial Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-517",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Frost Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Legiana"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-525",
+    "name": "Glacial Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 322,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-524",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-526",
+    "name": "Legiana Halberd I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 345,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-525",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Legiana Scale+"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-527",
+    "name": "Legiana Halberd II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-526",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Daora Dragon Scale+"
+    },
+    "sharpness": [
+      130,
+      30,
+      60,
+      80,
+      40,
+      10,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-2503",
+    "name": "Legiana Halberd III",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 483,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-527",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Tail Webbing+",
+          "quantity": 2
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Legiana Thickhide"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-2504",
+    "name": "Hoarcry Halberd",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 529,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-2503",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Rimed Hide",
+          "quantity": 5
+        },
+        {
+          "name": "Stark Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-lance-2505",
+    "name": "Nyx Halberd I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 506,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-527",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-lance-2506",
+    "name": "Nyx Halberd II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-2505",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-lance-528",
+    "name": "Kulu Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 253,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-515",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale",
+          "quantity": 3
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Kulu-Ya-Ku"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-529",
+    "name": "Kulu Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 276,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-528",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 2
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan Scale"
+    },
+    "sharpness": [
+      80,
+      50,
+      80,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-530",
+    "name": "Kulu Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 299,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-529",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 4
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Odogaron Claw"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  }
+]

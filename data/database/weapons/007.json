@@ -1,0 +1,2748 @@
+[
+  {
+    "id": "weapon-long-sword-1195",
+    "name": "Empress Sword \"Blaze\"",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 594,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-long-sword-1194",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-long-sword-2158",
+    "name": "Soulfire Lash \"Blaze\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 825,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-long-sword-1195",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-long-sword-1196",
+    "name": "Empress Sword \"Ruin\"",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 627,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-long-sword-1194",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-long-sword-2159",
+    "name": "Soulfire Lash \"Ruin\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 891,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-long-sword-1196",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-long-sword-1197",
+    "name": "Empress Sword \"Styx\"",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 594,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-long-sword-1194",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-long-sword-2160",
+    "name": "Soulfire Lash \"Styx\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 825,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-long-sword-1197",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-long-sword-3116",
+    "name": "Demon Halberd",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 957,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      100,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-long-sword-3117",
+    "name": "Great Demon Halberd",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1023,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-3116",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-long-sword-3118",
+    "name": "Demonlord Halberd",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 957,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-long-sword-3119",
+    "name": "Brimstren Drakebone",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 825,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-long-sword-3120",
+    "name": "Stygian Gula",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 891,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-3119",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-long-sword-3121",
+    "name": "Lightbreak Edge",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 990,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      50,
+      20
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-long-sword-3238",
+    "name": "Dark Claw",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 825,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-long-sword-3239",
+    "name": "Dark Claw \"Demise\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 660,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-long-sword-3238",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": [
+      80,
+      20,
+      20,
+      70,
+      40,
+      30,
+      90
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-long-sword-3240",
+    "name": "Fatalis Sickle",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1023,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-long-sword-3241",
+    "name": "Fatalis Zaggespanon",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1155,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-long-sword-3240",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-long-sword-2161",
+    "name": "Mad Scavenger Pickaxe",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 825,
+    "affinity": 20,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Pickaxe Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 5
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 15
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pickaxe Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-long-sword-2162",
+    "name": "Demon Scavenger Pickaxe",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 858,
+    "affinity": 30,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 540,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2161",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pickaxe Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Wasteland Crystal",
+          "quantity": 5
+        },
+        {
+          "name": "Twilight Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Guiding Forest Dragonbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Wasteland Crystal"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-long-sword-2163",
+    "name": "Guild Palace Rapier",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 825,
+    "affinity": 10,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-long-sword-2164",
+    "name": "Royal Captain Rapier",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 891,
+    "affinity": 15,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-2163",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2165",
+    "name": "Defender Warhatchet I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "upgrade": null,
+    "sharpness": [
+      30,
+      60,
+      20,
+      90,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2166",
+    "name": "Defender Warhatchet II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 238,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2165",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      30,
+      60,
+      20,
+      140,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2167",
+    "name": "Defender Warhatchet III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 266,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2166",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": [
+      50,
+      50,
+      50,
+      80,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2168",
+    "name": "Defender Warhatchet IV",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2167",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": [
+      30,
+      50,
+      50,
+      80,
+      90,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2169",
+    "name": "Defender Warhatchet V",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 308,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2168",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-170",
+    "name": "Hunter's Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 112,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      90,
+      50,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-171",
+    "name": "Hunter's Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 126,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-170",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-172",
+    "name": "Hunter's Knife III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 140,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-171",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": [
+      50,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-173",
+    "name": "Steel Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-172",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-174",
+    "name": "Steel Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-173",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-175",
+    "name": "Steel Knife III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-174",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-176",
+    "name": "Chrome Slicer I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-175",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-177",
+    "name": "Chrome Slicer II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-176",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 13
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      50,
+      60,
+      20,
+      150,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2170",
+    "name": "Chrome Knight Sword I",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 308,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-177",
+    "forge": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2171",
+    "name": "Chrome Knight Sword II",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2170",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2172",
+    "name": "Chrome Knight Sword III",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 364,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2171",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Pure Dragon Blood"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-178",
+    "name": "Nergal Jack",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 280,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-176",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-179",
+    "name": "Eradication Vanguard",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-178",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Talon",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      120,
+      40,
+      50,
+      100,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2173",
+    "name": "Ruinous Madness",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 406,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-179",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Ruiner Nergigante"
+    },
+    "sharpness": [
+      70,
+      30,
+      30,
+      110,
+      40,
+      120,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-180",
+    "name": "Flame Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-173",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Rathalos"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-181",
+    "name": "Flame Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 196,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-180",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Inferno Sac"
+    },
+    "sharpness": [
+      100,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-182",
+    "name": "Heat Edge",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 224,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-181",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-183",
+    "name": "Corona",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 266,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-182",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2174",
+    "name": "Corona+",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 308,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-183",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Cortex"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2175",
+    "name": "Blue Corona",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2174",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2176",
+    "name": "Platinum Dawn",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 378,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-2175",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Lash",
+          "quantity": 3
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Silver Rathalos"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-184",
+    "name": "Heavy Bang",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-173",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Commendation"
+    },
+    "sharpness": [
+      40,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-185",
+    "name": "Heavy Bang+",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-184",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Odogaron Scale+"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-186",
+    "name": "Master Bang",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 280,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-sword-and-shield-185",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        },
+        {
+          "name": "Daora Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kushala Daora"
+    },
+    "sharpness": [
+      90,
+      120,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2177",
+    "name": "Legacy Bang",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-sword-and-shield-186",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Uragaan Scute+"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  }
+]

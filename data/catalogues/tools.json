@@ -1,0 +1,978 @@
+[
+  {
+    "id": "tool-ghillie-mantle",
+    "name": "Ghillie Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-ghillie-mantle",
+    "upgradeId": "tool-ghillie-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Hides the wearer until attacking or taking damage.",
+    "unlock": "Sinister Shadows in the Swamp",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-ghillie-mantle-plus",
+    "name": "Ghillie Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-ghillie-mantle",
+    "upgradeId": "tool-ghillie-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [
+      3,
+      3
+    ],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Hides the wearer until attacking or taking damage.",
+    "unlock": "Ice Catch!",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-temporal-mantle",
+    "name": "Temporal Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-temporal-mantle",
+    "upgradeId": "tool-temporal-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Automatically avoids powerful hits; each activation reduces remaining time.",
+    "unlock": "No Remorse, No Surrender",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-temporal-mantle-plus",
+    "name": "Temporal Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-temporal-mantle",
+    "upgradeId": "tool-temporal-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [
+      1,
+      1
+    ],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Automatically avoids powerful hits; each activation reduces remaining time.",
+    "unlock": "Divine Surge",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-health-booster",
+    "name": "Health Booster",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-health-booster",
+    "upgradeId": "tool-health-booster-plus",
+    "duration": 60,
+    "cooldown": 150,
+    "slots": [],
+    "stats": {
+      "duration": 60,
+      "cooldown": 150
+    },
+    "description": "Creates a healing mist for nearby allies.",
+    "unlock": "One for the History Books",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-health-booster-plus",
+    "name": "Health Booster+",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-health-booster",
+    "upgradeId": "tool-health-booster-plus",
+    "duration": 100,
+    "cooldown": 150,
+    "slots": [],
+    "stats": {
+      "duration": 100,
+      "cooldown": 150
+    },
+    "description": "Creates a healing mist for nearby allies.",
+    "unlock": "Feisty Girl Talk",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814",
+    "upgradeEffect": "Expanded mist coverage; increased active time"
+  },
+  {
+    "id": "tool-rocksteady-mantle",
+    "name": "Rocksteady Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-rocksteady-mantle",
+    "upgradeId": "tool-rocksteady-mantle-plus",
+    "duration": 90,
+    "cooldown": 360,
+    "slots": [],
+    "stats": {
+      "duration": 90,
+      "cooldown": 360
+    },
+    "description": "Reduces damage and prevents most reactions, roars, wind and tremors.",
+    "unlock": "A Summons from Below",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-rocksteady-mantle-plus",
+    "name": "Rocksteady Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-rocksteady-mantle",
+    "upgradeId": "tool-rocksteady-mantle-plus",
+    "duration": 90,
+    "cooldown": 360,
+    "slots": [
+      1,
+      1
+    ],
+    "stats": {
+      "duration": 90,
+      "cooldown": 360
+    },
+    "description": "Reduces damage and prevents most reactions, roars, wind and tremors.",
+    "unlock": "Piercing Black",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-challenger-mantle",
+    "name": "Challenger Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-challenger-mantle",
+    "upgradeId": "tool-challenger-mantle-plus",
+    "duration": 180,
+    "cooldown": 300,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 300
+    },
+    "description": "Draws monster attention; ends when hit.",
+    "unlock": "The Red and Blue Crew",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-challenger-mantle-plus",
+    "name": "Challenger Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-challenger-mantle",
+    "upgradeId": "tool-challenger-mantle-plus",
+    "duration": 180,
+    "cooldown": 300,
+    "slots": [
+      3,
+      3
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 300
+    },
+    "description": "Draws monster attention; ends when hit.",
+    "unlock": "Runnin’, Rollin’, and Weepin’",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-vitality-mantle",
+    "name": "Vitality Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-vitality-mantle",
+    "upgradeId": "tool-vitality-mantle-plus",
+    "duration": 120,
+    "cooldown": 360,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 360
+    },
+    "description": "Absorbs damage until its protection is depleted.",
+    "unlock": "Into the Bowels of the Vale",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-vitality-mantle-plus",
+    "name": "Vitality Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-vitality-mantle",
+    "upgradeId": "tool-vitality-mantle-plus",
+    "duration": 120,
+    "cooldown": 360,
+    "slots": [
+      4,
+      2
+    ],
+    "stats": {
+      "duration": 120,
+      "cooldown": 360
+    },
+    "description": "Absorbs damage until its protection is depleted.",
+    "unlock": "This Here’s Big Horn Country!",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-fireproof-mantle",
+    "name": "Fireproof Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-fireproof-mantle",
+    "upgradeId": "tool-fireproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists fire, heat, fireblight and blastblight.",
+    "unlock": "A Fiery Convergence",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-fireproof-mantle-plus",
+    "name": "Fireproof Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-fireproof-mantle",
+    "upgradeId": "tool-fireproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [
+      2,
+      2
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists fire, heat, fireblight and blastblight.",
+    "unlock": "Festival of Explosions!",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-waterproof-mantle",
+    "name": "Waterproof Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-waterproof-mantle",
+    "upgradeId": "tool-waterproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists waterblight and water damage; improves movement through water/muck.",
+    "unlock": "Armory R&D: Waterproofing",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-waterproof-mantle-plus",
+    "name": "Waterproof Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-waterproof-mantle",
+    "upgradeId": "tool-waterproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [
+      2,
+      2
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists waterblight and water damage; improves movement through water/muck.",
+    "unlock": "Put That Red Cup Away",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-iceproof-mantle",
+    "name": "Iceproof Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-iceproof-mantle",
+    "upgradeId": "tool-iceproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists ice damage and iceblight.",
+    "unlock": "Armory R&D: Weatherizing",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-iceproof-mantle-plus",
+    "name": "Iceproof Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-iceproof-mantle",
+    "upgradeId": "tool-iceproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [
+      2,
+      2
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists ice damage and iceblight.",
+    "unlock": "Duet of Rime",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-thunderproof-mantle",
+    "name": "Thunderproof Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-thunderproof-mantle",
+    "upgradeId": "tool-thunderproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists thunder damage, thunderblight and paralysis.",
+    "unlock": "Gone in a Flash",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-thunderproof-mantle-plus",
+    "name": "Thunderproof Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-thunderproof-mantle",
+    "upgradeId": "tool-thunderproof-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [
+      2,
+      2
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Resists thunder damage, thunderblight and paralysis.",
+    "unlock": "Trap the Thunder Jaw",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-dragonproof-mantle",
+    "name": "Dragonproof Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-dragonproof-mantle",
+    "upgradeId": "tool-dragonproof-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Resists dragonblight/damage and strengthens dragon attacks.",
+    "unlock": "The Food Chain Dominator",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-dragonproof-mantle-plus",
+    "name": "Dragonproof Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-dragonproof-mantle",
+    "upgradeId": "tool-dragonproof-mantle-plus",
+    "duration": 120,
+    "cooldown": 300,
+    "slots": [
+      2,
+      1
+    ],
+    "stats": {
+      "duration": 120,
+      "cooldown": 300
+    },
+    "description": "Resists dragonblight/damage and strengthens dragon attacks.",
+    "unlock": "Delivery: 1 Teostra Fellwing, 1 Daora Fellwing and 2,000 research points",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-cleanser-booster",
+    "name": "Cleanser Booster",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-cleanser-booster",
+    "upgradeId": "tool-cleanser-booster-plus",
+    "duration": 60,
+    "cooldown": 150,
+    "slots": [],
+    "stats": {
+      "duration": 60,
+      "cooldown": 150
+    },
+    "description": "Creates mist that clears ailments and elemental blights.",
+    "unlock": "On Nightmare’s Wings",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-cleanser-booster-plus",
+    "name": "Cleanser Booster+",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-cleanser-booster",
+    "upgradeId": "tool-cleanser-booster-plus",
+    "duration": 120,
+    "cooldown": 150,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 150
+    },
+    "description": "Creates mist that clears ailments and elemental blights.",
+    "unlock": "Poison and Paralysis Pinch",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814",
+    "upgradeEffect": "Expanded mist coverage; increased active time"
+  },
+  {
+    "id": "tool-glider-mantle",
+    "name": "Glider Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-glider-mantle",
+    "upgradeId": "tool-glider-mantle-plus",
+    "duration": 180,
+    "cooldown": 120,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 120
+    },
+    "description": "Extends airborne movement and helps mounting.",
+    "unlock": "First Coral Highlands expedition",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-glider-mantle-plus",
+    "name": "Glider Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-glider-mantle",
+    "upgradeId": "tool-glider-mantle-plus",
+    "duration": 180,
+    "cooldown": 120,
+    "slots": [
+      4,
+      4
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 120
+    },
+    "description": "Extends airborne movement and helps mounting.",
+    "unlock": "Red and Black Aces",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-evasion-mantle",
+    "name": "Evasion Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-evasion-mantle",
+    "upgradeId": "tool-evasion-mantle-plus",
+    "duration": 90,
+    "cooldown": 300,
+    "slots": [],
+    "stats": {
+      "duration": 90,
+      "cooldown": 300
+    },
+    "description": "Extends dodging invulnerability; precise evades boost attack.",
+    "unlock": "New World Sky, New World Flower",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-evasion-mantle-plus",
+    "name": "Evasion Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-evasion-mantle",
+    "upgradeId": "tool-evasion-mantle-plus",
+    "duration": 90,
+    "cooldown": 300,
+    "slots": [
+      2,
+      2
+    ],
+    "stats": {
+      "duration": 90,
+      "cooldown": 300
+    },
+    "description": "Extends dodging invulnerability; precise evades boost attack.",
+    "unlock": "Proud White Knight",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-impact-mantle",
+    "name": "Impact Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-impact-mantle",
+    "upgradeId": "tool-impact-mantle-plus",
+    "duration": 90,
+    "cooldown": 360,
+    "slots": [],
+    "stats": {
+      "duration": 90,
+      "cooldown": 360
+    },
+    "description": "Adds or increases knockout buildup.",
+    "unlock": "Showdown: the Muck and the Maul",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-impact-mantle-plus",
+    "name": "Impact Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-impact-mantle",
+    "upgradeId": "tool-impact-mantle-plus",
+    "duration": 90,
+    "cooldown": 360,
+    "slots": [
+      3,
+      2
+    ],
+    "stats": {
+      "duration": 90,
+      "cooldown": 360
+    },
+    "description": "Adds or increases knockout buildup.",
+    "unlock": "Hymn of Sun and Moon",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-apothecary-mantle",
+    "name": "Apothecary Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-apothecary-mantle",
+    "upgradeId": "tool-apothecary-mantle-plus",
+    "duration": 60,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 60,
+      "cooldown": 210
+    },
+    "description": "Improves application of weapon status buildup.",
+    "unlock": "A Portent of Disaster",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-apothecary-mantle-plus",
+    "name": "Apothecary Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-apothecary-mantle",
+    "upgradeId": "tool-apothecary-mantle-plus",
+    "duration": 60,
+    "cooldown": 210,
+    "slots": [
+      3,
+      2
+    ],
+    "stats": {
+      "duration": 60,
+      "cooldown": 210
+    },
+    "description": "Improves application of weapon status buildup.",
+    "unlock": "The Tyrant’s Banquet",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-immunity-mantle",
+    "name": "Immunity Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-immunity-mantle",
+    "upgradeId": "tool-immunity-mantle-plus",
+    "duration": 120,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 120,
+      "cooldown": 210
+    },
+    "description": "Clears and prevents abnormal statuses.",
+    "unlock": "A Blaze on the Sand",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-immunity-mantle-plus",
+    "name": "Immunity Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-immunity-mantle",
+    "upgradeId": "tool-immunity-mantle-plus",
+    "duration": 120,
+    "cooldown": 210,
+    "slots": [
+      3,
+      2
+    ],
+    "stats": {
+      "duration": 120,
+      "cooldown": 210
+    },
+    "description": "Clears and prevents abnormal statuses.",
+    "unlock": "It’s the Afterlife for Me",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-affinity-booster",
+    "name": "Affinity Booster",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-affinity-booster",
+    "upgradeId": "tool-affinity-booster-plus",
+    "duration": 60,
+    "cooldown": 180,
+    "slots": [],
+    "stats": {
+      "duration": 60,
+      "cooldown": 180
+    },
+    "description": "Creates affinity-boosting mist.",
+    "unlock": "Research Base quest/delivery chain ending in RRRRRumble in the Waste!",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-affinity-booster-plus",
+    "name": "Affinity Booster+",
+    "category": "Specialized tools",
+    "kind": "booster",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-affinity-booster",
+    "upgradeId": "tool-affinity-booster-plus",
+    "duration": 60,
+    "cooldown": 180,
+    "slots": [],
+    "stats": {
+      "duration": 60,
+      "cooldown": 180
+    },
+    "description": "Creates affinity-boosting mist.",
+    "unlock": "The Storm Brings the Unexpected",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814",
+    "upgradeEffect": "Expanded mist coverage"
+  },
+  {
+    "id": "tool-bandit-mantle",
+    "name": "Bandit Mantle",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-bandit-mantle",
+    "upgradeId": "tool-bandit-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Attacking causes additional trade-in item drops.",
+    "unlock": "Redefining the \"Power Couple\"",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles"
+  },
+  {
+    "id": "tool-bandit-mantle-plus",
+    "name": "Bandit Mantle+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-bandit-mantle",
+    "upgradeId": "tool-bandit-mantle-plus",
+    "duration": 180,
+    "cooldown": 210,
+    "slots": [
+      3,
+      1
+    ],
+    "stats": {
+      "duration": 180,
+      "cooldown": 210
+    },
+    "description": "Attacking causes additional trade-in item drops.",
+    "unlock": "A Nasty Flesh Wound",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814"
+  },
+  {
+    "id": "tool-assassin-s-hood",
+    "name": "Assassin's Hood",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "world",
+    "rank": null,
+    "rarity": null,
+    "upgraded": false,
+    "baseId": "tool-assassin-s-hood",
+    "upgradeId": "tool-assassin-s-hood-plus",
+    "duration": 360,
+    "cooldown": 180,
+    "slots": [],
+    "stats": {
+      "duration": 360,
+      "cooldown": 180
+    },
+    "description": "Improves movement/concealment; an unseen opening attack gets a damage bonus.",
+    "unlock": "SDF: Silent, Deadly, and Fierce",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://mhw.poedb.tw/eng/mantles",
+    "legacyEvent": true
+  },
+  {
+    "id": "tool-assassin-s-hood-plus",
+    "name": "Assassin's Hood+",
+    "category": "Specialized tools",
+    "kind": "mantle",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": null,
+    "upgraded": true,
+    "baseId": "tool-assassin-s-hood",
+    "upgradeId": "tool-assassin-s-hood-plus",
+    "duration": 360,
+    "cooldown": 180,
+    "slots": [
+      3,
+      2
+    ],
+    "stats": {
+      "duration": 360,
+      "cooldown": 180
+    },
+    "description": "Improves movement/concealment; an unseen opening attack gets a damage bonus.",
+    "unlock": "The Assassin",
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/tools",
+    "unlockSource": "https://steamcommunity.com/sharedfiles/filedetails/?id=1538382814",
+    "legacyEvent": true
+  }
+]

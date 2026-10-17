@@ -1,0 +1,2898 @@
+[
+  {
+    "id": "weapon-dual-blades-2313",
+    "name": "Crime",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 322,
+    "affinity": 30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-2312",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Odogaron Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      90,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Odogaron Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2314",
+    "name": "Nether Chainblades",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 322,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-2312",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Ebony Odogaron Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      90,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Ebony Odogaron Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2315",
+    "name": "Death Row",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 336,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-2314",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Ebony Odogaron Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Namielle"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      90,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Ebony Odogaron Tree"
+  },
+  {
+    "id": "weapon-dual-blades-332",
+    "name": "Dragonbone Twinblades I",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 140,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Warped Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Warped Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-dual-blades-333",
+    "name": "Dragonbone Twinblades II",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-332",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 8
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-dual-blades-334",
+    "name": "Enduring Schism",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-dual-blades-333",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 10
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      110,
+      110,
+      40,
+      40,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2316",
+    "name": "Enduring Sacrifice",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-dual-blades-334",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      160,
+      70,
+      20,
+      20,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2317",
+    "name": "Enduring Surrender",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-dual-blades-2316",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      160,
+      70,
+      20,
+      20,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2318",
+    "name": "Boundless Farsight",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 392,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-dual-blades-2316",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 6
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 2
+        },
+        {
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Shara Ishvalda Tree"
+  },
+  {
+    "id": "weapon-dual-blades-335",
+    "name": "Kirin Bolts",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 154,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-332",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Kirin"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-dual-blades-336",
+    "name": "Kirin Bolts+",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-335",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kirin Hide+"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      140,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-dual-blades-337",
+    "name": "Monarch",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-336",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      120,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2319",
+    "name": "Wunderkirins",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-337",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      40,
+      80,
+      30,
+      30,
+      80,
+      90,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-dual-blades-338",
+    "name": "Magda Ungulae I",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 224,
+    "affinity": -20,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-332",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": [
+      110,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Zorah Magdaros Tree"
+  },
+  {
+    "id": "weapon-dual-blades-339",
+    "name": "Magda Ungulae II",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 308,
+    "affinity": -20,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-338",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 2
+        },
+        {
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      180,
+      30,
+      60,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Zorah Magdaros Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2320",
+    "name": "Magdaros Volcancross",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 392,
+    "affinity": -20,
+    "defense": 45,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-339",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragonvein Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Dragonvein Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Elder Dragonvein Bone"
+    },
+    "sharpness": [
+      140,
+      40,
+      40,
+      70,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Zorah Magdaros Tree"
+  },
+  {
+    "id": "weapon-dual-blades-340",
+    "name": "Blacksteel Twins I",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 140,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Dragonvein Crystal"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      110,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-dual-blades-341",
+    "name": "Blacksteel Twins II",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 154,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-340",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-dual-blades-342",
+    "name": "Twin Nails",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 238,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      },
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-341",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kushala Daora"
+    },
+    "sharpness": [
+      100,
+      60,
+      80,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-dual-blades-343",
+    "name": "Fire and Ice",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 252,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      },
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-342",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      60,
+      50,
+      60,
+      120,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2321",
+    "name": "Blizzard and Blaze",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 364,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      },
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-343",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Daora Cortex"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-dual-blades-344",
+    "name": "Xeno Raqs",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 238,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-dual-blades-341",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      120,
+      30,
+      60,
+      80,
+      40,
+      20,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1156",
+    "name": "Wrath & Rancor",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 280,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "upgrade": null,
+    "sharpness": [
+      50,
+      120,
+      80,
+      60,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1157",
+    "name": "Wrathful Predation",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 308,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-1156",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      40,
+      120,
+      80,
+      60,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2322",
+    "name": "Consummate Pair",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 392,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-1157",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1202",
+    "name": "Empress Daggers",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": [
+      90,
+      30,
+      60,
+      80,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1203",
+    "name": "Empress Daggers \"Blaze\"",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 252,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-dual-blades-1202",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      90,
+      30,
+      60,
+      80,
+      40,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2323",
+    "name": "Soulfire Fangs \"Blaze\"",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 350,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-dual-blades-1203",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1204",
+    "name": "Empress Daggers \"Ruin\"",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 266,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-dual-blades-1202",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      90,
+      30,
+      60,
+      80,
+      40,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2324",
+    "name": "Soulfire Fangs \"Ruin\"",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 378,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-dual-blades-1204",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1205",
+    "name": "Empress Daggers \"Styx\"",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 252,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-dual-blades-1202",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      90,
+      30,
+      60,
+      80,
+      40,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2325",
+    "name": "Soulfire Fangs \"Styx\"",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 350,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-dual-blades-1205",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1206",
+    "name": "Downy Crake Brooms",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 154,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Downy Crake Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 3
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Sleep Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Downy Crake Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      50,
+      60,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1207",
+    "name": "Downy Crake Love",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-1206",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Downy Crake Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "High Commendation"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2326",
+    "name": "Downy Paradise",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 364,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-1207",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket+",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Research Commission Ticket+"
+    },
+    "sharpness": [
+      40,
+      80,
+      30,
+      30,
+      80,
+      90,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-1260",
+    "name": "Zireael",
+    "type": "dual-blades",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ancient Leshen Skull",
+          "quantity": 1
+        },
+        {
+          "name": "Ancient Leshen Claw",
+          "quantity": 8
+        },
+        {
+          "name": "Ancient Leshen Antlers",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 30000,
+      "unlock": "Ancient Leshen Skull"
+    },
+    "upgrade": null,
+    "sharpness": [
+      230,
+      20,
+      20,
+      20,
+      30,
+      30,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "The Witcher Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2327",
+    "name": "Zireael+",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 364,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-dual-blades-1260",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Unity Symbol",
+          "quantity": 1
+        },
+        {
+          "name": "Leshen Skull",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Unity Symbol"
+    },
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "The Witcher Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3128",
+    "name": "Suzuka Takamaru",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 406,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3129",
+    "name": "Suzuka Otakemaru",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 434,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-dual-blades-3128",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3130",
+    "name": "Demonlord Hellfists",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 406,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      20,
+      20,
+      70,
+      40,
+      30,
+      60
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3131",
+    "name": "Drakespirit Hellclaws",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3132",
+    "name": "Stygian Bloodclaws",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 378,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-dual-blades-3131",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      100,
+      20,
+      20,
+      70,
+      40,
+      30,
+      70
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3133",
+    "name": "Lightbreak Twins",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      60,
+      30
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3200",
+    "name": "Alatreon Dual Blades",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3201",
+    "name": "Alatreon Madness",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 392,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-dual-blades-3200",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": [
+      80,
+      20,
+      20,
+      70,
+      40,
+      30,
+      90
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3244",
+    "name": "Fatalis Dual Blades",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 476,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 60,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3245",
+    "name": "Fatalis Dual Skies",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 518,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-dual-blades-3244",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3134",
+    "name": "Whetfish Sabers",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 280,
+    "affinity": 5,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Whetfish Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Whetfish Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      80,
+      50,
+      110,
+      90,
+      40,
+      20,
+      10
+    ],
+    "attributes": {
+      "skill": "Protective Polish"
+    },
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-3135",
+    "name": "Whetfish Sabers+",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 322,
+    "affinity": 5,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-dual-blades-3134",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Whetfish Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 3
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Namielle"
+    },
+    "sharpness": [
+      170,
+      30,
+      30,
+      60,
+      50,
+      30,
+      30
+    ],
+    "attributes": {
+      "skill": "Protective Polish"
+    },
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-dual-blades-2328",
+    "name": "Guild Palace Sabers",
+    "type": "dual-blades",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 350,
+    "affinity": 10,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  }
+]

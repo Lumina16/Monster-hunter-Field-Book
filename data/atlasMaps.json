@@ -1,0 +1,211 @@
+[
+  {
+    "id": "atlas-new-world",
+    "name": "New World overview",
+    "kind": "world",
+    "game": "both",
+    "path": "assets/base-maps/new-world.webp",
+    "source": "https://monsterhunterwiki.org/wiki/File:MHWI-Overworld_Map.webp",
+    "url": "https://monsterhunterwiki.org/images/a/a5/MHWI-Overworld_Map.webp",
+    "description": "The in-game overview of the New World and Iceborne regions. Open a hunting locale below for its detailed floor maps.",
+    "facilities": [],
+    "links": [
+      {
+        "name": "Ancient Forest",
+        "localeId": "ancient-forest"
+      },
+      {
+        "name": "Wildspire Waste",
+        "localeId": "wildspire-waste"
+      },
+      {
+        "name": "Coral Highlands",
+        "localeId": "coral-highlands"
+      },
+      {
+        "name": "Rotten Vale",
+        "localeId": "rotten-vale"
+      },
+      {
+        "name": "Elder’s Recess",
+        "localeId": "elders-recess"
+      },
+      {
+        "name": "Hoarfrost Reach",
+        "localeId": "hoarfrost-reach"
+      },
+      {
+        "name": "Guiding Lands",
+        "localeId": "guiding-lands-map"
+      }
+    ],
+    "width": 1886,
+    "height": 1024,
+    "bytes": 162970,
+    "sha256": "0d2d12a4916ca1d0617b999995a1badd5029b10229c82c35efb6dded3112ed8c",
+    "assetType": "Original game map screenshot or extracted game map; © Capcom",
+    "image": {
+      "$embedded": "4bb0ea7003834935b140c0e17d7450da006310c949dc810d31e82e029ef31b41"
+    }
+  },
+  {
+    "id": "atlas-astera",
+    "name": "Astera",
+    "kind": "base",
+    "game": "world",
+    "path": "assets/base-maps/astera.jpg",
+    "source": "https://interfaceingame.com/screenshots/monster-hunter-world-canteen/",
+    "url": "https://interfaceingame.com/wp-content/uploads/monster-hunter-world/monster-hunter-world-canteen-1920x1080.jpg",
+    "description": "The in-game Astera map, with the Canteen selected in the original screenshot. Use the facility directory for English service names.",
+    "facilities": [
+      {
+        "name": "Quest counter and quest boards",
+        "description": "Post or join available quests and investigations."
+      },
+      {
+        "name": "Provisions Stockpile",
+        "description": "Buy supplies before a hunt."
+      },
+      {
+        "name": "Resource Center",
+        "description": "Register investigations and manage bounties and deliveries."
+      },
+      {
+        "name": "Ecological Research",
+        "description": "Review monster research and update the Hunter’s Notes."
+      },
+      {
+        "name": "Botanical Research",
+        "description": "Cultivate eligible plants, mushrooms and insects, then collect the harvest."
+      },
+      {
+        "name": "Argosy",
+        "description": "Trade research points for imported supply shipments."
+      },
+      {
+        "name": "Elder Melder",
+        "description": "Exchange accepted materials for items and other unlocked melding recipes."
+      },
+      {
+        "name": "Smithy",
+        "description": "Forge and improve hunter and Palico equipment."
+      },
+      {
+        "name": "Armory",
+        "description": "Purchase the equipment offered by the armourer."
+      },
+      {
+        "name": "Canteen",
+        "description": "Eat a meal to prepare for the next hunt."
+      },
+      {
+        "name": "Your room and housekeeper",
+        "description": "Manage room services and access the Training Area."
+      },
+      {
+        "name": "Lift and Gathering Hub",
+        "description": "Use the lift to reach the different levels of Astera and the Celestial Pursuit."
+      }
+    ],
+    "links": [],
+    "facilitySources": [
+      "https://mhw.poedb.tw/eng/panel_tutorial",
+      "https://monsterhunterwiki.org/wiki/Astera"
+    ],
+    "width": 1920,
+    "height": 1080,
+    "bytes": 407514,
+    "sha256": "a75187ed3a5ea73956f9d47176bfb9c907535fe8f09df3d2f9f9e3755b5249b3",
+    "assetType": "Original game map screenshot or extracted game map; © Capcom",
+    "image": {
+      "$embedded": "63f9be5f510be9b963783cb66966207cba03b8cb5da3aa960cec0a70dc4607e7"
+    }
+  },
+  {
+    "id": "atlas-seliana",
+    "name": "Seliana",
+    "kind": "base",
+    "game": "iceborne",
+    "path": "assets/base-maps/seliana.jpg",
+    "source": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10960",
+    "url": "https://img.gamewith.net/img/2b201bbdc9f2b673da3e011bac75f92b.jpg",
+    "description": "The in-game Seliana map, with the Steamworks selected in the original screenshot.",
+    "facilities": [
+      {
+        "name": "Quest counter and quest boards",
+        "description": "Post or join available quests and investigations."
+      },
+      {
+        "name": "Provisions Stockpile",
+        "description": "Buy supplies before a hunt."
+      },
+      {
+        "name": "Resource Center",
+        "description": "Register investigations and manage bounties and deliveries."
+      },
+      {
+        "name": "Ecological Research",
+        "description": "Review monster research and update the Hunter’s Notes."
+      },
+      {
+        "name": "Botanical Research",
+        "description": "Cultivate eligible plants, mushrooms and insects, then collect the harvest."
+      },
+      {
+        "name": "Argosy",
+        "description": "Trade research points for imported supply shipments."
+      },
+      {
+        "name": "Elder Melder",
+        "description": "Exchange accepted materials for items and other unlocked melding recipes."
+      },
+      {
+        "name": "Smithy",
+        "description": "Forge and improve hunter and Palico equipment."
+      },
+      {
+        "name": "Armory",
+        "description": "Purchase the equipment offered by the armourer."
+      },
+      {
+        "name": "Canteen",
+        "description": "Eat a meal to prepare for the next hunt."
+      },
+      {
+        "name": "Your room and housekeeper",
+        "description": "Manage room services and access the Training Area."
+      },
+      {
+        "name": "Steamworks",
+        "description": "Spend fuel at the Steamworks for item rewards."
+      },
+      {
+        "name": "Room service",
+        "description": "Access housekeeper services from the base."
+      },
+      {
+        "name": "Gathering Hub",
+        "description": "Meet other hunters at the Lunar Terrace and use its preparation facilities."
+      }
+    ],
+    "links": [
+      {
+        "name": "Hoarfrost Reach",
+        "localeId": "hoarfrost-reach"
+      }
+    ],
+    "facilitySources": [
+      "https://mhw.poedb.tw/eng/panel_tutorial",
+      "https://news.capcomusa.com/lets/browse/get-the-hottest-details-on-glavenus-new-gathering-hub-and-more-in-the-mhw-iceborne-developer-diary-1",
+      "https://monsterhunterwiki.org/wiki/Seliana"
+    ],
+    "width": 1280,
+    "height": 720,
+    "bytes": 892519,
+    "sha256": "669c88622ed593a6d9c269a3a96a206163a7202c538ecf689bd54e70a9ef0035",
+    "assetType": "Original game map screenshot or extracted game map; © Capcom",
+    "image": {
+      "$embedded": "1f49bace82620b74f0713adb9b8c6ed80c553b461b9ec31227956e5520cb5ca4"
+    }
+  }
+]

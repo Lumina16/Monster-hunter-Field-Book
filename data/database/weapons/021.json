@@ -1,0 +1,2957 @@
+[
+  {
+    "id": "weapon-hunting-horn-486",
+    "name": "Lumu Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 588,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-hunting-horn-485",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-487",
+    "name": "Lumu Barone I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 630,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-486",
+    "forge": {
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 6
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 6
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-488",
+    "name": "Lumu Barone II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 672,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 480,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-hunting-horn-487",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-489",
+    "name": "Lumu Barone III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 714,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 570,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-hunting-horn-488",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 7
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      80,
+      50,
+      60,
+      120,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2468",
+    "name": "Lumu Drone I",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1008,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 630,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-hunting-horn-489",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Paolumu Thickfur"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2469",
+    "name": "Lumu Drone II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1050,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 690,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-hunting-horn-2468",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2470",
+    "name": "Nyx Barone I",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hunting-horn-489",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2471",
+    "name": "Nyx Barone II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hunting-horn-2470",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      60,
+      30,
+      30,
+      110,
+      40,
+      80,
+      0
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-490",
+    "name": "Rookslayer Drum",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 756,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-487",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Bazelgeuse"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRG"
+    },
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-491",
+    "name": "Bazelreid Rookslayer",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 840,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-490",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      70,
+      120,
+      80,
+      60,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRG"
+    },
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2472",
+    "name": "Rooksearer Drum",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1008,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-491",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": [
+      170,
+      30,
+      30,
+      60,
+      50,
+      10,
+      0
+    ],
+    "attributes": {
+      "notes": "PRG"
+    },
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2473",
+    "name": "Bazel Valdi Rooksearer",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1092,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hunting-horn-2472",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Petalstone",
+          "quantity": 2
+        },
+        {
+          "name": "Scorching Silverwing",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      160,
+      30,
+      30,
+      60,
+      50,
+      20,
+      0
+    ],
+    "attributes": {
+      "notes": "PRG"
+    },
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-492",
+    "name": "Sonic Horn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 462,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-465",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Wing",
+          "quantity": 1
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Vespoid Shell"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-493",
+    "name": "Sonic Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 504,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-492",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Fluid",
+          "quantity": 2
+        },
+        {
+          "name": "Paralysis Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Paralysis Sac"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-494",
+    "name": "Sonic Horn III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 546,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-493",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Girros Fang",
+          "quantity": 6
+        },
+        {
+          "name": "Paralysis Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      80,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-495",
+    "name": "Glass Royale",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 588,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-494",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Broth",
+          "quantity": 5
+        },
+        {
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Vespoid Carapace"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-496",
+    "name": "Glass Royale+",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 630,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-495",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 6
+        },
+        {
+          "name": "Hornetaur Innerwing",
+          "quantity": 6
+        },
+        {
+          "name": "Great Girros Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Brutal Bone"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-497",
+    "name": "Queen Vespoid Horn",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-496",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 3
+        },
+        {
+          "name": "Hornetaur Head",
+          "quantity": 1
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Daora Dragon Scale+"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2474",
+    "name": "Queen Vespoid Horn+",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      1
+    ],
+    "parent": "weapon-hunting-horn-497",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vespoid Razorwing",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Monster Essence"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "notes": "PBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2475",
+    "name": "Queen's Flute II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1092,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      1
+    ],
+    "parent": "weapon-hunting-horn-2474",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Vespoid Razorwing",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Ultraplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "notes": "PBY"
+    },
+    "obtain": [],
+    "family": "Vespoid Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-498",
+    "name": "Spiked Horn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 546,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-492",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Sleep Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-499",
+    "name": "Spiked Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 588,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-498",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      90,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-500",
+    "name": "Baan Horn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-499",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Radobaan Scale+"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-501",
+    "name": "Baan Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 756,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-500",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-502",
+    "name": "Baan Horn III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 798,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-501",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2476",
+    "name": "Baan Rattle I",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-502",
+    "forge": {
+      "materials": [
+        {
+          "name": "Radobaan Oilshell+",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Radobaan Cortex"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Radobaan Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2477",
+    "name": "Baan Rattle II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1050,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-2476",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell+",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PRY"
+    },
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2478",
+    "name": "Brachydios Horn I",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 966,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-2476",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2479",
+    "name": "Brachydios Horn II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1050,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-2478",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Pounder+",
+          "quantity": 4
+        },
+        {
+          "name": "Brachydios Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "notes": "PBC"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-503",
+    "name": "Dragonbone Auldhorn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Warped Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Warped Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "WCY"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-504",
+    "name": "Dragonbone Auldhorn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 462,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-503",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 8
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "WCY"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-505",
+    "name": "Dragonbone Auldhorn III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-504",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 10
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      120,
+      110,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PCY"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2480",
+    "name": "Dragonseal Aldhorn I",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 882,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 570,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-505",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "notes": "PCY"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2481",
+    "name": "Dragonseal Aldhorn II",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 720,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-2480",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "notes": "PCY"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2482",
+    "name": "Austere Paradise",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1176,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-hunting-horn-2480",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 6
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 2
+        },
+        {
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      170,
+      30,
+      30,
+      60,
+      50,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PBO"
+    },
+    "obtain": [],
+    "family": "Shara Ishvalda Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-506",
+    "name": "Thundercry Horn",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 504,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-503",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Kirin"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WGY"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-507",
+    "name": "Thunderbolt Horn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 588,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-506",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kirin Hide+"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      150,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PGY"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-508",
+    "name": "Thunderbolt Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-507",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      140,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PGY"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2483",
+    "name": "Thunderwail Feyhorn",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 660,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-508",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "notes": "PGY"
+    },
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2484",
+    "name": "Hydros Horn",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1134,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-508",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Namielle"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {
+      "notes": "PYO"
+    },
+    "obtain": [],
+    "family": "Namielle Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-509",
+    "name": "Blacksteel Dragonhorn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Dragonvein Crystal"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      110,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PCY"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-510",
+    "name": "Blacksteel Dragonhorn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 462,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-509",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PCY"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-511",
+    "name": "Teostra's Tiple",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 756,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-510",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Teostra"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-512",
+    "name": "Teostra's Orphée",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 798,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-511",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Teostra Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2485",
+    "name": "Teostra's Musica",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1092,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-512",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Hardhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Teostra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Teostra Cortex"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PCO"
+    },
+    "obtain": [],
+    "family": "Teostra Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-513",
+    "name": "Xeno Manasheena",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 714,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-hunting-horn-510",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      130,
+      30,
+      60,
+      80,
+      40,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low",
+      "notes": "PBO"
+    },
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-1160",
+    "name": "Devil's Maestro",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 840,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000,
+      "unlock": "Deviljho Hide"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      120,
+      80,
+      60,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-1161",
+    "name": "Deep Vero",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 924,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-1160",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      50,
+      120,
+      80,
+      60,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2486",
+    "name": "Fate's Dirge",
+    "type": "hunting-horn",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1176,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-1161",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": [
+      160,
+      30,
+      30,
+      60,
+      50,
+      20,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high",
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-1214",
+    "name": "Empress Roar",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 798,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "notes": "PRO"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  }
+]

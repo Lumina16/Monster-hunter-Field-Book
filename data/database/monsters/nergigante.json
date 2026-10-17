@@ -1,0 +1,904 @@
+{
+  "name": "Nergigante",
+  "source": "https://mhworld.kiranico.com/en/monsters/aYaUV/nergigante",
+  "hitzones": [
+    {
+      "part": "Horn",
+      "cut": 20,
+      "impact": 25,
+      "shot": 35,
+      "fire": 5,
+      "water": 15,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Horn (Wounded)",
+      "cut": 35,
+      "impact": 40,
+      "shot": 45,
+      "fire": 5,
+      "water": 15,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 45,
+      "impact": 60,
+      "shot": 40,
+      "fire": 5,
+      "water": 10,
+      "thunder": 15,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 30,
+      "shot": 35,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 30,
+      "impact": 35,
+      "shot": 30,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms",
+      "cut": 50,
+      "impact": 45,
+      "shot": 40,
+      "fire": 5,
+      "water": 5,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 35,
+      "impact": 30,
+      "shot": 35,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 40,
+      "impact": 30,
+      "shot": 30,
+      "fire": 10,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 60,
+      "impact": 45,
+      "shot": 25,
+      "fire": 10,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 45,
+      "impact": 35,
+      "shot": 25,
+      "fire": 15,
+      "water": 5,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (White)",
+      "cut": 75,
+      "impact": 90,
+      "shot": 70,
+      "fire": 5,
+      "water": 10,
+      "thunder": 15,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Black)",
+      "cut": 20,
+      "impact": 25,
+      "shot": 15,
+      "fire": 5,
+      "water": 10,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Gloss Black)",
+      "cut": 20,
+      "impact": 25,
+      "shot": 15,
+      "fire": 5,
+      "water": 10,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms (White)",
+      "cut": 70,
+      "impact": 60,
+      "shot": 55,
+      "fire": 5,
+      "water": 5,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms (Black)",
+      "cut": 10,
+      "impact": 15,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms (Gloss Black)",
+      "cut": 10,
+      "impact": 15,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip (White)",
+      "cut": 55,
+      "impact": 45,
+      "shot": 45,
+      "fire": 10,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip (Black)",
+      "cut": 28,
+      "impact": 25,
+      "shot": 25,
+      "fire": 10,
+      "water": 5,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip (Gloss Black)",
+      "cut": 28,
+      "impact": 25,
+      "shot": 25,
+      "fire": 10,
+      "water": 5,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (White)",
+      "cut": 65,
+      "impact": 55,
+      "shot": 40,
+      "fire": 15,
+      "water": 5,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Black)",
+      "cut": 25,
+      "impact": 20,
+      "shot": 10,
+      "fire": 15,
+      "water": 5,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Gloss Black)",
+      "cut": 25,
+      "impact": 20,
+      "shot": 10,
+      "fire": 15,
+      "water": 5,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Horn",
+      "flinch": 130,
+      "break": 280,
+      "notes": "x2 Break",
+      "secondBreak": null
+    },
+    {
+      "part": "Head",
+      "flinch": 190,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head (White)",
+      "flinch": null,
+      "break": 150,
+      "sever": null,
+      "notes": "60s"
+    },
+    {
+      "part": "Head (Black)",
+      "flinch": null,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 450,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forearms",
+      "flinch": 280,
+      "break": 100,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Forearms (White)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "L,R 60s"
+    },
+    {
+      "part": "Forearms (Black)",
+      "flinch": null,
+      "break": 150,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Wings",
+      "flinch": 180,
+      "break": 60,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Wings (White)",
+      "flinch": null,
+      "break": 150,
+      "sever": null,
+      "notes": "L,R 60s"
+    },
+    {
+      "part": "Wings (Black)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 220,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": null,
+      "break": 100,
+      "sever": 450,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip (White)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "60s"
+    },
+    {
+      "part": "Tail Tip (Black)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": 150,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": "-2 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 200,
+      "increase": 20,
+      "max": 750
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Nergigante Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Nergigante Talon",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Nergigante Horn+",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horn",
+      "item": "Nergigante Horn+",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horn",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 2,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Nergigante Horn+",
+      "quantity": 1,
+      "chance": 97
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Nergigante Talon",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Nergigante Tail",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Nergigante Carapace",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nergigante Carapace",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Immortal Dragonscale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nergigante Talon",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Bone",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Blood",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Talon",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Tail",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Horn+",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Carapace",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Immortal Dragonscale",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Talon",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Horn+",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Regrowth Plate",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Gem",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nergigante Carapace",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Immortal Dragonscale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Sullied Streamstone",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Shining Streamstone",
+      "quantity": 1,
+      "chance": 5
+    }
+  ],
+  "questIds": [
+    "quest-401",
+    "quest-504",
+    "quest-701",
+    "quest-641",
+    "quest-895",
+    "quest-894",
+    "quest-891",
+    "quest-896",
+    "quest-50892",
+    "quest-995",
+    "quest-62608",
+    "quest-62506",
+    "quest-62606",
+    "quest-66610",
+    "quest-63034",
+    "quest-63035",
+    "quest-63036",
+    "quest-63101",
+    "quest-63102",
+    "quest-63103",
+    "quest-63107",
+    "quest-63109",
+    "quest-63052"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

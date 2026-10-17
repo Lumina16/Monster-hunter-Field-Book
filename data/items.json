@@ -1,0 +1,149 @@
+[
+  {
+    "id": "potion",
+    "name": "Potion",
+    "recipe": "Herb",
+    "use": "Basic healing",
+    "game": "both"
+  },
+  {
+    "id": "mega-potion",
+    "name": "Mega Potion",
+    "recipe": "Potion + Honey",
+    "use": "Main sustained healing",
+    "game": "both"
+  },
+  {
+    "id": "nutrients",
+    "name": "Nutrients",
+    "recipe": "Bitterbug + Blue Mushroom",
+    "use": "Raises health capacity slightly; crafting intermediate",
+    "game": "both"
+  },
+  {
+    "id": "mega-nutrients",
+    "name": "Mega Nutrients",
+    "recipe": "Nutrients + Honey",
+    "use": "Health-capacity item and Max Potion ingredient",
+    "game": "both"
+  },
+  {
+    "id": "max-potion",
+    "name": "Max Potion",
+    "recipe": "Mega Nutrients + Mandragora",
+    "use": "Restores health and raises maximum health",
+    "game": "both"
+  },
+  {
+    "id": "catalyst",
+    "name": "Catalyst",
+    "recipe": "Bitterbug + Honey",
+    "use": "Crafting intermediate",
+    "game": "both"
+  },
+  {
+    "id": "immunizer",
+    "name": "Immunizer",
+    "recipe": "Catalyst + Mandragora",
+    "use": "Supports natural recovery and further crafting",
+    "game": "both"
+  },
+  {
+    "id": "ancient-potion",
+    "name": "Ancient Potion",
+    "recipe": "Immunizer + Kelbi Horn",
+    "use": "Restores health and stamina and raises their capacities",
+    "game": "both"
+  },
+  {
+    "id": "antidote",
+    "name": "Antidote",
+    "recipe": "Antidote Herb",
+    "use": "Cures poison",
+    "game": "both"
+  },
+  {
+    "id": "herbal-medicine",
+    "name": "Herbal Medicine",
+    "recipe": "Antidote + Blue Mushroom",
+    "use": "Quick poison cure with a small heal",
+    "game": "both"
+  },
+  {
+    "id": "lifepowder",
+    "name": "Lifepowder",
+    "recipe": "Godbug + Blue Mushroom",
+    "use": "Heals nearby allies",
+    "game": "both"
+  },
+  {
+    "id": "dust-of-life",
+    "name": "Dust of Life",
+    "recipe": "Godbug + Gloamgrass Bud",
+    "use": "Stronger nearby team healing",
+    "game": "iceborne"
+  },
+  {
+    "id": "tranq-bomb",
+    "name": "Tranq Bomb",
+    "recipe": "Sleep Herb + Parashroom",
+    "use": "Tranquilizes a capturable target",
+    "game": "both"
+  },
+  {
+    "id": "shock-trap",
+    "name": "Shock Trap",
+    "recipe": "Trap Tool + Thunderbug",
+    "use": "Traps eligible monsters",
+    "game": "both"
+  },
+  {
+    "id": "net",
+    "name": "Net",
+    "recipe": "Ivy + Spider Web",
+    "use": "Pitfall Trap ingredient",
+    "game": "both"
+  },
+  {
+    "id": "pitfall-trap",
+    "name": "Pitfall Trap",
+    "recipe": "Trap Tool + Net",
+    "use": "Traps eligible monsters",
+    "game": "both"
+  },
+  {
+    "id": "flash-pod",
+    "name": "Flash Pod",
+    "recipe": "Flashbug",
+    "use": "Flashes susceptible targets",
+    "game": "both"
+  },
+  {
+    "id": "dung-pod",
+    "name": "Dung Pod",
+    "recipe": "Dung",
+    "use": "Encourages an unwanted monster to leave",
+    "game": "both"
+  },
+  {
+    "id": "farcaster",
+    "name": "Farcaster",
+    "recipe": "Smokenut + Exciteshroom",
+    "use": "Returns to camp when permitted",
+    "game": "both"
+  },
+  {
+    "id": "hot-drink",
+    "name": "Hot Drink",
+    "recipe": "Hot Pepper",
+    "use": "Cold protection",
+    "game": "iceborne"
+  },
+  {
+    "id": "cool-drink",
+    "name": "Cool Drink",
+    "recipe": "Chillshroom",
+    "use": "Heat protection",
+    "game": "both"
+  }
+]

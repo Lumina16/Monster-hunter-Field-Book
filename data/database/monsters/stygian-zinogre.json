@@ -1,0 +1,806 @@
+{
+  "name": "Stygian Zinogre",
+  "source": "https://mhworld.kiranico.com/en/monsters/vmKTW/stygian-zinogre",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 55,
+      "impact": 55,
+      "shot": 50,
+      "fire": 10,
+      "water": 13,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 50,
+      "impact": 50,
+      "shot": 45,
+      "fire": 8,
+      "water": 10,
+      "thunder": 13,
+      "ice": 8,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Torso",
+      "cut": 30,
+      "impact": 30,
+      "shot": 20,
+      "fire": 5,
+      "water": 8,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 30,
+      "impact": 30,
+      "shot": 20,
+      "fire": 3,
+      "water": 8,
+      "thunder": 10,
+      "ice": 3,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 50,
+      "impact": 50,
+      "shot": 45,
+      "fire": 10,
+      "water": 13,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 20,
+      "fire": 5,
+      "water": 8,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 40,
+      "shot": 35,
+      "fire": 8,
+      "water": 10,
+      "thunder": 13,
+      "ice": 8,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Charged)",
+      "cut": 45,
+      "impact": 45,
+      "shot": 45,
+      "fire": 20,
+      "water": 25,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck (Charged)",
+      "cut": 38,
+      "impact": 38,
+      "shot": 33,
+      "fire": 15,
+      "water": 20,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Torso (Charged)",
+      "cut": 25,
+      "impact": 25,
+      "shot": 15,
+      "fire": 10,
+      "water": 15,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back (Charged)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 50,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs (Charged)",
+      "cut": 38,
+      "impact": 38,
+      "shot": 33,
+      "fire": 20,
+      "water": 25,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs (Charged)",
+      "cut": 25,
+      "impact": 25,
+      "shot": 15,
+      "fire": 10,
+      "water": 15,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Charged)",
+      "cut": 35,
+      "impact": 35,
+      "shot": 25,
+      "fire": 15,
+      "water": 20,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 300,
+      "break": 650,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Back",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 280,
+      "break": null,
+      "sever": 500,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 40,
+      "increase": 20,
+      "max": 440,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 375,
+      "increase": 150,
+      "max": 1575
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→7→4"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Cortex",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Hardclaw",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Lash",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Stygian Zinogre Hardhorn",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Stygian Zinogre Cortex",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Stygian Zinogre Hardclaw",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Dracophage Bug",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Stygian Zinogre Lash",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Stygian Zinogre Cortex",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Stygian Zinogre Cortex",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Dracophage Bug",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Stygian Zinogre Dragonlocks",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Stygian Zinogre Cortex",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Stygian Zinogre Hardclaw",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Purecrystal",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Stygian Zinogre Hardhorn",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Stygian Zinogre Hardclaw",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Stygian Zinogre Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Dracophage Bug",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Stygian Zinogre Hardhorn",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Stygian Zinogre Lash",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Stygian Zinogre Hardhorn",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Stygian Zinogre Hardclaw",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Stygian Zinogre Skymerald",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Stygian Zinogre Dragonhold",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Dracophage Bug",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Gushing Dragonhold",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Gushing Dragonhold",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Gushing Dragonhold",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Dragonhold",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 5
+    }
+  ],
+  "questIds": [
+    "quest-51621",
+    "quest-51603",
+    "quest-66832",
+    "quest-66831",
+    "quest-67840"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 18600,
+      "modifiers": [
+        "x12.50",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x2.10",
+        "x1.30",
+        "x1.80",
+        "x1.30"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 31770,
+      "modifiers": [
+        "x12.50",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 47430,
+      "modifiers": [
+        "x12.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 47430,
+      "modifiers": [
+        "x12.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    }
+  ],
+  "expeditions": []
+}

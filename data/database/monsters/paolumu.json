@@ -1,0 +1,1343 @@
+{
+  "name": "Paolumu",
+  "source": "https://mhworld.kiranico.com/en/monsters/2mnT3/paolumu",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 55,
+      "impact": 55,
+      "shot": 45,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 40,
+      "impact": 40,
+      "shot": 30,
+      "fire": 20,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck Pouch",
+      "cut": 75,
+      "impact": 75,
+      "shot": 60,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 46,
+      "impact": 46,
+      "shot": 42,
+      "fire": 15,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 40,
+      "impact": 35,
+      "shot": 25,
+      "fire": 15,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 35,
+      "impact": 35,
+      "shot": 45,
+      "fire": 15,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 25,
+      "shot": 15,
+      "fire": 20,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 65,
+      "impact": 65,
+      "shot": 52,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 20,
+      "impact": 20,
+      "shot": 15,
+      "fire": 20,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 180,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Neck Pouch",
+      "flinch": 300,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Wings",
+      "flinch": 150,
+      "break": 150,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 250,
+      "break": 250,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 40,
+      "increase": 70,
+      "max": 460
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 100,
+      "increase": 75,
+      "max": 550,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 40,
+      "increase": 20,
+      "max": 440,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Pelt",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Webbing",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Neck Pouch",
+      "item": "Paolumu Pelt",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Paolumu Webbing",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Paolumu Pelt",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Tail",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Pelt",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Pelt",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone L",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nourishing Extract",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Webbing",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Webbing",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Pelt",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Nourishing Extract",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Scale",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Shell",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Webbing",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Pelt",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Nourishing Extract",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Scale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Pelt+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Wing",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Neck Pouch",
+      "item": "Paolumu Pelt+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Paolumu Wing",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Paolumu Pelt+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Pelt+",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Pelt+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nourishing Extract",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Wing",
+      "quantity": 2,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Wing",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Pelt+",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Nourishing Extract",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Scale+",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Carapace+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Wing",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Pelt+",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Nourishing Extract",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Scale+",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Thickfur",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Fellwing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Neck Pouch",
+      "item": "Paolumu Thickfur",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Paolumu Fellwing",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Paolumu Thickfur",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Thickfur",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Thickfur",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Nourishing Extract",
+      "quantity": 3,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Paolumu Fellwing",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Fellwing",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Thickfur",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Nourishing Extract",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Paolumu Shard",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Cortex",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Fellwing",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Thickfur",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Nourishing Extract",
+      "quantity": 5,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Paolumu Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Rubbery Shell",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Rubbery Shell",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Rubbery Shell",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Rubbery Shell",
+      "quantity": 1,
+      "chance": 54
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 21
+    }
+  ],
+  "questIds": [
+    "quest-405",
+    "quest-408",
+    "quest-472",
+    "quest-473",
+    "quest-475",
+    "quest-433",
+    "quest-571",
+    "quest-671",
+    "quest-672",
+    "quest-636",
+    "quest-771",
+    "quest-772",
+    "quest-61105",
+    "quest-66106",
+    "quest-66603",
+    "quest-63002",
+    "quest-1203",
+    "quest-1171",
+    "quest-1237",
+    "quest-1271",
+    "quest-1272",
+    "quest-1273",
+    "quest-1373",
+    "quest-61803",
+    "quest-66810",
+    "quest-66818",
+    "quest-66828",
+    "quest-64801",
+    "quest-67826"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 18290,
+      "modifiers": [
+        "x10.00",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x1.90",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 31241,
+      "modifiers": [
+        "x10.00",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 46640,
+      "modifiers": [
+        "x10.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 46640,
+      "modifiers": [
+        "x10.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Coral Highlands (35%)",
+      "health": 3481,
+      "modifiers": [
+        "x1.55",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Coral Highlands (30%)",
+      "health": 5605,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Coral Highlands (5%)",
+      "health": 17995,
+      "modifiers": [
+        "x7.00",
+        "x1.00",
+        "x4.40",
+        "x1.30",
+        "x2.00",
+        "x1.15",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

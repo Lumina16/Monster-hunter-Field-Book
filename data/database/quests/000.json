@@ -1,0 +1,2608 @@
+[
+  {
+    "id": "quest-101",
+    "name": "Jagras of the Ancient Forest",
+    "rank": "LR",
+    "stars": 1,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 720,
+    "monsters": []
+  },
+  {
+    "id": "quest-102",
+    "name": "A Kestodon Kerfuffle",
+    "rank": "LR",
+    "stars": 2,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 1200,
+    "monsters": [
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-103",
+    "name": "The Great Jagras Hunt",
+    "rank": "LR",
+    "stars": 2,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 1200,
+    "monsters": [
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": true,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-201",
+    "name": "Bird-Brained Bandit",
+    "rank": "LR",
+    "stars": 2,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 1800,
+    "monsters": [
+      {
+        "id": "kulu-ya-ku",
+        "quantity": 1,
+        "objective": true,
+        "health": 1696,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-205",
+    "name": "Urgent: Pukei-Pukei Hunt",
+    "rank": "LR",
+    "stars": 3,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": true,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-301",
+    "name": "The Best Kind of Quest",
+    "rank": "LR",
+    "stars": 3,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": true,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-302",
+    "name": "Sinister Shadows in the Swamp",
+    "rank": "LR",
+    "stars": 3,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 3240,
+    "monsters": [
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": true,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-305",
+    "name": "Flying Sparks: Tobi-Kadachi",
+    "rank": "LR",
+    "stars": 3,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 3240,
+    "monsters": [
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 2552,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-306",
+    "name": "The Encroaching Anjanath",
+    "rank": "LR",
+    "stars": 4,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-401",
+    "name": "One for the History Books",
+    "rank": "LR",
+    "stars": 4,
+    "type": "assigned / assignment",
+    "locale": "Great Ravine",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "zorah-magdaros",
+        "quantity": 1,
+        "objective": true,
+        "health": 12000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "nergigante",
+        "quantity": 1,
+        "objective": false,
+        "health": 4153,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-405",
+    "name": "Ballooning Problems",
+    "rank": "LR",
+    "stars": 4,
+    "type": "assigned / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 3481,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "tzitzi-ya-ku",
+        "quantity": 1,
+        "objective": false,
+        "health": 3127,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "legiana",
+        "quantity": 1,
+        "objective": false,
+        "health": 4530,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-407",
+    "name": "Radobaan Roadblock",
+    "rank": "LR",
+    "stars": 4,
+    "type": "assigned / hunt",
+    "locale": "Rotten Vale",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "radobaan",
+        "quantity": 1,
+        "objective": true,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-girros",
+        "quantity": 1,
+        "objective": false,
+        "health": 2832,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-408",
+    "name": "Legiana: Embodiment of Elegance",
+    "rank": "LR",
+    "stars": 5,
+    "type": "assigned / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 5400,
+    "monsters": [
+      {
+        "id": "legiana",
+        "quantity": 1,
+        "objective": true,
+        "health": 4530,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "tzitzi-ya-ku",
+        "quantity": 1,
+        "objective": false,
+        "health": 3127,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "paolumu",
+        "quantity": 1,
+        "objective": false,
+        "health": 3481,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-501",
+    "name": "Into the Bowels of the Vale",
+    "rank": "LR",
+    "stars": 5,
+    "type": "assigned / hunt",
+    "locale": "Rotten Vale",
+    "zenny": 5400,
+    "monsters": [
+      {
+        "id": "odogaron",
+        "quantity": 1,
+        "objective": true,
+        "health": 4530,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-girros",
+        "quantity": 1,
+        "objective": false,
+        "health": 2832,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "radobaan",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-502",
+    "name": "A Fiery Throne Atop the Forest",
+    "rank": "LR",
+    "stars": 5,
+    "type": "assigned / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 5400,
+    "monsters": [
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": true,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": false,
+        "health": 2552,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-503",
+    "name": "Horned Tyrant Below the Sands",
+    "rank": "LR",
+    "stars": 5,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 5400,
+    "monsters": [
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": true,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-504",
+    "name": "A Colossal Task",
+    "rank": "LR",
+    "stars": 6,
+    "type": "assigned / assignment",
+    "locale": "Everstream",
+    "zenny": 8280,
+    "monsters": [
+      {
+        "id": "zorah-magdaros",
+        "quantity": 1,
+        "objective": true,
+        "health": 24240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.75,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "nergigante",
+        "quantity": 1,
+        "objective": false,
+        "health": 7110,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.5,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-601",
+    "name": "Invader in the Waste",
+    "rank": "HR",
+    "stars": 6,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 7200,
+    "monsters": [
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": true,
+        "health": 4900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.75,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 10528,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.35,
+          "StB": 1.098,
+          "StI": 2.2,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 3.76
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 5700,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.2,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 12270,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.35,
+          "StB": 1.098,
+          "StI": 2.2,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.09
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 4287,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.75,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 9212,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.35,
+          "StB": 1.098,
+          "StI": 2.2,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 3.76
+        }
+      },
+      {
+        "id": "bazelgeuse",
+        "quantity": 1,
+        "objective": false,
+        "health": 9191,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 19747,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.8,
+          "StB": 1.198,
+          "StI": 2.4,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.34
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-605",
+    "name": "Tickled Pink",
+    "rank": "HR",
+    "stars": 6,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 9000,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 5681,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.2,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 12498,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.5,
+          "StB": 1.098,
+          "StI": 2.2,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.18
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 4287,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.75,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 9432,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.5,
+          "StB": 1.098,
+          "StI": 2.2,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 3.85
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 6565,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 14430,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.96,
+          "StB": 1.198,
+          "StI": 2.4,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.44
+        }
+      },
+      {
+        "id": "bazelgeuse",
+        "quantity": 1,
+        "objective": false,
+        "health": 9191,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 20202,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.96,
+          "StB": 1.198,
+          "StI": 2.4,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.44
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-607",
+    "name": "Old World Monster in the New World",
+    "rank": "HR",
+    "stars": 7,
+    "type": "assigned / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 12600,
+    "monsters": [
+      {
+        "id": "pink-rathian",
+        "quantity": 1,
+        "objective": true,
+        "health": 6060,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 13440,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.96,
+          "StB": 1.198,
+          "StI": 2.76,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.48
+        }
+      },
+      {
+        "id": "tzitzi-ya-ku",
+        "quantity": 1,
+        "objective": false,
+        "health": 4637,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.75,
+          "defense": 1.0,
+          "part": 1.45,
+          "ailmentBuildup": 1.1,
+          "ailmentThreshold": 1.1,
+          "stun": 1.1,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 10282,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.5,
+          "StB": 1.098,
+          "StI": 2.53,
+          "Stn": 3.3,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 3.88
+        }
+      },
+      {
+        "id": "legiana",
+        "quantity": 1,
+        "objective": false,
+        "health": 6060,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 13440,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.96,
+          "StB": 1.198,
+          "StI": 2.76,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.48
+        }
+      },
+      {
+        "id": "odogaron",
+        "quantity": 1,
+        "objective": false,
+        "health": 6060,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.6,
+          "defense": 1.0,
+          "part": 1.6,
+          "ailmentBuildup": 1.2,
+          "ailmentThreshold": 1.2,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 13440,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.96,
+          "StB": 1.198,
+          "StI": 2.76,
+          "Stn": 3.6,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 4.48
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-701",
+    "name": "A Wound and a Thirst",
+    "rank": "HR",
+    "stars": 8,
+    "type": "assigned / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 18000,
+    "monsters": [
+      {
+        "id": "nergigante",
+        "quantity": 1,
+        "objective": true,
+        "health": 7110,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.8,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 15990,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 6.4,
+          "StB": 1.298,
+          "StI": 2.99,
+          "Stn": 4.55,
+          "Exh": 4.5,
+          "Mnt": 2.5,
+          "HPm": 4.92
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-801",
+    "name": "Kushala Daora, Dragon of Steel",
+    "rank": "HR",
+    "stars": 8,
+    "type": "assigned / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 18000,
+    "monsters": [
+      {
+        "id": "kushala-daora",
+        "quantity": 1,
+        "objective": true,
+        "health": 8039,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.8,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 18069,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 6.4,
+          "StB": 1.298,
+          "StI": 2.99,
+          "Stn": 4.55,
+          "Exh": 4.5,
+          "Mnt": 2.5,
+          "HPm": 4.54
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-802",
+    "name": "Teostra the Infernal",
+    "rank": "HR",
+    "stars": 8,
+    "type": "assigned / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 18000,
+    "monsters": [
+      {
+        "id": "teostra",
+        "quantity": 1,
+        "objective": true,
+        "health": 8686,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.8,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 19522,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 6.4,
+          "StB": 1.298,
+          "StI": 2.99,
+          "Stn": 4.55,
+          "Exh": 4.5,
+          "Mnt": 2.5,
+          "HPm": 4.54
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-803",
+    "name": "Hellish Fiend Vaal Hazak",
+    "rank": "HR",
+    "stars": 8,
+    "type": "assigned / hunt",
+    "locale": "Rotten Vale",
+    "zenny": 18000,
+    "monsters": [
+      {
+        "id": "vaal-hazak",
+        "quantity": 1,
+        "objective": true,
+        "health": 9494,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 3.8,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 21338,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 6.4,
+          "StB": 1.298,
+          "StI": 2.99,
+          "Stn": 4.55,
+          "Exh": 4.5,
+          "Mnt": 2.5,
+          "HPm": 4.54
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-804",
+    "name": "Land of Convergence",
+    "rank": "HR",
+    "stars": 9,
+    "type": "assigned / hunt",
+    "locale": "Confluence of Fates",
+    "zenny": 19800,
+    "monsters": [
+      {
+        "id": "xeno-jiiva",
+        "quantity": 1,
+        "objective": true,
+        "health": 15150,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.4,
+          "defense": 1.0,
+          "part": 2.0,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 34050,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 6.4,
+          "StB": 1.298,
+          "StI": 2.99,
+          "Stn": 4.55,
+          "Exh": 4.5,
+          "Mnt": 2.5,
+          "HPm": 4.54
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-805",
+    "name": "Beyond the Blasting Scales",
+    "rank": "HR",
+    "stars": 9,
+    "type": "assigned / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 27720,
+    "monsters": [
+      {
+        "id": "bazelgeuse",
+        "quantity": 2,
+        "objective": true,
+        "health": 6051,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.7,
+          "defense": 1.0,
+          "part": 2.15,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 13195,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 7.53,
+          "StB": 1.298,
+          "StI": 3.25,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 2.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-806",
+    "name": "Thunderous Rumble in the Highlands",
+    "rank": "HR",
+    "stars": 9,
+    "type": "assigned / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 21600,
+    "monsters": [
+      {
+        "id": "kirin",
+        "quantity": 1,
+        "objective": true,
+        "health": 7269,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 5.5,
+          "defense": 1.0,
+          "part": 2.15,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.3,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 15912,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 7.53,
+          "StB": 1.298,
+          "StI": 3.25,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 4.75
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-241",
+    "name": "Learning the Clutch",
+    "rank": "LR",
+    "stars": 1,
+    "type": "optional / hunt",
+    "locale": "Arena",
+    "zenny": 300,
+    "monsters": [
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": true,
+        "health": 15400,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.2,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-151",
+    "name": "Butting Heads with Nature",
+    "rank": "LR",
+    "stars": 1,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 720,
+    "monsters": []
+  },
+  {
+    "id": "quest-152",
+    "name": "A Thicket of Thugs",
+    "rank": "LR",
+    "stars": 1,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 720,
+    "monsters": []
+  },
+  {
+    "id": "quest-153",
+    "name": "Fungal Flexin' in the Ancient Forest",
+    "rank": "LR",
+    "stars": 1,
+    "type": "optional / deliver",
+    "locale": "Ancient Forest",
+    "zenny": 720,
+    "monsters": [
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": false,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-251",
+    "name": "The Great Glutton",
+    "rank": "LR",
+    "stars": 2,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 1800,
+    "monsters": [
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": true,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": false,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-252",
+    "name": "Camp Crasher",
+    "rank": "LR",
+    "stars": 2,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 1800,
+    "monsters": [
+      {
+        "id": "kulu-ya-ku",
+        "quantity": 1,
+        "objective": true,
+        "health": 1696,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-261",
+    "name": "Snatch the Snatcher",
+    "rank": "LR",
+    "stars": 2,
+    "type": "optional / capture",
+    "locale": "Wildspire Waste",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "kulu-ya-ku",
+        "quantity": 1,
+        "objective": true,
+        "health": 1696,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-262",
+    "name": "The Pain from Gains",
+    "rank": "LR",
+    "stars": 2,
+    "type": "optional / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 1080,
+    "monsters": []
+  },
+  {
+    "id": "quest-263",
+    "name": "Exterminator of the Waste",
+    "rank": "LR",
+    "stars": 2,
+    "type": "optional / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 1080,
+    "monsters": []
+  },
+  {
+    "id": "quest-351",
+    "name": "Scatternut Shortage",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": true,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-352",
+    "name": "The Current Situation",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 3240,
+    "monsters": [
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 2552,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-361",
+    "name": "Mired in the Spire",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": true,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": false,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-362",
+    "name": "The Piscine Problem",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 3240,
+    "monsters": [
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": true,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-363",
+    "name": "Prickly Predicament",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / deliver",
+    "locale": "Wildspire Waste",
+    "zenny": 1080,
+    "monsters": [
+      {
+        "id": "kulu-ya-ku",
+        "quantity": 1,
+        "objective": false,
+        "health": 1696,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-364",
+    "name": "Gettin' Yolked in the Waste",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / deliver",
+    "locale": "Wildspire Waste",
+    "zenny": 1080,
+    "monsters": [
+      {
+        "id": "kulu-ya-ku",
+        "quantity": 1,
+        "objective": false,
+        "health": 1696,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-365",
+    "name": "Landing the Landslide Wyvern",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / capture",
+    "locale": "Wildspire Waste",
+    "zenny": 3600,
+    "monsters": [
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": true,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": false,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-331",
+    "name": "Special Arena: Pukei-Pukei",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Special Arena",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": true,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-332",
+    "name": "Special Arena: Barroth",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Special Arena",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": true,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-333",
+    "name": "Special Arena: Tobi-Kadachi",
+    "rank": "LR",
+    "stars": 3,
+    "type": "optional / hunt",
+    "locale": "Special Arena",
+    "zenny": 3240,
+    "monsters": [
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 2552,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-451",
+    "name": "One Helluva Sinus Infection",
+    "rank": "LR",
+    "stars": 4,
+    "type": "optional / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 3528,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false,
+        "health": 1408,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 0.7,
+          "defense": 1.0,
+          "part": 0.9,
+          "ailmentBuildup": 0.9,
+          "ailmentThreshold": 0.9,
+          "stun": 0.9,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": false,
+        "health": 2552,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-452",
+    "name": "Gettin' Yolked in the Forest",
+    "rank": "LR",
+    "stars": 4,
+    "type": "optional / deliver",
+    "locale": "Ancient Forest",
+    "zenny": 3600,
+    "monsters": [
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": false,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-461",
+    "name": "Royal Relocation",
+    "rank": "LR",
+    "stars": 4,
+    "type": "optional / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 4320,
+    "monsters": [
+      {
+        "id": "rathian",
+        "quantity": 1,
+        "objective": true,
+        "health": 3540,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.55,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "barroth",
+        "quantity": 1,
+        "objective": false,
+        "health": 2156,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": false,
+        "health": 2464,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 1.0,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      },
+      {
+        "id": "diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 4907,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 2.05,
+          "defense": 1.0,
+          "part": 1.0,
+          "ailmentBuildup": 1.0,
+          "ailmentThreshold": 1.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-471",
+    "name": "It's a Crying Shamos",
+    "rank": "LR",
+    "stars": 4,
+    "type": "optional / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 2520,
+    "monsters": []
+  }
+]

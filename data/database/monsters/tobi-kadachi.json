@@ -1,0 +1,1482 @@
+{
+  "name": "Tobi-Kadachi",
+  "source": "https://mhworld.kiranico.com/en/monsters/blDTZ/tobi-kadachi",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 60,
+      "impact": 60,
+      "shot": 50,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 60,
+      "impact": 60,
+      "shot": 50,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 50,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 45,
+      "impact": 45,
+      "shot": 35,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 45,
+      "impact": 45,
+      "shot": 60,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 35,
+      "impact": 35,
+      "shot": 15,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 80,
+      "impact": 80,
+      "shot": 70,
+      "fire": 20,
+      "water": 30,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 48,
+      "impact": 48,
+      "shot": 45,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Neck",
+      "cut": 48,
+      "impact": 48,
+      "shot": 45,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 50,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Back",
+      "cut": 45,
+      "impact": 45,
+      "shot": 48,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 65,
+      "impact": 65,
+      "shot": 55,
+      "fire": 20,
+      "water": 30,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 200,
+      "break": 400,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Mane",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 200,
+      "break": 200,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 160,
+      "break": 640,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "30→25→20→15→10"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 500,
+      "durationText": "25 seconds",
+      "initial": 100,
+      "increase": 90,
+      "max": 370,
+      "duration": 25,
+      "damageByRank": {
+        "HR": 260,
+        "MR": 520
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 50,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "12→8→4"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→7→4"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Electrode",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Tobi-Kadachi Electrode",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Forelegs",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Electrode",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Electro Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone M",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Electrode",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Electro Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Claw",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Electrode",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Pelt",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Scale",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Electro Sac",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Electrode+",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Tobi-Kadachi Electrode+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Forelegs",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Electrode+",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Thunder Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Electrode+",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Thunder Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Claw+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Electrode+",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Thunder Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Membrane",
+      "quantity": 3,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Pelt+",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Scale+",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Cathode",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Tobi-Kadachi Cathode",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Cathode",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Lightning Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lightning Sac",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Cathode",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lightning Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Cathode",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lightning Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Thickfur",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tobi-Kadachi Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Blinding Cathode",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Blinding Cathode",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Blinding Cathode",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Cathode",
+      "quantity": 1,
+      "chance": 56
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 17
+    }
+  ],
+  "questIds": [
+    "quest-305",
+    "quest-502",
+    "quest-352",
+    "quest-333",
+    "quest-451",
+    "quest-551",
+    "quest-653",
+    "quest-654",
+    "quest-655",
+    "quest-656",
+    "quest-633",
+    "quest-751",
+    "quest-50751",
+    "quest-50701",
+    "quest-61103",
+    "quest-66601",
+    "quest-63002",
+    "quest-1133",
+    "quest-1152",
+    "quest-1153",
+    "quest-1154",
+    "quest-1155",
+    "quest-1251",
+    "quest-1451",
+    "quest-66805",
+    "quest-66813",
+    "quest-63071",
+    "quest-67827",
+    "quest-67828",
+    "quest-67831"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 17400,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x4.20",
+        "x1.40",
+        "x1.80",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 29725,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x8.02",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 44370,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 44370,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (5%)",
+      "health": 2552,
+      "modifiers": [
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (10%)",
+      "health": 5510,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 16820,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

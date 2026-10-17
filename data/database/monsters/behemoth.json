@@ -1,0 +1,467 @@
+{
+  "name": "Behemoth",
+  "source": "https://mhworld.kiranico.com/en/monsters/yA8Ub/behemoth",
+  "hitzones": [
+    {
+      "part": "Horns",
+      "cut": 20,
+      "impact": 30,
+      "shot": 5,
+      "fire": 15,
+      "water": 50,
+      "thunder": 35,
+      "ice": 40,
+      "dragon": 85,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Horns (Wounded)",
+      "cut": 10,
+      "impact": 15,
+      "shot": 5,
+      "fire": 5,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 60,
+      "impact": 55,
+      "shot": 50,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 15,
+      "impact": 22,
+      "shot": 8,
+      "fire": 0,
+      "water": 5,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 22,
+      "impact": 15,
+      "shot": 5,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Arms",
+      "cut": 50,
+      "impact": 40,
+      "shot": 15,
+      "fire": 5,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Arms (Wounded)",
+      "cut": 50,
+      "impact": 40,
+      "shot": 45,
+      "fire": 5,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 30,
+      "impact": 55,
+      "shot": 10,
+      "fire": 0,
+      "water": 10,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 25,
+      "shot": 15,
+      "fire": 25,
+      "water": 5,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 50,
+      "impact": 25,
+      "shot": 35,
+      "fire": 25,
+      "water": 20,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Horn",
+      "flinch": 500,
+      "break": 750,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Horn (Broken)",
+      "flinch": 500,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head",
+      "flinch": 2500,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forearms",
+      "flinch": 2250,
+      "break": 6750,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Back",
+      "flinch": 2250,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Belly",
+      "flinch": 4500,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 1650,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 1200,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": null,
+      "break": null,
+      "sever": 2000,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 100,
+      "increase": 150,
+      "max": 1000
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 350,
+      "max": 5350,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 100,
+      "max": 3000,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→5"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 180,
+      "increase": 430,
+      "max": 2330,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 600,
+      "durationText": "30 seconds",
+      "initial": 150,
+      "increase": 200,
+      "max": 2150,
+      "duration": 30,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": 150,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 430,
+      "max": 2330,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Behemoth Mane",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Behemoth Mane",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Behemoth Bone",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Behemoth Shearclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Behemoth Tail",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Behemoth Great Horn",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horn",
+      "item": "Behemoth Great Horn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Forelegs",
+      "item": "Behemoth Shearclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Behemoth Mane",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Behemoth Bone",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Behemoth Tail",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Behemoth Bone",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Aetheryte Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Behemoth Mane",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Behemoth Shearclaw",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Behemoth Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Behemoth Great Horn",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-50991",
+    "quest-50905",
+    "quest-50906",
+    "quest-67606"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

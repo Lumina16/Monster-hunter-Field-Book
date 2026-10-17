@@ -1,0 +1,1197 @@
+{
+  "name": "Tzitzi-Ya-Ku",
+  "source": "https://mhworld.kiranico.com/en/monsters/WQvu8/tzitzi-ya-ku",
+  "hitzones": [
+    {
+      "part": "Antennae",
+      "cut": 75,
+      "impact": 65,
+      "shot": 70,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 65,
+      "impact": 55,
+      "shot": 55,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms",
+      "cut": 45,
+      "impact": 60,
+      "shot": 35,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 45,
+      "impact": 60,
+      "shot": 35,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 40,
+      "shot": 35,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Antennae",
+      "cut": 68,
+      "impact": 59,
+      "shot": 63,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 59,
+      "impact": 50,
+      "shot": 50,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Antennae",
+      "flinch": 280,
+      "break": 560,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head",
+      "flinch": 160,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forearms",
+      "flinch": 100,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body/Legs",
+      "flinch": 220,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 100,
+      "break": null,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 120,
+      "increase": 100,
+      "max": 620,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 100,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Hide",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Photophore",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Tzitzi-Ya-Ku Photophore",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Hide",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Hide",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone L",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Photophore",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Photophore",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Hide",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Claw",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Photophore",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Hide",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Scale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Hide+",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Photophore+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Tzitzi-Ya-Ku Photophore+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Hide+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Hide+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone+",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Photophore+",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Photophore+",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Hide+",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Claw+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Photophore+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Hide+",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Scale+",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Thickhide",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Photomembrane",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Tzitzi-Ya-Ku Photomembrane",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Thickhide",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Thickhide",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Tzitzi-Ya-Ku Photomembrane",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Photomembrane",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Thickhide",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Hardclaw",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Photomembrane",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Thickhide",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Dash Extract",
+      "quantity": 5,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Tzitzi-Ya-Ku Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Dazzling Photophore+",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Dazzling Photophore+",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Dazzling Photophore+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Dazzling Photophore+",
+      "quantity": 1,
+      "chance": 100
+    }
+  ],
+  "questIds": [
+    "quest-405",
+    "quest-408",
+    "quest-607",
+    "quest-472",
+    "quest-473",
+    "quest-474",
+    "quest-475",
+    "quest-5003",
+    "quest-571",
+    "quest-671",
+    "quest-672",
+    "quest-771",
+    "quest-772",
+    "quest-773",
+    "quest-774",
+    "quest-66102",
+    "quest-65602",
+    "quest-66603",
+    "quest-63007",
+    "quest-3031",
+    "quest-63031",
+    "quest-1203",
+    "quest-1606",
+    "quest-1171",
+    "quest-1271",
+    "quest-1272",
+    "quest-1273",
+    "quest-1274",
+    "quest-1371",
+    "quest-1373",
+    "quest-61803",
+    "quest-66806",
+    "quest-66810",
+    "quest-67102",
+    "quest-67823"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 15900,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x4.20",
+        "x1.40",
+        "x1.80",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 27163,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x8.02",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 40545,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 40545,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Coral Highlands (35%)",
+      "health": 3127,
+      "modifiers": [
+        "x1.55",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Coral Highlands (25%)",
+      "health": 4638,
+      "modifiers": [
+        "x2.75",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Coral Highlands (5%)",
+      "health": 15370,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

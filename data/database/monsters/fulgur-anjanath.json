@@ -1,0 +1,925 @@
+{
+  "name": "Fulgur Anjanath",
+  "source": "https://mhworld.kiranico.com/en/monsters/zJaFg/fulgur-anjanath",
+  "hitzones": [
+    {
+      "part": "Nose",
+      "cut": 65,
+      "impact": 60,
+      "shot": 55,
+      "fire": 15,
+      "water": 20,
+      "thunder": 0,
+      "ice": 30,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 60,
+      "impact": 60,
+      "shot": 45,
+      "fire": 10,
+      "water": 15,
+      "thunder": 0,
+      "ice": 25,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 65,
+      "impact": 45,
+      "shot": 55,
+      "fire": 15,
+      "water": 20,
+      "thunder": 0,
+      "ice": 30,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Torso",
+      "cut": 30,
+      "impact": 30,
+      "shot": 45,
+      "fire": 5,
+      "water": 10,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Leg",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 10,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 60,
+      "impact": 60,
+      "shot": 75,
+      "fire": 10,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Leg (Broken)",
+      "cut": 45,
+      "impact": 45,
+      "shot": 50,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Broken)",
+      "cut": 60,
+      "impact": 60,
+      "shot": 75,
+      "fire": 10,
+      "water": 15,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 10,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Nose (Charged)",
+      "cut": 65,
+      "impact": 60,
+      "shot": 55,
+      "fire": 15,
+      "water": 35,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Charged)",
+      "cut": 55,
+      "impact": 55,
+      "shot": 45,
+      "fire": 10,
+      "water": 25,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck (Charged)",
+      "cut": 23,
+      "impact": 23,
+      "shot": 10,
+      "fire": 5,
+      "water": 20,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Charged)",
+      "cut": 55,
+      "impact": 40,
+      "shot": 50,
+      "fire": 15,
+      "water": 35,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Torso (Charged)",
+      "cut": 23,
+      "impact": 23,
+      "shot": 40,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Leg (Charged)",
+      "cut": 35,
+      "impact": 35,
+      "shot": 15,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Charged)",
+      "cut": 55,
+      "impact": 55,
+      "shot": 70,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 150,
+      "break": 750,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 80,
+      "break": 240,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 100,
+      "break": null,
+      "sever": 350,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fulgur Anjanath Thickfur",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Heavy Fulgur Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 62
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Heavy Fulgur Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Hindlegs",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Lightning Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Fulgur Anjanath Lash",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fulgur Anjanath Thickfur",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Fulgur Anjanath Thickfur",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lightning Sac",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Heavy Fulgur Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Fulgur Anjanath Lash",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fulgur Anjanath Lash",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Heavy Fulgur Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fulgur Anjanath Thickfur",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 2,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fulgur Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Heavy Fulgur Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fulgur Anjanath Lash",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fulgur Anjanath Mantle",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fulgur Anjanath Thickfur",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fulgur Anjanath Shard",
+      "quantity": 3,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Crackling Thunderpelt",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Crackling Thunderpelt",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Crackling Thunderpelt",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Thunderpelt",
+      "quantity": 1,
+      "chance": 61
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem",
+      "quantity": 1,
+      "chance": 9
+    }
+  ],
+  "questIds": [
+    "quest-1201",
+    "quest-1301",
+    "quest-1405",
+    "quest-1123",
+    "quest-1221",
+    "quest-1222",
+    "quest-1225",
+    "quest-1272",
+    "quest-1321",
+    "quest-1323",
+    "quest-1354",
+    "quest-1361",
+    "quest-1372",
+    "quest-1383",
+    "quest-1393",
+    "quest-1395",
+    "quest-1422",
+    "quest-1435",
+    "quest-1451",
+    "quest-1461",
+    "quest-1462",
+    "quest-1482",
+    "quest-1491",
+    "quest-1492",
+    "quest-61801",
+    "quest-61805",
+    "quest-61811",
+    "quest-66812",
+    "quest-66813",
+    "quest-66818",
+    "quest-66819",
+    "quest-66829",
+    "quest-66835",
+    "quest-63072",
+    "quest-67823",
+    "quest-67836"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 18538,
+      "modifiers": [
+        "x11.50",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x2.10",
+        "x1.30",
+        "x1.80",
+        "x1.30"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 31664,
+      "modifiers": [
+        "x11.50",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 47272,
+      "modifiers": [
+        "x11.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 47272,
+      "modifiers": [
+        "x11.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.25",
+        "x4.55",
+        "x6.30",
+        "x3.25"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Coral Highlands (10%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Rotten Vale (5%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Elder's Recess (5%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Hoarfrost Reach (5%)",
+      "health": 19136,
+      "modifiers": [
+        "x9.60",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.25",
+        "x1.50",
+        "x1.30"
+      ]
+    }
+  ]
+}

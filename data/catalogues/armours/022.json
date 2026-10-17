@@ -1,0 +1,3803 @@
+[
+  {
+    "id": "armour-1101",
+    "sourceId": 1101,
+    "name": "Rath Soul Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha-plus",
+    "setName": "Rath Soul α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-847",
+          "name": "Azure Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1102",
+    "sourceId": 1102,
+    "name": "Rath Soul Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta-plus",
+    "setName": "Rath Soul β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1103",
+    "sourceId": 1103,
+    "name": "Rath Soul Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta-plus",
+    "setName": "Rath Soul β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-847",
+          "name": "Azure Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1104",
+    "sourceId": 1104,
+    "name": "Rath Soul Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta-plus",
+    "setName": "Rath Soul β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 1
+        },
+        {
+          "id": "item-707",
+          "name": "Barnos Hardclaw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1105",
+    "sourceId": 1105,
+    "name": "Rath Soul Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-soul-beta-plus",
+    "setName": "Rath Soul β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1106",
+    "sourceId": 1106,
+    "name": "Rath Soul Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta-plus",
+    "setName": "Rath Soul β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-847",
+          "name": "Azure Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1107",
+    "sourceId": 1107,
+    "name": "Diablos Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha-plus",
+    "setName": "Diablos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1108",
+    "sourceId": 1108,
+    "name": "Diablos Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-alpha-plus",
+    "setName": "Diablos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1109",
+    "sourceId": 1109,
+    "name": "Diablos Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 3
+      },
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha-plus",
+    "setName": "Diablos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1110",
+    "sourceId": 1110,
+    "name": "Diablos Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-alpha-plus",
+    "setName": "Diablos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1111",
+    "sourceId": 1111,
+    "name": "Diablos Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-alpha-plus",
+    "setName": "Diablos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1112",
+    "sourceId": 1112,
+    "name": "Diablos Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta-plus",
+    "setName": "Diablos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1113",
+    "sourceId": 1113,
+    "name": "Diablos Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-beta-plus",
+    "setName": "Diablos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1114",
+    "sourceId": 1114,
+    "name": "Diablos Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 2
+      },
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-beta-plus",
+    "setName": "Diablos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1115",
+    "sourceId": 1115,
+    "name": "Diablos Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-beta-plus",
+    "setName": "Diablos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1116",
+    "sourceId": 1116,
+    "name": "Diablos Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-beta-plus",
+    "setName": "Diablos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-854",
+          "name": "Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1117",
+    "sourceId": 1117,
+    "name": "Diablos Nero Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      },
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha-plus",
+    "setName": "Diablos Nero α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1118",
+    "sourceId": 1118,
+    "name": "Diablos Nero Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha-plus",
+    "setName": "Diablos Nero α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1119",
+    "sourceId": 1119,
+    "name": "Diablos Nero Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha-plus",
+    "setName": "Diablos Nero α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1120",
+    "sourceId": 1120,
+    "name": "Diablos Nero Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha-plus",
+    "setName": "Diablos Nero α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-857",
+          "name": "Diablos Hardhorn",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1121",
+    "sourceId": 1121,
+    "name": "Diablos Nero Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-alpha-plus",
+    "setName": "Diablos Nero α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1122",
+    "sourceId": 1122,
+    "name": "Diablos Nero Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta-plus",
+    "setName": "Diablos Nero β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1123",
+    "sourceId": 1123,
+    "name": "Diablos Nero Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta-plus",
+    "setName": "Diablos Nero β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1124",
+    "sourceId": 1124,
+    "name": "Diablos Nero Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta-plus",
+    "setName": "Diablos Nero β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1125",
+    "sourceId": 1125,
+    "name": "Diablos Nero Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta-plus",
+    "setName": "Diablos Nero β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-860",
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-857",
+          "name": "Diablos Hardhorn",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1126",
+    "sourceId": 1126,
+    "name": "Diablos Nero Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-diablos-nero-beta-plus",
+    "setName": "Diablos Nero β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Diablos Ambition",
+      "skills": [
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": -3,
+        "thunder": 0,
+        "ice": -4,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-859",
+          "name": "Black Diablos Chine",
+          "quantity": 3
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1127",
+    "sourceId": 1127,
+    "name": "Legiana Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-alpha-plus",
+    "setName": "Legiana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1128",
+    "sourceId": 1128,
+    "name": "Legiana Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-alpha-plus",
+    "setName": "Legiana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-822",
+          "name": "Legiana Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1129",
+    "sourceId": 1129,
+    "name": "Legiana Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-airborne",
+        "name": "Airborne",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-alpha-plus",
+    "setName": "Legiana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-822",
+          "name": "Legiana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1130",
+    "sourceId": 1130,
+    "name": "Legiana Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-alpha-plus",
+    "setName": "Legiana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-824",
+          "name": "Legiana Tail Webbing+",
+          "quantity": 2
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1131",
+    "sourceId": 1131,
+    "name": "Legiana Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha-plus",
+    "setName": "Legiana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-824",
+          "name": "Legiana Tail Webbing+",
+          "quantity": 1
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1132",
+    "sourceId": 1132,
+    "name": "Legiana Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta-plus",
+    "setName": "Legiana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1133",
+    "sourceId": 1133,
+    "name": "Legiana Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-beta-plus",
+    "setName": "Legiana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-822",
+          "name": "Legiana Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1134",
+    "sourceId": 1134,
+    "name": "Legiana Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-airborne",
+        "name": "Airborne",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-beta-plus",
+    "setName": "Legiana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-822",
+          "name": "Legiana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1135",
+    "sourceId": 1135,
+    "name": "Legiana Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-beta-plus",
+    "setName": "Legiana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-824",
+          "name": "Legiana Tail Webbing+",
+          "quantity": 2
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1136",
+    "sourceId": 1136,
+    "name": "Legiana Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta-plus",
+    "setName": "Legiana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-821",
+          "name": "Legiana Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-824",
+          "name": "Legiana Tail Webbing+",
+          "quantity": 1
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1137",
+    "sourceId": 1137,
+    "name": "Hoarcry Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shrieking-legia-alpha-plus",
+    "setName": "Shrieking Legia α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-827",
+          "name": "Obsidian Icetalon",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1138",
+    "sourceId": 1138,
+    "name": "Hoarcry Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shrieking-legia-alpha-plus",
+    "setName": "Shrieking Legia α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-825",
+          "name": "Legiana Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1139",
+    "sourceId": 1139,
+    "name": "Hoarcry Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shrieking-legia-alpha-plus",
+    "setName": "Shrieking Legia α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1140",
+    "sourceId": 1140,
+    "name": "Hoarcry Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shrieking-legia-alpha-plus",
+    "setName": "Shrieking Legia α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1141",
+    "sourceId": 1141,
+    "name": "Hoarcry Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shrieking-legia-alpha-plus",
+    "setName": "Shrieking Legia α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-827",
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1142",
+    "sourceId": 1142,
+    "name": "Hoarcry Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shrieking-legia-beta-plus",
+    "setName": "Shrieking Legia β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-827",
+          "name": "Obsidian Icetalon",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1143",
+    "sourceId": 1143,
+    "name": "Hoarcry Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shrieking-legia-beta-plus",
+    "setName": "Shrieking Legia β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-825",
+          "name": "Legiana Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1144",
+    "sourceId": 1144,
+    "name": "Hoarcry Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shrieking-legia-beta-plus",
+    "setName": "Shrieking Legia β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1145",
+    "sourceId": 1145,
+    "name": "Hoarcry Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shrieking-legia-beta-plus",
+    "setName": "Shrieking Legia β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-828",
+          "name": "Stark Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1146",
+    "sourceId": 1146,
+    "name": "Hoarcry Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shrieking-legia-beta-plus",
+    "setName": "Shrieking Legia β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Legiana Ambition",
+      "skills": [
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 146,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-820",
+          "name": "Legiana Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-827",
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1147",
+    "sourceId": 1147,
+    "name": "Odogaron Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-alpha-plus",
+    "setName": "Odogaron α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1148",
+    "sourceId": 1148,
+    "name": "Odogaron Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      },
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha-plus",
+    "setName": "Odogaron α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-832",
+          "name": "Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1149",
+    "sourceId": 1149,
+    "name": "Odogaron Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha-plus",
+    "setName": "Odogaron α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-830",
+          "name": "Odogaron Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1150",
+    "sourceId": 1150,
+    "name": "Odogaron Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha-plus",
+    "setName": "Odogaron α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

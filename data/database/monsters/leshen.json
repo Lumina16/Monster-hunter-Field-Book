@@ -1,0 +1,241 @@
+{
+  "name": "Leshen",
+  "source": "https://mhworld.kiranico.com/en/monsters/GmYh0/leshen",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 65,
+      "impact": 65,
+      "shot": 60,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 45,
+      "impact": 45,
+      "shot": 45,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Arms",
+      "cut": 45,
+      "impact": 45,
+      "shot": 50,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Legs",
+      "cut": 45,
+      "impact": 45,
+      "shot": 50,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Crow",
+      "cut": 0,
+      "impact": 0,
+      "shot": 0,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 0
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 600,
+      "break": 600,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Body",
+      "flinch": 500,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Arms",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 500,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 65,
+      "increase": 110,
+      "max": 725
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 250,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→5"
+    },
+    {
+      "name": "Sleep",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 500,
+      "durationText": "25 seconds",
+      "initial": 100,
+      "increase": 90,
+      "max": 370,
+      "duration": 25,
+      "damageByRank": {
+        "HR": 260,
+        "MR": 260
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Leshen Skull",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Leshen Antlers",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Body",
+      "item": "Leshen Resin",
+      "quantity": 1,
+      "chance": 100
+    }
+  ],
+  "questIds": [
+    "quest-50910"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

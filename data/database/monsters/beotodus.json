@@ -1,0 +1,598 @@
+{
+  "name": "Beotodus",
+  "source": "https://mhworld.kiranico.com/en/monsters/OqOIX/beotodus",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 46,
+      "impact": 50,
+      "shot": 45,
+      "fire": 25,
+      "water": 10,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Snow)",
+      "cut": 30,
+      "impact": 34,
+      "shot": 25,
+      "fire": 25,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 50
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 35,
+      "shot": 35,
+      "fire": 20,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body (Snow)",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 20,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 50
+    },
+    {
+      "part": "Legs",
+      "cut": 70,
+      "impact": 65,
+      "shot": 50,
+      "fire": 30,
+      "water": 10,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 35,
+      "shot": 35,
+      "fire": 20,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Snow)",
+      "cut": 34,
+      "impact": 30,
+      "shot": 25,
+      "fire": 20,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 50
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 140,
+      "break": 420,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head (Snow)",
+      "flinch": 80,
+      "break": 80,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body/Back",
+      "flinch": 180,
+      "break": 180,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body/Back (Snow)",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 320,
+      "break": 640,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 160,
+      "break": 160,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Snow)",
+      "flinch": 80,
+      "break": 80,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 40,
+      "increase": 20,
+      "max": 440,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 300,
+      "durationText": null,
+      "initial": 150,
+      "increase": 45,
+      "max": 585
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "12→8→4"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→7→4"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Beotodus Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Beotodus Shard",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Beotodus Cortex",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Fin",
+      "item": "Beotodus Cortex",
+      "quantity": 2,
+      "chance": 75
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Fin",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Legs",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Beotodus Shard",
+      "quantity": 2,
+      "chance": 75
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Cryo Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Beotodus Shard",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Beotodus Cortex",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Beotodus Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Beotodus Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Cryo Sac",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Beotodus Cortex",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Cryo Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Beotodus Shard",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Beotodus Hardhorn",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Beotodus Grandfin",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Beotodus Cortex",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Cryo Sac",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Beotodus Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    }
+  ],
+  "questIds": [
+    "quest-1101",
+    "quest-1102",
+    "quest-1201",
+    "quest-1121",
+    "quest-1122",
+    "quest-1123",
+    "quest-1124",
+    "quest-1125",
+    "quest-1221",
+    "quest-1222",
+    "quest-1223",
+    "quest-1224",
+    "quest-1225",
+    "quest-61801",
+    "quest-66801",
+    "quest-66831",
+    "quest-67838"
+  ],
+  "guidingLands": [],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Hoarfrost Reach (20%)",
+      "health": 12296,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

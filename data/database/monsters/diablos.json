@@ -1,0 +1,1554 @@
+{
+  "name": "Diablos",
+  "source": "https://mhworld.kiranico.com/en/monsters/BYXHE/diablos",
+  "hitzones": [
+    {
+      "part": "Horns",
+      "cut": 21,
+      "impact": 42,
+      "shot": 20,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 45,
+      "impact": 63,
+      "shot": 40,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 30,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 40,
+      "impact": 40,
+      "shot": 25,
+      "fire": 0,
+      "water": 15,
+      "thunder": 5,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Stomach",
+      "cut": 73,
+      "impact": 78,
+      "shot": 40,
+      "fire": 0,
+      "water": 30,
+      "thunder": 10,
+      "ice": 35,
+      "dragon": 30,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 24,
+      "impact": 42,
+      "shot": 35,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 40,
+      "impact": 30,
+      "shot": 60,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 30,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 35,
+      "impact": 35,
+      "shot": 35,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 50,
+      "impact": 24,
+      "shot": 45,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 23,
+      "impact": 33,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Horns",
+      "cut": 19,
+      "impact": 38,
+      "shot": 18,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail Tip",
+      "cut": 20,
+      "impact": 26,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 45,
+      "impact": 57,
+      "shot": 35,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 30,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Stomach",
+      "cut": 65,
+      "impact": 70,
+      "shot": 35,
+      "fire": 0,
+      "water": 30,
+      "thunder": 10,
+      "ice": 35,
+      "dragon": 30,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Horn",
+      "flinch": 200,
+      "break": 200,
+      "notes": "x2 Break",
+      "secondBreak": null
+    },
+    {
+      "part": "Head",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Back",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": "*Body"
+    },
+    {
+      "part": "Wings",
+      "flinch": 150,
+      "break": 150,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 300,
+      "break": null,
+      "sever": 500,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 65,
+      "increase": 110,
+      "max": 725
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 250,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 100,
+      "increase": 50,
+      "max": 300,
+      "duration": 7
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Break Horns",
+      "item": "Twisted Horn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Ridge",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Shell",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone+",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Ridge",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Shell",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Twisted Horn",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Marrow",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Twisted Horn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Ridge",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Shell",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Majestic Horn",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Twisted Horn",
+      "quantity": 2,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Diablos Tailcase",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Diablos Fang",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Ridge+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Carapace",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Fang",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Hardbone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Ridge+",
+      "quantity": 2,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Carapace",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Majestic Horn",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Dash Extract",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Fang",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Majestic Horn",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Ridge+",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Carapace",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Fang",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Sullied Streamstone",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Shining Streamstone",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Blos Medulla",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Diablos Tailcase+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Horns",
+      "item": "Twisted Stouthorn",
+      "quantity": 1,
+      "chance": 89
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Horns",
+      "item": "Diablos Hardhorn",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Blos Medulla",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Diablos Tailcase+",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Diablos Tailcase+",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Chine",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Diablos Cortex",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Dash Extract",
+      "quantity": 3,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Twisted Stouthorn",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Blos Medulla",
+      "quantity": 2,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Chine",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Cortex",
+      "quantity": 2,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Tailcase+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Twisted Stouthorn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Diablos Hardhorn",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Tailcase+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Twisted Stouthorn",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Chine",
+      "quantity": 3,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Cortex",
+      "quantity": 3,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Diablos Hardhorn",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Twisted Bravehorn",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Twisted Bravehorn",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Twisted Bravehorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Twisted Temperhorn",
+      "quantity": 1,
+      "chance": 61
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem",
+      "quantity": 1,
+      "chance": 9
+    }
+  ],
+  "questIds": [
+    "quest-301",
+    "quest-503",
+    "quest-605",
+    "quest-361",
+    "quest-363",
+    "quest-365",
+    "quest-461",
+    "quest-561",
+    "quest-534",
+    "quest-661",
+    "quest-662",
+    "quest-663",
+    "quest-666",
+    "quest-667",
+    "quest-761",
+    "quest-762",
+    "quest-763",
+    "quest-764",
+    "quest-737",
+    "quest-992",
+    "quest-61603",
+    "quest-64101",
+    "quest-66602",
+    "quest-66606",
+    "quest-3052",
+    "quest-1202",
+    "quest-1303",
+    "quest-1161",
+    "quest-1162",
+    "quest-1164",
+    "quest-1261",
+    "quest-1263",
+    "quest-1264",
+    "quest-1335",
+    "quest-1361",
+    "quest-1362",
+    "quest-1363",
+    "quest-1461",
+    "quest-66804",
+    "quest-66809",
+    "quest-66812"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 20150,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x2.00",
+        "x1.20",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 34418,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 51383,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 51383,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Wildspire Waste (15%)",
+      "health": 4908,
+      "modifiers": [
+        "x2.05",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (15%)",
+      "health": 6565,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 20800,
+      "modifiers": [
+        "x8.90",
+        "x1.00",
+        "x4.60",
+        "x1.35",
+        "x2.10",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

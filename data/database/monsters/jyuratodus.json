@@ -1,0 +1,1370 @@
+{
+  "name": "Jyuratodus",
+  "source": "https://mhworld.kiranico.com/en/monsters/oAyTx/jyuratodus",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 63,
+      "impact": 63,
+      "shot": 63,
+      "fire": 5,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 43,
+      "impact": 43,
+      "shot": 43,
+      "fire": 5,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 35,
+      "shot": 35,
+      "fire": 10,
+      "water": 0,
+      "thunder": 25,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 5,
+      "water": 0,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Fin",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 10,
+      "water": 0,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 15,
+      "water": 0,
+      "thunder": 30,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 55,
+      "impact": 50,
+      "shot": 45,
+      "fire": 5,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Mud)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 40,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body (Mud)",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs (Mud)",
+      "cut": 35,
+      "impact": 35,
+      "shot": 30,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Mud)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 40,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head (Mud)",
+      "cut": 23,
+      "impact": 23,
+      "shot": 23,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Body (Mud)",
+      "cut": 21,
+      "impact": 21,
+      "shot": 21,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Legs (Mud)",
+      "cut": 21,
+      "impact": 21,
+      "shot": 21,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail (Mud)",
+      "cut": 23,
+      "impact": 23,
+      "shot": 23,
+      "fire": 0,
+      "water": 25,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 58,
+      "impact": 58,
+      "shot": 58,
+      "fire": 5,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Back",
+      "cut": 24,
+      "impact": 24,
+      "shot": 24,
+      "fire": 5,
+      "water": 0,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 100,
+      "break": 400,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head  (Mud)",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head (Mud)",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body  (Mud)",
+      "flinch": 100,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body (Mud)",
+      "flinch": 100,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 240,
+      "break": 480,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs  (Mud)",
+      "flinch": 100,
+      "break": 200,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs (Mud)",
+      "flinch": 100,
+      "break": 200,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 100,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail  (Mud)",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Mud)",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 30,
+      "increase": 50,
+      "max": 330
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 100,
+      "increase": 75,
+      "max": 550,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 100,
+      "durationText": null,
+      "initial": 150,
+      "increase": 45,
+      "max": 585
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Shell",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Shell",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Aqua Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone M",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Shell",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Aqua Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Scale",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Fang",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Fin",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Shell",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Aqua Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Scale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Carapace",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Carapace",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Carapace",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Scale+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Torrent Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Carapace",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Torrent Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Scale+",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Fang+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Fin+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Carapace",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Torrent Sac",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Scale+",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Jyuratodus Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Shard",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Cortex",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Flood Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Shard",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Cortex",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Flood Sac",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Cortex",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Flood Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Jyuratodus Shard",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Hardfang",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Grandfin",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Cortex",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Flood Sac",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Jyuratodus Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Monster Bone S",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Monster Bone S",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Monster Bone S",
+      "quantity": 1,
+      "chance": 56
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 17
+    }
+  ],
+  "questIds": [
+    "quest-302",
+    "quest-361",
+    "quest-362",
+    "quest-365",
+    "quest-461",
+    "quest-662",
+    "quest-665",
+    "quest-66602",
+    "quest-1162",
+    "quest-1163",
+    "quest-1261",
+    "quest-66827",
+    "quest-67822"
+  ],
+  "guidingLands": [],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Wildspire Waste (25%)",
+      "health": 2464,
+      "modifiers": [
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (15%)",
+      "health": 5320,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 16240,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

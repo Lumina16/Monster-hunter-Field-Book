@@ -1,0 +1,723 @@
+{
+  "name": "Bazelgeuse",
+  "source": "https://mhworld.kiranico.com/en/monsters/Xe7fm/bazelgeuse",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 80,
+      "impact": 85,
+      "shot": 60,
+      "fire": 0,
+      "water": 15,
+      "thunder": 25,
+      "ice": 20,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 45,
+      "impact": 45,
+      "shot": 35,
+      "fire": 0,
+      "water": 5,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 5,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 36,
+      "impact": 34,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 25,
+      "impact": 25,
+      "shot": 65,
+      "fire": 0,
+      "water": 5,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 75,
+      "impact": 70,
+      "shot": 55,
+      "fire": 0,
+      "water": 10,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 320,
+      "break": 320,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 240,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings",
+      "flinch": 180,
+      "break": 180,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 280,
+      "break": null,
+      "sever": 500,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 250,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Wing",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 2,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Bazelgeuse Wing",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Bazelgeuse Tail",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Hardbone",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Wing",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bazelgeuse Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Wing",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Tail",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Talon",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Fuse",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Wing",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Gem",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Carapace",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Tail",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bazelgeuse Scale+",
+      "quantity": 3,
+      "chance": 10
+    }
+  ],
+  "questIds": [
+    "quest-601",
+    "quest-605",
+    "quest-805",
+    "quest-651",
+    "quest-652",
+    "quest-653",
+    "quest-654",
+    "quest-655",
+    "quest-656",
+    "quest-661",
+    "quest-662",
+    "quest-663",
+    "quest-665",
+    "quest-666",
+    "quest-667",
+    "quest-681",
+    "quest-682",
+    "quest-683",
+    "quest-684",
+    "quest-691",
+    "quest-692",
+    "quest-693",
+    "quest-694",
+    "quest-751",
+    "quest-752",
+    "quest-753",
+    "quest-761",
+    "quest-762",
+    "quest-763",
+    "quest-764",
+    "quest-772",
+    "quest-773",
+    "quest-781",
+    "quest-791",
+    "quest-792",
+    "quest-793",
+    "quest-794",
+    "quest-795",
+    "quest-50751",
+    "quest-961",
+    "quest-66604",
+    "quest-66606",
+    "quest-62515",
+    "quest-66609",
+    "quest-63130",
+    "quest-63051"
+  ],
+  "guidingLands": [],
+  "expeditions": [
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (5%)",
+      "health": 9191,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 9191,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Coral Highlands (5%)",
+      "health": 9191,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Rotten Vale (5%)",
+      "health": 9191,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Elder's Recess (10%)",
+      "health": 9191,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

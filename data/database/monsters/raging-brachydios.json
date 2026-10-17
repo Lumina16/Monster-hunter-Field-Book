@@ -1,0 +1,525 @@
+{
+  "name": "Raging Brachydios",
+  "source": "https://mhworld.kiranico.com/en/monsters/JoYHZ/raging-brachydios",
+  "hitzones": [
+    {
+      "part": "Horn",
+      "cut": 60,
+      "impact": 65,
+      "shot": 45,
+      "fire": 0,
+      "water": 10,
+      "thunder": 10,
+      "ice": 25,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 60,
+      "impact": 65,
+      "shot": 50,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 32,
+      "impact": 32,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 32,
+      "impact": 32,
+      "shot": 30,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 15,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Arms",
+      "cut": 55,
+      "impact": 50,
+      "shot": 45,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 25,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 32,
+      "impact": 32,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 50,
+      "impact": 45,
+      "shot": 55,
+      "fire": 0,
+      "water": 10,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 18,
+      "impact": 30,
+      "shot": 10,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 25,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Horn (Flashpoint Slime)",
+      "cut": 75,
+      "impact": 75,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Forearms (Flashpoint Slime)",
+      "cut": 75,
+      "impact": 75,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip (Flashpoint Slime)",
+      "cut": 75,
+      "impact": 75,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 0,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Horn",
+      "flinch": 250,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forearms",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hind Legs",
+      "flinch": 100,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": null,
+      "break": null,
+      "sever": 600,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "5 seconds",
+      "initial": 200,
+      "increase": 200,
+      "max": 1200,
+      "duration": 5
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": 150,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "7→5→3→1"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "5→3→1"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Brach Warhead",
+      "quantity": 1,
+      "chance": 92
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Immortal Reactor",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Left Foreleg",
+      "item": "Brach Obliterator",
+      "quantity": 1,
+      "chance": 73
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Left Foreleg",
+      "item": "Flashpoint Slime",
+      "quantity": 2,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Right Foreleg",
+      "item": "Brach Obliterator",
+      "quantity": 1,
+      "chance": 73
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Right Foreleg",
+      "item": "Flashpoint Slime",
+      "quantity": 2,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Flashpoint Slime",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Brachydios Lash",
+      "quantity": 1,
+      "chance": 53
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Indestructible Ebonshell",
+      "quantity": 1,
+      "chance": 38
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Immortal Reactor",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Indestructible Ebonshell",
+      "quantity": 1,
+      "chance": 78
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Indestructible Ebonshell",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Flashpoint Slime",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Brach Obliterator",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Immortal Reactor",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Indestructible Ebonshell",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Flashpoint Slime",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Brachydios Lash",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Brach Obliterator",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Brachydios Pallium",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Immortal Reactor",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 100
+    }
+  ],
+  "questIds": [
+    "quest-51606",
+    "quest-67841"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "craft-1",
+    "name": "Potion",
+    "result": {
+      "name": "Potion",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Herb",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-2",
+    "name": "Mega Potion",
+    "result": {
+      "name": "Mega Potion",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Potion",
+        "quantity": 1
+      },
+      {
+        "name": "Honey",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-3",
+    "name": "First-aid Med+",
+    "result": {
+      "name": "First-aid Med+",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "First-aid Med",
+        "quantity": 1
+      },
+      {
+        "name": "Honey",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-4",
+    "name": "Antidote",
+    "result": {
+      "name": "Antidote",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Antidote Herb",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-5",
+    "name": "Herbal Medicine",
+    "result": {
+      "name": "Herbal Medicine",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Antidote",
+        "quantity": 1
+      },
+      {
+        "name": "Blue Mushroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-6",
+    "name": "Nutrients",
+    "result": {
+      "name": "Nutrients",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Bitterbug",
+        "quantity": 1
+      },
+      {
+        "name": "Blue Mushroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-7",
+    "name": "Mega Nutrients",
+    "result": {
+      "name": "Mega Nutrients",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nutrients",
+        "quantity": 1
+      },
+      {
+        "name": "Honey",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-8",
+    "name": "Max Potion",
+    "result": {
+      "name": "Max Potion",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Mega Nutrients",
+        "quantity": 1
+      },
+      {
+        "name": "Mandragora",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-9",
+    "name": "Catalyst",
+    "result": {
+      "name": "Catalyst",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Bitterbug",
+        "quantity": 1
+      },
+      {
+        "name": "Honey",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-10",
+    "name": "Immunizer",
+    "result": {
+      "name": "Immunizer",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Catalyst",
+        "quantity": 1
+      },
+      {
+        "name": "Mandragora",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-11",
+    "name": "Ancient Potion",
+    "result": {
+      "name": "Ancient Potion",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Immunizer",
+        "quantity": 1
+      },
+      {
+        "name": "Kelbi Horn",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-12",
+    "name": "Ancient Potion",
+    "result": {
+      "name": "Ancient Potion",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nourishing Extract",
+        "quantity": 1
+      },
+      {
+        "name": "Kelbi Horn",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-13",
+    "name": "Lifepowder",
+    "result": {
+      "name": "Lifepowder",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Godbug",
+        "quantity": 1
+      },
+      {
+        "name": "Blue Mushroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-14",
+    "name": "Dust of Life",
+    "result": {
+      "name": "Dust of Life",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Godbug",
+        "quantity": 1
+      },
+      {
+        "name": "Gloamgrass Bud",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "craft"
+  },
+  {
+    "id": "craft-15",
+    "name": "Herbal Powder",
+    "result": {
+      "name": "Herbal Powder",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Godbug",
+        "quantity": 1
+      },
+      {
+        "name": "Herbal Medicine",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-16",
+    "name": "Energy Drink",
+    "result": {
+      "name": "Energy Drink",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nitroshroom",
+        "quantity": 1
+      },
+      {
+        "name": "Honey",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-17",
+    "name": "Cool Drink",
+    "result": {
+      "name": "Cool Drink",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Chillshroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-18",
+    "name": "Hot Drink",
+    "result": {
+      "name": "Hot Drink",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Hot Pepper",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "craft"
+  },
+  {
+    "id": "craft-19",
+    "name": "Dash Juice",
+    "result": {
+      "name": "Dash Juice",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Catalyst",
+        "quantity": 1
+      },
+      {
+        "name": "Dash Extract",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-20",
+    "name": "Demondrug",
+    "result": {
+      "name": "Demondrug",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Catalyst",
+        "quantity": 1
+      },
+      {
+        "name": "Might Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-21",
+    "name": "Mega Demondrug",
+    "result": {
+      "name": "Mega Demondrug",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nourishing Extract",
+        "quantity": 1
+      },
+      {
+        "name": "Demondrug",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-22",
+    "name": "Demon Powder",
+    "result": {
+      "name": "Demon Powder",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Godbug",
+        "quantity": 1
+      },
+      {
+        "name": "Might Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-23",
+    "name": "Might Pill",
+    "result": {
+      "name": "Might Pill",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Immunizer",
+        "quantity": 1
+      },
+      {
+        "name": "Might Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-24",
+    "name": "Armorskin",
+    "result": {
+      "name": "Armorskin",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Catalyst",
+        "quantity": 1
+      },
+      {
+        "name": "Adamant Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-25",
+    "name": "Mega Armorskin",
+    "result": {
+      "name": "Mega Armorskin",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nourishing Extract",
+        "quantity": 1
+      },
+      {
+        "name": "Armorskin",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-26",
+    "name": "Hardshell Powder",
+    "result": {
+      "name": "Hardshell Powder",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Godbug",
+        "quantity": 1
+      },
+      {
+        "name": "Adamant Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-27",
+    "name": "Adamant Pill",
+    "result": {
+      "name": "Adamant Pill",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Immunizer",
+        "quantity": 1
+      },
+      {
+        "name": "Adamant Seed",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-28",
+    "name": "Farcaster",
+    "result": {
+      "name": "Farcaster",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Smokenut",
+        "quantity": 1
+      },
+      {
+        "name": "Exciteshroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-29",
+    "name": "Gunpowder",
+    "result": {
+      "name": "Gunpowder",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Fire Herb",
+        "quantity": 1
+      },
+      {
+        "name": "Nitroshroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-30",
+    "name": "Barrel Bomb",
+    "result": {
+      "name": "Barrel Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Fire Herb",
+        "quantity": 1
+      },
+      {
+        "name": "Small Barrel",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-31",
+    "name": "Bounce Bomb",
+    "result": {
+      "name": "Bounce Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nitroshroom",
+        "quantity": 1
+      },
+      {
+        "name": "Small Barrel",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-32",
+    "name": "Mega Bounce Bomb",
+    "result": {
+      "name": "Mega Bounce Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Nitroshroom",
+        "quantity": 1
+      },
+      {
+        "name": "Bounce Bomb",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-33",
+    "name": "Large Barrel Bomb",
+    "result": {
+      "name": "Large Barrel Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Gunpowder",
+        "quantity": 1
+      },
+      {
+        "name": "Large Barrel",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-34",
+    "name": "Mega Barrel Bomb",
+    "result": {
+      "name": "Mega Barrel Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Devil's Blight",
+        "quantity": 1
+      },
+      {
+        "name": "Large Barrel Bomb",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-35",
+    "name": "Mega Barrel Bomb",
+    "result": {
+      "name": "Mega Barrel Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Gunpowderfish Scale",
+        "quantity": 1
+      },
+      {
+        "name": "Large Barrel Bomb",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-36",
+    "name": "Mega Barrel Bomb",
+    "result": {
+      "name": "Mega Barrel Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Great Gunpowderfish Scale",
+        "quantity": 1
+      },
+      {
+        "name": "Large Barrel",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-37",
+    "name": "Smoke Bomb",
+    "result": {
+      "name": "Smoke Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Smokenut",
+        "quantity": 1
+      },
+      {
+        "name": "Ivy",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-38",
+    "name": "Poison Smoke Bomb",
+    "result": {
+      "name": "Poison Smoke Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Smokenut",
+        "quantity": 1
+      },
+      {
+        "name": "Toadstool",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-39",
+    "name": "Flash Pod",
+    "result": {
+      "name": "Flash Pod",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Flashbug",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-40",
+    "name": "Screamer Pod",
+    "result": {
+      "name": "Screamer Pod",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Screamer Sac",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-41",
+    "name": "Dung Pod",
+    "result": {
+      "name": "Dung Pod",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Dung",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-42",
+    "name": "Dung Pod",
+    "result": {
+      "name": "Dung Pod",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Rolled-up Dung",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-43",
+    "name": "Poisoned Meat",
+    "result": {
+      "name": "Poisoned Meat",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "quantity": 1
+      },
+      {
+        "name": "Toadstool",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-44",
+    "name": "Tinged Meat",
+    "result": {
+      "name": "Tinged Meat",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "quantity": 1
+      },
+      {
+        "name": "Parashroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-45",
+    "name": "Drugged Meat",
+    "result": {
+      "name": "Drugged Meat",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Raw Meat",
+        "quantity": 1
+      },
+      {
+        "name": "Sleep Herb",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-46",
+    "name": "Net",
+    "result": {
+      "name": "Net",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Ivy",
+        "quantity": 1
+      },
+      {
+        "name": "Spider Web",
+        "quantity": 1
+      }
+    ],
+    "category": "Consumables",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-47",
+    "name": "Pitfall Trap",
+    "result": {
+      "name": "Pitfall Trap",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Trap Tool",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-48",
+    "name": "Shock Trap",
+    "result": {
+      "name": "Shock Trap",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Trap Tool",
+        "quantity": 1
+      },
+      {
+        "name": "Thunderbug",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-49",
+    "name": "Tranq Bomb",
+    "result": {
+      "name": "Tranq Bomb",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Sleep Herb",
+        "quantity": 1
+      },
+      {
+        "name": "Parashroom",
+        "quantity": 1
+      }
+    ],
+    "category": "Bombs & traps",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  },
+  {
+    "id": "craft-50",
+    "name": "Tranq Ammo",
+    "result": {
+      "name": "Tranq Ammo",
+      "quantity": 1
+    },
+    "ingredients": [
+      {
+        "name": "Tranq Bomb",
+        "quantity": 1
+      },
+      {
+        "name": "Normal Ammo 1",
+        "quantity": 1
+      }
+    ],
+    "category": "Ammo",
+    "game": "both",
+    "rank": "all",
+    "method": "craft"
+  }
+]

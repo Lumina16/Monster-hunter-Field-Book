@@ -1,0 +1,5893 @@
+[
+  {
+    "id": "item-1",
+    "name": "Potion",
+    "sources": [],
+    "sourceId": 1,
+    "description": "Restores a small amount of health.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": 66,
+    "sell": 8,
+    "points": null
+  },
+  {
+    "id": "item-2",
+    "name": "Mega Potion",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-51604",
+        "quest": "Point of No Return",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61801",
+        "quest": "Pearl Snatchers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67823",
+        "quest": "Fetching Light Pearls",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 29
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67824",
+        "quest": "To Our World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 38
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67825",
+        "quest": "The New World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 38
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67826",
+        "quest": "Skyward Snipers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 29
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67828",
+        "quest": "Kadachi Twins",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 10,
+        "chance": 18
+      }
+    ],
+    "sourceId": 2,
+    "description": "Restores a moderate amount of health.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 16,
+    "points": null
+  },
+  {
+    "id": "item-3",
+    "name": "Max Potion",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-3034",
+        "quest": "Arena Quest 07",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63109",
+        "quest": "The Best of the Best",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63052",
+        "quest": "Challenge Quest 2: Expert",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1404",
+        "quest": "The Defense of Seliana",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-51604",
+        "quest": "Point of No Return",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3171",
+        "quest": "Arena Master Quest 01",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3071",
+        "quest": "Arena Master Quest 02",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3072",
+        "quest": "Arena Master Quest 03",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63071",
+        "quest": "Challenge Quest 1: MR Intermediate",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63072",
+        "quest": "Challenge Quest 2: MR Intermediate",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67824",
+        "quest": "To Our World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 19
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67825",
+        "quest": "The New World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 19
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67830",
+        "quest": "The True Tyrant",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67833",
+        "quest": "The Conqueror of Hoarfrost",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 25
+      }
+    ],
+    "sourceId": 3,
+    "description": "Fully restores health and maximizes the size of your Health Gauge.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 3,
+    "carry": 2,
+    "buy": null,
+    "sell": 210,
+    "points": null
+  },
+  {
+    "id": "item-4",
+    "name": "Ancient Potion",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-3051",
+        "quest": "Arena Quest 08",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3052",
+        "quest": "Arena Quest 09",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63109",
+        "quest": "The Best of the Best",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63051",
+        "quest": "Challenge Quest 1: Expert",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63052",
+        "quest": "Challenge Quest 2: Expert",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63142",
+        "quest": "Farewell to the Frozen",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3073",
+        "quest": "Arena Master Quest 04",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3074",
+        "quest": "Arena Master Quest 05",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 25
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3091",
+        "quest": "Arena Master Quest 06",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3092",
+        "quest": "Arena Master Quest 07",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 25
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63073",
+        "quest": "Challenge Quest 1: MR Expert",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63074",
+        "quest": "Challenge Quest 2: MR Expert",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67824",
+        "quest": "To Our World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67825",
+        "quest": "The New World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67834",
+        "quest": "A Star That Will Never Dim",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67835",
+        "quest": "Wearer of the Iceborne Crown",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67837",
+        "quest": "Aiming for the Light",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67839",
+        "quest": "Fear No Scars",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67840",
+        "quest": "Power and Technique",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      }
+    ],
+    "sourceId": 4,
+    "description": "Fully restores health and maximizes the size of your Health and Stamina Gauges.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 5,
+    "carry": 1,
+    "buy": null,
+    "sell": 345,
+    "points": null
+  },
+  {
+    "id": "item-5",
+    "name": "Antidote",
+    "sources": [],
+    "sourceId": 5,
+    "description": "A cure for poison.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": 60,
+    "sell": 6,
+    "points": null
+  },
+  {
+    "id": "item-6",
+    "name": "Herbal Medicine",
+    "sources": [],
+    "sourceId": 6,
+    "description": "Removes all traces of poison and restores a slight amount of health.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 5,
+    "buy": null,
+    "sell": 25,
+    "points": null
+  },
+  {
+    "id": "item-7",
+    "name": "Nulberry",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-405",
+        "quest": "Ballooning Problems",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-408",
+        "quest": "Legiana: Embodiment of Elegance",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-471",
+        "quest": "It's a Crying Shamos",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-472",
+        "quest": "A Tzitzi for Science",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-473",
+        "quest": "Sorry You're Not Invited",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-474",
+        "quest": "What a Bunch of Abalone",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-475",
+        "quest": "White Monster for a White Coat",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-5003",
+        "quest": "Troubled Troupers",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-571",
+        "quest": "A Humid Headache",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1203",
+        "quest": "Play Both Ends",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1403",
+        "quest": "Bad Friends, Great Enemies",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1171",
+        "quest": "All the Wrong Signals",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1271",
+        "quest": "The Plight of Paolumu",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1272",
+        "quest": "Pink Power Grab",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1273",
+        "quest": "Protip: Stay Hydrated",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1471",
+        "quest": "A Shadowy Offender",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67823",
+        "quest": "Fetching Light Pearls",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67826",
+        "quest": "Skyward Snipers",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 3,
+        "chance": 13
+      }
+    ],
+    "sourceId": 7,
+    "description": "A mysterious berry that cures various blights.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 120,
+    "points": null
+  },
+  {
+    "id": "item-8",
+    "name": "Energy Drink",
+    "sources": [],
+    "sourceId": 8,
+    "description": "A Guild-approved beverage that boosts your stamina. Helps shake off sleep, too!",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 6,
+    "points": null
+  },
+  {
+    "id": "item-9",
+    "name": "Ration",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-401",
+        "quest": "One for the History Books",
+        "rank": "LR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-331",
+        "quest": "Special Arena: Pukei-Pukei",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-332",
+        "quest": "Special Arena: Barroth",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-333",
+        "quest": "Special Arena: Tobi-Kadachi",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-431",
+        "quest": "Special Arena: Anjanath",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-432",
+        "quest": "Special Arena: Rathian",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-433",
+        "quest": "Special Arena: Paolumu",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-434",
+        "quest": "Special Arena: Radobaan",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-531",
+        "quest": "Special Arena: Legiana",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-532",
+        "quest": "Special Arena: Odogaron",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-533",
+        "quest": "Special Arena: Rathalos",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-534",
+        "quest": "Special Arena: Diablos",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-738",
+        "quest": "Special Arena: HR Black Diablos",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-731",
+        "quest": "Special Arena: HR Pink Rathian",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-732",
+        "quest": "Special Arena: HR Legiana",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-733",
+        "quest": "Special Arena: HR Odogaron",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-734",
+        "quest": "Special Arena: HR Uragaan",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-735",
+        "quest": "Special Arena: HR Rathalos",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-736",
+        "quest": "Special Arena: HR Azure Rathalos",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-737",
+        "quest": "Special Arena: HR Diablos",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67105",
+        "quest": "USJ: Gold Star Treatment",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1404",
+        "quest": "The Defense of Seliana",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 4,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67824",
+        "quest": "To Our World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 29
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67825",
+        "quest": "The New World",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 29
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67829",
+        "quest": "Seeing is Believing",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 4,
+        "chance": 21
+      }
+    ],
+    "sourceId": 9,
+    "description": "Food that restores a bit of stamina.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 3,
+    "points": null
+  },
+  {
+    "id": "item-10",
+    "name": "Rare Steak",
+    "sources": [],
+    "sourceId": 10,
+    "description": "Provides a moderate boost to your stamina. This one's still red in the middle.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 3,
+    "points": null
+  },
+  {
+    "id": "item-11",
+    "name": "Well-done Steak",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-631",
+        "quest": "Special Arena: HR Pukei-Pukei",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-632",
+        "quest": "Special Arena: HR Barroth",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-633",
+        "quest": "Special Arena: HR Tobi-Kadachi",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-634",
+        "quest": "Special Arena: HR Anjanath",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-635",
+        "quest": "Special Arena: HR Rathian",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-636",
+        "quest": "Special Arena: HR Paolumu",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-637",
+        "quest": "Special Arena: HR Radobaan",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-65602",
+        "quest": "A Flash in the Pan",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3101",
+        "quest": "Arena Quest 01",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3001",
+        "quest": "Arena Quest 02",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3002",
+        "quest": "Arena Quest 03",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3031",
+        "quest": "Arena Quest 04",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3032",
+        "quest": "Arena Quest 05",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3033",
+        "quest": "Arena Quest 06",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 21
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63104",
+        "quest": "Gale & Fangs Slay Event 1",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63105",
+        "quest": "Gale & Fangs Slay Event 2",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63106",
+        "quest": "Gale & Fangs Slay Event 3",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63101",
+        "quest": "Nergigante Slay Event 1",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63102",
+        "quest": "Nergigante Slay Event 2",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63103",
+        "quest": "Nergigante Slay Event 3",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63107",
+        "quest": "Nergigante Slay Event 4",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63108",
+        "quest": "Deviljho Slay Event",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63110",
+        "quest": "What Lurks In The Forest",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63130",
+        "quest": "When Law Meets War",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63131",
+        "quest": "The Hunter and The Blue Empress",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63001",
+        "quest": "Challenge Quest 1: Beginner",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63002",
+        "quest": "Challenge Quest 2: Beginner",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63031",
+        "quest": "Challenge Quest 1: Intermediate",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63032",
+        "quest": "Challenge Quest 2: Intermediate",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61801",
+        "quest": "Pearl Snatchers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 26
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61812",
+        "quest": "Beef is Never a Mi-steak",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67823",
+        "quest": "Fetching Light Pearls",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 27
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67826",
+        "quest": "Skyward Snipers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 27
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67829",
+        "quest": "Seeing is Believing",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 24
+      }
+    ],
+    "sourceId": 11,
+    "description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 48,
+    "points": null
+  },
+  {
+    "id": "item-12",
+    "name": "Burnt Meat",
+    "sources": [],
+    "sourceId": 12,
+    "description": "Provides a small boost to your stamina. Can be eaten quickly.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 1,
+    "points": null
+  },
+  {
+    "id": "item-13",
+    "name": "Cool Drink",
+    "sources": [],
+    "sourceId": 13,
+    "description": "Provides temporary relief from extreme heat.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 5,
+    "buy": 300,
+    "sell": 30,
+    "points": null
+  },
+  {
+    "id": "item-1059",
+    "name": "Hot Drink",
+    "sources": [],
+    "sourceId": 1059,
+    "description": "Provides temporary relief from extreme cold.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 5,
+    "buy": null,
+    "sell": 25,
+    "points": null
+  },
+  {
+    "id": "item-14",
+    "name": "Nutrients",
+    "sources": [],
+    "sourceId": 14,
+    "description": "Very slightly increases your maximum health level.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 5,
+    "buy": null,
+    "sell": 25,
+    "points": null
+  },
+  {
+    "id": "item-15",
+    "name": "Mega Nutrients",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-61801",
+        "quest": "Pearl Snatchers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67823",
+        "quest": "Fetching Light Pearls",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67826",
+        "quest": "Skyward Snipers",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67828",
+        "quest": "Kadachi Twins",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 18
+      }
+    ],
+    "sourceId": 15,
+    "description": "Slightly increases your maximum health level.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 3,
+    "carry": 5,
+    "buy": null,
+    "sell": 92,
+    "points": null
+  },
+  {
+    "id": "item-16",
+    "name": "Immunizer",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-67804",
+        "quest": "Mighty Muscle Monkey Madness",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 15
+      }
+    ],
+    "sourceId": 16,
+    "description": "Boosts your natural ability to heal.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 3,
+    "carry": 10,
+    "buy": null,
+    "sell": 92,
+    "points": null
+  },
+  {
+    "id": "item-17",
+    "name": "Astera Jerky",
+    "sources": [],
+    "sourceId": 17,
+    "description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 5,
+    "buy": 98,
+    "sell": 10,
+    "points": null
+  },
+  {
+    "id": "item-18",
+    "name": "Dash Juice",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-67829",
+        "quest": "Seeing is Believing",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      }
+    ],
+    "sourceId": 18,
+    "description": "Dulls one's sense of exhaustion. Reduces stamina depletion for a time.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 5,
+    "buy": null,
+    "sell": 29,
+    "points": null
+  },
+  {
+    "id": "item-19",
+    "name": "Might Seed",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-262",
+        "quest": "The Pain from Gains",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-263",
+        "quest": "Exterminator of the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-363",
+        "quest": "Prickly Predicament",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-364",
+        "quest": "Gettin' Yolked in the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1202",
+        "quest": "No Time for Naps",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1161",
+        "quest": "Wildspire Treasure Hunt",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1162",
+        "quest": "Dragged Through the Mud",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1163",
+        "quest": "Jyura In My Way",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1164",
+        "quest": "Taster's Tour",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1261",
+        "quest": "A Queen At Heart",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1262",
+        "quest": "A Face Nightmares Are Made Of",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1263",
+        "quest": "Stick Your Nose Somewhere Else",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1461",
+        "quest": "In the Heat of the Moment",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1562",
+        "quest": "The Tyrant's Banquet",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-66804",
+        "quest": "Desert Desserts",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67822",
+        "quest": "A Fish to Whet Your Appetite",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      }
+    ],
+    "sourceId": 19,
+    "description": "Temporarily strengthens your attacks when ingested by improving energy flow.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 140,
+    "points": null
+  },
+  {
+    "id": "item-20",
+    "name": "Demondrug",
+    "sources": [],
+    "sourceId": 20,
+    "description": "Boosts your attack power by filling you with—guess what?—demonic strength.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 5,
+    "buy": null,
+    "sell": 67,
+    "points": null
+  },
+  {
+    "id": "item-21",
+    "name": "Mega Demondrug",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-61808",
+        "quest": "Muscle Monkey Madness",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 18
+      }
+    ],
+    "sourceId": 21,
+    "description": "Boosts your attack power even more than a regular Demondrug.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 5,
+    "carry": 5,
+    "buy": null,
+    "sell": 283,
+    "points": null
+  },
+  {
+    "id": "item-22",
+    "name": "Might Pill",
+    "sources": [],
+    "sourceId": 22,
+    "description": "Temporarily endows you with the strength of a mighty god. Potent!",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 5,
+    "buy": null,
+    "sell": 280,
+    "points": null
+  },
+  {
+    "id": "item-23",
+    "name": "Adamant Seed",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 0
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 17,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-471",
+        "quest": "It's a Crying Shamos",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-474",
+        "quest": "What a Bunch of Abalone",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-5003",
+        "quest": "Troubled Troupers",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67823",
+        "quest": "Fetching Light Pearls",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67826",
+        "quest": "Skyward Snipers",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      }
+    ],
+    "sourceId": 23,
+    "description": "Temporarily raises your defense when ingested by hardening tissue.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 110,
+    "points": null
+  },
+  {
+    "id": "item-24",
+    "name": "Armorskin",
+    "sources": [],
+    "sourceId": 24,
+    "description": "Boosts your defense by turning your skin as hard as rock.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 5,
+    "buy": null,
+    "sell": 58,
+    "points": null
+  },
+  {
+    "id": "item-25",
+    "name": "Mega Armorskin",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-61808",
+        "quest": "Muscle Monkey Madness",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 18
+      }
+    ],
+    "sourceId": 25,
+    "description": "Boosts your defense even more than a regular armorskin.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 5,
+    "carry": 5,
+    "buy": null,
+    "sell": 269,
+    "points": null
+  },
+  {
+    "id": "item-26",
+    "name": "Adamant Pill",
+    "sources": [],
+    "sourceId": 26,
+    "description": "Temporarily makes your skin as hard as adamant. Potent!",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 5,
+    "buy": null,
+    "sell": 260,
+    "points": null
+  },
+  {
+    "id": "item-27",
+    "name": "Lifepowder",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-3101",
+        "quest": "Arena Quest 01",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3001",
+        "quest": "Arena Quest 02",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3002",
+        "quest": "Arena Quest 03",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3031",
+        "quest": "Arena Quest 04",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3032",
+        "quest": "Arena Quest 05",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 25
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3033",
+        "quest": "Arena Quest 06",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 25
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3034",
+        "quest": "Arena Quest 07",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3051",
+        "quest": "Arena Quest 08",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 27
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3052",
+        "quest": "Arena Quest 09",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 27
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63033",
+        "quest": "Gajalaka Outbreak!",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 11
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63104",
+        "quest": "Gale & Fangs Slay Event 1",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63105",
+        "quest": "Gale & Fangs Slay Event 2",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63106",
+        "quest": "Gale & Fangs Slay Event 3",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63101",
+        "quest": "Nergigante Slay Event 1",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63102",
+        "quest": "Nergigante Slay Event 2",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63103",
+        "quest": "Nergigante Slay Event 3",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63107",
+        "quest": "Nergigante Slay Event 4",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63108",
+        "quest": "Deviljho Slay Event",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63110",
+        "quest": "What Lurks In The Forest",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63130",
+        "quest": "When Law Meets War",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63131",
+        "quest": "The Hunter and The Blue Empress",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61101",
+        "quest": "Up at the Crack of Dawn",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 11
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63001",
+        "quest": "Challenge Quest 1: Beginner",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63002",
+        "quest": "Challenge Quest 2: Beginner",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63031",
+        "quest": "Challenge Quest 1: Intermediate",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63032",
+        "quest": "Challenge Quest 2: Intermediate",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 22
+      }
+    ],
+    "sourceId": 27,
+    "description": "Produces a healing cloud in the area around the user.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 3,
+    "buy": null,
+    "sell": 190,
+    "points": null
+  },
+  {
+    "id": "item-1060",
+    "name": "Dust of Life",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-1404",
+        "quest": "The Defense of Seliana",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 33
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-51604",
+        "quest": "Point of No Return",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 17
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63142",
+        "quest": "Farewell to the Frozen",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3171",
+        "quest": "Arena Master Quest 01",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3071",
+        "quest": "Arena Master Quest 02",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3072",
+        "quest": "Arena Master Quest 03",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3073",
+        "quest": "Arena Master Quest 04",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3074",
+        "quest": "Arena Master Quest 05",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3091",
+        "quest": "Arena Master Quest 06",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-3092",
+        "quest": "Arena Master Quest 07",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63071",
+        "quest": "Challenge Quest 1: MR Intermediate",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63072",
+        "quest": "Challenge Quest 2: MR Intermediate",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63073",
+        "quest": "Challenge Quest 1: MR Expert",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-63074",
+        "quest": "Challenge Quest 2: MR Expert",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67830",
+        "quest": "The True Tyrant",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 30
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67833",
+        "quest": "The Conqueror of Hoarfrost",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 27
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67834",
+        "quest": "A Star That Will Never Dim",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67835",
+        "quest": "Wearer of the Iceborne Crown",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67837",
+        "quest": "Aiming for the Light",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67839",
+        "quest": "Fear No Scars",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 28
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67840",
+        "quest": "Power and Technique",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 23
+      }
+    ],
+    "sourceId": 1060,
+    "description": "Produces a cloud in the area around the user with strong healing properties.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 6,
+    "carry": 2,
+    "buy": null,
+    "sell": 690,
+    "points": null
+  },
+  {
+    "id": "item-28",
+    "name": "Herbal Powder",
+    "sources": [],
+    "sourceId": 28,
+    "description": "A mysterious powder that produces a cloud around the area that restores health and neutralizes poison.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 3,
+    "buy": null,
+    "sell": 315,
+    "points": null
+  },
+  {
+    "id": "item-29",
+    "name": "Demon Powder",
+    "sources": [],
+    "sourceId": 29,
+    "description": "A mysterious powder that produces a cloud around the area that temporarily strengthens attacks.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 3,
+    "buy": null,
+    "sell": 315,
+    "points": null
+  },
+  {
+    "id": "item-30",
+    "name": "Hardshell Powder",
+    "sources": [],
+    "sourceId": 30,
+    "description": "A mysterious powder that produces a cloud around the area that temporarily strengthens defense.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 3,
+    "buy": null,
+    "sell": 315,
+    "points": null
+  },
+  {
+    "id": "item-31",
+    "name": "Honey",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 17,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 5,
+        "rank": "LR",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 1,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 5,
+        "rank": "HR",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 1,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-102",
+        "quest": "A Kestodon Kerfuffle",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-103",
+        "quest": "The Great Jagras Hunt",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-201",
+        "quest": "Bird-Brained Bandit",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-205",
+        "quest": "Urgent: Pukei-Pukei Hunt",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-305",
+        "quest": "Flying Sparks: Tobi-Kadachi",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-306",
+        "quest": "The Encroaching Anjanath",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-502",
+        "quest": "A Fiery Throne Atop the Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-241",
+        "quest": "Learning the Clutch",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-251",
+        "quest": "The Great Glutton",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-252",
+        "quest": "Camp Crasher",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-351",
+        "quest": "Scatternut Shortage",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-352",
+        "quest": "The Current Situation",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-451",
+        "quest": "One Helluva Sinus Infection",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-551",
+        "quest": "When Desire Becomes an Obsession",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-651",
+        "quest": "Hard to Swallow",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-652",
+        "quest": "Googly-eyed Green Monster",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-653",
+        "quest": "A Hair-Raising Experience",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-654",
+        "quest": "It Can't See You if You Don't Move",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-655",
+        "quest": "The Sleeping Sylvan Queen",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-656",
+        "quest": "Stuck in Their Ways",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 10
+      }
+    ],
+    "sourceId": 31,
+    "description": "Highly nutritious honey. Combine this with Potions to craft Mega Potions for maximum potency.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 45,
+    "points": null
+  },
+  {
+    "id": "item-32",
+    "name": "Herb",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 5
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 32,
+    "description": "A primary ingredient in potions.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 2,
+    "points": null
+  },
+  {
+    "id": "item-33",
+    "name": "Antidote Herb",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 4
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 33,
+    "description": "A primary ingredient in antidotes.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 2,
+    "points": null
+  },
+  {
+    "id": "item-34",
+    "name": "Fire Herb",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-262",
+        "quest": "The Pain from Gains",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-263",
+        "quest": "Exterminator of the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-363",
+        "quest": "Prickly Predicament",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-364",
+        "quest": "Gettin' Yolked in the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      }
+    ],
+    "sourceId": 34,
+    "description": "A wondrous, flammable plant. Useful for crafting explosives.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 20,
+    "buy": null,
+    "sell": 4,
+    "points": null
+  },
+  {
+    "id": "item-35",
+    "name": "Flowfern",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 35,
+    "description": "This plant's leaves store a great amount of water. A component for making Water Ammo.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 20,
+    "buy": null,
+    "sell": 4,
+    "points": null
+  },
+  {
+    "id": "item-36",
+    "name": "Snow Herb",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-471",
+        "quest": "It's a Crying Shamos",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-474",
+        "quest": "What a Bunch of Abalone",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-5003",
+        "quest": "Troubled Troupers",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      }
+    ],
+    "sourceId": 36,
+    "description": "A plant that radiates ice-cold air. Use in combinations to create freeze ammo.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 20,
+    "buy": null,
+    "sell": 6,
+    "points": null
+  },
+  {
+    "id": "item-37",
+    "name": "Sleep Herb",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 37,
+    "description": "A plant containing sleeping agents. Used to craft tranquilizers.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 5,
+    "points": null
+  },
+  {
+    "id": "item-38",
+    "name": "Ivy",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 38,
+    "description": "A lightweight and extremely strong plant. Used to make nets for pitfall traps.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 8,
+    "points": null
+  },
+  {
+    "id": "item-1061",
+    "name": "Hot Pepper",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-1124",
+        "quest": "Call of the Wild",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61801",
+        "quest": "Pearl Snatchers",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61805",
+        "quest": "Duffel Duty",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61811",
+        "quest": "Flora Frostbite",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      }
+    ],
+    "sourceId": 1061,
+    "description": "A plant used for making hot drinks.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 14,
+    "points": null
+  },
+  {
+    "id": "item-1062",
+    "name": "Gloamgrass Bud",
+    "sources": [
+      {
+        "kind": "quest",
+        "questId": "quest-1101",
+        "quest": "Baptism by Ice",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1102",
+        "quest": "Banbaro Blockade",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1201",
+        "quest": "Ready to Strike",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1401",
+        "quest": "When the Mist Taketh You",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1405",
+        "quest": "The Thunderous Troublemaker!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1121",
+        "quest": "Deep Snow Diver",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1122",
+        "quest": "Taking Charge",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1123",
+        "quest": "Ice Catch!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1124",
+        "quest": "Call of the Wild",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1125",
+        "quest": "Greetings from the Tundra",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1192",
+        "quest": "This Here's Big Horn Country!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1221",
+        "quest": "Analysis Creates Paralysis",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1222",
+        "quest": "Poison and Paralysis Pinch",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1274",
+        "quest": "Put That Red Cup Away",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1323",
+        "quest": "Proud White Knight",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1373",
+        "quest": "A Nasty Flesh Wound",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1421",
+        "quest": "Noblefrost Hunter",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1422",
+        "quest": "Tundra Troublemaker",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61801",
+        "quest": "Pearl Snatchers",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61805",
+        "quest": "Duffel Duty",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 8
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61805",
+        "quest": "Duffel Duty",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61811",
+        "quest": "Flora Frostbite",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 8
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-61811",
+        "quest": "Flora Frostbite",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67831",
+        "quest": "The Assassin",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      }
+    ],
+    "sourceId": 1062,
+    "description": "A plant with healing properties. Combine it with a Godbug to bring out its full potency.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 4,
+    "buy": null,
+    "sell": 40,
+    "points": null
+  },
+  {
+    "id": "item-39",
+    "name": "Smokenut",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 3
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      }
+    ],
+    "sourceId": 39,
+    "description": "A nut that produces a copious amount of smoke. Combine with other items to create smoke with various properties.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 1,
+    "carry": 10,
+    "buy": null,
+    "sell": 4,
+    "points": null
+  },
+  {
+    "id": "item-40",
+    "name": "Dragonfell Berry",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-407",
+        "quest": "Radobaan Roadblock",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 14
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-501",
+        "quest": "Into the Bowels of the Vale",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-481",
+        "quest": "Persistent Pests",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-482",
+        "quest": "A Rotten Thing To Do",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 14
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-483",
+        "quest": "A Bone to Pick",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 14
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-484",
+        "quest": "On Nightmare's Wings",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-581",
+        "quest": "Scratching the Itch",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-582",
+        "quest": "Man's Best Fiend",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-583",
+        "quest": "The Meat of the Matter",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-683",
+        "quest": "Chef Quest! Pumped to Deliver",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 4,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-684",
+        "quest": "Chef Quest! A Rotten Request",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 4,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1402",
+        "quest": "The Disintegrating Blade",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1181",
+        "quest": "Grinding my Girros",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1281",
+        "quest": "No Laughing Matter",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1282",
+        "quest": "Bugger Off Bugs!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1481",
+        "quest": "This Corroded Blade",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1482",
+        "quest": "The Purr-fect Room: Light Iron",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-66802",
+        "quest": "The Lord of the Underworld Beckons",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 2,
+        "chance": 13
+      }
+    ],
+    "sourceId": 40,
+    "description": "A mysterious berry, rumored for eons to be loathed by dragons. Required to craft Dragon Ammo.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 4,
+    "carry": 10,
+    "buy": null,
+    "sell": 78,
+    "points": null
+  },
+  {
+    "id": "item-41",
+    "name": "Blue Mushroom",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 1
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 17,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 4,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-101",
+        "quest": "Jagras of the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-151",
+        "quest": "Butting Heads with Nature",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-152",
+        "quest": "A Thicket of Thugs",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-153",
+        "quest": "Fungal Flexin' in the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-452",
+        "quest": "Gettin' Yolked in the Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-65606",
+        "quest": "A Simple Task",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 4,
+        "chance": 16
+      }
+    ],
+    "sourceId": 41,
+    "description": "A mushroom infused with power-enhancing effects. Used in restorative items.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 2,
+    "points": null
+  },
+  {
+    "id": "item-42",
+    "name": "Mandragora",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 17,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-101",
+        "quest": "Jagras of the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-151",
+        "quest": "Butting Heads with Nature",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-152",
+        "quest": "A Thicket of Thugs",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-153",
+        "quest": "Fungal Flexin' in the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-452",
+        "quest": "Gettin' Yolked in the Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-65606",
+        "quest": "A Simple Task",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1151",
+        "quest": "The Great Jagras Returns!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1152",
+        "quest": "New World Problems",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1153",
+        "quest": "Beating Around the Bush",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1154",
+        "quest": "Literary Thief",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1155",
+        "quest": "Trapping The Tree Trasher",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1251",
+        "quest": "Anjanath Antics",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1252",
+        "quest": "Fool's Mate",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1253",
+        "quest": "Nighty Night Nightshade",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1451",
+        "quest": "These Azure Eyes See All",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1452",
+        "quest": "Misfortune in the Forest",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67804",
+        "quest": "Mighty Muscle Monkey Madness",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 11
+      }
+    ],
+    "sourceId": 42,
+    "description": "A dangerous fungus said to draw the life out of people. Beware. Required to craft Max Potions.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 3,
+    "carry": 10,
+    "buy": null,
+    "sell": 40,
+    "points": null
+  },
+  {
+    "id": "item-43",
+    "name": "Nitroshroom",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-301",
+        "quest": "The Best Kind of Quest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-302",
+        "quest": "Sinister Shadows in the Swamp",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-503",
+        "quest": "Horned Tyrant Below the Sands",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-261",
+        "quest": "Snatch the Snatcher",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-262",
+        "quest": "The Pain from Gains",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-263",
+        "quest": "Exterminator of the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-361",
+        "quest": "Mired in the Spire",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-362",
+        "quest": "The Piscine Problem",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-363",
+        "quest": "Prickly Predicament",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-364",
+        "quest": "Gettin' Yolked in the Waste",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 18
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-365",
+        "quest": "Landing the Landslide Wyvern",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-461",
+        "quest": "Royal Relocation",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-561",
+        "quest": "Twin Spires Upon the Sands",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-66804",
+        "quest": "Desert Desserts",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-67822",
+        "quest": "A Fish to Whet Your Appetite",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 3,
+        "chance": 13
+      }
+    ],
+    "sourceId": 43,
+    "description": "A hard-to-find mushroom with the power to generate blazing heat. Required to craft Gunpowder.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 20,
+    "buy": null,
+    "sell": 6,
+    "points": null
+  },
+  {
+    "id": "item-44",
+    "name": "Devil's Blight",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 14,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 9,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 12,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-481",
+        "quest": "Persistent Pests",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-484",
+        "quest": "On Nightmare's Wings",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-583",
+        "quest": "The Meat of the Matter",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-683",
+        "quest": "Chef Quest! Pumped to Deliver",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-684",
+        "quest": "Chef Quest! A Rotten Request",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-691",
+        "quest": "A Meow for Help",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-692",
+        "quest": "A Scalding Scoop",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-694",
+        "quest": "Chef Quest! Gajalaka Lockdown",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-65607",
+        "quest": "Tracking the Delivery",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 12
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1502",
+        "quest": "The Second Coming",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1191",
+        "quest": "Can't Bring Yourself To It",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1491",
+        "quest": "Blue Rathalos Blues",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1492",
+        "quest": "Trap the Thunder Jaw",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1593",
+        "quest": "Seething with Anger",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1594",
+        "quest": "The Purr-fect Room: Silver",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 1,
+        "chance": 13
+      }
+    ],
+    "sourceId": 44,
+    "description": "A very rare fungus that pulses with extreme heat. Add to a barrel bomb for a dramatically stronger blast.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 60,
+    "points": null
+  },
+  {
+    "id": "item-45",
+    "name": "Parashroom",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 2,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 1,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 5,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 8,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 10,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 16,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-481",
+        "quest": "Persistent Pests",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-484",
+        "quest": "On Nightmare's Wings",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-583",
+        "quest": "The Meat of the Matter",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-683",
+        "quest": "Chef Quest! Pumped to Deliver",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 6,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-684",
+        "quest": "Chef Quest! A Rotten Request",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 6,
+        "chance": 16
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-1282",
+        "quest": "Bugger Off Bugs!",
+        "rank": "MR",
+        "method": "A",
+        "quantity": 3,
+        "chance": 13
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-66802",
+        "quest": "The Lord of the Underworld Beckons",
+        "rank": "MR",
+        "method": "B",
+        "quantity": 3,
+        "chance": 13
+      }
+    ],
+    "sourceId": 45,
+    "description": "A mushroom that induces paralysis. Required to craft Tranq Bombs.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 3,
+    "carry": 10,
+    "buy": null,
+    "sell": 15,
+    "points": null
+  },
+  {
+    "id": "item-46",
+    "name": "Toadstool",
+    "sources": [
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 3
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 11,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": 2
+      },
+      {
+        "kind": "gathering",
+        "locale": "Ancient Forest",
+        "area": 15,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Wildspire Waste",
+        "area": 3,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Coral Highlands",
+        "area": 13,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Rotten Vale",
+        "area": 6,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "gathering",
+        "locale": "Elder's Recess",
+        "area": 7,
+        "rank": "Unspecified",
+        "method": "Gathering",
+        "quantity": 1,
+        "chance": 100,
+        "nodes": null
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-101",
+        "quest": "Jagras of the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-151",
+        "quest": "Butting Heads with Nature",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-152",
+        "quest": "A Thicket of Thugs",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-153",
+        "quest": "Fungal Flexin' in the Ancient Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-452",
+        "quest": "Gettin' Yolked in the Forest",
+        "rank": "LR",
+        "method": "A",
+        "quantity": 2,
+        "chance": 15
+      },
+      {
+        "kind": "quest",
+        "questId": "quest-65606",
+        "quest": "A Simple Task",
+        "rank": "HR",
+        "method": "A",
+        "quantity": 5,
+        "chance": 15
+      }
+    ],
+    "sourceId": 46,
+    "description": "A poisonous fungus. Can be used as a toxin for knives.",
+    "category": "item",
+    "subcategory": "",
+    "rarity": 2,
+    "carry": 10,
+    "buy": null,
+    "sell": 8,
+    "points": null
+  }
+]

@@ -1,0 +1,653 @@
+{
+  "name": "Zorah Magdaros",
+  "source": "https://mhworld.kiranico.com/en/monsters/EmVcV/zorah-magdaros",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 40,
+      "impact": 40,
+      "shot": 40,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Body",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Chest (Before Wounded)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 20,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Chest (After Wounded)",
+      "cut": 80,
+      "impact": 80,
+      "shot": 80,
+      "fire": 0,
+      "water": 30,
+      "thunder": 15,
+      "ice": 25,
+      "dragon": 30,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Forelegs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 25,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Shell",
+      "cut": 1,
+      "impact": 1,
+      "shot": 1,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "",
+      "cut": 0,
+      "impact": 0,
+      "shot": 0,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 0
+    },
+    {
+      "part": "Weak Shells",
+      "cut": 60,
+      "impact": 60,
+      "shot": 50,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 0
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 400,
+      "break": 400,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 800,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": 500,
+      "break": 1000,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 1000,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 1000,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 1000,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Shell",
+      "flinch": 1500,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Magma Core (Crater)",
+      "flinch": 1500,
+      "break": 1500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Magma Core (Head)",
+      "flinch": 1200,
+      "break": 1200,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Magma Core (Central)",
+      "flinch": 1500,
+      "break": 1500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Magma Core (Rear)",
+      "flinch": 1500,
+      "break": 1500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Weak Shells",
+      "flinch": 100,
+      "break": 100,
+      "sever": null,
+      "notes": "L,R"
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stun",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "damageByRank": {
+        "HR": "–",
+        "MR": "–"
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Poison",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "damageByRank": {
+        "HR": "–",
+        "MR": "–"
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 2,
+      "chance": 33
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Chest Shell",
+      "item": "Zorah Magdaros Pleura",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "LR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Ridge",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Pleura",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 2,
+      "chance": 33
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Chest Shell",
+      "item": "Zorah Magdaros Pleura",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "HR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Red Crystal Mining / Shiny",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Dragonite Ore",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Ridge",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Heat Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Pleura",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Magma",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Carapace",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Zorah Magdaros Gem",
+      "quantity": 1,
+      "chance": 8
+    }
+  ],
+  "questIds": [
+    "quest-401",
+    "quest-504",
+    "quest-641",
+    "quest-62608",
+    "quest-62606"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

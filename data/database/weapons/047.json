@@ -1,0 +1,2368 @@
+[
+  {
+    "id": "weapon-bow-1075",
+    "name": "Iron Bow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 96,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1076",
+    "name": "Iron Bow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 108,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1075",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1077",
+    "name": "Iron Bow III",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 120,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1076",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1078",
+    "name": "Steel Bow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 132,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1077",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1079",
+    "name": "Steel Bow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 156,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1078",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1080",
+    "name": "Steel Bow III",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1079",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1081",
+    "name": "Alloy Bow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 180,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1080",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-1082",
+    "name": "Alloy Bow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 204,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-bow-1081",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 13
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-3037",
+    "name": "Dragon Perforator I",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 264,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-bow-1082",
+    "forge": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-3038",
+    "name": "Dragon Perforator II",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 276,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-bow-3037",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-3039",
+    "name": "Dragon Perforator III",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 312,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-bow-3038",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Pure Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-bow-3040",
+    "name": "Usurper's Rumble",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 300,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-bow-3037",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zinogre Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Cortex",
+          "quantity": 5
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Zinogre"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Zinogre Tree"
+  },
+  {
+    "id": "weapon-bow-3041",
+    "name": "Usurper's Rumble+",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 312,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-bow-3040",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zinogre Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Electrofur+",
+          "quantity": 4
+        },
+        {
+          "name": "Fulgurbug",
+          "quantity": 5
+        },
+        {
+          "name": "Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Zinogre"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Zinogre Tree"
+  },
+  {
+    "id": "weapon-bow-3042",
+    "name": "Despot's Earlybolt",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 324,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-bow-3041",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Spiritvein Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Spiritvein Solidbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Zinogre Tree"
+  },
+  {
+    "id": "weapon-bow-1083",
+    "name": "Nergal Whisper",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 228,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1081",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-bow-1084",
+    "name": "Doom's Shaft",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 240,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1083",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Talon",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-bow-3043",
+    "name": "Ruinous Doom",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 324,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-bow-1084",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Ruiner Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-bow-1085",
+    "name": "Kulu Arrow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 120,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1076",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale",
+          "quantity": 3
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Kulu-Ya-Ku"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-1086",
+    "name": "Kulu Arrow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 132,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1085",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 2
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan Scale"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-1087",
+    "name": "Kulu Arrow III",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 156,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1086",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 4
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Odogaron Claw"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-1088",
+    "name": "Archer's Dance I",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 180,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1087",
+    "forge": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Kulu-Ya-Ku Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Kulu-Ya-Ku Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-1089",
+    "name": "Archer's Dance II",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 192,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1088",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 3
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Odogaron Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-1090",
+    "name": "Archer's Dance III",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 204,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1089",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 5
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 4
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-3044",
+    "name": "Alqaws al-Nasr I",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 228,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1090",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Kulu-Ya-Ku Thickhide"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-3045",
+    "name": "Alqaws al-Nasr II",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 300,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-3044",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Nargacuga"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-bow-3046",
+    "name": "Rex Bow I",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 312,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-3044",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Tigrex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-bow-3047",
+    "name": "Rex Bow II",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-3046",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Tigrex Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-bow-3048",
+    "name": "Accursed Arc",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 348,
+    "affinity": -25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-3047",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brute Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Tigrex Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Brute Tigrex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-bow-3049",
+    "name": "Dios Flier",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-3044",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-bow-3050",
+    "name": "Tsali Flier",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 288,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-3049",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 3
+        },
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-bow-1091",
+    "name": "Brazencord",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 204,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-bow-1088",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Uragaan Jaw",
+          "quantity": 1
+        },
+        {
+          "name": "Uragaan Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Uragaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Uragaan"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Uragaan Tree"
+  },
+  {
+    "id": "weapon-bow-1092",
+    "name": "Gigacles",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 228,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-bow-1091",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Jaw",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Scute",
+          "quantity": 4
+        },
+        {
+          "name": "Uragaan Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Uragaan Tree"
+  },
+  {
+    "id": "weapon-bow-3051",
+    "name": "Gigacles+",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 288,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-bow-1092",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "name": "Uragaan Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Uragaan Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Uragaan Tree"
+  },
+  {
+    "id": "weapon-bow-3052",
+    "name": "Gigantomachy",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 312,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-bow-3051",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "name": "Uragaan Scute+",
+          "quantity": 2
+        },
+        {
+          "name": "Uragaan Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Uragaan Tree"
+  },
+  {
+    "id": "weapon-bow-1093",
+    "name": "Princess Arrow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 132,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-bow-1085",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Shell",
+          "quantity": 4
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Rathian"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-1094",
+    "name": "Princess Arrow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 192,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-bow-1093",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Rathian Scale+"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-1095",
+    "name": "Princess Arrow III",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 216,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-bow-1094",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "A Wound and a Thirst"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-3053",
+    "name": "Princess Arrow IV",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 252,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-bow-1095",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Cortex",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Rathian Cortex"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-3054",
+    "name": "Rosen Arrow",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 288,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-bow-3053",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-3055",
+    "name": "Lunatic Arrow",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 324,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-bow-3054",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Gold Rathian"
+    },
+    "sharpness": null,
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-bow-1096",
+    "name": "Rathslinger I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 144,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1093",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rath Wingtalon",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Shell",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Rathalos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-1097",
+    "name": "Rathslinger II",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 204,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1096",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-1098",
+    "name": "Rathslinger III",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 216,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1097",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-3056",
+    "name": "Rathslinger IV",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 252,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-1098",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-3057",
+    "name": "Azure Mightbow",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 276,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-3056",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-3058",
+    "name": "Silver Wrathbow",
+    "type": "bow",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 312,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-bow-3057",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 6
+        },
+        {
+          "name": "Silver Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Silver Rathalos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-bow-1099",
+    "name": "Aqua Arrow I",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 120,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1076",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Jyuratodus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-bow-1100",
+    "name": "Aqua Arrow II",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 132,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1099",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-bow-1101",
+    "name": "Aqua Arrow III",
+    "type": "bow",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 144,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-bow-1100",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-bow-1102",
+    "name": "Water Shot I",
+    "type": "bow",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-bow-1101",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  }
+]

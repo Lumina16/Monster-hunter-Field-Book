@@ -1,0 +1,545 @@
+{
+  "name": "Frostfang Barioth",
+  "source": "https://mhworld.kiranico.com/en/monsters/BaZUz/frostfang-barioth",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 65,
+      "impact": 70,
+      "shot": 55,
+      "fire": 20,
+      "water": 10,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 5,
+      "water": 5,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Stomach",
+      "cut": 38,
+      "impact": 38,
+      "shot": 25,
+      "fire": 10,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Claws",
+      "cut": 21,
+      "impact": 45,
+      "shot": 25,
+      "fire": 35,
+      "water": 5,
+      "thunder": 25,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Claws (Broken)",
+      "cut": 25,
+      "impact": 45,
+      "shot": 30,
+      "fire": 20,
+      "water": 5,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 30,
+      "impact": 45,
+      "shot": 20,
+      "fire": 10,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 40,
+      "impact": 45,
+      "shot": 35,
+      "fire": 15,
+      "water": 0,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 25,
+      "impact": 24,
+      "shot": 25,
+      "fire": 5,
+      "water": 5,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 23,
+      "shot": 45,
+      "fire": 10,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 60,
+      "impact": 40,
+      "shot": 40,
+      "fire": 15,
+      "water": 0,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 420,
+      "break": 420,
+      "notes": "x2 Break",
+      "secondBreak": 840
+    },
+    {
+      "part": "Belly",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Claws",
+      "flinch": 200,
+      "break": 400,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 220,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": 200,
+      "break": null,
+      "sever": 400,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 200,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Bergcrusher Claw",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Barioth Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Silverwhite Frostfang",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Barioth Lash",
+      "quantity": 1,
+      "chance": 87
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 78
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 74
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Bergcrusher Claw",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 78
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Bergcrusher Claw",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Barioth Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Silverwhite Frostfang",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Silverwhite Frostfang",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Bergcrusher Claw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Silversnow Pelt",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Barioth Greatspike",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Barioth Lash",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bergcrusher Claw",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    }
+  ],
+  "questIds": [
+    "quest-67821",
+    "quest-67818",
+    "quest-67836",
+    "quest-extra-old-dog-new-trick-5"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

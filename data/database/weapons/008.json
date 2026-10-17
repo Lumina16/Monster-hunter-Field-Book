@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "weapon-sword-and-shield-2178",
+    "name": "Legendary Bang",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 364,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 450,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-sword-and-shield-2177",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Conqueror's Seal"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-187",
+    "name": "Aqua Messer I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 140,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-171",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Jyuratodus"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-188",
+    "name": "Aqua Messer II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-187",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      80,
+      50,
+      80,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-189",
+    "name": "Aqua Messer III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-188",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-190",
+    "name": "Rogue Wave I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-189",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-191",
+    "name": "Rogue Wave II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-190",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 4
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-192",
+    "name": "Rogue Wave III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 252,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-191",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 6
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      100,
+      60,
+      60,
+      100,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2179",
+    "name": "Rogue Wave IV",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-192",
+    "forge": {
+      "materials": [
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Jyuratodus Cortex"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Jyuratodus Cortex"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2180",
+    "name": "Laguna Blossom I",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 308,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2179",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Coral Pukei-Pukei"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2181",
+    "name": "Laguna Blossom II",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2180",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2182",
+    "name": "Icicle Spike",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 294,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2179",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Barioth"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2183",
+    "name": "Icicle Spike+",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 308,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2182",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2184",
+    "name": "Nardebosche",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 350,
+    "affinity": 30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2183",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-3224",
+    "name": "Silverbosche",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 378,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2182",
+    "forge": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "sharpness": [
+      10,
+      30,
+      50,
+      50,
+      60,
+      120,
+      30
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Frostfang Barioth Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-193",
+    "name": "Glacial Grace I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-188",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Frost Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Legiana"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-194",
+    "name": "Glacial Grace II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-193",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-195",
+    "name": "Rimespire",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-194",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Legiana Scale+"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-196",
+    "name": "Legia Rimespire",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-195",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Daora Dragon Scale+"
+    },
+    "sharpness": [
+      120,
+      30,
+      60,
+      80,
+      40,
+      20,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2185",
+    "name": "Legia Rimespire+",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 294,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-196",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Tail Webbing+",
+          "quantity": 2
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Legiana Thickhide"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2186",
+    "name": "Hoarcry Rimespire",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 308,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2185",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Rimed Hide",
+          "quantity": 5
+        },
+        {
+          "name": "Stark Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2187",
+    "name": "Nephilim Glacia",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2186",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 4
+        },
+        {
+          "name": "Stark Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      50,
+      20,
+      30,
+      90,
+      90,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Legiana Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-197",
+    "name": "Princess Rapier",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 168,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-187",
+    "forge": {
+      "materials": [
+        {
+          "name": "Rathian Shell",
+          "quantity": 5
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Rathian"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Shell",
+          "quantity": 4
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Rathian"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-198",
+    "name": "Queen Rapier",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 210,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-197",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Rathian Scale+"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-199",
+    "name": "Queen Rose",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 238,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-198",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike+",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-200",
+    "name": "Royal Rose",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 266,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-199",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2188",
+    "name": "Royal Rose+",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 308,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-200",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Cortex",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Rathian Cortex"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2189",
+    "name": "Rose Highness",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 364,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2188",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2190",
+    "name": "Lunatic Rose",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 406,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2189",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Gold Rathian"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-201",
+    "name": "Lumu Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 168,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-187",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Paolumu"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-202",
+    "name": "Lumu Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-201",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-203",
+    "name": "Lumu Tabar I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-202",
+    "forge": {
+      "materials": [
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 6
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-204",
+    "name": "Lumu Tabar II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-203",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-205",
+    "name": "Lumu Tabar III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 238,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-204",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 7
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      80,
+      50,
+      60,
+      120,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2191",
+    "name": "Lumu Nightmare I",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-205",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Paolumu Thickfur"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2192",
+    "name": "Lumu Nightmare II",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 480,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2191",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2193",
+    "name": "Nyx Tabar I",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 308,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-205",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2194",
+    "name": "Nyx Tabar II",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-sword-and-shield-2193",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-206",
+    "name": "Blooming Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 154,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-171",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Pukei-Pukei"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-207",
+    "name": "Blooming Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-206",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-208",
+    "name": "Blooming Knife III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 196,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-207",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      40,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-209",
+    "name": "Datura Blossom I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-208",
+    "forge": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Baptism by Ice"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pukei-Pukei Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-210",
+    "name": "Datura Blossom II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 224,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-209",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-211",
+    "name": "Datura Blossom III",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 238,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-210",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 6
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      90,
+      120,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2195",
+    "name": "Datura Florescence I",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 280,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-211",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2196",
+    "name": "Datura Florescence II",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2195",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2197",
+    "name": "Dios Edge",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 322,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-2195",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-2198",
+    "name": "Booming Barrage",
+    "type": "sword-and-shield",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-sword-and-shield-2197",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 3
+        },
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-212",
+    "name": "Girros Knife I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 168,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-206",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Girros Fang",
+          "quantity": 1
+        },
+        {
+          "name": "Great Girros Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Girros Fang",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Great Girros"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Girros Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-213",
+    "name": "Girros Knife II",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-212",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Great Girros Hood",
+          "quantity": 2
+        },
+        {
+          "name": "Paralysis Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Girros Tree"
+  },
+  {
+    "id": "weapon-sword-and-shield-214",
+    "name": "Malady's Tabar I",
+    "type": "sword-and-shield",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 196,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-sword-and-shield-213",
+    "forge": {
+      "materials": [
+        {
+          "name": "Great Girros Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Ultraplegia Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Baptism by Ice"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Girros Fang+",
+          "quantity": 3
+        },
+        {
+          "name": "Great Girros Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Great Girros Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Girros Scale+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Great Girros Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Girros Tree"
+  }
+]

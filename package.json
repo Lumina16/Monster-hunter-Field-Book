@@ -1,0 +1,8 @@
+{
+  "name": "monster-hunter-field-book",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "test": "node qa/settings-regression.cjs" },
+  "devDependencies": { "jsdom": "30.1.3" },
+  "engines": { "node": ">=22" }
+}

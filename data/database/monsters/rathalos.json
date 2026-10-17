@@ -1,0 +1,1720 @@
+{
+  "name": "Rathalos",
+  "source": "https://mhworld.kiranico.com/en/monsters/BnetX/rathalos",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 65,
+      "impact": 70,
+      "shot": 60,
+      "fire": 0,
+      "water": 15,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 35,
+      "impact": 40,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 25,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 25,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 50,
+      "impact": 45,
+      "shot": 40,
+      "fire": 0,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 35,
+      "impact": 35,
+      "shot": 30,
+      "fire": 0,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 40,
+      "shot": 35,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 60,
+      "impact": 65,
+      "shot": 50,
+      "fire": 0,
+      "water": 15,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Neck",
+      "cut": 35,
+      "impact": 37,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Wings",
+      "cut": 20,
+      "impact": 21,
+      "shot": 19,
+      "fire": 0,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 240,
+      "break": 480,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings",
+      "flinch": 220,
+      "break": 220,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs",
+      "flinch": 190,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 200,
+      "break": null,
+      "sever": 200,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 40,
+      "increase": 70,
+      "max": 460
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 60,
+      "max": 720,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 200,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Marrow",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathalos Marrow",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Marrow",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Shell",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Scale",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Flame Sac",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone+",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Marrow",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Shell",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Scale",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Flame Sac",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Webbing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 13
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Marrow",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Shell",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Scale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Flame Sac",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Carapace",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Scale+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Inferno Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Hardbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Tail",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Carapace",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Inferno Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Scale+",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Wing",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Carapace",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Inferno Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Scale+",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Sullied Streamstone",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Shining Streamstone",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathalos Medulla",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Lash",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Medulla",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Cortex",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Conflagrant Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Wingtalon+",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Lash",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Cortex",
+      "quantity": 2,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Shard",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Conflagrant Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Lash",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rath Wingtalon+",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Lash",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Cortex",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Conflagrant Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Shard",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rath Wingtalon+",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Ruby",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "King's Scale",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "King's Scale",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Heavy Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "King's Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Red Scale",
+      "quantity": 1,
+      "chance": 61
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem",
+      "quantity": 1,
+      "chance": 9
+    }
+  ],
+  "questIds": [
+    "quest-201",
+    "quest-205",
+    "quest-306",
+    "quest-502",
+    "quest-153",
+    "quest-252",
+    "quest-351",
+    "quest-352",
+    "quest-451",
+    "quest-551",
+    "quest-552",
+    "quest-533",
+    "quest-651",
+    "quest-652",
+    "quest-653",
+    "quest-654",
+    "quest-655",
+    "quest-751",
+    "quest-752",
+    "quest-753",
+    "quest-735",
+    "quest-992",
+    "quest-61104",
+    "quest-61105",
+    "quest-61604",
+    "quest-67605",
+    "quest-66105",
+    "quest-66601",
+    "quest-63008",
+    "quest-63110",
+    "quest-63031",
+    "quest-1302",
+    "quest-1151",
+    "quest-1152",
+    "quest-1153",
+    "quest-1154",
+    "quest-1155",
+    "quest-1251",
+    "quest-1252",
+    "quest-1334",
+    "quest-1351",
+    "quest-1352",
+    "quest-1353",
+    "quest-1354",
+    "quest-1452",
+    "quest-66805",
+    "quest-66808",
+    "quest-66832",
+    "quest-66826",
+    "quest-67824"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 20150,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x2.00",
+        "x1.20",
+        "x1.50",
+        "x1.30"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 34418,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 51383,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 51383,
+      "modifiers": [
+        "x11.00",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x5.00",
+        "x4.20",
+        "x5.25",
+        "x3.25"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (25%)",
+      "health": 4908,
+      "modifiers": [
+        "x2.05",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (15%)",
+      "health": 6565,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 20800,
+      "modifiers": [
+        "x8.90",
+        "x1.00",
+        "x4.60",
+        "x1.35",
+        "x2.10",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2751 @@
+[
+  {
+    "id": "weapon-hammer-2401",
+    "name": "Magda Floga Reforged",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1456,
+    "affinity": -20,
+    "defense": 45,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hammer-421",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragonvein Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Heavy Dragonvein Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Elder Dragonvein Bone"
+    },
+    "sharpness": [
+      140,
+      40,
+      40,
+      70,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Zorah Magdaros Tree"
+  },
+  {
+    "id": "weapon-hammer-422",
+    "name": "Blacksteel Hammer I",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 520,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Earth Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 10
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Dragonvein Crystal"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      110,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-hammer-423",
+    "name": "Blacksteel Hammer II",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 572,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-422",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Firecell Stone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Blacksteel Tree"
+  },
+  {
+    "id": "weapon-hammer-424",
+    "name": "Icesteel Hammer",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 988,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hammer-423",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Daora Webbing",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kushala Daora"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-hammer-425",
+    "name": "Daora's Colossus",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 1040,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hammer-424",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Daora Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-hammer-2402",
+    "name": "Daora's Hyperborea",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1352,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hammer-425",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Hardhorn",
+          "quantity": 5
+        },
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Daora Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Daora Cortex"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kushala Daora Tree"
+  },
+  {
+    "id": "weapon-hammer-426",
+    "name": "Xeno Maph'agarna",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 884,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-hammer-423",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 6
+        },
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      130,
+      30,
+      60,
+      80,
+      40,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hammer-427",
+    "name": "Jail Hammer",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 832,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Hunter King Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Rathalos Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Rathalos Coin"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      120,
+      40,
+      50,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-428",
+    "name": "Binder Mace",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 936,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-hammer-427",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ace Hunter Coin",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Flying Coin",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Ace Hunter Coin"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2403",
+    "name": "Binding Coffin",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1352,
+    "affinity": 0,
+    "defense": 40,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-hammer-428",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Glavenus Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Coin",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Coin",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": [
+      60,
+      30,
+      30,
+      110,
+      40,
+      80,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-1158",
+    "name": "Devil's Due",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 1092,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Deviljho Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Deviljho Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Saliva",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000,
+      "unlock": "Deviljho Hide"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      120,
+      80,
+      60,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hammer-1159",
+    "name": "Devil's Crush",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 1196,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-1158",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Tallfang",
+          "quantity": 5
+        },
+        {
+          "name": "Deviljho Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      50,
+      120,
+      80,
+      60,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hammer-2404",
+    "name": "Consummate Hammer",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1456,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-1159",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vile Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Ripper",
+          "quantity": 2
+        },
+        {
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Savage Deviljho"
+    },
+    "sharpness": [
+      160,
+      30,
+      30,
+      60,
+      50,
+      20,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Deviljho Tree"
+  },
+  {
+    "id": "weapon-hammer-1208",
+    "name": "Empress Mace",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 936,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Lunastra Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Mane",
+          "quantity": 3
+        },
+        {
+          "name": "Lunastra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Lunastra Scale+"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-hammer-1209",
+    "name": "Empress Mace \"Blaze\"",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 936,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-hammer-1208",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-hammer-2405",
+    "name": "Soulfire Heel \"Blaze\"",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1300,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-hammer-1209",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Hardhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Lunastra Mane+",
+          "quantity": 4
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Lunastra Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Guts"
+    },
+    "obtain": [],
+    "family": "Lunastra Tree"
+  },
+  {
+    "id": "weapon-hammer-1210",
+    "name": "Empress Mace \"Ruin\"",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 988,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hammer-1208",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-hammer-2406",
+    "name": "Soulfire Heel \"Ruin\"",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1404,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hammer-1210",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Nergigante Cortex"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Hasten Recovery"
+    },
+    "obtain": [],
+    "family": "Lunastra/Nergigante Tree"
+  },
+  {
+    "id": "weapon-hammer-1211",
+    "name": "Empress Mace \"Styx\"",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 936,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-hammer-1208",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Lunastra Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Xeno'jiiva Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Lunastra"
+    },
+    "sharpness": [
+      110,
+      30,
+      60,
+      80,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hammer-2407",
+    "name": "Soulfire Heel \"Styx\"",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1300,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-hammer-1211",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Lunastra Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Lunastra Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Elder Spiritvein Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Elder Spiritvein Bone"
+    },
+    "sharpness": [
+      120,
+      30,
+      90,
+      30,
+      30,
+      50,
+      0
+    ],
+    "attributes": {
+      "skill": "Razor Sharp/Spare Shot"
+    },
+    "obtain": [],
+    "family": "Lunastra/Xeno'jiiva Tree"
+  },
+  {
+    "id": "weapon-hammer-3136",
+    "name": "Mane Malice",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1508,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Rajang Wildpelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      100,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-hammer-3137",
+    "name": "Mane Malice Rajang",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1612,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-hammer-3136",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Glimmerpelt",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Hardfang",
+          "quantity": 7
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Glimmerpelt"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rajang Tree"
+  },
+  {
+    "id": "weapon-hammer-3138",
+    "name": "Demonlord Sledge",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1508,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Ghoulish Gold Gorer",
+          "quantity": 3
+        },
+        {
+          "name": "Rajang Apoplexy",
+          "quantity": 2
+        },
+        {
+          "name": "Gold Rajang Pelt+",
+          "quantity": 5
+        },
+        {
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Furious Rajang"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Furious Rajang Tree"
+  },
+  {
+    "id": "weapon-hammer-3139",
+    "name": "Brimstren Drakemaw",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1300,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Stygian Zinogre Dragonlocks",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Dragonhold",
+          "quantity": 2
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Stygian Zinogre"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-hammer-3140",
+    "name": "Stygian Industria",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1404,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-hammer-3139",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Dragonhold",
+          "quantity": 3
+        },
+        {
+          "name": "Stygian Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Stygian Zinogre Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Dragonhold"
+    },
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Stygian Zinogre Tree"
+  },
+  {
+    "id": "weapon-hammer-3141",
+    "name": "Lightbreak Hammer",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1560,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Brach Obliterator",
+          "quantity": 3
+        },
+        {
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "name": "Indestructible Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Raging Brachydios"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      90,
+      30,
+      30,
+      50,
+      20
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Raging Brachydios Tree"
+  },
+  {
+    "id": "weapon-hammer-3202",
+    "name": "Alatreon Hammer",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1300,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 630,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Alatreon"
+    },
+    "upgrade": null,
+    "sharpness": [
+      120,
+      20,
+      20,
+      70,
+      40,
+      30,
+      50
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-hammer-3203",
+    "name": "Alatreon Metamorph",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1456,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 720,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-hammer-3202",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Alatreon"
+    },
+    "sharpness": [
+      80,
+      20,
+      20,
+      70,
+      40,
+      30,
+      90
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Alatreon Tree"
+  },
+  {
+    "id": "weapon-hammer-3246",
+    "name": "Fatalis Buster",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1612,
+    "affinity": -40,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 90,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 28000,
+      "unlock": "Fatalis"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-hammer-3247",
+    "name": "Fatalis Demolisher",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1820,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4,
+      4
+    ],
+    "parent": "weapon-hammer-3246",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        },
+        {
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Fatalis"
+    },
+    "sharpness": [
+      150,
+      20,
+      20,
+      70,
+      40,
+      30,
+      20
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Fatalis Tree"
+  },
+  {
+    "id": "weapon-hammer-1212",
+    "name": "Bristly Pincushion",
+    "type": "hammer",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 676,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Bristly Crake Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Radobaan Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Bristly Crake Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-1213",
+    "name": "Bristly Grudge",
+    "type": "hammer",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 1040,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-1212",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bristly Crake Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 3
+        },
+        {
+          "name": "High Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "High Commendation"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2408",
+    "name": "Bristly Inferno",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1352,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-1213",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Research Commission Ticket+",
+          "quantity": 2
+        },
+        {
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Conqueror's Seal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Research Commission Ticket+"
+    },
+    "sharpness": [
+      60,
+      30,
+      30,
+      110,
+      40,
+      80,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2409",
+    "name": "Well-done Hammer",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1404,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Meaty Canteen Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Meaty Canteen Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      70,
+      50,
+      50,
+      80,
+      150,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2410",
+    "name": "Juicy Well-done Hammer",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1612,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hammer-2409",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Meaty Canteen Ticket",
+          "quantity": 1
+        },
+        {
+          "name": "Slumbering Greatbone",
+          "quantity": 3
+        },
+        {
+          "name": "Afflicted Frenzybone",
+          "quantity": 3
+        },
+        {
+          "name": "Forest Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Forest Crystal"
+    },
+    "sharpness": [
+      30,
+      50,
+      50,
+      80,
+      190,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2411",
+    "name": "Space Lord! Super-8",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1248,
+    "affinity": 0,
+    "defense": 40,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 640,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Unity Symbol",
+          "quantity": 3
+        },
+        {
+          "name": "Namielle Whisker",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Unity Symbol"
+    },
+    "upgrade": null,
+    "sharpness": [
+      50,
+      80,
+      30,
+      30,
+      80,
+      80,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Workshop Weapon Tree"
+  },
+  {
+    "id": "weapon-hammer-2412",
+    "name": "Guild Palace Mace",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1300,
+    "affinity": 10,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-hammer-2413",
+    "name": "Royal Cross Mace",
+    "type": "hammer",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1404,
+    "affinity": 15,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-hammer-2412",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2414",
+    "name": "Defender Rally Horn I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 546,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "upgrade": null,
+    "sharpness": [
+      30,
+      60,
+      20,
+      90,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WGC"
+    },
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2415",
+    "name": "Defender Rally Horn II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 714,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-2414",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      30,
+      60,
+      20,
+      140,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WGC"
+    },
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2416",
+    "name": "Defender Rally Horn III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 798,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-2415",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": [
+      50,
+      50,
+      50,
+      80,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PGC"
+    },
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2417",
+    "name": "Defender Rally Horn IV",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 882,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-2416",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": [
+      30,
+      50,
+      50,
+      80,
+      90,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PGC"
+    },
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-2418",
+    "name": "Defender Rally Horn V",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-hunting-horn-2417",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {
+      "notes": "PGC"
+    },
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-429",
+    "name": "Metal Bagpipe I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 336,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      50,
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-430",
+    "name": "Metal Bagpipe II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 378,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-hunting-horn-429",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      80,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-431",
+    "name": "Metal Bagpipe III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-hunting-horn-430",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-432",
+    "name": "Great Bagpipe I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 462,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-hunting-horn-431",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-433",
+    "name": "Great Bagpipe II",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 546,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-hunting-horn-432",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-434",
+    "name": "Great Bagpipe III",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 588,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-433",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "WRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-hunting-horn-435",
+    "name": "Fortissimo I",
+    "type": "hunting-horn",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-hunting-horn-434",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "notes": "PRB"
+    },
+    "obtain": [],
+    "family": "Ore Tree"
+  }
+]

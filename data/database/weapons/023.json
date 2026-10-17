@@ -1,0 +1,2835 @@
+[
+  {
+    "id": "weapon-lance-531",
+    "name": "Kulu Hasta I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 345,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-530",
+    "forge": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Kulu-Ya-Ku Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Kulu-Ya-Ku Scale+"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-532",
+    "name": "Kulu Hasta II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 368,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-531",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 3
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Odogaron Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-533",
+    "name": "Kulu Hasta III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 391,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-532",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 5
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 4
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-2507",
+    "name": "Minqar al-Nasr I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 483,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-533",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Kulu-Ya-Ku Thickhide"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-2508",
+    "name": "Minqar al-Nasr II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 598,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2507",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Nargacuga"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-lance-2509",
+    "name": "Tusk Lance",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 506,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2507",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Barioth"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-lance-2510",
+    "name": "Tusk Lance+",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2509",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-lance-2511",
+    "name": "Sabertooth",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 575,
+    "affinity": 30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2510",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barioth Tree"
+  },
+  {
+    "id": "weapon-lance-3228",
+    "name": "Saber Fang",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 621,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2509",
+    "forge": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "sharpness": [
+      10,
+      30,
+      50,
+      50,
+      60,
+      120,
+      30
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Frostfang Barioth Tree"
+  },
+  {
+    "id": "weapon-lance-534",
+    "name": "Gama Pilebunker I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-lance-531",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Dodogama"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-lance-535",
+    "name": "Gama Pilebunker II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 391,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-lance-534",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-lance-2512",
+    "name": "Gama Drill I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 460,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-lance-535",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Dodogama Thickhide"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-lance-2513",
+    "name": "Gama Drill II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-lance-2512",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-lance-2514",
+    "name": "Hidden Hastur I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 483,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-2512",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Nargacuga"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nargacuga Tree"
+  },
+  {
+    "id": "weapon-lance-2515",
+    "name": "Hidden Hastur II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 529,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 570,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-2514",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Cutwing+",
+          "quantity": 3
+        },
+        {
+          "name": "Nargacuga Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      140,
+      20,
+      20,
+      70,
+      40,
+      30,
+      30
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Nargacuga Tree"
+  },
+  {
+    "id": "weapon-lance-536",
+    "name": "Thunder Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 276,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-528",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 1
+        },
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      90,
+      50,
+      80,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-537",
+    "name": "Thunder Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 322,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-536",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      80,
+      50,
+      80,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-538",
+    "name": "Lightning Spire I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-537",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Vespoid Innerwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Tobi-Kadachi Scale+"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      110,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-539",
+    "name": "Lightning Spire II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 391,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-538",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 4
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-540",
+    "name": "Lightning Spire III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 414,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-539",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 6
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-2516",
+    "name": "Lightning Bolt I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 483,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-540",
+    "forge": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Cathode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Tobi-Kadachi Thickfur"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Tobi-Kadachi Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Thickfur",
+          "quantity": 2
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Tobi-Kadachi Thickfur"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-2517",
+    "name": "Lightning Bolt II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 529,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-2516",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Cathode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Membrane+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Hard Odogaron Sinew"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-2518",
+    "name": "Thunderpierce I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-2517",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zinogre Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 2
+        },
+        {
+          "name": "Zinogre Cortex",
+          "quantity": 5
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Zinogre"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-2519",
+    "name": "Thunderpierce II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 575,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-2518",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zinogre Hardhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Zinogre Electrofur+",
+          "quantity": 4
+        },
+        {
+          "name": "Fulgurbug",
+          "quantity": 5
+        },
+        {
+          "name": "Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Zinogre"
+    },
+    "sharpness": [
+      130,
+      30,
+      90,
+      30,
+      30,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Thunder Element Tree"
+  },
+  {
+    "id": "weapon-lance-541",
+    "name": "Blooming Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 230,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-515",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Pukei-Pukei"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-542",
+    "name": "Blooming Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 253,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-541",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-543",
+    "name": "Blooming Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-542",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-544",
+    "name": "Datura Pike I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 345,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-lance-543",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pukei-Pukei Scale+"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-545",
+    "name": "Datura Pike II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-544",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-546",
+    "name": "Datura Pike III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 391,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-545",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 6
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      100,
+      120,
+      40,
+      50,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-2520",
+    "name": "Datura Stalk I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 460,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-546",
+    "forge": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 4
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-2521",
+    "name": "Datura Stalk II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 660,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-2520",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-2522",
+    "name": "Laguna Pike I",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 506,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-2520",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Coral Pukei-Pukei"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Coral Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-2523",
+    "name": "Laguna Pike II",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-lance-2522",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Coral Pukei Tree"
+  },
+  {
+    "id": "weapon-lance-547",
+    "name": "Flame Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 299,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-lance-542",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Rathalos"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-548",
+    "name": "Flame Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 322,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-547",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Inferno Sac"
+    },
+    "sharpness": [
+      90,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-549",
+    "name": "Red Tail",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 391,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-548",
+    "forge": {
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Scale+"
+    },
+    "sharpness": [
+      110,
+      50,
+      50,
+      80,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-550",
+    "name": "Blue Tail",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 414,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-549",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-551",
+    "name": "Blue Prominence",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 437,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-550",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Azure Rathalos Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Azure Rathalos Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      90,
+      60,
+      60,
+      100,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-2524",
+    "name": "Blue Prominence+",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 506,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-551",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Rath Wingtalon+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Cortex"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-2525",
+    "name": "Soul Prominence",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 552,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-lance-2524",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-2526",
+    "name": "Silver Prominence",
+    "type": "lance",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 621,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-2525",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Lash",
+          "quantity": 3
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Silver Rathalos"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-lance-552",
+    "name": "Bone Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 207,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      60,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-553",
+    "name": "Bone Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 230,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-552",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      90,
+      50,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-554",
+    "name": "Bone Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 253,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-553",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-555",
+    "name": "Hard Bone Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 322,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-554",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-556",
+    "name": "Hard Bone Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 345,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-lance-555",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-557",
+    "name": "Hard Bone Lance III",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 368,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-556",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-558",
+    "name": "Heavy Bone Lance I",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 391,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-lance-557",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 10
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-lance-559",
+    "name": "Heavy Bone Lance II",
+    "type": "lance",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 437,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-lance-558",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 20
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      100,
+      120,
+      40,
+      50,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  }
+]

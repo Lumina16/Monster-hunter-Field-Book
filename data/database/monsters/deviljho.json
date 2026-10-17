@@ -1,0 +1,878 @@
+{
+  "name": "Deviljho",
+  "source": "https://mhworld.kiranico.com/en/monsters/4rATd/deviljho",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 60,
+      "impact": 70,
+      "shot": 60,
+      "fire": 10,
+      "water": 10,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Enraged)",
+      "cut": 45,
+      "impact": 50,
+      "shot": 45,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 5,
+      "water": 5,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body (Enraged)",
+      "cut": 22,
+      "impact": 22,
+      "shot": 20,
+      "fire": 10,
+      "water": 10,
+      "thunder": 25,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Chest",
+      "cut": 37,
+      "impact": 37,
+      "shot": 35,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Chest (Enraged)",
+      "cut": 75,
+      "impact": 75,
+      "shot": 70,
+      "fire": 20,
+      "water": 20,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Lower Body",
+      "cut": 30,
+      "impact": 30,
+      "shot": 30,
+      "fire": 5,
+      "water": 5,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Lower Body (Enraged)",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 10,
+      "water": 10,
+      "thunder": 25,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Arms",
+      "cut": 30,
+      "impact": 30,
+      "shot": 30,
+      "fire": 10,
+      "water": 10,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Arms (Enraged)",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 15,
+      "water": 15,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 45,
+      "impact": 38,
+      "shot": 35,
+      "fire": 5,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs (Enraged)",
+      "cut": 24,
+      "impact": 25,
+      "shot": 25,
+      "fire": 10,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 35,
+      "shot": 25,
+      "fire": 5,
+      "water": 5,
+      "thunder": 20,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Enraged)",
+      "cut": 25,
+      "impact": 24,
+      "shot": 20,
+      "fire": 10,
+      "water": 10,
+      "thunder": 25,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": 100,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Torso",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 150,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 180,
+      "break": null,
+      "sever": 540,
+      "notes": null
+    },
+    {
+      "part": "Head (Enraged)",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest (Enraged)",
+      "flinch": 100,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Torso (Enraged)",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs (Enraged)",
+      "flinch": 150,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs (Enraged)",
+      "flinch": 200,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail (Enraged)",
+      "flinch": 180,
+      "break": null,
+      "sever": 540,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 100,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 100,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 300,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "8 seconds",
+      "initial": 100,
+      "increase": 150,
+      "max": 900,
+      "duration": 8
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "15→12→9→6→3"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Hide",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Talon",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Tallfang",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Scalp",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Deviljho Tallfang",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Deviljho Scalp",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Hide",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Deviljho Saliva",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Tail",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Deviljho Saliva",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Hide",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Talon",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Hide",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Talon",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Tallfang",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Saliva",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Hardbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Talon",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Tallfang",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Tail",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Scalp",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Hide",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Scale",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Saliva",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Scalp",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Talon",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Hide",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Tallfang",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Saliva",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Scale",
+      "quantity": 3,
+      "chance": 8
+    }
+  ],
+  "questIds": [
+    "quest-651",
+    "quest-652",
+    "quest-653",
+    "quest-654",
+    "quest-655",
+    "quest-656",
+    "quest-661",
+    "quest-662",
+    "quest-663",
+    "quest-665",
+    "quest-666",
+    "quest-667",
+    "quest-671",
+    "quest-672",
+    "quest-681",
+    "quest-682",
+    "quest-683",
+    "quest-684",
+    "quest-691",
+    "quest-692",
+    "quest-693",
+    "quest-694",
+    "quest-751",
+    "quest-752",
+    "quest-753",
+    "quest-761",
+    "quest-762",
+    "quest-763",
+    "quest-764",
+    "quest-771",
+    "quest-772",
+    "quest-773",
+    "quest-774",
+    "quest-781",
+    "quest-791",
+    "quest-792",
+    "quest-793",
+    "quest-794",
+    "quest-795",
+    "quest-50751",
+    "quest-50701",
+    "quest-61606",
+    "quest-67608",
+    "quest-66606",
+    "quest-62515",
+    "quest-63108",
+    "quest-1606",
+    "quest-67607"
+  ],
+  "guidingLands": [],
+  "expeditions": [
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (5%)",
+      "health": 8888,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 8888,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Coral Highlands (5%)",
+      "health": 8888,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Rotten Vale (5%)",
+      "health": 8888,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Elder's Recess (10%)",
+      "health": 8888,
+      "modifiers": [
+        "x3.60",
+        "x1.00",
+        "x1.60",
+        "x1.20",
+        "x1.20",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

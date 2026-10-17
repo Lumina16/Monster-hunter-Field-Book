@@ -1,0 +1,3484 @@
+[
+  {
+    "id": "quest-66819",
+    "name": "I Am Tranquil, I Am Sound",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "yian-garuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 22050,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 56227,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": false,
+        "health": 23450,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 59797,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": false,
+        "health": 16240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 41412,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "fulgur-anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 19136,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 48796,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66820",
+    "name": "A Roar that Splinters the Sky",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "brute-tigrex",
+        "quantity": 1,
+        "objective": true,
+        "health": 21000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 53550,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "dodogama",
+        "quantity": 1,
+        "objective": false,
+        "health": 17400,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 44370,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "brachydios",
+        "quantity": 1,
+        "objective": false,
+        "health": 19136,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 48796,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.35,
+          "StI": 5.25,
+          "Stn": 4.2,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "azure-rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 20800,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 53040,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66821",
+    "name": "A Glance of Silver",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "silver-rathalos",
+        "quantity": 1,
+        "objective": true,
+        "health": 21000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 53550,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "banbaro",
+        "quantity": 1,
+        "objective": false,
+        "health": 16240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 41412,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "uragaan",
+        "quantity": 1,
+        "objective": false,
+        "health": 27520,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 70176,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.35,
+          "StI": 5.25,
+          "Stn": 4.2,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "ebony-odogaron",
+        "quantity": 1,
+        "objective": false,
+        "health": 19200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 48960,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66822",
+    "name": "The Moon is a Harsh Queen",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "gold-rathian",
+        "quantity": 1,
+        "objective": true,
+        "health": 21000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 53550,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "dodogama",
+        "quantity": 1,
+        "objective": false,
+        "health": 17400,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 44370,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "tigrex",
+        "quantity": 1,
+        "objective": false,
+        "health": 19200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 48960,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.35,
+          "StI": 5.25,
+          "Stn": 4.2,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "azure-rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 20800,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 53040,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-61808",
+    "name": "Muscle Monkey Madness",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 50400,
+    "monsters": [
+      {
+        "id": "rajang",
+        "quantity": 2,
+        "objective": true,
+        "health": 13500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 34425,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 12.75
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67804",
+    "name": "Mighty Muscle Monkey Madness",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 60480,
+    "monsters": [
+      {
+        "id": "furious-rajang",
+        "quantity": 2,
+        "objective": true,
+        "health": 14820,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 38532,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 13.52
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66824",
+    "name": "Razzled, Frazzled, and Dazzled",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "rajang",
+        "quantity": 1,
+        "objective": true,
+        "health": 18900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 48195,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "nightshade-paolumu",
+        "quantity": 1,
+        "objective": false,
+        "health": 17995,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 45872,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 12.54,
+          "StB": 1.3,
+          "StI": 5,
+          "Stn": 4.03,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 15.55
+        }
+      },
+      {
+        "id": "black-diablos",
+        "quantity": 1,
+        "objective": false,
+        "health": 22080,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 56304,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "savage-deviljho",
+        "quantity": 1,
+        "objective": false,
+        "health": 23040,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.5,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.45,
+          "ailmentThreshold": 2.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 58752,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.45,
+          "StI": 5.75,
+          "Stn": 4.55,
+          "Exh": 5.25,
+          "Mnt": 3.75,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66825",
+    "name": "Scars Tell the Whole Story",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 34560,
+    "monsters": [
+      {
+        "id": "scarred-yian-garuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 24420,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 12.4,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.8,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 62271,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 1.5,
+          "StI": 7,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 18.87
+        }
+      },
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": false,
+        "health": 23450,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 59797,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "pukei-pukei",
+        "quantity": 1,
+        "objective": false,
+        "health": 16240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 41412,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "rajang",
+        "quantity": 1,
+        "objective": false,
+        "health": 18900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 48195,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66832",
+    "name": "Wolf Out of Hell",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "stygian-zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 21000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 53550,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      },
+      {
+        "id": "dodogama",
+        "quantity": 1,
+        "objective": false,
+        "health": 17400,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 44370,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      },
+      {
+        "id": "brachydios",
+        "quantity": 1,
+        "objective": false,
+        "health": 19136,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 48796,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.35,
+          "StI": 5.25,
+          "Stn": 4.2,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 20800,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 53040,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.35,
+          "StI": 5.25,
+          "Stn": 4.2,
+          "Exh": 5.25,
+          "Mnt": 2.5,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66826",
+    "name": "Yodeling in the Forest",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 73440,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 5980,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.1,
+          "ailmentThreshold": 2.1,
+          "stun": 1.7,
+          "exhaust": 1.7,
+          "mount": 1.7
+        },
+        "multiplayerHealth": 15248,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.1,
+          "StI": 5.25,
+          "Stn": 5.95,
+          "Exh": 5.95,
+          "Mnt": 4.25,
+          "HPm": 5.1
+        }
+      },
+      {
+        "id": "rathalos",
+        "quantity": 1,
+        "objective": true,
+        "health": 7312,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 18655,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "nargacuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 7087,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 18081,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "yian-garuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 7875,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 20065,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.37
+        }
+      },
+      {
+        "id": "rajang",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 17226,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66827",
+    "name": "Heavy Metal in the Waste",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Wildspire Waste",
+    "zenny": 67320,
+    "monsters": [
+      {
+        "id": "jyuratodus",
+        "quantity": 1,
+        "objective": true,
+        "health": 4900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.0,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 2.0,
+          "stun": 1.6,
+          "exhaust": 1.6,
+          "mount": 1.6
+        },
+        "multiplayerHealth": 12488,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2,
+          "StI": 5,
+          "Stn": 5.6,
+          "Exh": 5.6,
+          "Mnt": 4,
+          "HPm": 4.46
+        }
+      },
+      {
+        "id": "nightshade-paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 5900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.1,
+          "ailmentThreshold": 2.1,
+          "stun": 1.7,
+          "exhaust": 1.7,
+          "mount": 1.7
+        },
+        "multiplayerHealth": 15044,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.1,
+          "StI": 5.25,
+          "Stn": 5.95,
+          "Exh": 5.95,
+          "Mnt": 4.25,
+          "HPm": 5.1
+        }
+      },
+      {
+        "id": "glavenus",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17220,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "black-diablos",
+        "quantity": 1,
+        "objective": true,
+        "health": 8625,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 22011,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      },
+      {
+        "id": "savage-deviljho",
+        "quantity": 1,
+        "objective": true,
+        "health": 9000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 22968,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66833",
+    "name": "The Eternal Gold Rush",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Caverns of El Dorado",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "kulve-taroth",
+        "quantity": 1,
+        "objective": true,
+        "health": 54000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 14.5,
+          "defense": 1.0,
+          "part": 10.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 4.0,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 108000,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 20,
+          "StB": 2,
+          "StI": 10,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 4.5,
+          "HPm": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66828",
+    "name": "Symphony of the Coral",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 65520,
+    "monsters": [
+      {
+        "id": "paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 5900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.1,
+          "ailmentThreshold": 2.1,
+          "stun": 1.7,
+          "exhaust": 1.7,
+          "mount": 1.7
+        },
+        "multiplayerHealth": 15044,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.1,
+          "StI": 5.25,
+          "Stn": 5.95,
+          "Exh": 5.95,
+          "Mnt": 4.25,
+          "HPm": 5.1
+        }
+      },
+      {
+        "id": "legiana",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17220,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "coral-pukei-pukei",
+        "quantity": 1,
+        "objective": true,
+        "health": 6000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.1,
+          "ailmentThreshold": 2.1,
+          "stun": 1.7,
+          "exhaust": 1.7,
+          "mount": 1.7
+        },
+        "multiplayerHealth": 15299,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.1,
+          "StI": 5.25,
+          "Stn": 5.95,
+          "Exh": 5.95,
+          "Mnt": 4.25,
+          "HPm": 5.1
+        }
+      },
+      {
+        "id": "ebony-odogaron",
+        "quantity": 1,
+        "objective": true,
+        "health": 7500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 19140,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      },
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 8375,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 21339,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.37
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66829",
+    "name": "Rotten Canzone",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Rotten Vale",
+    "zenny": 66600,
+    "monsters": [
+      {
+        "id": "great-girros",
+        "quantity": 1,
+        "objective": true,
+        "health": 4200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.0,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 2.0,
+          "stun": 1.6,
+          "exhaust": 1.6,
+          "mount": 1.6
+        },
+        "multiplayerHealth": 10704,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2,
+          "StI": 5,
+          "Stn": 5.6,
+          "Exh": 5.6,
+          "Mnt": 4,
+          "HPm": 4.46
+        }
+      },
+      {
+        "id": "odogaron",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17220,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "tigrex",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17220,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "fulgur-anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 7475,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 19046,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.37
+        }
+      },
+      {
+        "id": "acidic-glavenus",
+        "quantity": 1,
+        "objective": true,
+        "health": 7475,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 19046,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.37
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66830",
+    "name": "Alt Rock Recess",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 71280,
+    "monsters": [
+      {
+        "id": "banbaro",
+        "quantity": 1,
+        "objective": true,
+        "health": 4900,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.0,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 2.0,
+          "stun": 1.6,
+          "exhaust": 1.6,
+          "mount": 1.6
+        },
+        "multiplayerHealth": 12488,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2,
+          "StI": 5,
+          "Stn": 5.6,
+          "Exh": 5.6,
+          "Mnt": 4,
+          "HPm": 4.46
+        }
+      },
+      {
+        "id": "uragaan",
+        "quantity": 1,
+        "objective": true,
+        "health": 9675,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 24682,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "brachydios",
+        "quantity": 1,
+        "objective": true,
+        "health": 6727,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17162,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "azure-rathalos",
+        "quantity": 1,
+        "objective": true,
+        "health": 8125,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 20735,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      },
+      {
+        "id": "seething-bazelgeuse",
+        "quantity": 1,
+        "objective": true,
+        "health": 10000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 25520,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66831",
+    "name": "Ballad of the Hoarfrost",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Hoarfrost Reach",
+    "zenny": 67320,
+    "monsters": [
+      {
+        "id": "beotodus",
+        "quantity": 1,
+        "objective": true,
+        "health": 3710,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.0,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 2.0,
+          "stun": 1.6,
+          "exhaust": 1.6,
+          "mount": 1.6
+        },
+        "multiplayerHealth": 9450,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2,
+          "StI": 5,
+          "Stn": 5.6,
+          "Exh": 5.6,
+          "Mnt": 4,
+          "HPm": 3.75
+        }
+      },
+      {
+        "id": "viper-tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 5800,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.1,
+          "ailmentThreshold": 2.1,
+          "stun": 1.7,
+          "exhaust": 1.7,
+          "mount": 1.7
+        },
+        "multiplayerHealth": 14789,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.1,
+          "StI": 5.25,
+          "Stn": 5.95,
+          "Exh": 5.95,
+          "Mnt": 4.25,
+          "HPm": 5.1
+        }
+      },
+      {
+        "id": "barioth",
+        "quantity": 1,
+        "objective": true,
+        "health": 6750,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.2,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 2.2,
+          "ailmentThreshold": 2.2,
+          "stun": 1.8,
+          "exhaust": 1.8,
+          "mount": 1.8
+        },
+        "multiplayerHealth": 17220,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 2.2,
+          "StI": 5.5,
+          "Stn": 6.3,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 5.74
+        }
+      },
+      {
+        "id": "shrieking-legiana",
+        "quantity": 1,
+        "objective": true,
+        "health": 7500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 19140,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      },
+      {
+        "id": "stygian-zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 7500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 2.4,
+          "ailmentThreshold": 2.4,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 19140,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 2.4,
+          "StI": 6,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 5,
+          "HPm": 6.38
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66835",
+    "name": "The Wrath of Thunder Descends",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 34560,
+    "monsters": [
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 24790,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 12.4,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.8,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 63214,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 1.5,
+          "StI": 7,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 18.87
+        }
+      },
+      {
+        "id": "fulgur-anjanath",
+        "quantity": 1,
+        "objective": false,
+        "health": 19136,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 48796,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "azure-rathalos",
+        "quantity": 1,
+        "objective": false,
+        "health": 20800,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 53040,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.38,
+          "Exh": 5.25,
+          "Mnt": 3.25,
+          "HPm": 16.32
+        }
+      },
+      {
+        "id": "banbaro",
+        "quantity": 1,
+        "objective": false,
+        "health": 16240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 41412,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.97,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 2.5,
+          "HPm": 14.79
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-66836",
+    "name": "Ode to the Destruction",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Origin Isle",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "ruiner-nergigante",
+        "quantity": 1,
+        "objective": true,
+        "health": 27380,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 69819,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 18.87
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67805",
+    "name": "Don't Forget The Earplugs!",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "yian-garuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 20160,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.0,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.45,
+          "ailmentThreshold": 2.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 51408,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.45,
+          "StI": 5.75,
+          "Stn": 4.55,
+          "Exh": 5.25,
+          "Mnt": 3.75,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67806",
+    "name": "Monkey Business",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Hoarfrost Reach",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "furious-rajang",
+        "quantity": 1,
+        "objective": true,
+        "health": 21090,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 54833,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67807",
+    "name": "The Naked Truth",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Origin Isle",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "shara-ishvalda",
+        "quantity": 1,
+        "objective": true,
+        "health": 47700,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 121635,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 15.96,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 22.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67808",
+    "name": "Tears from Nirvana",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Rotten Vale",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "blackveil-vaal-hazak",
+        "quantity": 1,
+        "objective": true,
+        "health": 31820,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 82732,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      },
+      {
+        "id": "furious-rajang",
+        "quantity": 1,
+        "objective": false,
+        "health": 21090,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 54833,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67809",
+    "name": "A Farewell to Zinogre",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 23450,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 59797,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 17.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67810",
+    "name": "Brand New Brute",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "brute-tigrex",
+        "quantity": 1,
+        "objective": true,
+        "health": 18450,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 47040,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 14.25,
+          "StB": 1.5,
+          "StI": 6,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 3.75,
+          "HPm": 15.68
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67811",
+    "name": "Mew are Number One!",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 210000,
+    "monsters": [
+      {
+        "id": "furious-rajang",
+        "quantity": 1,
+        "objective": true,
+        "health": 26219,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 16.0,
+          "defense": 1.0,
+          "part": 11.0,
+          "ailmentBuildup": 2.5,
+          "ailmentThreshold": 4.5,
+          "stun": 2.5,
+          "exhaust": 2.5,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 57683,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 26.4,
+          "StB": 2.5,
+          "StI": 11.25,
+          "Stn": 8.75,
+          "Exh": 8.75,
+          "Mnt": 6,
+          "HPm": 20.24
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67812",
+    "name": "The Evening Star",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Secluded Valley",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "alatreon",
+        "quantity": 1,
+        "objective": true,
+        "health": 52500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 16.15,
+          "defense": 1.0,
+          "part": 8.5,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 4.0,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 118125,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 24.65,
+          "StB": 2,
+          "StI": 10,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 4.5,
+          "HPm": 23.625
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67813",
+    "name": "Dawn of the Death Star",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Secluded Valley",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "alatreon",
+        "quantity": 1,
+        "objective": true,
+        "health": 52500,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 16.15,
+          "defense": 1.0,
+          "part": 8.5,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 4.0,
+          "stun": 2.0,
+          "exhaust": 2.0,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 118125,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 24.65,
+          "StB": 2,
+          "StI": 10,
+          "Stn": 7,
+          "Exh": 7,
+          "Mnt": 4.5,
+          "HPm": 23.625
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67814",
+    "name": "In the Tempest's Wake",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Seliana Supply Cache",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "kushala-daora",
+        "quantity": 1,
+        "objective": true,
+        "health": 29452,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 76574,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.2399497487437
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67815",
+    "name": "Day of Ruin",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Seliana Supply Cache",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "teostra",
+        "quantity": 1,
+        "objective": true,
+        "health": 31820,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 82732,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67816",
+    "name": "The Cold Never Bothered Me",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Seliana Supply Cache",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "lunastra",
+        "quantity": 1,
+        "objective": true,
+        "health": 31820,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 82732,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67817",
+    "name": "The Distant Dark Tide",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Coral Highlands",
+    "zenny": 54000,
+    "monsters": [
+      {
+        "id": "namielle",
+        "quantity": 1,
+        "objective": true,
+        "health": 36000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 19.0,
+          "defense": 1.0,
+          "part": 10.0,
+          "ailmentBuildup": 2.5,
+          "ailmentThreshold": 4.5,
+          "stun": 2.5,
+          "exhaust": 2.5,
+          "mount": 2.0
+        },
+        "multiplayerHealth": 86400,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 24,
+          "StB": 2.5,
+          "StI": 11.25,
+          "Stn": 8.75,
+          "Exh": 8.75,
+          "Mnt": 6,
+          "HPm": 21.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67818",
+    "name": "The Last White Knight",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Hoarfrost Reach",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "frostfang-barioth",
+        "quantity": 1,
+        "objective": true,
+        "health": 22200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 13.1,
+          "defense": 1.0,
+          "part": 5.6,
+          "ailmentBuildup": 1.6,
+          "ailmentThreshold": 3.0,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 57719,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 16.24,
+          "StB": 1.6,
+          "StI": 7.5,
+          "Stn": 4.55,
+          "Exh": 6.3,
+          "Mnt": 4.5,
+          "HPm": 19.24
+        }
+      },
+      {
+        "id": "banbaro",
+        "quantity": 1,
+        "objective": false,
+        "health": 16240,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 42224,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 12.18,
+          "StB": 1.25,
+          "StI": 4.75,
+          "Stn": 3.85,
+          "Exh": 4.55,
+          "Mnt": 3,
+          "HPm": 15.08
+        }
+      },
+      {
+        "id": "shrieking-legiana",
+        "quantity": 1,
+        "objective": false,
+        "health": 19200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 49920,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.34,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.375,
+          "Exh": 5.25,
+          "Mnt": 3.9,
+          "HPm": 16.64
+        }
+      },
+      {
+        "id": "ebony-odogaron",
+        "quantity": 1,
+        "objective": false,
+        "health": 19200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 49920,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.34,
+          "StB": 1.4,
+          "StI": 5.5,
+          "Stn": 4.375,
+          "Exh": 5.25,
+          "Mnt": 3.9,
+          "HPm": 16.64
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67819",
+    "name": "The Place Where Winter Sleeps",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Elder's Recess",
+    "zenny": 57600,
+    "monsters": [
+      {
+        "id": "velkhana",
+        "quantity": 1,
+        "objective": true,
+        "health": 57600,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 18.75,
+          "defense": 1.0,
+          "part": 16.0,
+          "ailmentBuildup": 2.0,
+          "ailmentThreshold": 7.5,
+          "stun": 3.0,
+          "exhaust": 3.0,
+          "mount": 2.5
+        },
+        "multiplayerHealth": 138240,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 44.8,
+          "StB": 2,
+          "StI": 21.75,
+          "Stn": 10.5,
+          "Exh": 10.5,
+          "Mnt": 7.5,
+          "HPm": 38.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67820",
+    "name": "Fade to Black",
+    "rank": "MR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Castle Schrade",
+    "zenny": 57600,
+    "monsters": [
+      {
+        "id": "fatalis",
+        "quantity": 1,
+        "objective": true,
+        "health": 66000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 18.0,
+          "defense": 1.0,
+          "part": 10.0,
+          "ailmentBuildup": 3.0,
+          "ailmentThreshold": 5.0,
+          "stun": 3.0,
+          "exhaust": 3.0,
+          "mount": 2.5
+        },
+        "multiplayerHealth": 171600,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 22,
+          "StB": 3,
+          "StI": 14.5,
+          "Stn": 1,
+          "Exh": 1,
+          "Mnt": 7.5,
+          "HPm": 31.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-61809",
+    "name": "Paolumu Lullabies",
+    "rank": "MR",
+    "stars": 2,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 81000,
+    "monsters": [
+      {
+        "id": "nightshade-paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 11210,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 25783,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.44,
+          "StB": 1.3,
+          "StI": 4.6,
+          "Stn": 2.7,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 8.74
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-64801",
+    "name": "Balloon Fight",
+    "rank": "MR",
+    "stars": 2,
+    "type": "event / hunt",
+    "locale": "Special Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 11210,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 25783,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.44,
+          "StB": 1.3,
+          "StI": 4.6,
+          "Stn": 2.7,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 8.74
+        }
+      },
+      {
+        "id": "nightshade-paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 11210,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 25783,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 11.44,
+          "StB": 1.3,
+          "StI": 4.6,
+          "Stn": 2.7,
+          "Exh": 4.5,
+          "Mnt": 2,
+          "HPm": 8.74
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-64802",
+    "name": "Talk About a Party Foul...",
+    "rank": "MR",
+    "stars": 5,
+    "type": "event / hunt",
+    "locale": "Special Arena",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "seething-bazelgeuse",
+        "quantity": 1,
+        "objective": true,
+        "health": 25600,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 10.5,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.45,
+          "ailmentThreshold": 2.3,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 65280,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 13.11,
+          "StB": 1.45,
+          "StI": 5.75,
+          "Stn": 4.55,
+          "Exh": 4.95,
+          "Mnt": 3.75,
+          "HPm": 16.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-67101",
+    "name": "The Proving",
+    "rank": "HR",
+    "stars": 6,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 9000,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true
+      }
+    ]
+  },
+  {
+    "id": "quest-67102",
+    "name": "Lessons of the Wild",
+    "rank": "LR",
+    "stars": 5,
+    "type": "event / hunt",
+    "locale": "Arena",
+    "zenny": 2520,
+    "monsters": [
+      {
+        "id": "tzitzi-ya-ku",
+        "quantity": 1,
+        "objective": false
+      }
+    ]
+  },
+  {
+    "id": "quest-67607",
+    "name": "The Heart of the Nora",
+    "rank": "HR",
+    "stars": 9,
+    "type": "event / hunt",
+    "locale": "Ancient Forest",
+    "zenny": 36000,
+    "monsters": [
+      {
+        "id": "deviljho",
+        "quantity": 2,
+        "objective": true
+      },
+      {
+        "id": "great-jagras",
+        "quantity": 1,
+        "objective": false
+      }
+    ]
+  },
+  {
+    "id": "quest-3171",
+    "name": "Arena Master Quest 01",
+    "rank": "MR",
+    "stars": 1,
+    "type": "arena / hunt",
+    "locale": "Arena",
+    "zenny": 14400,
+    "monsters": [
+      {
+        "id": "banbaro",
+        "quantity": 1,
+        "objective": true,
+        "health": 12600,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 4.2,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.1,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 12600,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.2,
+          "StB": 1.25,
+          "StI": 1.9,
+          "Stn": 1.1,
+          "Exh": 1.3,
+          "Mnt": 1,
+          "HPm": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3071",
+    "name": "Arena Master Quest 02",
+    "rank": "MR",
+    "stars": 2,
+    "type": "arena / hunt",
+    "locale": "Arena",
+    "zenny": 18000,
+    "monsters": [
+      {
+        "id": "nightshade-paolumu",
+        "quantity": 1,
+        "objective": true,
+        "health": 12094,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 12094,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.4,
+          "StB": 1.3,
+          "StI": 2,
+          "Stn": 1.15,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 4.1
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3072",
+    "name": "Arena Master Quest 03",
+    "rank": "MR",
+    "stars": 3,
+    "type": "arena / hunt",
+    "locale": "Arena",
+    "zenny": 25200,
+    "monsters": [
+      {
+        "id": "nargacuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 16380,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 16380,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.6,
+          "StB": 1.35,
+          "StI": 2.1,
+          "Stn": 1.2,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 5.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3073",
+    "name": "Arena Master Quest 04",
+    "rank": "MR",
+    "stars": 4,
+    "type": "arena / hunt",
+    "locale": "Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "acidic-glavenus",
+        "quantity": 1,
+        "objective": true,
+        "health": 12558,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.4,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 12558,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.6,
+          "StB": 1.4,
+          "StI": 2.2,
+          "Stn": 1.25,
+          "Exh": 1.5,
+          "Mnt": 1.3,
+          "HPm": 4.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3074",
+    "name": "Arena Master Quest 05",
+    "rank": "MR",
+    "stars": 4,
+    "type": "arena / hunt",
+    "locale": "Special Arena",
+    "zenny": 43200,
+    "monsters": [
+      {
+        "id": "odogaron",
+        "quantity": 1,
+        "objective": true,
+        "health": 10200,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 10200,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.6,
+          "StB": 1.35,
+          "StI": 2.1,
+          "Stn": 1.2,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 3.4
+        }
+      },
+      {
+        "id": "ebony-odogaron",
+        "quantity": 1,
+        "objective": true,
+        "health": 8100,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.4,
+          "ailmentThreshold": 2.2,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 8100,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.6,
+          "StB": 1.4,
+          "StI": 2.2,
+          "Stn": 1.25,
+          "Exh": 1.5,
+          "Mnt": 1.3,
+          "HPm": 2.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3091",
+    "name": "Arena Master Quest 06",
+    "rank": "MR",
+    "stars": 6,
+    "type": "arena / hunt",
+    "locale": "Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "zinogre",
+        "quantity": 1,
+        "objective": true,
+        "health": 18760,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 18760,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 5,
+          "StB": 1.5,
+          "StI": 2.4,
+          "Stn": 1.3,
+          "Exh": 1.8,
+          "Mnt": 1.5,
+          "HPm": 5.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-3092",
+    "name": "Arena Master Quest 07",
+    "rank": "MR",
+    "stars": 6,
+    "type": "arena / hunt",
+    "locale": "Special Arena",
+    "zenny": 48960,
+    "monsters": [
+      {
+        "id": "tigrex",
+        "quantity": 1,
+        "objective": true,
+        "health": 11100,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 8.9,
+          "defense": 1.0,
+          "part": 4.6,
+          "ailmentBuildup": 1.35,
+          "ailmentThreshold": 2.1,
+          "stun": 1.2,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 11100,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.6,
+          "StB": 1.35,
+          "StI": 2.1,
+          "Stn": 1.2,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 3.7
+        }
+      },
+      {
+        "id": "brute-tigrex",
+        "quantity": 1,
+        "objective": true,
+        "health": 9000,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.1,
+          "defense": 1.0,
+          "part": 5.0,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.8,
+          "mount": 1.5
+        },
+        "multiplayerHealth": 9000,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 5,
+          "StB": 1.5,
+          "StI": 2.4,
+          "Stn": 1.3,
+          "Exh": 1.8,
+          "Mnt": 1.5,
+          "HPm": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-63071",
+    "name": "Challenge Quest 1: MR Intermediate",
+    "rank": "MR",
+    "stars": 2,
+    "type": "challenge / hunt",
+    "locale": "Special Arena",
+    "zenny": 25920,
+    "monsters": [
+      {
+        "id": "tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 8990,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 4.9,
+          "defense": 1.0,
+          "part": 2.15,
+          "ailmentBuildup": 1.25,
+          "ailmentThreshold": 1.9,
+          "stun": 1.3,
+          "exhaust": 1.3,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 8990,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 2.15,
+          "StB": 1.25,
+          "StI": 1.9,
+          "Stn": 1.3,
+          "Exh": 1.3,
+          "Mnt": 1,
+          "HPm": 3.1
+        }
+      },
+      {
+        "id": "viper-tobi-kadachi",
+        "quantity": 1,
+        "objective": true,
+        "health": 7250,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 4.4,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 2.0,
+          "stun": 1.0,
+          "exhaust": 1.0,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 7250,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 4.4,
+          "StB": 1.3,
+          "StI": 2,
+          "Stn": 1,
+          "Exh": 1,
+          "Mnt": 1,
+          "HPm": 2.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-63072",
+    "name": "Challenge Quest 2: MR Intermediate",
+    "rank": "MR",
+    "stars": 4,
+    "type": "challenge / hunt",
+    "locale": "Arena",
+    "zenny": 37440,
+    "monsters": [
+      {
+        "id": "anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 5950,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 7.0,
+          "defense": 1.0,
+          "part": 2.15,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.75,
+          "stun": 1.15,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 5950,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 2.15,
+          "StB": 1.3,
+          "StI": 1.75,
+          "Stn": 1.15,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 1.99
+        }
+      },
+      {
+        "id": "fulgur-anjanath",
+        "quantity": 1,
+        "objective": true,
+        "health": 6308,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 9.6,
+          "defense": 1.0,
+          "part": 2.15,
+          "ailmentBuildup": 1.3,
+          "ailmentThreshold": 1.75,
+          "stun": 1.25,
+          "exhaust": 1.5,
+          "mount": 1.3
+        },
+        "multiplayerHealth": 6308,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 2.15,
+          "StB": 1.3,
+          "StI": 1.75,
+          "Stn": 1.25,
+          "Exh": 1.5,
+          "Mnt": 1.3,
+          "HPm": 2.11
+        }
+      }
+    ]
+  },
+  {
+    "id": "quest-63073",
+    "name": "Challenge Quest 1: MR Expert",
+    "rank": "MR",
+    "stars": 6,
+    "type": "challenge / hunt",
+    "locale": "Special Arena",
+    "zenny": 28800,
+    "monsters": [
+      {
+        "id": "yian-garuga",
+        "quantity": 1,
+        "objective": true,
+        "health": 11970,
+        "healthLabel": "Solo",
+        "modifiers": {
+          "attack": 11.3,
+          "defense": 1.0,
+          "part": 2.85,
+          "ailmentBuildup": 1.5,
+          "ailmentThreshold": 2.4,
+          "stun": 1.3,
+          "exhaust": 1.5,
+          "mount": 1.0
+        },
+        "multiplayerHealth": 11970,
+        "multiplayerLabel": "3–4 players (calculated)",
+        "scaling": {
+          "FM": 2.85,
+          "StB": 1.5,
+          "StI": 2.4,
+          "Stn": 1.3,
+          "Exh": 1.5,
+          "Mnt": 1,
+          "HPm": 3.8
+        }
+      }
+    ]
+  }
+]

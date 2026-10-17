@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "weapon-heavy-bowgun-1031",
+    "name": "Bone Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 165,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1030",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1032",
+    "name": "Bone Shooter III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1031",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1033",
+    "name": "Heavy Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1032",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1034",
+    "name": "Heavy Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 225,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1033",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1035",
+    "name": "Heavy Shooter III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 240,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1034",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1036",
+    "name": "Power Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-heavy-bowgun-1035",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 10
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1037",
+    "name": "Power Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 270,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-heavy-bowgun-1036",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 20
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2997",
+    "name": "Cartilage Blaster I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 330,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-heavy-bowgun-1037",
+    "forge": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 8
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2998",
+    "name": "Cartilage Blaster II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 360,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-heavy-bowgun-2997",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-2999",
+    "name": "Cartilage Blaster III",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-heavy-bowgun-2998",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3000",
+    "name": "Iceroar",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-heavy-bowgun-2998",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Crystal Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Velkhana Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3001",
+    "name": "Righteous Varka",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 435,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-heavy-bowgun-3000",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1038",
+    "name": "Diablos Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 240,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1033",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1039",
+    "name": "Diablos Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 270,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1038",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Ridge",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1040",
+    "name": "Dual Threat",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 300,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1039",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Majestic Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Blos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1041",
+    "name": "Nero's Blazooka",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 315,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1040",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Black Diablos Ridge+",
+          "quantity": 2
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1042",
+    "name": "Griffon Blazooka",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 330,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1041",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3002",
+    "name": "Griffon Blazooka+",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 390,
+    "affinity": -20,
+    "defense": 35,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1042",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Cortex",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Chine",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Chine"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3003",
+    "name": "Hornking Blazooka",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 435,
+    "affinity": -20,
+    "defense": 35,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-3002",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1043",
+    "name": "Blooming Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 180,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1031",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Pukei-Pukei"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1044",
+    "name": "Blooming Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1043",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1045",
+    "name": "Blooming Shooter III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1044",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1046",
+    "name": "Datura Blaster I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 225,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1045",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pukei-Pukei Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1047",
+    "name": "Datura Blaster II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 240,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1046",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1048",
+    "name": "Datura Blaster III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1047",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 6
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3004",
+    "name": "Datura Blaster IV",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 330,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1048",
+    "forge": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 4
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3005",
+    "name": "Laguna Blaster I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 345,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-3004",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Coral Pukei-Pukei"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3006",
+    "name": "Laguna Blaster II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 375,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-3005",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1049",
+    "name": "Spiked Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1043",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Sleep Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1050",
+    "name": "Spiked Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 210,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1049",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1051",
+    "name": "Baan Roar I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 225,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1050",
+    "forge": {
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Radobaan Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Radobaan Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1052",
+    "name": "Baan Roar II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1051",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1053",
+    "name": "Baan Roar III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 270,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1052",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3007",
+    "name": "Baan Bazooka I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 360,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1053",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Radobaan Cortex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3008",
+    "name": "Baan Bazooka II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 390,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-3007",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell+",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3009",
+    "name": "Dios Cannon",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 375,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-3007",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3010",
+    "name": "Atom Cannon",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 405,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-3009",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 3
+        },
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1054",
+    "name": "Gama Cannon I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 240,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1051",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Dodogama"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1055",
+    "name": "Gama Cannon II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 255,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1054",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3011",
+    "name": "Gama Turret I",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 345,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1055",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Dodogama Thickhide"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3012",
+    "name": "Gama Turret II",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 375,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-3011",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3013",
+    "name": "Burning Igna",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 360,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-heavy-bowgun-3011",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3014",
+    "name": "Sulfurteinn Gyrad",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 390,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-heavy-bowgun-3013",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 1
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-3015",
+    "name": "The Guttering Gasp",
+    "type": "heavy-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 435,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-heavy-bowgun-3014",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1056",
+    "name": "Pulsar Shooter I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 180,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1031",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Tobi-Kadachi"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1057",
+    "name": "Pulsar Shooter II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 195,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1056",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1058",
+    "name": "Pulsar Shooter III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 210,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-heavy-bowgun-1057",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 2
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1059",
+    "name": "Kadachi Lion I",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 225,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1058",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Tobi-Kadachi Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1060",
+    "name": "Kadachi Lion II",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 240,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1059",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Majestic Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Thunder Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-heavy-bowgun-1061",
+    "name": "Kadachi Lion III",
+    "type": "heavy-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 255,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-heavy-bowgun-1060",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 4
+        },
+        {
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 6
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  }
+]

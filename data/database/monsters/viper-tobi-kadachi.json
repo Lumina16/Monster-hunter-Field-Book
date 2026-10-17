@@ -1,0 +1,748 @@
+{
+  "name": "Viper Tobi-Kadachi",
+  "source": "https://mhworld.kiranico.com/en/monsters/2mJUK/viper-tobi-kadachi",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 65,
+      "impact": 65,
+      "shot": 50,
+      "fire": 10,
+      "water": 0,
+      "thunder": 25,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 60,
+      "impact": 60,
+      "shot": 45,
+      "fire": 10,
+      "water": 0,
+      "thunder": 25,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 50,
+      "stamina": 100
+    },
+    {
+      "part": "Stomach",
+      "cut": 35,
+      "impact": 35,
+      "shot": 25,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 35,
+      "impact": 35,
+      "shot": 35,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 55,
+      "impact": 55,
+      "shot": 45,
+      "fire": 5,
+      "water": 0,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 15,
+      "fire": 0,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 45,
+      "shot": 35,
+      "fire": 5,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 250,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Mane",
+      "flinch": 200,
+      "break": 200,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 270,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 400,
+      "break": 400,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 65,
+      "increase": 110,
+      "max": 725
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 70,
+      "durationText": "7 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 7,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 80
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 50,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 150,
+      "increase": 45,
+      "max": 585
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "3 seconds",
+      "initial": 300,
+      "increase": 100,
+      "max": 700,
+      "duration": 3
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "5→3→1"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Viper Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Viper Tobi-Kadachi Thorn",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Viper Tobi-Kadachi Thorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Viper Tobi-Kadachi Thorn",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Tail",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 41
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Viper Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Viper Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deadly Poison Sac",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Ultraplegia Sac",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Viper Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Viper Tobi-Kadachi Thorn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deadly Poison Sac",
+      "quantity": 3,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Ultraplegia Sac",
+      "quantity": 3,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Viper Tobi-Kadachi Membrane+",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Viper Tobi-Kadachi Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Viper Tobi-Kadachi Thorn",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Wyvern Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Viper Tobi-Kadachi Thickfur",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Viper Tobi-Kadachi Shard",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deadly Poison Sac",
+      "quantity": 4,
+      "chance": 6
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Ultraplegia Sac",
+      "quantity": 4,
+      "chance": 6
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Enticing Viperthorn",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Enticing Viperthorn",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Enticing Viperthorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Viperthorn",
+      "quantity": 1,
+      "chance": 54
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 21
+    }
+  ],
+  "questIds": [
+    "quest-1201",
+    "quest-1301",
+    "quest-1405",
+    "quest-1121",
+    "quest-1122",
+    "quest-1123",
+    "quest-1124",
+    "quest-1125",
+    "quest-1221",
+    "quest-1222",
+    "quest-1223",
+    "quest-1225",
+    "quest-1234",
+    "quest-1321",
+    "quest-1322",
+    "quest-61805",
+    "quest-61811",
+    "quest-66807",
+    "quest-66831",
+    "quest-63071",
+    "quest-67828",
+    "quest-67838"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 17980,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x1.90",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 30711,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 45849,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 45849,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Hoarfrost Reach (20%)",
+      "health": 17690,
+      "modifiers": [
+        "x7.00",
+        "x1.00",
+        "x4.40",
+        "x1.30",
+        "x2.00",
+        "x1.15",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

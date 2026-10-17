@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "armour-1461",
+    "sourceId": 1461,
+    "name": "Oolong Boots α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-oolong-alpha-plus",
+    "setName": "Oolong α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Joyful Blessing",
+      "skills": [
+        {
+          "id": "skill-joy-s-gift",
+          "name": "Joy's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-joy-s-gratitude",
+          "name": "Joy's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1030",
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1462",
+    "sourceId": 1462,
+    "name": "Astral Veil α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-astral-alpha-plus",
+    "setName": "Astral α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Appreciation Blessing",
+      "skills": [
+        {
+          "id": "skill-gratitude-s-gift",
+          "name": "Gratitude's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-gratitude-s-blessing",
+          "name": "Gratitude's Blessing",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1031",
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1463",
+    "sourceId": 1463,
+    "name": "Astral Cloth α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-astral-alpha-plus",
+    "setName": "Astral α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Appreciation Blessing",
+      "skills": [
+        {
+          "id": "skill-gratitude-s-gift",
+          "name": "Gratitude's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-gratitude-s-blessing",
+          "name": "Gratitude's Blessing",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1031",
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1464",
+    "sourceId": 1464,
+    "name": "Astral Scarf α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-astral-alpha-plus",
+    "setName": "Astral α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Appreciation Blessing",
+      "skills": [
+        {
+          "id": "skill-gratitude-s-gift",
+          "name": "Gratitude's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-gratitude-s-blessing",
+          "name": "Gratitude's Blessing",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1031",
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1465",
+    "sourceId": 1465,
+    "name": "Astral Skirt α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-astral-alpha-plus",
+    "setName": "Astral α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Appreciation Blessing",
+      "skills": [
+        {
+          "id": "skill-gratitude-s-gift",
+          "name": "Gratitude's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-gratitude-s-blessing",
+          "name": "Gratitude's Blessing",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1031",
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1466",
+    "sourceId": 1466,
+    "name": "Astral Tights α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-astral-alpha-plus",
+    "setName": "Astral α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Appreciation Blessing",
+      "skills": [
+        {
+          "id": "skill-gratitude-s-gift",
+          "name": "Gratitude's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-gratitude-s-blessing",
+          "name": "Gratitude's Blessing",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1031",
+          "name": "Gratitude Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1521",
+    "sourceId": 1521,
+    "name": "Rose Headpiece α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fortify",
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rose-alpha-plus",
+    "setName": "Rose α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Full Bloom Blessing",
+      "skills": [
+        {
+          "id": "skill-full-bloom-s-gift",
+          "name": "Full Bloom's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-full-bloom-gratitude",
+          "name": "Full Bloom Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1290",
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1522",
+    "sourceId": 1522,
+    "name": "Rose Jacket α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-rose-alpha-plus",
+    "setName": "Rose α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Full Bloom Blessing",
+      "skills": [
+        {
+          "id": "skill-full-bloom-s-gift",
+          "name": "Full Bloom's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-full-bloom-gratitude",
+          "name": "Full Bloom Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1290",
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1523",
+    "sourceId": 1523,
+    "name": "Rose Arms α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-rose-alpha-plus",
+    "setName": "Rose α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Full Bloom Blessing",
+      "skills": [
+        {
+          "id": "skill-full-bloom-s-gift",
+          "name": "Full Bloom's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-full-bloom-gratitude",
+          "name": "Full Bloom Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1290",
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1524",
+    "sourceId": 1524,
+    "name": "Rose Belt α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-rose-alpha-plus",
+    "setName": "Rose α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Full Bloom Blessing",
+      "skills": [
+        {
+          "id": "skill-full-bloom-s-gift",
+          "name": "Full Bloom's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-full-bloom-gratitude",
+          "name": "Full Bloom Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1290",
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1525",
+    "sourceId": 1525,
+    "name": "Rose Boots α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rose-alpha-plus",
+    "setName": "Rose α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Full Bloom Blessing",
+      "skills": [
+        {
+          "id": "skill-full-bloom-s-gift",
+          "name": "Full Bloom's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-full-bloom-gratitude",
+          "name": "Full Bloom Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1290",
+          "name": "Full Bloom Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1556",
+    "sourceId": 1556,
+    "name": "Passionate Headdress α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-passionate-alpha-plus",
+    "setName": "Passionate α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Sizzling Blessing",
+      "skills": [
+        {
+          "id": "skill-sizzling-gift",
+          "name": "Sizzling Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-sizzling-gratitude",
+          "name": "Sizzling Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1332",
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1557",
+    "sourceId": 1557,
+    "name": "Passionate Body α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-master-gatherer",
+        "name": "Master Gatherer",
+        "level": 1
+      },
+      {
+        "id": "skill-carving-pro",
+        "name": "Carving Pro",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-passionate-alpha-plus",
+    "setName": "Passionate α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Sizzling Blessing",
+      "skills": [
+        {
+          "id": "skill-sizzling-gift",
+          "name": "Sizzling Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-sizzling-gratitude",
+          "name": "Sizzling Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1332",
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1558",
+    "sourceId": 1558,
+    "name": "Passionate Arms α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-passionate-alpha-plus",
+    "setName": "Passionate α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Sizzling Blessing",
+      "skills": [
+        {
+          "id": "skill-sizzling-gift",
+          "name": "Sizzling Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-sizzling-gratitude",
+          "name": "Sizzling Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1332",
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-719",
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1559",
+    "sourceId": 1559,
+    "name": "Passionate Belt α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 4
+      }
+    ],
+    "setId": "armourset-passionate-alpha-plus",
+    "setName": "Passionate α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Sizzling Blessing",
+      "skills": [
+        {
+          "id": "skill-sizzling-gift",
+          "name": "Sizzling Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-sizzling-gratitude",
+          "name": "Sizzling Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1332",
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1560",
+    "sourceId": 1560,
+    "name": "Passionate Leggings α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-geologist",
+        "name": "Geologist",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-passionate-alpha-plus",
+    "setName": "Passionate α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Sizzling Blessing",
+      "skills": [
+        {
+          "id": "skill-sizzling-gift",
+          "name": "Sizzling Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-sizzling-gratitude",
+          "name": "Sizzling Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 1,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1332",
+          "name": "Sizzling Spice Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1561",
+    "sourceId": 1561,
+    "name": "Demonlord Hair α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-demonlord-alpha-plus",
+    "setName": "Demonlord α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fun Fright Blessing",
+      "skills": [
+        {
+          "id": "skill-fun-fright-s-gift",
+          "name": "Fun Fright's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-fun-fright-s-gratitude",
+          "name": "Fun Fright's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1334",
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "id": "item-983",
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1562",
+    "sourceId": 1562,
+    "name": "Demonlord Cloak α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-demonlord-alpha-plus",
+    "setName": "Demonlord α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fun Fright Blessing",
+      "skills": [
+        {
+          "id": "skill-fun-fright-s-gift",
+          "name": "Fun Fright's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-fun-fright-s-gratitude",
+          "name": "Fun Fright's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1334",
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1563",
+    "sourceId": 1563,
+    "name": "Demonlord Blackarm α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-demonlord-alpha-plus",
+    "setName": "Demonlord α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fun Fright Blessing",
+      "skills": [
+        {
+          "id": "skill-fun-fright-s-gift",
+          "name": "Fun Fright's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-fun-fright-s-gratitude",
+          "name": "Fun Fright's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1334",
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1564",
+    "sourceId": 1564,
+    "name": "Demonlord Leather Belt α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-demonlord-alpha-plus",
+    "setName": "Demonlord α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fun Fright Blessing",
+      "skills": [
+        {
+          "id": "skill-fun-fright-s-gift",
+          "name": "Fun Fright's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-fun-fright-s-gratitude",
+          "name": "Fun Fright's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1334",
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1565",
+    "sourceId": 1565,
+    "name": "Demonlord Boots α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-offensive-guard",
+        "name": "Offensive Guard",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-demonlord-alpha-plus",
+    "setName": "Demonlord α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fun Fright Blessing",
+      "skills": [
+        {
+          "id": "skill-fun-fright-s-gift",
+          "name": "Fun Fright's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-fun-fright-s-gratitude",
+          "name": "Fun Fright's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1334",
+          "name": "Fun Fright Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1571",
+    "sourceId": 1571,
+    "name": "Dragonhead α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 3
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-dragon-alpha-plus",
+    "setName": "Dragon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1314",
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-1315",
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        },
+        {
+          "id": "item-1248",
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1572",
+    "sourceId": 1572,
+    "name": "Dragonhide α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dragon-alpha-plus",
+    "setName": "Dragon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1313",
+          "name": "Fatalis Pectus",
+          "quantity": 3
+        },
+        {
+          "id": "item-1315",
+          "name": "Fatalis Evil Eye",
+          "quantity": 2
+        },
+        {
+          "id": "item-1306",
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1573",
+    "sourceId": 1573,
+    "name": "Dragonclaws α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 3
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dragon-alpha-plus",
+    "setName": "Dragon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1311",
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-1314",
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-1289",
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1574",
+    "sourceId": 1574,
+    "name": "Dragonbarbs α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-dragon-alpha-plus",
+    "setName": "Dragon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1316",
+          "name": "Fatalis Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1313",
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "id": "item-1286",
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1575",
+    "sourceId": 1575,
+    "name": "Dragonfeet α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dragon-alpha-plus",
+    "setName": "Dragon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1311",
+          "name": "Fatalis Shard",
+          "quantity": 4
+        },
+        {
+          "id": "item-1316",
+          "name": "Fatalis Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1576",
+    "sourceId": 1576,
+    "name": "Dragonhead β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-dragon-beta-plus",
+    "setName": "Dragon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1314",
+          "name": "Fatalis Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-1315",
+          "name": "Fatalis Evil Eye",
+          "quantity": 1
+        },
+        {
+          "id": "item-1248",
+          "name": "Stygian Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1577",
+    "sourceId": 1577,
+    "name": "Dragonhide β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dragon-beta-plus",
+    "setName": "Dragon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1313",
+          "name": "Fatalis Pectus",
+          "quantity": 3
+        },
+        {
+          "id": "item-1315",
+          "name": "Fatalis Evil Eye",
+          "quantity": 2
+        },
+        {
+          "id": "item-1306",
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1578",
+    "sourceId": 1578,
+    "name": "Dragonclaws β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dragon-beta-plus",
+    "setName": "Dragon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1311",
+          "name": "Fatalis Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-1314",
+          "name": "Fatalis Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-1289",
+          "name": "Rajang Heart",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1579",
+    "sourceId": 1579,
+    "name": "Dragonbarbs β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dragon-beta-plus",
+    "setName": "Dragon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1316",
+          "name": "Fatalis Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1313",
+          "name": "Fatalis Pectus",
+          "quantity": 2
+        },
+        {
+          "id": "item-1286",
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1580",
+    "sourceId": 1580,
+    "name": "Dragonfeet β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dragon-beta-plus",
+    "setName": "Dragon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Fatalis Legend",
+      "skills": [
+        {
+          "id": "skill-inheritance",
+          "name": "Inheritance",
+          "pieces": 2
+        },
+        {
+          "id": "skill-transcendance",
+          "name": "Transcendance",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1312",
+          "name": "Fatalis Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-1311",
+          "name": "Fatalis Shard",
+          "quantity": 4
+        },
+        {
+          "id": "item-1316",
+          "name": "Fatalis Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1566",
+    "sourceId": 1566,
+    "name": "Azure Age Hair α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 3
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-azure-age-alpha-plus",
+    "setName": "Azure Age α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1330",
+          "name": "Large Azure Era Gem",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1567",
+    "sourceId": 1567,
+    "name": "Azure Age Haori α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-azure-age-alpha-plus",
+    "setName": "Azure Age α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1330",
+          "name": "Large Azure Era Gem",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1568",
+    "sourceId": 1568,
+    "name": "Azure Age Sleeve α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-azure-age-alpha-plus",
+    "setName": "Azure Age α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1330",
+          "name": "Large Azure Era Gem",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-959",
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1569",
+    "sourceId": 1569,
+    "name": "Azure Age Obi α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-azure-age-alpha-plus",
+    "setName": "Azure Age α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1330",
+          "name": "Large Azure Era Gem",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1570",
+    "sourceId": 1570,
+    "name": "Azure Age Geta α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-azure-age-alpha-plus",
+    "setName": "Azure Age α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1330",
+          "name": "Large Azure Era Gem",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1591",
+    "sourceId": 1591,
+    "name": "Artemis Head α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-artemis-alpha-plus",
+    "setName": "Artemis α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "New World",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        },
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 164,
+      "augmentedDefence": 184,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1327",
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ],
+      "zenny": null
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv"
+  },
+  {
+    "id": "armour-1592",
+    "sourceId": 1592,
+    "name": "Artemis Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artemis-alpha-plus",
+    "setName": "Artemis α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "New World",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        },
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 164,
+      "augmentedDefence": 184,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1327",
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ],
+      "zenny": null
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv"
+  },
+  {
+    "id": "armour-1593",
+    "sourceId": 1593,
+    "name": "Artemis Guards α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-artemis-alpha-plus",
+    "setName": "Artemis α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "New World",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        },
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 164,
+      "augmentedDefence": 184,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1327",
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ],
+      "zenny": null
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv"
+  },
+  {
+    "id": "armour-1594",
+    "sourceId": 1594,
+    "name": "Artemis Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-artemis-alpha-plus",
+    "setName": "Artemis α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "New World",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        },
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 164,
+      "augmentedDefence": 184,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1327",
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ],
+      "zenny": null
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv"
+  },
+  {
+    "id": "armour-1595",
+    "sourceId": 1595,
+    "name": "Artemis Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 3
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-artemis-alpha-plus",
+    "setName": "Artemis α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "New World",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        },
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 164,
+      "augmentedDefence": 184,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1327",
+          "name": "Chocolate",
+          "quantity": 1
+        }
+      ],
+      "zenny": null
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv"
+  },
+  {
+    "id": "armour-1467",
+    "sourceId": 1467,
+    "name": "Pearlspring α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-pearlspring-alpha-plus",
+    "setName": "Pearlspring α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 5,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1032",
+          "name": "Pearlspring Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-704",
+          "name": "Prized Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1468",
+    "sourceId": 1468,
+    "name": "Duffel Penguin Mask α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-duffel-penguin-mask-alpha-plus",
+    "setName": "Duffel Penguin Mask α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 138,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -1,
+        "water": 3,
+        "thunder": 0,
+        "ice": 4,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1033",
+          "name": "Penguin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-720",
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1469",
+    "sourceId": 1469,
+    "name": "Sealed Dragon Cloth α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-sealed-dragon-cloth-alpha-plus",
+    "setName": "Sealed Dragon Cloth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 5
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1034",
+          "name": "Sealed Dragon Cloth",
+          "quantity": 1
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1470",
+    "sourceId": 1470,
+    "name": "Wyverian Ears α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 2
+      },
+      {
+        "id": "skill-survival-expert",
+        "name": "Survival Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-wyverian-ears-alpha-plus",
+    "setName": "Wyverian Ears α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 5
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1035",
+          "name": "Wyverian Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  }
+]

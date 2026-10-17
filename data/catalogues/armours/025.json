@@ -1,0 +1,3621 @@
+[
+  {
+    "id": "armour-1251",
+    "sourceId": 1251,
+    "name": "Black Belt Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-black-belt-alpha-plus",
+    "setName": "Black Belt α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1039",
+          "name": "Glavenus Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1252",
+    "sourceId": 1252,
+    "name": "Black Belt Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-black-belt-beta-plus",
+    "setName": "Black Belt β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1040",
+          "name": "Odogaron Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-708",
+          "name": "Cortos Hardclaw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1253",
+    "sourceId": 1253,
+    "name": "Black Belt Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-black-belt-beta-plus",
+    "setName": "Black Belt β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1038",
+          "name": "Nargacuga Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1254",
+    "sourceId": 1254,
+    "name": "Black Belt Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-black-belt-beta-plus",
+    "setName": "Black Belt β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1036",
+          "name": "Banbaro Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-705",
+          "name": "Anteka Antler",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1255",
+    "sourceId": 1255,
+    "name": "Black Belt Tassets β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-black-belt-beta-plus",
+    "setName": "Black Belt β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1037",
+          "name": "Paolumu Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-692",
+          "name": "Steel Gajau Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1256",
+    "sourceId": 1256,
+    "name": "Black Belt Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-black-belt-beta-plus",
+    "setName": "Black Belt β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Instructor's Guidance",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 150,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1042",
+          "name": "Black Belt Coin",
+          "quantity": 2
+        },
+        {
+          "id": "item-1039",
+          "name": "Glavenus Coin",
+          "quantity": 3
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1257",
+    "sourceId": 1257,
+    "name": "Dober Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha-plus",
+    "setName": "Dober α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1258",
+    "sourceId": 1258,
+    "name": "Dober Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha-plus",
+    "setName": "Dober α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-740",
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1259",
+    "sourceId": 1259,
+    "name": "Dober Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha-plus",
+    "setName": "Dober α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1260",
+    "sourceId": 1260,
+    "name": "Dober Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-alpha-plus",
+    "setName": "Dober α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1261",
+    "sourceId": 1261,
+    "name": "Dober Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-alpha-plus",
+    "setName": "Dober α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1262",
+    "sourceId": 1262,
+    "name": "Dober Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-beta-plus",
+    "setName": "Dober β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1263",
+    "sourceId": 1263,
+    "name": "Dober Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta-plus",
+    "setName": "Dober β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-740",
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1264",
+    "sourceId": 1264,
+    "name": "Dober Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta-plus",
+    "setName": "Dober β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1265",
+    "sourceId": 1265,
+    "name": "Dober Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta-plus",
+    "setName": "Dober β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-855",
+          "name": "Diablos Tailcase+",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1266",
+    "sourceId": 1266,
+    "name": "Dober Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta-plus",
+    "setName": "Dober β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1267",
+    "sourceId": 1267,
+    "name": "Damascus Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-alpha-plus",
+    "setName": "Damascus α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1268",
+    "sourceId": 1268,
+    "name": "Damascus Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-alpha-plus",
+    "setName": "Damascus α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1269",
+    "sourceId": 1269,
+    "name": "Damascus Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-alpha-plus",
+    "setName": "Damascus α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1270",
+    "sourceId": 1270,
+    "name": "Damascus Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-alpha-plus",
+    "setName": "Damascus α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1271",
+    "sourceId": 1271,
+    "name": "Damascus Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-alpha-plus",
+    "setName": "Damascus α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1272",
+    "sourceId": 1272,
+    "name": "Damascus Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-damascus-beta-plus",
+    "setName": "Damascus β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1273",
+    "sourceId": 1273,
+    "name": "Damascus Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-beta-plus",
+    "setName": "Damascus β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-823",
+          "name": "Legiana Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1274",
+    "sourceId": 1274,
+    "name": "Damascus Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-beta-plus",
+    "setName": "Damascus β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1275",
+    "sourceId": 1275,
+    "name": "Damascus Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-beta-plus",
+    "setName": "Damascus β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1276",
+    "sourceId": 1276,
+    "name": "Damascus Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-damascus-beta-plus",
+    "setName": "Damascus β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 152,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-723",
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1277",
+    "sourceId": 1277,
+    "name": "Pride Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-seething-bazel-alpha-plus",
+    "setName": "Seething Bazel α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-932",
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-935",
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1278",
+    "sourceId": 1278,
+    "name": "Pride Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-seething-bazel-alpha-plus",
+    "setName": "Seething Bazel α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-932",
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1279",
+    "sourceId": 1279,
+    "name": "Pride Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-seething-bazel-alpha-plus",
+    "setName": "Seething Bazel α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-931",
+          "name": "Bazelgeuse Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-857",
+          "name": "Diablos Hardhorn",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1280",
+    "sourceId": 1280,
+    "name": "Pride Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-seething-bazel-alpha-plus",
+    "setName": "Seething Bazel α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-933",
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1281",
+    "sourceId": 1281,
+    "name": "Pride Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-seething-bazel-alpha-plus",
+    "setName": "Seething Bazel α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-888",
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1282",
+    "sourceId": 1282,
+    "name": "Pride Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-seething-bazel-beta-plus",
+    "setName": "Seething Bazel β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-932",
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-935",
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1283",
+    "sourceId": 1283,
+    "name": "Pride Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-seething-bazel-beta-plus",
+    "setName": "Seething Bazel β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-932",
+          "name": "Distilled Blast Fluid",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1284",
+    "sourceId": 1284,
+    "name": "Pride Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-seething-bazel-beta-plus",
+    "setName": "Seething Bazel β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-931",
+          "name": "Bazelgeuse Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-857",
+          "name": "Diablos Hardhorn",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1285",
+    "sourceId": 1285,
+    "name": "Pride Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-seething-bazel-beta-plus",
+    "setName": "Seething Bazel β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-933",
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-856",
+          "name": "Twisted Stouthorn",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1286",
+    "sourceId": 1286,
+    "name": "Pride Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-seething-bazel-beta-plus",
+    "setName": "Seething Bazel β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Bazelgeuse Ambition",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": -4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-930",
+          "name": "Flickering Silvershell",
+          "quantity": 3
+        },
+        {
+          "id": "item-929",
+          "name": "Bazelgeuse Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-934",
+          "name": "Scorching Silverwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-888",
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1287",
+    "sourceId": 1287,
+    "name": "Esurient Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-savage-jho-alpha-plus",
+    "setName": "Savage Jho α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-938",
+          "name": "Vile Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-839",
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1288",
+    "sourceId": 1288,
+    "name": "Esurient Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-savage-jho-alpha-plus",
+    "setName": "Savage Jho α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-938",
+          "name": "Vile Fang",
+          "quantity": 4
+        },
+        {
+          "id": "item-940",
+          "name": "Deviljho Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-942",
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1289",
+    "sourceId": 1289,
+    "name": "Esurient Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 2
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-alpha-plus",
+    "setName": "Savage Jho α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-941",
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1290",
+    "sourceId": 1290,
+    "name": "Esurient Faulds α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-alpha-plus",
+    "setName": "Savage Jho α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-941",
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "id": "item-939",
+          "name": "Deviljho Ripper",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1291",
+    "sourceId": 1291,
+    "name": "Esurient Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-alpha-plus",
+    "setName": "Savage Jho α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-939",
+          "name": "Deviljho Ripper",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1292",
+    "sourceId": 1292,
+    "name": "Esurient Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-beta-plus",
+    "setName": "Savage Jho β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-938",
+          "name": "Vile Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-839",
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1293",
+    "sourceId": 1293,
+    "name": "Esurient Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-beta-plus",
+    "setName": "Savage Jho β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-938",
+          "name": "Vile Fang",
+          "quantity": 4
+        },
+        {
+          "id": "item-940",
+          "name": "Deviljho Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-942",
+          "name": "Deviljho Crook",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1294",
+    "sourceId": 1294,
+    "name": "Esurient Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-savage-jho-beta-plus",
+    "setName": "Savage Jho β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-941",
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1295",
+    "sourceId": 1295,
+    "name": "Esurient Faulds β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-savage-jho-beta-plus",
+    "setName": "Savage Jho β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-941",
+          "name": "Black Blood",
+          "quantity": 3
+        },
+        {
+          "id": "item-939",
+          "name": "Deviljho Ripper",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1296",
+    "sourceId": 1296,
+    "name": "Esurient Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      },
+      {
+        "id": "skill-stamina-thief",
+        "name": "Stamina Thief",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-savage-jho-beta-plus",
+    "setName": "Savage Jho β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Deviljho Essence",
+      "skills": [
+        {
+          "id": "skill-stamina-thief-secret",
+          "name": "Stamina Thief Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-937",
+          "name": "Deviljho Blackpiel",
+          "quantity": 3
+        },
+        {
+          "id": "item-936",
+          "name": "Deviljho Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-939",
+          "name": "Deviljho Ripper",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1297",
+    "sourceId": 1297,
+    "name": "Rimeguard Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "id": "skill-coalescence",
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-alpha-plus",
+    "setName": "Velkhana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-956",
+          "name": "Velkhana Crownhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1298",
+    "sourceId": 1298,
+    "name": "Rimeguard Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-alpha-plus",
+    "setName": "Velkhana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-825",
+          "name": "Legiana Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1299",
+    "sourceId": 1299,
+    "name": "Rimeguard Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-velkhana-alpha-plus",
+    "setName": "Velkhana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-956",
+          "name": "Velkhana Crownhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-959",
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1300",
+    "sourceId": 1300,
+    "name": "Rimeguard Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "id": "skill-coalescence",
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-alpha-plus",
+    "setName": "Velkhana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

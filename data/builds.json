@@ -1,0 +1,162 @@
+[
+  {
+    "id": "w-comfort",
+    "game": "world",
+    "name": "A dependable first clear",
+    "label": "PROGRESSION · COMFORT",
+    "style": "General",
+    "text": "A mixed Low/High Rank setup built around survival and your weapon’s essentials. Upgrade defense as you advance instead of waiting for a perfect matching set.",
+    "pieces": [
+      "Use available armor for Health Boost and useful weapon skills",
+      "Improve the weapon along a reliable upgrade path",
+      "Keep a slot or charm flexible for the next threat"
+    ],
+    "skills": [
+      "Health Boost",
+      "Weapon essentials",
+      "Useful resistance",
+      "Affinity when available"
+    ],
+    "note": "This is a skill-first template. Exact pieces depend on your weapon and unlocked materials."
+  },
+  {
+    "id": "w-raw",
+    "game": "world",
+    "name": "High Rank raw critical",
+    "label": "HIGH RANK · RAW",
+    "style": "Raw",
+    "text": "For physical-focused melee weapons that can maintain sharpness and reliably hit suitable parts. Drachen’s set bonus is a notable late High Rank route after its difficult collaboration content.",
+    "pieces": [
+      "Compare a mixed affinity setup with a Drachen-based route",
+      "Choose enough affinity to support your sharpness plan",
+      "Keep a survival option rather than copying every damage slot"
+    ],
+    "skills": [
+      "Weakness Exploit",
+      "Critical Eye",
+      "Critical Boost",
+      "Sharpness support"
+    ],
+    "note": "Drachen requires Behemoth-related materials. It is an endgame destination, not a first-story recommendation."
+  },
+  {
+    "id": "w-element",
+    "game": "world",
+    "name": "High Rank elemental toolkit",
+    "label": "HIGH RANK · ELEMENT",
+    "style": "Element",
+    "text": "Bow and Dual Blades often benefit from matching elements to the target. Keep several weapons instead of forcing one elemental choice into every hunt.",
+    "pieces": [
+      "Consider the Rathalos two-piece Critical Element route",
+      "Pair the correct element with a suitable sharpness or charge profile",
+      "Balance stamina skills with your actual play pattern"
+    ],
+    "skills": [
+      "Element Attack",
+      "Critical Element",
+      "Affinity",
+      "Stamina support"
+    ],
+    "note": "The best elemental target can change with monster armor or phase. Check the monster profile."
+  },
+  {
+    "id": "i-starter",
+    "game": "iceborne",
+    "name": "Your first Master Rank set",
+    "label": "EARLY MR · COMFORT",
+    "style": "General",
+    "text": "Use early Master Rank pieces for a defense step, while preserving the skills that make your weapon work. A few sensible upgrades are better than struggling in an outdated High Rank glass cannon.",
+    "pieces": [
+      "Compare accessible Beotodus, Bone, and other early MR pieces",
+      "Keep Health Boost and weapon essentials where practical",
+      "Choose a readily upgraded Master Rank weapon"
+    ],
+    "skills": [
+      "Health Boost",
+      "Weapon essentials",
+      "Stun or ailment resistance",
+      "Flexible comfort"
+    ],
+    "note": "This is a starting direction; inspect each alpha/beta piece and the decorations you actually own."
+  },
+  {
+    "id": "i-sharpness",
+    "game": "iceborne",
+    "name": "Sharpness & ammo uptime",
+    "label": "STORY / POST-STORY · UPTIME",
+    "style": "Raw",
+    "text": "Nargacuga’s three-piece True Razor Sharp/Spare Shot can be useful for appropriate weapons. Teostra’s three-piece Master’s Touch is a different route for affinity-focused melee.",
+    "pieces": [
+      "Choose the set bonus that supports your weapon",
+      "Build enough affinity for Master’s Touch to be reliable",
+      "Check bowgun ammo, recoil, and reload before judging a gun"
+    ],
+    "skills": [
+      "Razor Sharp / Spare Shot",
+      "Affinity",
+      "Ammo-type support",
+      "Survival"
+    ],
+    "note": "These bonuses are alternatives with different conditions. They are not equally useful on every weapon."
+  },
+  {
+    "id": "i-raw",
+    "game": "iceborne",
+    "name": "Pre-Fatalis raw foundation",
+    "label": "POST-STORY · RAW",
+    "style": "Raw",
+    "text": "Three Teostra pieces and two Raging Brachydios pieces are a familiar physical melee foundation: Master’s Touch plus Agitator Secret. Adapt it to the weapon and your available decorations.",
+    "pieces": [
+      "Teostra ×3 for Master’s Touch",
+      "Raging Brachydios ×2 for Agitator Secret",
+      "A weapon with a workable affinity and sharpness profile"
+    ],
+    "skills": [
+      "Weakness Exploit",
+      "Critical Eye",
+      "Agitator",
+      "Critical Boost"
+    ],
+    "note": "Conditional affinity matters. Add comfort if maintaining the required conditions is costing faints."
+  },
+  {
+    "id": "i-element",
+    "game": "iceborne",
+    "name": "Build an elemental library",
+    "label": "ENDGAME · ELEMENT",
+    "style": "Element",
+    "text": "Compare Kjárr weapons, Silver Rathalos True Critical Element, and Safi’jiiva set options. Match the setup to the weapon rather than combining set names without checking their effects.",
+    "pieces": [
+      "Kjárr weapons can supply Critical Element on eligible weapons",
+      "Silver Rathalos ×4 grants True Critical Element",
+      "Safi sets trade health management for elemental and affinity benefits"
+    ],
+    "skills": [
+      "Element Attack",
+      "Critical Element / True Critical Element",
+      "Affinity",
+      "Weapon-specific stamina"
+    ],
+    "note": "Safi armor’s health-drain behavior requires practice. These are separate build routes, not one set."
+  },
+  {
+    "id": "i-fatalis",
+    "game": "iceborne",
+    "name": "Fatalis: a flexible foundation",
+    "label": "LATE ENDGAME · FLEXIBLE",
+    "style": "General",
+    "text": "Fatalis equipment supplies exceptional set-bonus flexibility and slots. Four pieces grant Transcendence, including health and stamina benefits that change how you allocate comfort skills.",
+    "pieces": [
+      "Fatalis ×2 grants Inheritance",
+      "Fatalis ×4 grants Transcendence",
+      "Use the remaining slot and charm to fit your weapon"
+    ],
+    "skills": [
+      "Weapon essentials",
+      "Conditional affinity",
+      "Critical Boost where relevant",
+      "Comfort of your choice"
+    ],
+    "note": "Four-piece Transcendence replaces the usual need for Health Boost in that setup. It does not make every weapon’s elemental or matchup options obsolete."
+  }
+]

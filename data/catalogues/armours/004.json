@@ -1,0 +1,3031 @@
+[
+  {
+    "id": "armour-181",
+    "sourceId": 181,
+    "name": "Hunter's Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stealth",
+        "name": "Stealth",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-hunter-s-alpha",
+    "setName": "Hunter's α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-201",
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-182",
+    "sourceId": 182,
+    "name": "Hunter's Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-master-gatherer",
+        "name": "Master Gatherer",
+        "level": 1
+      },
+      {
+        "id": "skill-stealth",
+        "name": "Stealth",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-alpha",
+    "setName": "Hunter's α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-183",
+    "sourceId": 183,
+    "name": "Hunter's Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-scenthound",
+        "name": "Scenthound",
+        "level": 1
+      },
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-alpha",
+    "setName": "Hunter's α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-184",
+    "sourceId": 184,
+    "name": "Hunter's Headgear β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-scoutfly-range-up",
+        "name": "Scoutfly Range Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-beta",
+    "setName": "Hunter's β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-201",
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-185",
+    "sourceId": 185,
+    "name": "Hunter's Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-beta",
+    "setName": "Hunter's β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-186",
+    "sourceId": 186,
+    "name": "Hunter's Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stealth",
+        "name": "Stealth",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-beta",
+    "setName": "Hunter's β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-201",
+          "name": "Jagras Scale+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-187",
+    "sourceId": 187,
+    "name": "Hunter's Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-master-gatherer",
+        "name": "Master Gatherer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-beta",
+    "setName": "Hunter's β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-188",
+    "sourceId": 188,
+    "name": "Hunter's Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-scenthound",
+        "name": "Scenthound",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hunter-s-beta",
+    "setName": "Hunter's β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-189",
+    "sourceId": 189,
+    "name": "Bone Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-entomologist",
+        "name": "Entomologist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-alpha",
+    "setName": "Bone α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-190",
+    "sourceId": 190,
+    "name": "Bone Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bone-alpha",
+    "setName": "Bone α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-191",
+    "sourceId": 191,
+    "name": "Bone Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-alpha",
+    "setName": "Bone α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-192",
+    "sourceId": 192,
+    "name": "Bone Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-horn-maestro",
+        "name": "Horn Maestro",
+        "level": 1
+      },
+      {
+        "id": "skill-master-fisher",
+        "name": "Master Fisher",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-alpha",
+    "setName": "Bone α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-137",
+          "name": "Ancient Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-193",
+    "sourceId": 193,
+    "name": "Bone Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-entomologist",
+        "name": "Entomologist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-bone-alpha",
+    "setName": "Bone α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-138",
+          "name": "Boulder Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-194",
+    "sourceId": 194,
+    "name": "Bone Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-beta",
+    "setName": "Bone β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-195",
+    "sourceId": 195,
+    "name": "Bone Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-beta",
+    "setName": "Bone β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-196",
+    "sourceId": 196,
+    "name": "Bone Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-beta",
+    "setName": "Bone β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-197",
+    "sourceId": 197,
+    "name": "Bone Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-horn-maestro",
+        "name": "Horn Maestro",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-beta",
+    "setName": "Bone β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-137",
+          "name": "Ancient Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-198",
+    "sourceId": 198,
+    "name": "Bone Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-entomologist",
+        "name": "Entomologist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-bone-beta",
+    "setName": "Bone β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-138",
+          "name": "Boulder Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-199",
+    "sourceId": 199,
+    "name": "Alloy Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-alpha",
+    "setName": "Alloy α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-200",
+    "sourceId": 200,
+    "name": "Alloy Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-water-resistance",
+        "name": "Water Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-alloy-alpha",
+    "setName": "Alloy α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-201",
+    "sourceId": 201,
+    "name": "Alloy Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-alpha",
+    "setName": "Alloy α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-202",
+    "sourceId": 202,
+    "name": "Alloy Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-water-resistance",
+        "name": "Water Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-alpha",
+    "setName": "Alloy α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-203",
+    "sourceId": 203,
+    "name": "Alloy Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-alloy-alpha",
+    "setName": "Alloy α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-204",
+    "sourceId": 204,
+    "name": "Alloy Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta",
+    "setName": "Alloy β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-205",
+    "sourceId": 205,
+    "name": "Alloy Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-water-resistance",
+        "name": "Water Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta",
+    "setName": "Alloy β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-206",
+    "sourceId": 206,
+    "name": "Alloy Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta",
+    "setName": "Alloy β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-207",
+    "sourceId": 207,
+    "name": "Alloy Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta",
+    "setName": "Alloy β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 6
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-208",
+    "sourceId": 208,
+    "name": "Alloy Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta",
+    "setName": "Alloy β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 36,
+      "maxDefence": 58,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 4
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-209",
+    "sourceId": 209,
+    "name": "King Beetle Vertex α",
+    "type": "head",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-alpha",
+    "setName": "King Beetle α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-210",
+    "sourceId": 210,
+    "name": "King Beetle Thorax α",
+    "type": "chest",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-alpha",
+    "setName": "King Beetle α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-158",
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-211",
+    "sourceId": 211,
+    "name": "King Beetle Brachia α",
+    "type": "arms",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "id": "skill-leap-of-faith",
+        "name": "Leap of Faith",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-alpha",
+    "setName": "King Beetle α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-166",
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-212",
+    "sourceId": 212,
+    "name": "King Beetle Elytra α",
+    "type": "waist",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-alpha",
+    "setName": "King Beetle α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-170",
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-213",
+    "sourceId": 213,
+    "name": "King Beetle Crura α",
+    "type": "legs",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-forager-s-luck",
+        "name": "Forager's Luck",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-alpha",
+    "setName": "King Beetle α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-214",
+    "sourceId": 214,
+    "name": "King Beetle Vertex β",
+    "type": "head",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-king-beetle-beta",
+    "setName": "King Beetle β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-215",
+    "sourceId": 215,
+    "name": "King Beetle Thorax β",
+    "type": "chest",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-king-beetle-beta",
+    "setName": "King Beetle β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-158",
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-216",
+    "sourceId": 216,
+    "name": "King Beetle Brachia β",
+    "type": "arms",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-king-beetle-beta",
+    "setName": "King Beetle β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-166",
+          "name": "Torrent Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-217",
+    "sourceId": 217,
+    "name": "King Beetle Elytra β",
+    "type": "waist",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-beta",
+    "setName": "King Beetle β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-170",
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-218",
+    "sourceId": 218,
+    "name": "King Beetle Crura β",
+    "type": "legs",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-forager-s-luck",
+        "name": "Forager's Luck",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle-beta",
+    "setName": "King Beetle β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-229",
+    "sourceId": 229,
+    "name": "Vespoid Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha",
+    "setName": "Vespoid α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-230",
+    "sourceId": 230,
+    "name": "Vespoid Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-vespoid-alpha",
+    "setName": "Vespoid α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-231",
+    "sourceId": 231,
+    "name": "Vespoid Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-vespoid-alpha",
+    "setName": "Vespoid α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-232",
+    "sourceId": 232,
+    "name": "Vespoid Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-vespoid-alpha",
+    "setName": "Vespoid α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-233",
+    "sourceId": 233,
+    "name": "Vespoid Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      },
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha",
+    "setName": "Vespoid α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-234",
+    "sourceId": 234,
+    "name": "Vespoid Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta",
+    "setName": "Vespoid β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-235",
+    "sourceId": 235,
+    "name": "Vespoid Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta",
+    "setName": "Vespoid β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-236",
+    "sourceId": 236,
+    "name": "Vespoid Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta",
+    "setName": "Vespoid β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-237",
+    "sourceId": 237,
+    "name": "Vespoid Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta",
+    "setName": "Vespoid β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-238",
+    "sourceId": 238,
+    "name": "Vespoid Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta",
+    "setName": "Vespoid β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 3
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-239",
+    "sourceId": 239,
+    "name": "Hornetaur Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-dungmaster",
+        "name": "Dungmaster",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha",
+    "setName": "Hornetaur α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-185",
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-240",
+    "sourceId": 240,
+    "name": "Hornetaur Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      },
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha",
+    "setName": "Hornetaur α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 38,
+      "maxDefence": 60,
+      "augmentedDefence": 76,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-185",
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-183",
+          "name": "Hornetaur Head",
+          "quantity": 1
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  }
+]

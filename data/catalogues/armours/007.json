@@ -1,0 +1,3280 @@
+[
+  {
+    "id": "armour-341",
+    "sourceId": 341,
+    "name": "Kadachi Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi-beta",
+    "setName": "Kadachi β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-259",
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-261",
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 4
+        },
+        {
+          "id": "item-260",
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-342",
+    "sourceId": 342,
+    "name": "Kadachi Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi-beta",
+    "setName": "Kadachi β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-259",
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "id": "item-261",
+          "name": "Tobi-Kadachi Electrode+",
+          "quantity": 2
+        },
+        {
+          "id": "item-255",
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 4
+        },
+        {
+          "id": "item-170",
+          "name": "Thunder Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-343",
+    "sourceId": 343,
+    "name": "Kadachi Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi-beta",
+    "setName": "Kadachi β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-259",
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-260",
+          "name": "Tobi-Kadachi Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-258",
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-344",
+    "sourceId": 344,
+    "name": "Kadachi Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi-beta",
+    "setName": "Kadachi β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-258",
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-259",
+          "name": "Tobi-Kadachi Pelt+",
+          "quantity": 3
+        },
+        {
+          "id": "item-170",
+          "name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-191",
+          "name": "Wingdrake Hide+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-345",
+    "sourceId": 345,
+    "name": "Kadachi Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi-beta",
+    "setName": "Kadachi β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-258",
+          "name": "Tobi-Kadachi Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-255",
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-170",
+          "name": "Thunder Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-176",
+          "name": "High-quality Pelt",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-346",
+    "sourceId": 346,
+    "name": "Lumu Hat α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-alpha",
+    "setName": "Lumu α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-347",
+    "sourceId": 347,
+    "name": "Lumu Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      },
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha",
+    "setName": "Lumu α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-298",
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-348",
+    "sourceId": 348,
+    "name": "Lumu Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-alpha",
+    "setName": "Lumu α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-349",
+    "sourceId": 349,
+    "name": "Lumu Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-alpha",
+    "setName": "Lumu α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-298",
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-350",
+    "sourceId": 350,
+    "name": "Lumu Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha",
+    "setName": "Lumu α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 4
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-351",
+    "sourceId": 351,
+    "name": "Lumu Hat β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta",
+    "setName": "Lumu β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-352",
+    "sourceId": 352,
+    "name": "Lumu Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta",
+    "setName": "Lumu β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-298",
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-353",
+    "sourceId": 353,
+    "name": "Lumu Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta",
+    "setName": "Lumu β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-354",
+    "sourceId": 354,
+    "name": "Lumu Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta",
+    "setName": "Lumu β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-298",
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-355",
+    "sourceId": 355,
+    "name": "Lumu Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta",
+    "setName": "Lumu β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 44,
+      "maxDefence": 66,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-297",
+          "name": "Paolumu Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-296",
+          "name": "Paolumu Pelt+",
+          "quantity": 2
+        },
+        {
+          "id": "item-299",
+          "name": "Paolumu Wing",
+          "quantity": 4
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-356",
+    "sourceId": 356,
+    "name": "Rathian Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-alpha",
+    "setName": "Rathian α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-357",
+    "sourceId": 357,
+    "name": "Rathian Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-alpha",
+    "setName": "Rathian α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-358",
+    "sourceId": 358,
+    "name": "Rathian Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathian-alpha",
+    "setName": "Rathian α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-359",
+    "sourceId": 359,
+    "name": "Rathian Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-alpha",
+    "setName": "Rathian α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-360",
+    "sourceId": 360,
+    "name": "Rathian Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathian-alpha",
+    "setName": "Rathian α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 4
+        },
+        {
+          "id": "item-281",
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-361",
+    "sourceId": 361,
+    "name": "Rathian Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta",
+    "setName": "Rathian β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-362",
+    "sourceId": 362,
+    "name": "Rathian Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta",
+    "setName": "Rathian β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-363",
+    "sourceId": 363,
+    "name": "Rathian Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta",
+    "setName": "Rathian β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-364",
+    "sourceId": 364,
+    "name": "Rathian Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta",
+    "setName": "Rathian β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-278",
+          "name": "Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-365",
+    "sourceId": 365,
+    "name": "Rathian Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta",
+    "setName": "Rathian β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 68,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-279",
+          "name": "Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 4
+        },
+        {
+          "id": "item-281",
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-366",
+    "sourceId": 366,
+    "name": "Rath Heart Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha",
+    "setName": "Rath Heart α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-205",
+          "name": "Shamos Scale+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-367",
+    "sourceId": 367,
+    "name": "Rath Heart Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha",
+    "setName": "Rath Heart α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-368",
+    "sourceId": 368,
+    "name": "Rath Heart Braces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha",
+    "setName": "Rath Heart α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "id": "item-281",
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-369",
+    "sourceId": 369,
+    "name": "Rath Heart Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha",
+    "setName": "Rath Heart α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "id": "item-277",
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-370",
+    "sourceId": 370,
+    "name": "Rath Heart Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha",
+    "setName": "Rath Heart α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-206",
+          "name": "Shamos Hide+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-371",
+    "sourceId": 371,
+    "name": "Rath Heart Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta",
+    "setName": "Rath Heart β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-205",
+          "name": "Shamos Scale+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-372",
+    "sourceId": 372,
+    "name": "Rath Heart Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta",
+    "setName": "Rath Heart β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-373",
+    "sourceId": 373,
+    "name": "Rath Heart Braces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta",
+    "setName": "Rath Heart β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 2
+        },
+        {
+          "id": "item-280",
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "id": "item-281",
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-374",
+    "sourceId": 374,
+    "name": "Rath Heart Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta",
+    "setName": "Rath Heart β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 3
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "id": "item-277",
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-375",
+    "sourceId": 375,
+    "name": "Rath Heart Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta",
+    "setName": "Rath Heart β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Pink Rathian Mastery",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 52,
+      "maxDefence": 72,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-282",
+          "name": "Pink Rathian Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-283",
+          "name": "Pink Rathian Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-206",
+          "name": "Shamos Hide+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-376",
+    "sourceId": 376,
+    "name": "Baan Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-alpha",
+    "setName": "Baan α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-316",
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-377",
+    "sourceId": 377,
+    "name": "Baan Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha",
+    "setName": "Baan α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-162",
+          "name": "Coma Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-378",
+    "sourceId": 378,
+    "name": "Baan Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha",
+    "setName": "Baan α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-311",
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-135",
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-379",
+    "sourceId": 379,
+    "name": "Baan Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-alpha",
+    "setName": "Baan α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-162",
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "id": "item-312",
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-380",
+    "sourceId": 380,
+    "name": "Baan Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-alpha",
+    "setName": "Baan α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-311",
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-312",
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-381",
+    "sourceId": 381,
+    "name": "Baan Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta",
+    "setName": "Baan β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-316",
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-172",
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-382",
+    "sourceId": 382,
+    "name": "Baan Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta",
+    "setName": "Baan β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-162",
+          "name": "Coma Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-383",
+    "sourceId": 383,
+    "name": "Baan Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta",
+    "setName": "Baan β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-311",
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-135",
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-384",
+    "sourceId": 384,
+    "name": "Baan Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta",
+    "setName": "Baan β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-162",
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "id": "item-312",
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-385",
+    "sourceId": 385,
+    "name": "Baan Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta",
+    "setName": "Baan β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 46,
+      "maxDefence": 66,
+      "augmentedDefence": 78,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-315",
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-314",
+          "name": "Radobaan Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-311",
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-312",
+          "name": "Wyvern Bonemass",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-386",
+    "sourceId": 386,
+    "name": "Gastodon Horn α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gastodon-alpha",
+    "setName": "Gastodon α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 48,
+      "maxDefence": 70,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-198",
+          "name": "Gastodon Horn",
+          "quantity": 3
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-196",
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-387",
+    "sourceId": 387,
+    "name": "Gastodon Horn β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gastodon-beta",
+    "setName": "Gastodon β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 48,
+      "maxDefence": 70,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-198",
+          "name": "Gastodon Horn",
+          "quantity": 3
+        },
+        {
+          "id": "item-197",
+          "name": "Gastodon Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-196",
+          "name": "Kestodon Carapace",
+          "quantity": 3
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-388",
+    "sourceId": 388,
+    "name": "Barnos Jacket α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barnos-alpha",
+    "setName": "Barnos α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 48,
+      "maxDefence": 70,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-192",
+          "name": "Barnos Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-193",
+          "name": "Barnos Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-154",
+          "name": "Piercing Claw",
+          "quantity": 3
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-389",
+    "sourceId": 389,
+    "name": "Barnos Jacket β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barnos-beta",
+    "setName": "Barnos β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 48,
+      "maxDefence": 70,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-192",
+          "name": "Barnos Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-193",
+          "name": "Barnos Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-154",
+          "name": "Piercing Claw",
+          "quantity": 3
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-390",
+    "sourceId": 390,
+    "name": "Dodogama Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dodogama-alpha",
+    "setName": "Dodogama α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 48,
+      "maxDefence": 70,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-381",
+          "name": "Dodogama Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-382",
+          "name": "Dodogama Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-383",
+          "name": "Dodogama Jaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-198",
+          "name": "Gastodon Horn",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  }
+]

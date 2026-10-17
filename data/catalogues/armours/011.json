@@ -1,0 +1,3499 @@
+[
+  {
+    "id": "armour-541",
+    "sourceId": 541,
+    "name": "Damascus Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-damascus-beta",
+    "setName": "Damascus β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-542",
+    "sourceId": 542,
+    "name": "Dober Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha",
+    "setName": "Dober α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-543",
+    "sourceId": 543,
+    "name": "Dober Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha",
+    "setName": "Dober α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-544",
+    "sourceId": 544,
+    "name": "Dober Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha",
+    "setName": "Dober α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-545",
+    "sourceId": 545,
+    "name": "Dober Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha",
+    "setName": "Dober α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-546",
+    "sourceId": 546,
+    "name": "Dober Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-alpha",
+    "setName": "Dober α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-316",
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-547",
+    "sourceId": 547,
+    "name": "Dober Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta",
+    "setName": "Dober β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-400",
+          "name": "Bazelgeuse Fuse",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-548",
+    "sourceId": 548,
+    "name": "Dober Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-beta",
+    "setName": "Dober β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-364",
+          "name": "Blos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-549",
+    "sourceId": 549,
+    "name": "Dober Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "id": "skill-mushroomancer",
+        "name": "Mushroomancer",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-dober-beta",
+    "setName": "Dober β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 1
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-550",
+    "sourceId": 550,
+    "name": "Dober Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-beta",
+    "setName": "Dober β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-551",
+    "sourceId": 551,
+    "name": "Dober Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-dober-beta",
+    "setName": "Dober β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 60,
+      "maxDefence": 72,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-316",
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-552",
+    "sourceId": 552,
+    "name": "Death Stench Brain α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-resuscitate",
+        "name": "Resuscitate",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-alpha",
+    "setName": "Death Stench α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-154",
+          "name": "Piercing Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-553",
+    "sourceId": 553,
+    "name": "Death Stench Muscle α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fortify",
+        "name": "Fortify",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-alpha",
+    "setName": "Death Stench α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-554",
+    "sourceId": 554,
+    "name": "Death Stench Grip α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-alpha",
+    "setName": "Death Stench α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-555",
+    "sourceId": 555,
+    "name": "Death Stench Bowels α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-alpha",
+    "setName": "Death Stench α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-556",
+    "sourceId": 556,
+    "name": "Death Stench Heel α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-stench-alpha",
+    "setName": "Death Stench α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-557",
+    "sourceId": 557,
+    "name": "Death Stench Brain β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-resuscitate",
+        "name": "Resuscitate",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-beta",
+    "setName": "Death Stench β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-154",
+          "name": "Piercing Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-558",
+    "sourceId": 558,
+    "name": "Death Stench Muscle β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-fortify",
+        "name": "Fortify",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-stench-beta",
+    "setName": "Death Stench β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-559",
+    "sourceId": 559,
+    "name": "Death Stench Grip β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-stench-beta",
+    "setName": "Death Stench β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-560",
+    "sourceId": 560,
+    "name": "Death Stench Bowels β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-stench-beta",
+    "setName": "Death Stench β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-561",
+    "sourceId": 561,
+    "name": "Death Stench Heel β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-stench-beta",
+    "setName": "Death Stench β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 62,
+      "maxDefence": 74,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-145",
+          "name": "Sinister Cloth",
+          "quantity": 2
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-562",
+    "sourceId": 562,
+    "name": "Skull Mask α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-skull-alpha",
+    "setName": "Skull α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-143",
+          "name": "Unknown Skull",
+          "quantity": 1
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-563",
+    "sourceId": 563,
+    "name": "Nergigante Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-alpha",
+    "setName": "Nergigante α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-418",
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-564",
+    "sourceId": 564,
+    "name": "Nergigante Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-alpha",
+    "setName": "Nergigante α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-416",
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-565",
+    "sourceId": 565,
+    "name": "Nergigante Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-alpha",
+    "setName": "Nergigante α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-414",
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-566",
+    "sourceId": 566,
+    "name": "Nergigante Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-alpha",
+    "setName": "Nergigante α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-567",
+    "sourceId": 567,
+    "name": "Nergigante Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-alpha",
+    "setName": "Nergigante α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-568",
+    "sourceId": 568,
+    "name": "Nergigante Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nergigante-beta",
+    "setName": "Nergigante β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-418",
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-569",
+    "sourceId": 569,
+    "name": "Nergigante Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nergigante-beta",
+    "setName": "Nergigante β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-416",
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-570",
+    "sourceId": 570,
+    "name": "Nergigante Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nergigante-beta",
+    "setName": "Nergigante β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-414",
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-571",
+    "sourceId": 571,
+    "name": "Nergigante Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nergigante-beta",
+    "setName": "Nergigante β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-572",
+    "sourceId": 572,
+    "name": "Nergigante Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-beta",
+    "setName": "Nergigante β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-573",
+    "sourceId": 573,
+    "name": "Kaiser Crown α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-alpha",
+    "setName": "Teostra α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-430",
+          "name": "Teostra Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-574",
+    "sourceId": 574,
+    "name": "Kaiser Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-special-ammo-boost",
+        "name": "Special Ammo Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-alpha",
+    "setName": "Teostra α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-433",
+          "name": "Teostra Webbing",
+          "quantity": 4
+        },
+        {
+          "id": "item-434",
+          "name": "Teostra Powder",
+          "quantity": 4
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-575",
+    "sourceId": 575,
+    "name": "Kaiser Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-alpha",
+    "setName": "Teostra α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-432",
+          "name": "Teostra Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-576",
+    "sourceId": 576,
+    "name": "Kaiser Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-alpha",
+    "setName": "Teostra α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-429",
+          "name": "Teostra Mane",
+          "quantity": 1
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-577",
+    "sourceId": 577,
+    "name": "Kaiser Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-alpha",
+    "setName": "Teostra α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-429",
+          "name": "Teostra Mane",
+          "quantity": 2
+        },
+        {
+          "id": "item-435",
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-578",
+    "sourceId": 578,
+    "name": "Kaiser Crown β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-beta",
+    "setName": "Teostra β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-430",
+          "name": "Teostra Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-579",
+    "sourceId": 579,
+    "name": "Kaiser Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-special-ammo-boost",
+        "name": "Special Ammo Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-beta",
+    "setName": "Teostra β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-433",
+          "name": "Teostra Webbing",
+          "quantity": 4
+        },
+        {
+          "id": "item-434",
+          "name": "Teostra Powder",
+          "quantity": 4
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-580",
+    "sourceId": 580,
+    "name": "Kaiser Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-beta",
+    "setName": "Teostra β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-432",
+          "name": "Teostra Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-581",
+    "sourceId": 581,
+    "name": "Kaiser Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-beta",
+    "setName": "Teostra β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-429",
+          "name": "Teostra Mane",
+          "quantity": 1
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-582",
+    "sourceId": 582,
+    "name": "Kaiser Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-beta",
+    "setName": "Teostra β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-429",
+          "name": "Teostra Mane",
+          "quantity": 2
+        },
+        {
+          "id": "item-435",
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-583",
+    "sourceId": 583,
+    "name": "Kushala Glare α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha",
+    "setName": "Kushala α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-445",
+          "name": "Daora Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-584",
+    "sourceId": 584,
+    "name": "Kushala Cista α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha",
+    "setName": "Kushala α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-448",
+          "name": "Daora Claw+",
+          "quantity": 2
+        },
+        {
+          "id": "item-449",
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-585",
+    "sourceId": 585,
+    "name": "Kushala Grip α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha",
+    "setName": "Kushala α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-447",
+          "name": "Daora Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-322",
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-586",
+    "sourceId": 586,
+    "name": "Kushala Cocoon α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha",
+    "setName": "Kushala α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-587",
+    "sourceId": 587,
+    "name": "Kushala Crus α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha",
+    "setName": "Kushala α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-445",
+          "name": "Daora Webbing",
+          "quantity": 3
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-588",
+    "sourceId": 588,
+    "name": "Kushala Glare β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta",
+    "setName": "Kushala β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-445",
+          "name": "Daora Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-589",
+    "sourceId": 589,
+    "name": "Kushala Cista β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta",
+    "setName": "Kushala β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-448",
+          "name": "Daora Claw+",
+          "quantity": 2
+        },
+        {
+          "id": "item-449",
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-590",
+    "sourceId": 590,
+    "name": "Kushala Grip β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta",
+    "setName": "Kushala β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 70,
+      "augmentedDefence": 84,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-447",
+          "name": "Daora Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-322",
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  }
+]

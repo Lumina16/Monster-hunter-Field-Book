@@ -1,0 +1,37 @@
+{
+  "$concat": [
+    {
+      "$include": "database/quests/000.json"
+    },
+    {
+      "$include": "database/quests/001.json"
+    },
+    {
+      "$include": "database/quests/002.json"
+    },
+    {
+      "$include": "database/quests/003.json"
+    },
+    {
+      "$include": "database/quests/004.json"
+    },
+    {
+      "$include": "database/quests/005.json"
+    },
+    {
+      "$include": "database/quests/006.json"
+    },
+    {
+      "$include": "database/quests/007.json"
+    },
+    {
+      "$include": "database/quests/008.json"
+    },
+    {
+      "$include": "database/quests/009.json"
+    },
+    {
+      "$include": "database/quests/010.json"
+    }
+  ]
+}

@@ -1,0 +1,3728 @@
+[
+  {
+    "id": "armour-1151",
+    "sourceId": 1151,
+    "name": "Odogaron Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha-plus",
+    "setName": "Odogaron α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-830",
+          "name": "Odogaron Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-832",
+          "name": "Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1152",
+    "sourceId": 1152,
+    "name": "Odogaron Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-beta-plus",
+    "setName": "Odogaron β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1153",
+    "sourceId": 1153,
+    "name": "Odogaron Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-beta-plus",
+    "setName": "Odogaron β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-832",
+          "name": "Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1154",
+    "sourceId": 1154,
+    "name": "Odogaron Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-beta-plus",
+    "setName": "Odogaron β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-830",
+          "name": "Odogaron Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1155",
+    "sourceId": 1155,
+    "name": "Odogaron Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-beta-plus",
+    "setName": "Odogaron β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-831",
+          "name": "Odogaron Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1156",
+    "sourceId": 1156,
+    "name": "Odogaron Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-beta-plus",
+    "setName": "Odogaron β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-829",
+          "name": "Hard Odogaron Sinew",
+          "quantity": 2
+        },
+        {
+          "id": "item-830",
+          "name": "Odogaron Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-832",
+          "name": "Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1157",
+    "sourceId": 1157,
+    "name": "Death Garon Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-garon-alpha-plus",
+    "setName": "Death Garon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-836",
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-838",
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-839",
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1158",
+    "sourceId": 1158,
+    "name": "Death Garon Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      },
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-garon-alpha-plus",
+    "setName": "Death Garon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-836",
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1159",
+    "sourceId": 1159,
+    "name": "Death Garon Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-garon-alpha-plus",
+    "setName": "Death Garon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1160",
+    "sourceId": 1160,
+    "name": "Death Garon Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-garon-alpha-plus",
+    "setName": "Death Garon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 3
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1161",
+    "sourceId": 1161,
+    "name": "Death Garon Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-garon-alpha-plus",
+    "setName": "Death Garon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-838",
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1162",
+    "sourceId": 1162,
+    "name": "Death Garon Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-garon-beta-plus",
+    "setName": "Death Garon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-836",
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-838",
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-839",
+          "name": "Ebony Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1163",
+    "sourceId": 1163,
+    "name": "Death Garon Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-garon-beta-plus",
+    "setName": "Death Garon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-836",
+          "name": "Ebony Odogaron Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1164",
+    "sourceId": 1164,
+    "name": "Death Garon Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-death-garon-beta-plus",
+    "setName": "Death Garon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-711",
+          "name": "Girros Shard",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1165",
+    "sourceId": 1165,
+    "name": "Death Garon Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-garon-beta-plus",
+    "setName": "Death Garon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-837",
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 3
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1166",
+    "sourceId": 1166,
+    "name": "Death Garon Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-death-garon-beta-plus",
+    "setName": "Death Garon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Odogaron Essence",
+      "skills": [
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-835",
+          "name": "Hard Ebony Odogaron Sinew",
+          "quantity": 3
+        },
+        {
+          "id": "item-834",
+          "name": "Ebony Odogaron Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-838",
+          "name": "Ebony Odogaron Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1167",
+    "sourceId": 1167,
+    "name": "Lavasioth Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha-plus",
+    "setName": "Lavasioth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-863",
+          "name": "Lavasioth Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1168",
+    "sourceId": 1168,
+    "name": "Lavasioth Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha-plus",
+    "setName": "Lavasioth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 6
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1169",
+    "sourceId": 1169,
+    "name": "Lavasioth Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha-plus",
+    "setName": "Lavasioth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-863",
+          "name": "Lavasioth Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1170",
+    "sourceId": 1170,
+    "name": "Lavasioth Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha-plus",
+    "setName": "Lavasioth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1171",
+    "sourceId": 1171,
+    "name": "Lavasioth Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha-plus",
+    "setName": "Lavasioth α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 8
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1172",
+    "sourceId": 1172,
+    "name": "Lavasioth Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta-plus",
+    "setName": "Lavasioth β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-863",
+          "name": "Lavasioth Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1173",
+    "sourceId": 1173,
+    "name": "Lavasioth Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta-plus",
+    "setName": "Lavasioth β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 6
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1174",
+    "sourceId": 1174,
+    "name": "Lavasioth Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta-plus",
+    "setName": "Lavasioth β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-863",
+          "name": "Lavasioth Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1175",
+    "sourceId": 1175,
+    "name": "Lavasioth Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta-plus",
+    "setName": "Lavasioth β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1176",
+    "sourceId": 1176,
+    "name": "Lavasioth Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta-plus",
+    "setName": "Lavasioth β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-862",
+          "name": "Lavasioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-864",
+          "name": "Lavasioth Grandfin",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 8
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1177",
+    "sourceId": 1177,
+    "name": "Uragaan Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha-plus",
+    "setName": "Uragaan α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1178",
+    "sourceId": 1178,
+    "name": "Uragaan Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha-plus",
+    "setName": "Uragaan α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-867",
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1179",
+    "sourceId": 1179,
+    "name": "Uragaan Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-alpha-plus",
+    "setName": "Uragaan α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 2
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1180",
+    "sourceId": 1180,
+    "name": "Uragaan Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha-plus",
+    "setName": "Uragaan α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-867",
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1181",
+    "sourceId": 1181,
+    "name": "Uragaan Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-offensive-guard",
+        "name": "Offensive Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-alpha-plus",
+    "setName": "Uragaan α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1182",
+    "sourceId": 1182,
+    "name": "Uragaan Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-beta-plus",
+    "setName": "Uragaan β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1183",
+    "sourceId": 1183,
+    "name": "Uragaan Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-beta-plus",
+    "setName": "Uragaan β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-867",
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1184",
+    "sourceId": 1184,
+    "name": "Uragaan Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta-plus",
+    "setName": "Uragaan β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-868",
+          "name": "Uragaan Scute+",
+          "quantity": 2
+        },
+        {
+          "id": "item-396",
+          "name": "Lava Nugget",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1185",
+    "sourceId": 1185,
+    "name": "Uragaan Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-uragaan-beta-plus",
+    "setName": "Uragaan β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-867",
+          "name": "Uragaan Jaw+",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1186",
+    "sourceId": 1186,
+    "name": "Uragaan Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-uragaan-beta-plus",
+    "setName": "Uragaan β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Uragaan Ambition",
+      "skills": [
+        {
+          "id": "skill-guard-up",
+          "name": "Guard Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 144,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-866",
+          "name": "Uragaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-394",
+          "name": "Uragaan Marrow",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1187",
+    "sourceId": 1187,
+    "name": "Nargacuga Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-piercing-shots",
+        "name": "Piercing Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-alpha-plus",
+    "setName": "Nargacuga α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-881",
+          "name": "Nargacuga Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-879",
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "id": "item-692",
+          "name": "Steel Gajau Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1188",
+    "sourceId": 1188,
+    "name": "Nargacuga Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-crawler",
+        "name": "Speed Crawler",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-alpha-plus",
+    "setName": "Nargacuga α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-878",
+          "name": "Nargacuga Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-691",
+          "name": "Gajau Thickhide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1189",
+    "sourceId": 1189,
+    "name": "Nargacuga Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-stealth",
+        "name": "Stealth",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nargacuga-alpha-plus",
+    "setName": "Nargacuga α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-881",
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-704",
+          "name": "Prized Pelt",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1190",
+    "sourceId": 1190,
+    "name": "Nargacuga Faulds α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-alpha-plus",
+    "setName": "Nargacuga α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-880",
+          "name": "Nargacuga Cutwing+",
+          "quantity": 2
+        },
+        {
+          "id": "item-878",
+          "name": "Nargacuga Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1191",
+    "sourceId": 1191,
+    "name": "Nargacuga Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-alpha-plus",
+    "setName": "Nargacuga α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-880",
+          "name": "Nargacuga Cutwing+",
+          "quantity": 1
+        },
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1192",
+    "sourceId": 1192,
+    "name": "Nargacuga Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-piercing-shots",
+        "name": "Piercing Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-beta-plus",
+    "setName": "Nargacuga β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-881",
+          "name": "Nargacuga Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-879",
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "id": "item-692",
+          "name": "Steel Gajau Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1193",
+    "sourceId": 1193,
+    "name": "Nargacuga Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nargacuga-beta-plus",
+    "setName": "Nargacuga β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-878",
+          "name": "Nargacuga Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-691",
+          "name": "Gajau Thickhide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1194",
+    "sourceId": 1194,
+    "name": "Nargacuga Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-nargacuga-beta-plus",
+    "setName": "Nargacuga β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-881",
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-704",
+          "name": "Prized Pelt",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1195",
+    "sourceId": 1195,
+    "name": "Nargacuga Faulds β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-beta-plus",
+    "setName": "Nargacuga β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-880",
+          "name": "Nargacuga Cutwing+",
+          "quantity": 2
+        },
+        {
+          "id": "item-878",
+          "name": "Nargacuga Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1196",
+    "sourceId": 1196,
+    "name": "Nargacuga Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nargacuga-beta-plus",
+    "setName": "Nargacuga β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nargacuga Essence",
+      "skills": [
+        {
+          "id": "skill-true-razor-sharp-spare-shot",
+          "name": "True Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-877",
+          "name": "Nargacuga Blackfur+",
+          "quantity": 2
+        },
+        {
+          "id": "item-876",
+          "name": "Nargacuga Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-880",
+          "name": "Nargacuga Cutwing+",
+          "quantity": 1
+        },
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1197",
+    "sourceId": 1197,
+    "name": "Glavenus Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-glavenus-alpha-plus",
+    "setName": "Glavenus α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Glavenus Essence",
+      "skills": [
+        {
+          "id": "skill-maximum-might-secret",
+          "name": "Maximum Might Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-894",
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-895",
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-896",
+          "name": "Glavenus Hellshell",
+          "quantity": 1
+        },
+        {
+          "id": "item-899",
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1198",
+    "sourceId": 1198,
+    "name": "Glavenus Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 2
+      },
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-glavenus-alpha-plus",
+    "setName": "Glavenus α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Glavenus Essence",
+      "skills": [
+        {
+          "id": "skill-maximum-might-secret",
+          "name": "Maximum Might Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-894",
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-895",
+          "name": "Glavenus Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-898",
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1199",
+    "sourceId": 1199,
+    "name": "Glavenus Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-glavenus-alpha-plus",
+    "setName": "Glavenus α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Glavenus Essence",
+      "skills": [
+        {
+          "id": "skill-maximum-might-secret",
+          "name": "Maximum Might Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-894",
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-896",
+          "name": "Glavenus Hellshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-897",
+          "name": "Glavenus Tailedge",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1200",
+    "sourceId": 1200,
+    "name": "Glavenus Faulds α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      },
+      {
+        "id": "skill-normal-shots",
+        "name": "Normal Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-glavenus-alpha-plus",
+    "setName": "Glavenus α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Glavenus Essence",
+      "skills": [
+        {
+          "id": "skill-maximum-might-secret",
+          "name": "Maximum Might Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-894",
+          "name": "Glavenus Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-893",
+          "name": "Glavenus Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-895",
+          "name": "Glavenus Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-898",
+          "name": "Molten Bursa",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

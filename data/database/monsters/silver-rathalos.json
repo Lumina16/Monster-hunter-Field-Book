@@ -1,0 +1,778 @@
+{
+  "name": "Silver Rathalos",
+  "source": "https://mhworld.kiranico.com/en/monsters/B0ktO/silver-rathalos",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 20,
+      "impact": 20,
+      "shot": 15,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 20,
+      "impact": 20,
+      "shot": 15,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Stomach",
+      "cut": 22,
+      "impact": 22,
+      "shot": 20,
+      "fire": 0,
+      "water": 15,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 22,
+      "impact": 22,
+      "shot": 20,
+      "fire": 0,
+      "water": 20,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 50,
+      "impact": 45,
+      "shot": 40,
+      "fire": 0,
+      "water": 25,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 38,
+      "impact": 38,
+      "shot": 32,
+      "fire": 0,
+      "water": 10,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 55,
+      "impact": 50,
+      "shot": 45,
+      "fire": 0,
+      "water": 10,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "",
+      "cut": 18,
+      "impact": 18,
+      "shot": 16,
+      "fire": 0,
+      "water": 10,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Broken)",
+      "cut": 55,
+      "impact": 60,
+      "shot": 50,
+      "fire": 0,
+      "water": 30,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck (Broken)",
+      "cut": 30,
+      "impact": 35,
+      "shot": 25,
+      "fire": 0,
+      "water": 25,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 250,
+      "break": 500,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Back",
+      "flinch": 400,
+      "break": 400,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings",
+      "flinch": 280,
+      "break": 280,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs",
+      "flinch": 240,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": 300,
+      "break": null,
+      "sever": 600,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 40,
+      "increase": 70,
+      "max": 460
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 60,
+      "max": 720,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 200,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 62
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon+",
+      "quantity": 2,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Silver Rathalos Lash",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 42
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Silver Rathalos Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Conflagrant Sac",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Silver Rathalos Lash",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 2,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Silver Rathalos Shard",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Silver Rathalos Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rath Gleam",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Silver Rathalos Fellwing",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Silver Rathalos Lash",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathalos Mantle",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Silver Rathalos Cortex",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Silver Rathalos Shard",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Scorching Scale",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Scorching Scale",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Scorching Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Silver Scale",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-1636",
+    "quest-1642",
+    "quest-66821"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 19200,
+      "modifiers": [
+        "x13.50",
+        "x1.00",
+        "x4.60",
+        "x1.50",
+        "x2.30",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 32790,
+      "modifiers": [
+        "x13.50",
+        "x1.00",
+        "x8.78",
+        "x1.50",
+        "x5.75",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 48960,
+      "modifiers": [
+        "x13.50",
+        "x1.00",
+        "x13.11",
+        "x1.50",
+        "x5.75",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 48960,
+      "modifiers": [
+        "x13.50",
+        "x1.00",
+        "x13.11",
+        "x1.50",
+        "x5.75",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    }
+  ],
+  "expeditions": []
+}

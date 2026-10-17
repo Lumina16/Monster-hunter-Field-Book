@@ -1,0 +1,1709 @@
+{
+  "name": "Rathian",
+  "source": "https://mhworld.kiranico.com/en/monsters/Rz9Tb/rathian",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 70,
+      "impact": 75,
+      "shot": 65,
+      "fire": 0,
+      "water": 15,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 40,
+      "impact": 45,
+      "shot": 35,
+      "fire": 0,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 35,
+      "impact": 30,
+      "shot": 25,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 55,
+      "impact": 50,
+      "shot": 45,
+      "fire": 0,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 40,
+      "impact": 40,
+      "shot": 35,
+      "fire": 0,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 40,
+      "shot": 35,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 60,
+      "impact": 65,
+      "shot": 45,
+      "fire": 0,
+      "water": 15,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Neck",
+      "cut": 37,
+      "impact": 45,
+      "shot": 30,
+      "fire": 0,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Wings",
+      "cut": 21,
+      "impact": 21,
+      "shot": 45,
+      "fire": 0,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Legs",
+      "cut": 37,
+      "impact": 37,
+      "shot": 25,
+      "fire": 0,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 45,
+      "impact": 37,
+      "shot": 30,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 240,
+      "break": 480,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings",
+      "flinch": 180,
+      "break": 180,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs",
+      "flinch": 210,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 200,
+      "break": null,
+      "sever": 300,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 40,
+      "increase": 70,
+      "max": 460
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 120,
+      "increase": 100,
+      "max": 620,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 60,
+      "max": 720,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Spike",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 71
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathian Spike",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathian Spike",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 44
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Shell",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Flame Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone L",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Spike",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Shell",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Flame Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Scale",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Spike",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Shell",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Scale",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Flame Sac",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Webbing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Spike+",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Rathian Webbing",
+      "quantity": 2,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathian Spike+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathian Spike+",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 44
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rath Wingtalon",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Carapace",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Scale+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Inferno Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Wingtalon",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Webbing",
+      "quantity": 2,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Spike+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Carapace",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Scale+",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Webbing",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Inferno Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Spike+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Carapace",
+      "quantity": 2,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Scale+",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Webbing",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Inferno Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Weave",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Surspike",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 67
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Rath Wingtalon+",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Rathian Weave",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 69
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathian Surspike",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathian Surspike",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 44
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rath Wingtalon+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Cortex",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Shard",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Conflagrant Sac",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rath Wingtalon+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Weave",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Surspike",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Cortex",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Shard",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Weave",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Conflagrant Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Surspike",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Cortex",
+      "quantity": 3,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Shard",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Mantle",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Weave",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Conflagrant Sac",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Rathian Ruby",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Queen's Scale",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Queen's Scale",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Queen's Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Green Scale",
+      "quantity": 1,
+      "chance": 54
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 21
+    }
+  ],
+  "questIds": [
+    "quest-301",
+    "quest-302",
+    "quest-503",
+    "quest-601",
+    "quest-261",
+    "quest-361",
+    "quest-362",
+    "quest-363",
+    "quest-364",
+    "quest-365",
+    "quest-452",
+    "quest-461",
+    "quest-432",
+    "quest-551",
+    "quest-552",
+    "quest-561",
+    "quest-653",
+    "quest-655",
+    "quest-656",
+    "quest-661",
+    "quest-662",
+    "quest-663",
+    "quest-665",
+    "quest-666",
+    "quest-667",
+    "quest-635",
+    "quest-751",
+    "quest-752",
+    "quest-753",
+    "quest-761",
+    "quest-762",
+    "quest-763",
+    "quest-764",
+    "quest-61603",
+    "quest-66105",
+    "quest-66602",
+    "quest-63006",
+    "quest-3002",
+    "quest-1303",
+    "quest-1603",
+    "quest-1161",
+    "quest-1162",
+    "quest-1163",
+    "quest-1235",
+    "quest-1252",
+    "quest-1261",
+    "quest-1262",
+    "quest-1264",
+    "quest-1351",
+    "quest-1363",
+    "quest-66804",
+    "quest-67827"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 18600,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x1.90",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 31770,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 47430,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 47430,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (5%)",
+      "health": 3540,
+      "modifiers": [
+        "x1.55",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "LR",
+      "locale": "Wildspire Waste (25%)",
+      "health": 3540,
+      "modifiers": [
+        "x1.55",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (10%)",
+      "health": 5700,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (20%)",
+      "health": 5700,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 18300,
+      "modifiers": [
+        "x7.00",
+        "x1.00",
+        "x4.40",
+        "x1.30",
+        "x2.00",
+        "x1.15",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 18300,
+      "modifiers": [
+        "x7.00",
+        "x1.00",
+        "x4.40",
+        "x1.30",
+        "x2.00",
+        "x1.15",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

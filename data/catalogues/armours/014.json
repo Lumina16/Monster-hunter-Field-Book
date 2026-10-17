@@ -1,0 +1,3585 @@
+[
+  {
+    "id": "armour-710",
+    "sourceId": 710,
+    "name": "Orion Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-orion-alpha",
+    "setName": "Orion α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 58,
+      "maxDefence": 78,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-513",
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-711",
+    "sourceId": 711,
+    "name": "Orion Coat α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-orion-alpha",
+    "setName": "Orion α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 58,
+      "maxDefence": 78,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-513",
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-712",
+    "sourceId": 712,
+    "name": "Orion Boots α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-heroics",
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-orion-alpha",
+    "setName": "Orion α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 58,
+      "maxDefence": 78,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-513",
+          "name": "Winter Star Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-723",
+    "sourceId": 723,
+    "name": "Gala Suit Top Hat α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gala-suit-alpha",
+    "setName": "Gala Suit α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Astera Blessing",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-514",
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-496",
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-724",
+    "sourceId": 724,
+    "name": "Gala Suit Jacket α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gala-suit-alpha",
+    "setName": "Gala Suit α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Astera Blessing",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-514",
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-496",
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-725",
+    "sourceId": 725,
+    "name": "Gala Suit Cuffs α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gala-suit-alpha",
+    "setName": "Gala Suit α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Astera Blessing",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-514",
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-496",
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-726",
+    "sourceId": 726,
+    "name": "Gala Suit Tail α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gala-suit-alpha",
+    "setName": "Gala Suit α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Astera Blessing",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-514",
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-496",
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-732",
+    "sourceId": 732,
+    "name": "Gala Suit Slacks α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gala-suit-alpha",
+    "setName": "Gala Suit α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Astera Blessing",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 64,
+      "maxDefence": 76,
+      "augmentedDefence": 90,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-514",
+          "name": "Appreciation Ticket",
+          "quantity": 3
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-496",
+          "name": "High Commendation",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-219",
+    "sourceId": 219,
+    "name": "Butterfly Vertex α",
+    "type": "head",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-butterfly-alpha",
+    "setName": "Butterfly α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-220",
+    "sourceId": 220,
+    "name": "Butterfly Thorax α",
+    "type": "chest",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-butterfly-alpha",
+    "setName": "Butterfly α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-221",
+    "sourceId": 221,
+    "name": "Butterfly Brachia α",
+    "type": "arms",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-butterfly-alpha",
+    "setName": "Butterfly α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-222",
+    "sourceId": 222,
+    "name": "Butterfly Elytra α",
+    "type": "waist",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-butterfly-alpha",
+    "setName": "Butterfly α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-223",
+    "sourceId": 223,
+    "name": "Butterfly Crura α",
+    "type": "legs",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-butterfly-alpha",
+    "setName": "Butterfly α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-224",
+    "sourceId": 224,
+    "name": "Butterfly Vertex β",
+    "type": "head",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-butterfly-beta",
+    "setName": "Butterfly β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-225",
+    "sourceId": 225,
+    "name": "Butterfly Thorax β",
+    "type": "chest",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-butterfly-beta",
+    "setName": "Butterfly β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-226",
+    "sourceId": 226,
+    "name": "Butterfly Brachia β",
+    "type": "arms",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-butterfly-beta",
+    "setName": "Butterfly β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-227",
+    "sourceId": 227,
+    "name": "Butterfly Elytra β",
+    "type": "waist",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-butterfly-beta",
+    "setName": "Butterfly β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-228",
+    "sourceId": 228,
+    "name": "Butterfly Crura β",
+    "type": "legs",
+    "gender": "male",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-butterfly-beta",
+    "setName": "Butterfly β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 42,
+      "maxDefence": 64,
+      "augmentedDefence": 80,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-516",
+          "name": "Summer Insect Field Guide",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-713",
+    "sourceId": 713,
+    "name": "Vaal Hazak Helm γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vaal-hazak-gamma",
+    "setName": "Vaal Hazak γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Vaal Hazak Vitality",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-517",
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-419",
+          "name": "Deceased Scale",
+          "quantity": 5
+        },
+        {
+          "id": "item-420",
+          "name": "Vaal Hazak Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-424",
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-714",
+    "sourceId": 714,
+    "name": "Vaal Hazak Mail γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vaal-hazak-gamma",
+    "setName": "Vaal Hazak γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Vaal Hazak Vitality",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-517",
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-419",
+          "name": "Deceased Scale",
+          "quantity": 5
+        },
+        {
+          "id": "item-420",
+          "name": "Vaal Hazak Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-715",
+    "sourceId": 715,
+    "name": "Vaal Hazak Braces γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-vaal-hazak-gamma",
+    "setName": "Vaal Hazak γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Vaal Hazak Vitality",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-517",
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-423",
+          "name": "Vaal Hazak Fang+",
+          "quantity": 3
+        },
+        {
+          "id": "item-419",
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "id": "item-426",
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-716",
+    "sourceId": 716,
+    "name": "Vaal Hazak Coil γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vaal-hazak-gamma",
+    "setName": "Vaal Hazak γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Vaal Hazak Vitality",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-517",
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-420",
+          "name": "Vaal Hazak Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-425",
+          "name": "Vaal Hazak Wing",
+          "quantity": 4
+        },
+        {
+          "id": "item-421",
+          "name": "Vaal Hazak Membrane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-717",
+    "sourceId": 717,
+    "name": "Vaal Hazak Greaves γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vaal-hazak-gamma",
+    "setName": "Vaal Hazak γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Vaal Hazak Vitality",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -4,
+        "water": 4,
+        "thunder": 1,
+        "ice": -1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-517",
+          "name": "Vaal Hazak Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-420",
+          "name": "Vaal Hazak Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-423",
+          "name": "Vaal Hazak Fang+",
+          "quantity": 3
+        },
+        {
+          "id": "item-422",
+          "name": "Vaal Hazak Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-669",
+    "sourceId": 669,
+    "name": "Kirin Horn γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kirin-gamma",
+    "setName": "Kirin γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kirin Favor",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-518",
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-372",
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-374",
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "id": "item-373",
+          "name": "Kirin Thundertail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-670",
+    "sourceId": 670,
+    "name": "Kirin Jacket γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-gamma",
+    "setName": "Kirin γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kirin Favor",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-518",
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-372",
+          "name": "Kirin Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-374",
+          "name": "Kirin Azure Horn",
+          "quantity": 3
+        },
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-671",
+    "sourceId": 671,
+    "name": "Kirin Longarms γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kirin-gamma",
+    "setName": "Kirin γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kirin Favor",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-518",
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-372",
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-373",
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-672",
+    "sourceId": 672,
+    "name": "Kirin Hoop γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-gamma",
+    "setName": "Kirin γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kirin Favor",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-518",
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-372",
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-374",
+          "name": "Kirin Azure Horn",
+          "quantity": 1
+        },
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-673",
+    "sourceId": 673,
+    "name": "Kirin Leg Guards γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-gamma",
+    "setName": "Kirin γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kirin Favor",
+      "skills": [
+        {
+          "id": "skill-capture-master",
+          "name": "Capture Master",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-518",
+          "name": "Kirin Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-372",
+          "name": "Kirin Hide+",
+          "quantity": 3
+        },
+        {
+          "id": "item-370",
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-733",
+    "sourceId": 733,
+    "name": "Kaiser Crown γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-gamma",
+    "setName": "Teostra γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-654",
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-433",
+          "name": "Teostra Webbing",
+          "quantity": 4
+        },
+        {
+          "id": "item-434",
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-734",
+    "sourceId": 734,
+    "name": "Kaiser Mail γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-gamma",
+    "setName": "Teostra γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-654",
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-430",
+          "name": "Teostra Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-735",
+    "sourceId": 735,
+    "name": "Kaiser Vambraces γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-teostra-gamma",
+    "setName": "Teostra γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-654",
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-429",
+          "name": "Teostra Mane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-736",
+    "sourceId": 736,
+    "name": "Kaiser Coil γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-teostra-gamma",
+    "setName": "Teostra γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-654",
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-431",
+          "name": "Teostra Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-435",
+          "name": "Teostra Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-737",
+    "sourceId": 737,
+    "name": "Kaiser Greaves γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-gamma",
+    "setName": "Teostra γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-654",
+          "name": "Teostra Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-427",
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-428",
+          "name": "Teostra Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-432",
+          "name": "Teostra Claw+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-753",
+    "sourceId": 753,
+    "name": "Kushala Glare γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-gamma",
+    "setName": "Kushala γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-656",
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 3
+        },
+        {
+          "id": "item-449",
+          "name": "Daora Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-754",
+    "sourceId": 754,
+    "name": "Kushala Cista γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-gamma",
+    "setName": "Kushala γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-656",
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-445",
+          "name": "Daora Webbing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-755",
+    "sourceId": 755,
+    "name": "Kushala Grip γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-gamma",
+    "setName": "Kushala γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-656",
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-448",
+          "name": "Daora Claw+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-756",
+    "sourceId": 756,
+    "name": "Kushala Cocoon γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-gamma",
+    "setName": "Kushala γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-656",
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-443",
+          "name": "Daora Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-445",
+          "name": "Daora Webbing",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-757",
+    "sourceId": 757,
+    "name": "Kushala Crus γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-gamma",
+    "setName": "Kushala γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-656",
+          "name": "Kushala Daora Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-444",
+          "name": "Daora Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-446",
+          "name": "Daora Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-447",
+          "name": "Daora Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-778",
+    "sourceId": 778,
+    "name": "Nergigante Helm γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-gamma",
+    "setName": "Nergigante γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-672",
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-779",
+    "sourceId": 779,
+    "name": "Nergigante Mail γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-gamma",
+    "setName": "Nergigante γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-672",
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-418",
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-780",
+    "sourceId": 780,
+    "name": "Nergigante Vambraces γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-gamma",
+    "setName": "Nergigante γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-672",
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-417",
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-781",
+    "sourceId": 781,
+    "name": "Nergigante Coil γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-nergigante-gamma",
+    "setName": "Nergigante γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-672",
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-415",
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "id": "item-414",
+          "name": "Nergigante Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-782",
+    "sourceId": 782,
+    "name": "Nergigante Greaves γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-nergigante-gamma",
+    "setName": "Nergigante γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Nergigante Hunger",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-672",
+          "name": "Nergigante Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-413",
+          "name": "Nergigante Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-412",
+          "name": "Immortal Dragonscale",
+          "quantity": 4
+        },
+        {
+          "id": "item-416",
+          "name": "Nergigante Talon",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-763",
+    "sourceId": 763,
+    "name": "Zorah Headgear γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zorah-gamma",
+    "setName": "Zorah γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Zorah Magdaros Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-657",
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-375",
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 5
+        },
+        {
+          "id": "item-378",
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 2
+        },
+        {
+          "id": "item-379",
+          "name": "Zorah Magdaros Magma",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-764",
+    "sourceId": 764,
+    "name": "Zorah Hide γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zorah-gamma",
+    "setName": "Zorah γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Zorah Magdaros Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-657",
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-375",
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 5
+        },
+        {
+          "id": "item-377",
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        },
+        {
+          "id": "item-376",
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-765",
+    "sourceId": 765,
+    "name": "Zorah Claws γ",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zorah-gamma",
+    "setName": "Zorah γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Zorah Magdaros Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-657",
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-377",
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        },
+        {
+          "id": "item-376",
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-380",
+          "name": "Zorah Magdaros Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-766",
+    "sourceId": 766,
+    "name": "Zorah Spine γ",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-zorah-gamma",
+    "setName": "Zorah γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Zorah Magdaros Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-657",
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-376",
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-378",
+          "name": "Zorah Magdaros Pleura",
+          "quantity": 2
+        },
+        {
+          "id": "item-377",
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-767",
+    "sourceId": 767,
+    "name": "Zorah Spurs γ",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-zorah-gamma",
+    "setName": "Zorah γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Zorah Magdaros Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -1,
+        "ice": -2,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-657",
+          "name": "Zorah Magdaros Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-376",
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 5
+        },
+        {
+          "id": "item-379",
+          "name": "Zorah Magdaros Magma",
+          "quantity": 2
+        },
+        {
+          "id": "item-377",
+          "name": "Zorah Magdaros Ridge",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-768",
+    "sourceId": 768,
+    "name": "Xeno'jiiva Headgear γ",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-xeno-jiiva-gamma",
+    "setName": "Xeno'jiiva γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Xeno'jiiva Divinity",
+      "skills": [
+        {
+          "id": "skill-razor-sharp-spare-shot",
+          "name": "Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-658",
+          "name": "Xeno'jiiva Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-451",
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "id": "item-456",
+          "name": "Xeno'jiiva Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-453",
+          "name": "Xeno'jiiva Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-769",
+    "sourceId": 769,
+    "name": "Xeno'jiiva Hide γ",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-xeno-jiiva-gamma",
+    "setName": "Xeno'jiiva γ",
+    "variant": "gamma",
+    "setBonus": {
+      "name": "Xeno'jiiva Divinity",
+      "skills": [
+        {
+          "id": "skill-razor-sharp-spare-shot",
+          "name": "Razor Sharp/Spare Shot",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 72,
+      "maxDefence": 78,
+      "augmentedDefence": 92,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-658",
+          "name": "Xeno'jiiva Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-450",
+          "name": "Xeno'jiiva Soulscale",
+          "quantity": 5
+        },
+        {
+          "id": "item-451",
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "id": "item-454",
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  }
+]

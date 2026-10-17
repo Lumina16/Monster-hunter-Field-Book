@@ -1,0 +1,2885 @@
+[
+  {
+    "id": "weapon-switch-axe-2689",
+    "name": "Dragonmaiden Axe+",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 910,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-2688",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2690",
+    "name": "Golden Crescent",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1015,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-2689",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Gold Rathian"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-switch-axe-710",
+    "name": "Bone Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 315,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      60,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-711",
+    "name": "Bone Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 350,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-710",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      90,
+      50,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-712",
+    "name": "Bone Axe III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 385,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-711",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-713",
+    "name": "Bone Smasher I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 490,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-712",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-714",
+    "name": "Bone Smasher II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 525,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-713",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-715",
+    "name": "Bone Smasher III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 560,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-714",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-716",
+    "name": "Power Smasher I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 595,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-715",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 10
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "dragon",
+      "phial power": "300"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-717",
+    "name": "Power Smasher II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 665,
+    "affinity": 10,
+    "defense": 10,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-switch-axe-716",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 20
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      100,
+      120,
+      40,
+      50,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "dragon",
+      "phial power": "420"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2691",
+    "name": "Mighty Gear I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 805,
+    "affinity": 10,
+    "defense": 35,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-switch-axe-717",
+    "forge": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 8
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "dragon",
+      "phial power": "480"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2692",
+    "name": "Mighty Gear II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 875,
+    "affinity": 10,
+    "defense": 35,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-switch-axe-2691",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "dragon",
+      "phial power": "510"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2693",
+    "name": "Mighty Gear III",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 945,
+    "affinity": 10,
+    "defense": 35,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-switch-axe-2692",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "dragon",
+      "phial power": "510"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2694",
+    "name": "Icerood",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 910,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-2692",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Crystal Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2695",
+    "name": "Wicked Niddoq",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 945,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-2694",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-switch-axe-718",
+    "name": "Hazak Demios I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 665,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-716",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Vaal Hazak"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-switch-axe-719",
+    "name": "Hazak Demios II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 700,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-718",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Veil",
+          "quantity": 3
+        },
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      200,
+      70,
+      20,
+      20,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2696",
+    "name": "Deathedge Vaal Demios",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 875,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-switch-axe-719",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Deceased Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Deathweaver Membrane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average",
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2697",
+    "name": "Acid Smasher I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 945,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-719",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2698",
+    "name": "Acid Smasher II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1015,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-2697",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      60,
+      50,
+      110,
+      90,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-720",
+    "name": "Madness Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 385,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-711",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Jyuratodus"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-721",
+    "name": "Madness Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 420,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-720",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Girros Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Great Girros Hide"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-722",
+    "name": "Madness Axe III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 490,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-721",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-723",
+    "name": "Jyura Drought I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 560,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-722",
+    "forge": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "sharpness": [
+      110,
+      60,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-724",
+    "name": "Jyura Drought II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 630,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-723",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 4
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-725",
+    "name": "Jyura Drought III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 665,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-724",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 6
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      140,
+      110,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2699",
+    "name": "Jyura Cataclysm I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 805,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-switch-axe-725",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Jyuratodus Cortex"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2700",
+    "name": "Jyura Cataclysm II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 910,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-switch-axe-2699",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2701",
+    "name": "Mammoth Halberd I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 875,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-725",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Banbaro Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Banbaro"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Banbaro Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2702",
+    "name": "Mammoth Halberd II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 980,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 450,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-switch-axe-2701",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Banbaro Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Banbaro Tree"
+  },
+  {
+    "id": "weapon-switch-axe-726",
+    "name": "Lumu Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 420,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-720",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Paolumu"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-727",
+    "name": "Lumu Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 490,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-726",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-728",
+    "name": "Lumu Smasher I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 525,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-727",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-729",
+    "name": "Lumu Smasher II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 560,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-728",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-730",
+    "name": "Lumu Smasher III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 595,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-switch-axe-729",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 7
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      140,
+      100,
+      30,
+      30,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2703",
+    "name": "Mechanical Lumu I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 805,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 480,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-switch-axe-730",
+    "forge": {
+      "materials": [
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 5
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Paolumu Thickfur"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Paolumu Thickfur"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2704",
+    "name": "Mechanical Lumu II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 875,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 540,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-switch-axe-2703",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2705",
+    "name": "Nyx Smasher I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 770,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-2703",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2706",
+    "name": "Nyx Smasher II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 840,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-switch-axe-2705",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2707",
+    "name": "Glavenus Smasher I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 805,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-2703",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Glavenus"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2708",
+    "name": "Glavenus Smasher II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 875,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-2707",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-switch-axe-731",
+    "name": "Carapace Axe I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 420,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-711",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Ridge",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Barroth"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "180"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-732",
+    "name": "Carapace Axe II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 490,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-731",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Kestodon Shell",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "180"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-733",
+    "name": "Carapace Axe III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 560,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-switch-axe-732",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      90,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "180"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-734",
+    "name": "Barroth Grinder I",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 595,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-switch-axe-733",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Barroth Carapace"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "210"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-735",
+    "name": "Barroth Grinder II",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 665,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-switch-axe-734",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "240"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-736",
+    "name": "Barroth Grinder III",
+    "type": "switch-axe",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 735,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-switch-axe-735",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      100,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "270"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2709",
+    "name": "Barroth Dozer I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 840,
+    "affinity": -20,
+    "defense": 25,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-switch-axe-736",
+    "forge": {
+      "materials": [
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Chine",
+          "quantity": 4
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Barroth Chine"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Barroth Chine"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "300"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2710",
+    "name": "Barroth Dozer II",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 945,
+    "affinity": -20,
+    "defense": 25,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-switch-axe-2709",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Crown",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Chine"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "paralysis",
+      "phial power": "330"
+    },
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-switch-axe-2711",
+    "name": "Dios Smasher I",
+    "type": "switch-axe",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 840,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-switch-axe-2709",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  }
+]

@@ -1,0 +1,461 @@
+{
+  "expanded-equipment.json": {
+    "armours": 1595,
+    "armourSets": 351,
+    "decorations": 404,
+    "skills": 178,
+    "charms": 317,
+    "kinsects": 105,
+    "armourRanks": {
+      "LR": 178,
+      "HR": 604,
+      "MR": 813
+    },
+    "armourSetRanks": {
+      "LR": 38,
+      "HR": 136,
+      "MR": 177
+    },
+    "skillLevels": 418,
+    "combinationDecorations": 234,
+    "armoursWithMaterials": 1595,
+    "charmsWithMaterials": 312,
+    "kinsectsWithMaterials": 102,
+    "kinsectsWithExactPrice": 104,
+    "armourSlots": 1913,
+    "materialNamesJoin": "All material names resolve to the cached item catalogue.",
+    "skillNamesJoin": "All granted skills and set bonuses resolve to the cached skill catalogue.",
+    "excludedDummyRecords": {},
+    "limits": [
+      "Armour and charm crafting zenny is absent from the extracted CSVs and remains null; no rarity-based prices are invented.",
+      "Exact LR/HR requirements are not stated in the charm and Kinsect base tables and remain null; rarity 9+ records are Master Rank.",
+      "Five charms and Dragon Soul have no material recipe in this source; null paths are not displayed as forgeable.",
+      "The source decoration rarity-pool drop table contains incomplete/internal group values; it is not presented as an individual jewel probability.",
+      "Layered armour appearances are outside the combat armour source catalogue."
+    ]
+  },
+  "facilities-catalogue.json": {
+    "palicoSetPages": 144,
+    "palicoEquipment": 431,
+    "canteenIngredients": 114,
+    "issues": [
+      {
+        "set": "Ghost Set α+",
+        "name": "Felyne Acorn Spade",
+        "reason": "Placeholder weapon translation omitted"
+      },
+      {
+        "set": "Frankie Set α+",
+        "name": "Felyne Acorn Spade",
+        "reason": "Placeholder weapon translation omitted"
+      },
+      {
+        "set": "Fatalis Set α+",
+        "name": "Felyne Acorn Spade",
+        "reason": "Placeholder weapon translation omitted"
+      }
+    ],
+    "specializedTools": 40,
+    "palicoGadgets": 7,
+    "foodSkills": 27,
+    "limitations": [
+      "Palico armour forging-point costs are unavailable in the extracted set pages and remain null. Weapon forging points must not be copied onto armour.",
+      "Palico forging spends research points, not zenny.",
+      "Four Palico set-detail pages were not retrievable; retained catalogue coverage is audited separately below.",
+      "Post-update placeholder weapon translations were omitted rather than assigned misleading Acorn Spade stats or Iron Ore recipes.",
+      "Palico gear does not accept hunter decorations; its slot arrays are empty."
+    ]
+  },
+  "fauna-catalogue.json": {
+    "smallMonsterSpecies": 22,
+    "endemicRecords": 98,
+    "endemicBaseRecords": 86,
+    "greatFishVariants": 12,
+    "embeddedSpeciesIcons": 120,
+    "note": "Source-specific habitats, reward pools and base thresholds are retained. Unspecified time/weather and detailed spawn locations remain unknown; they are not inferred."
+  },
+  "palico-supplement.json": {
+    "additionalPieces": 12,
+    "completedMissingSets": [
+      "Teostra α",
+      "Alloy",
+      "Kulu Set α+",
+      "Jagras Set α+"
+    ],
+    "armourResearchPointPrices": "Unavailable in retrieved source; not inferred from weapon cost.",
+    "postUpdateWeapons": "Ghost α+, Frankie α+, Fatalis α+ remain omitted because Chronicles shows Acorn Spade placeholders.",
+    "statusDisplayUnits": "Kaiser Mace α Blast45 verified against Game8; source raw450 retained only in source archive.",
+    "correctedStatusDisplayUnits": {
+      "records": 23,
+      "blast": 11,
+      "paralysis": 7,
+      "sleep": 5,
+      "note": "Each named weapon has independently listed display values. Poison was already divided by10 by the original builder and is unchanged. Ordinary fire/water/thunder/ice/dragon values are not divided."
+    },
+    "ordinaryElementConflict": {
+      "name": "Felyne Aloha Ukulele α+",
+      "existingChroniclesWater": 280,
+      "game8Water": 260,
+      "action": "Retained original extracted value because sources disagree; no uniform element conversion applied."
+    }
+  },
+  "canteen-supplement.json": {
+    "dailyFoodSkills": 29,
+    "ingredientFoodSkills": 27
+  },
+  "atlas": {
+    "verifiedMapImages": 3,
+    "facilityDirectoriesWithoutMap": 3,
+    "mapGeometry": "Original game images, no redrawn layouts or invented hotspots. Locale links are a separate list, not coordinates.",
+    "imageGaps": [
+      "Research Base",
+      "Astera Gathering Hub",
+      "Seliana Gathering Hub"
+    ],
+    "provenance": "Cached source pages and inspected assets in research/base-map-data; world image dimensions match its original-file metadata. English base maps retain the original in-game cursor tooltip.",
+    "networkLimitations": "Further direct image re-fetches returned HTTP 403. Previously cached original image bytes are retained unchanged."
+  },
+  "icons": {
+    "semanticKeys": 24,
+    "genuineGameSpriteKeys": [
+      "decoration-1",
+      "decoration-2",
+      "decoration-3",
+      "decoration-4",
+      "kinsect",
+      "palico",
+      "booster",
+      "canteen",
+      "item",
+      "small-monster",
+      "endemic"
+    ],
+    "communityRecreationKeys": [
+      "armour-head",
+      "armour-chest",
+      "armour-arm",
+      "armour-waist",
+      "armour-leg",
+      "armour-set",
+      "charm",
+      "mantle",
+      "skill",
+      "slot-1",
+      "slot-2",
+      "slot-3",
+      "slot-4"
+    ],
+    "missingSemanticKeys": [],
+    "limitations": [
+      "The genuine armour part, charm, mantle, skill and empty socket exports were not retrievable from their public CDN during this build. The matching MHWorldData community vector recreations are used with explicit attribution instead.",
+      "Kinsect, Palico equipment, canteen and tool collection markers reuse genuine related inventory silhouettes. They are not claimed to be unique official portraits of every record.",
+      "Slot levels use their own empty socket shapes and visible level text; decoration level sprites use the genuine exported gem silhouettes."
+    ]
+  },
+  "prices": {
+    "armourPriceCount": 1590,
+    "charmPriceCount": 307,
+    "exactRecipeMatches": 1888,
+    "nameRarityMatchesWithoutRecipeAgreement": [
+      {
+        "id": "charm-301",
+        "name": "Draw Charm III",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "azure dragonsphire",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "large elder dragon gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-303",
+        "name": "Fitness Charm V",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "frostfang ticket",
+            3
+          ],
+          [
+            "phantomcore ore",
+            1
+          ],
+          [
+            "silverwhite frostfang",
+            3
+          ],
+          [
+            "spiritvein gem shard",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-302",
+        "name": "Phoenix Charm III",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "azure dragonsphire",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "shara ishvalda gem",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-305",
+        "name": "Windproof Charm V",
+        "sourceRecipe": [
+          [
+            "guiding rime crystal",
+            3
+          ],
+          [
+            "research commission ticket+",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "zionium crystal",
+            1
+          ]
+        ],
+        "catalogueRecipe": [
+          [
+            "guiding rime crystal",
+            1
+          ],
+          [
+            "research commission ticket+",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "zionium crystal",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-309",
+        "name": "Master's Charm V",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "azure dragonsphire",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "velkhana ticket",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-311",
+        "name": "Handicraft Charm V",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "fatalis evil eye",
+            1
+          ],
+          [
+            "golden dragonsphire",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-312",
+        "name": "Earplugs Charm V",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "velkhana crystal",
+            1
+          ],
+          [
+            "velkhana ticket",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-313",
+        "name": "Exploiter Charm III",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "azure dragonsphire",
+            1
+          ],
+          [
+            "fatalis evil eye",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "charm-316",
+        "name": "Critical Charm III",
+        "sourceRecipe": [],
+        "catalogueRecipe": [
+          [
+            "fatalis evil eye",
+            1
+          ],
+          [
+            "great spiritvein gem",
+            1
+          ],
+          [
+            "shadowcore ore",
+            1
+          ],
+          [
+            "zionium crystal",
+            1
+          ]
+        ]
+      }
+    ],
+    "unmatched": [
+      {
+        "id": "armour-1591",
+        "name": "Artemis Head α+",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "armour-1592",
+        "name": "Artemis Mail α+",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "armour-1593",
+        "name": "Artemis Guards α+",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "armour-1594",
+        "name": "Artemis Coil α+",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "armour-1595",
+        "name": "Artemis Greaves α+",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "charm-107",
+        "name": "Intimidator Charm II",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "charm-216",
+        "name": "Miasma Charm III",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "charm-306",
+        "name": "Survival Charm I",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "charm-307",
+        "name": "Survival Charm II",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      },
+      {
+        "id": "charm-308",
+        "name": "Survival Charm III",
+        "reason": "No unique name/rarity/recipe match in pinned source"
+      }
+    ],
+    "nonCraftableNoPrice": [
+      {
+        "id": "charm-293",
+        "name": "Adamantine Charm"
+      },
+      {
+        "id": "charm-294",
+        "name": "Razor Sharp Charm"
+      },
+      {
+        "id": "charm-295",
+        "name": "Sealer's Charm"
+      },
+      {
+        "id": "charm-296",
+        "name": "Gutsy Charm"
+      },
+      {
+        "id": "charm-234",
+        "name": "Fair Wind Charm"
+      }
+    ],
+    "note": "Only explicit crafting costs are imported. The source builder maps Cost from equipment.CraftingCost; its charm material builder uses craft recipes first and upgrade recipes otherwise. Existing catalogue forge/upgrade paths are preserved. Reward-only pieces receive no fabricated price. Nine charm costs match name and rarity but have missing or differing old-source materials; their cost is explicit and their catalogue materials are left unchanged. Ten catalogue records are absent from the pinned source."
+  }
+}

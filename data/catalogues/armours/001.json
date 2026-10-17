@@ -1,0 +1,3037 @@
+[
+  {
+    "id": "armour-51",
+    "sourceId": 51,
+    "name": "Barroth Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-muck-resistance",
+        "name": "Muck Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barroth",
+    "setName": "Barroth",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-236",
+          "name": "Barroth Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-237",
+          "name": "Barroth Ridge",
+          "quantity": 1
+        },
+        {
+          "id": "item-241",
+          "name": "Fertile Mud",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-52",
+    "sourceId": 52,
+    "name": "Barroth Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barroth",
+    "setName": "Barroth",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": -1,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-237",
+          "name": "Barroth Ridge",
+          "quantity": 2
+        },
+        {
+          "id": "item-239",
+          "name": "Barroth Scalp",
+          "quantity": 1
+        },
+        {
+          "id": "item-236",
+          "name": "Barroth Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-241",
+          "name": "Fertile Mud",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-53",
+    "sourceId": 53,
+    "name": "Jyura Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-aquatic-polar-mobility",
+        "name": "Aquatic/Polar Mobility",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jyura",
+    "setName": "Jyura",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-245",
+          "name": "Jyuratodus Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-246",
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-248",
+          "name": "Jyuratodus Fin",
+          "quantity": 1
+        },
+        {
+          "id": "item-186",
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-54",
+    "sourceId": 54,
+    "name": "Jyura Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-muck-resistance",
+        "name": "Muck Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jyura",
+    "setName": "Jyura",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-246",
+          "name": "Jyuratodus Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-248",
+          "name": "Jyuratodus Fin",
+          "quantity": 1
+        },
+        {
+          "id": "item-247",
+          "name": "Jyuratodus Fang",
+          "quantity": 1
+        },
+        {
+          "id": "item-165",
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-55",
+    "sourceId": 55,
+    "name": "Jyura Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jyura",
+    "setName": "Jyura",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-246",
+          "name": "Jyuratodus Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-247",
+          "name": "Jyuratodus Fang",
+          "quantity": 1
+        },
+        {
+          "id": "item-187",
+          "name": "Gajau Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-56",
+    "sourceId": 56,
+    "name": "Jyura Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jyura",
+    "setName": "Jyura",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-245",
+          "name": "Jyuratodus Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-246",
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-165",
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-57",
+    "sourceId": 57,
+    "name": "Jyura Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jyura",
+    "setName": "Jyura",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 14,
+      "maxDefence": 46,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-246",
+          "name": "Jyuratodus Shell",
+          "quantity": 3
+        },
+        {
+          "id": "item-247",
+          "name": "Jyuratodus Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-248",
+          "name": "Jyuratodus Fin",
+          "quantity": 2
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-58",
+    "sourceId": 58,
+    "name": "Kadachi Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi",
+    "setName": "Kadachi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 16,
+      "maxDefence": 48,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-254",
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-257",
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "id": "item-256",
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-169",
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-59",
+    "sourceId": 59,
+    "name": "Kadachi Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi",
+    "setName": "Kadachi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 16,
+      "maxDefence": 48,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-254",
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-257",
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 1
+        },
+        {
+          "id": "item-255",
+          "name": "Tobi-Kadachi Membrane",
+          "quantity": 2
+        },
+        {
+          "id": "item-190",
+          "name": "Wingdrake Hide",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-60",
+    "sourceId": 60,
+    "name": "Kadachi Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi",
+    "setName": "Kadachi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 16,
+      "maxDefence": 48,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-254",
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-256",
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-253",
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-147",
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-61",
+    "sourceId": 61,
+    "name": "Kadachi Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi",
+    "setName": "Kadachi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 16,
+      "maxDefence": 48,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-253",
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-254",
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-169",
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-62",
+    "sourceId": 62,
+    "name": "Kadachi Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kadachi",
+    "setName": "Kadachi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 16,
+      "maxDefence": 48,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-253",
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-254",
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-175",
+          "name": "Warm Pelt",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-63",
+    "sourceId": 63,
+    "name": "High Metal Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-high-metal",
+    "setName": "High Metal",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-64",
+    "sourceId": 64,
+    "name": "High Metal Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-high-metal",
+    "setName": "High Metal",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-153",
+          "name": "Sharp Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-65",
+    "sourceId": 65,
+    "name": "High Metal Braces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-high-metal",
+    "setName": "High Metal",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-153",
+          "name": "Sharp Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-66",
+    "sourceId": 66,
+    "name": "High Metal Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-capacity-boost",
+        "name": "Capacity Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-high-metal",
+    "setName": "High Metal",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-67",
+    "sourceId": 67,
+    "name": "High Metal Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-heavy-artillery",
+        "name": "Heavy Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-high-metal",
+    "setName": "High Metal",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": -1,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-68",
+    "sourceId": 68,
+    "name": "King Beetle Vertex",
+    "type": "head",
+    "gender": "male",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle",
+    "setName": "King Beetle",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-163",
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-69",
+    "sourceId": 69,
+    "name": "King Beetle Thorax",
+    "type": "chest",
+    "gender": "male",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle",
+    "setName": "King Beetle",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-157",
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-70",
+    "sourceId": 70,
+    "name": "King Beetle Brachia",
+    "type": "arms",
+    "gender": "male",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-leap-of-faith",
+        "name": "Leap of Faith",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle",
+    "setName": "King Beetle",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-165",
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-71",
+    "sourceId": 71,
+    "name": "King Beetle Elytra",
+    "type": "waist",
+    "gender": "male",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle",
+    "setName": "King Beetle",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-155",
+          "name": "Monster Fluid",
+          "quantity": 1
+        },
+        {
+          "id": "item-169",
+          "name": "Electro Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-72",
+    "sourceId": 72,
+    "name": "King Beetle Crura",
+    "type": "legs",
+    "gender": "male",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-forager-s-luck",
+        "name": "Forager's Luck",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-king-beetle",
+    "setName": "King Beetle",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-144",
+          "name": "Great Hornfly",
+          "quantity": 1
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-155",
+          "name": "Monster Fluid",
+          "quantity": 3
+        },
+        {
+          "id": "item-159",
+          "name": "Paralysis Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-78",
+    "sourceId": 78,
+    "name": "Shamos Goggles",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-detector",
+        "name": "Detector",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shamos",
+    "setName": "Shamos",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-204",
+          "name": "Shamos Hide",
+          "quantity": 2
+        },
+        {
+          "id": "item-203",
+          "name": "Shamos Scale",
+          "quantity": 3
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-79",
+    "sourceId": 79,
+    "name": "Hornetaur Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-dungmaster",
+        "name": "Dungmaster",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur",
+    "setName": "Hornetaur",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-183",
+          "name": "Hornetaur Head",
+          "quantity": 1
+        },
+        {
+          "id": "item-181",
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-155",
+          "name": "Monster Fluid",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-80",
+    "sourceId": 80,
+    "name": "Hornetaur Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur",
+    "setName": "Hornetaur",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-182",
+          "name": "Hornetaur Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-181",
+          "name": "Hornetaur Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-81",
+    "sourceId": 81,
+    "name": "Hornetaur Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur",
+    "setName": "Hornetaur",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-182",
+          "name": "Hornetaur Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-181",
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-82",
+    "sourceId": 82,
+    "name": "Hornetaur Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-carving-pro",
+        "name": "Carving Pro",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur",
+    "setName": "Hornetaur",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-182",
+          "name": "Hornetaur Wing",
+          "quantity": 1
+        },
+        {
+          "id": "item-181",
+          "name": "Hornetaur Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-83",
+    "sourceId": 83,
+    "name": "Hornetaur Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur",
+    "setName": "Hornetaur",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-182",
+          "name": "Hornetaur Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-181",
+          "name": "Hornetaur Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-155",
+          "name": "Monster Fluid",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-84",
+    "sourceId": 84,
+    "name": "Anja Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-anja",
+    "setName": "Anja",
+    "variant": null,
+    "setBonus": {
+      "name": "Anjanath Power",
+      "skills": [
+        {
+          "id": "skill-adrenaline",
+          "name": "Adrenaline",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-263",
+          "name": "Anjanath Pelt",
+          "quantity": 3
+        },
+        {
+          "id": "item-262",
+          "name": "Anjanath Scale",
+          "quantity": 3
+        },
+        {
+          "id": "item-266",
+          "name": "Anjanath Tail",
+          "quantity": 1
+        },
+        {
+          "id": "item-163",
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-85",
+    "sourceId": 85,
+    "name": "Anja Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-anja",
+    "setName": "Anja",
+    "variant": null,
+    "setBonus": {
+      "name": "Anjanath Power",
+      "skills": [
+        {
+          "id": "skill-adrenaline",
+          "name": "Adrenaline",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-263",
+          "name": "Anjanath Pelt",
+          "quantity": 3
+        },
+        {
+          "id": "item-264",
+          "name": "Anjanath Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-265",
+          "name": "Anjanath Nosebone",
+          "quantity": 1
+        },
+        {
+          "id": "item-267",
+          "name": "Anjanath Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-86",
+    "sourceId": 86,
+    "name": "Anja Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-special-ammo-boost",
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-anja",
+    "setName": "Anja",
+    "variant": null,
+    "setBonus": {
+      "name": "Anjanath Power",
+      "skills": [
+        {
+          "id": "skill-adrenaline",
+          "name": "Adrenaline",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-263",
+          "name": "Anjanath Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-262",
+          "name": "Anjanath Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-265",
+          "name": "Anjanath Nosebone",
+          "quantity": 1
+        },
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-87",
+    "sourceId": 87,
+    "name": "Anja Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-resistance",
+        "name": "Fire Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-anja",
+    "setName": "Anja",
+    "variant": null,
+    "setBonus": {
+      "name": "Anjanath Power",
+      "skills": [
+        {
+          "id": "skill-adrenaline",
+          "name": "Adrenaline",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-262",
+          "name": "Anjanath Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-263",
+          "name": "Anjanath Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-264",
+          "name": "Anjanath Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-88",
+    "sourceId": 88,
+    "name": "Anja Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-anja",
+    "setName": "Anja",
+    "variant": null,
+    "setBonus": {
+      "name": "Anjanath Power",
+      "skills": [
+        {
+          "id": "skill-adrenaline",
+          "name": "Adrenaline",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-262",
+          "name": "Anjanath Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-263",
+          "name": "Anjanath Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-163",
+          "name": "Flame Sac",
+          "quantity": 1
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-89",
+    "sourceId": 89,
+    "name": "Rathian Helm",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian",
+    "setName": "Rathian",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-274",
+          "name": "Rathian Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-273",
+          "name": "Rathian Scale",
+          "quantity": 3
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-163",
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-90",
+    "sourceId": 90,
+    "name": "Rathian Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian",
+    "setName": "Rathian",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-273",
+          "name": "Rathian Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-274",
+          "name": "Rathian Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 1
+        },
+        {
+          "id": "item-137",
+          "name": "Ancient Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-91",
+    "sourceId": 91,
+    "name": "Rathian Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian",
+    "setName": "Rathian",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-274",
+          "name": "Rathian Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-273",
+          "name": "Rathian Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-276",
+          "name": "Rathian Spike",
+          "quantity": 1
+        },
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-92",
+    "sourceId": 92,
+    "name": "Rathian Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian",
+    "setName": "Rathian",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-273",
+          "name": "Rathian Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-274",
+          "name": "Rathian Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 2
+        },
+        {
+          "id": "item-138",
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-93",
+    "sourceId": 93,
+    "name": "Rathian Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian",
+    "setName": "Rathian",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 22,
+      "maxDefence": 50,
+      "augmentedDefence": 74,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-274",
+          "name": "Rathian Shell",
+          "quantity": 3
+        },
+        {
+          "id": "item-276",
+          "name": "Rathian Spike",
+          "quantity": 1
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 2
+        },
+        {
+          "id": "item-277",
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-94",
+    "sourceId": 94,
+    "name": "Tzitzi Headgear",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-blindsider",
+        "name": "Blindsider",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi",
+    "setName": "Tzitzi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-284",
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-285",
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 1
+        },
+        {
+          "id": "item-287",
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 1
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-95",
+    "sourceId": 95,
+    "name": "Tzitzi Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi",
+    "setName": "Tzitzi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-285",
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 3
+        },
+        {
+          "id": "item-286",
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 2
+        },
+        {
+          "id": "item-287",
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-96",
+    "sourceId": 96,
+    "name": "Tzitzi Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi",
+    "setName": "Tzitzi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-285",
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "id": "item-287",
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 1
+        },
+        {
+          "id": "item-284",
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 3
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-97",
+    "sourceId": 97,
+    "name": "Tzitzi Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi",
+    "setName": "Tzitzi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-285",
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "id": "item-286",
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 2
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-98",
+    "sourceId": 98,
+    "name": "Tzitzi Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi",
+    "setName": "Tzitzi",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 18,
+      "maxDefence": 46,
+      "augmentedDefence": 70,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-284",
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-285",
+          "name": "Tzitzi-Ya-Ku Hide",
+          "quantity": 1
+        },
+        {
+          "id": "item-286",
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-99",
+    "sourceId": 99,
+    "name": "Lumu Hat",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu",
+    "setName": "Lumu",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-293",
+          "name": "Paolumu Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-295",
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "id": "item-294",
+          "name": "Paolumu Shell",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-100",
+    "sourceId": 100,
+    "name": "Lumu Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu",
+    "setName": "Lumu",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-293",
+          "name": "Paolumu Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-294",
+          "name": "Paolumu Shell",
+          "quantity": 1
+        },
+        {
+          "id": "item-292",
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-101",
+    "sourceId": 101,
+    "name": "Lumu Vambraces",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu",
+    "setName": "Lumu",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-292",
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-293",
+          "name": "Paolumu Scale",
+          "quantity": 1
+        },
+        {
+          "id": "item-295",
+          "name": "Paolumu Webbing",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-102",
+    "sourceId": 102,
+    "name": "Lumu Coil",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu",
+    "setName": "Lumu",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-292",
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-293",
+          "name": "Paolumu Scale",
+          "quantity": 1
+        },
+        {
+          "id": "item-294",
+          "name": "Paolumu Shell",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-103",
+    "sourceId": 103,
+    "name": "Lumu Greaves",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu",
+    "setName": "Lumu",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-293",
+          "name": "Paolumu Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-292",
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-295",
+          "name": "Paolumu Webbing",
+          "quantity": 1
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-104",
+    "sourceId": 104,
+    "name": "Girros Mask",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-horn-maestro",
+        "name": "Horn Maestro",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros",
+    "setName": "Girros",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-300",
+          "name": "Great Girros Scale",
+          "quantity": 2
+        },
+        {
+          "id": "item-301",
+          "name": "Great Girros Hide",
+          "quantity": 1
+        },
+        {
+          "id": "item-302",
+          "name": "Great Girros Hood",
+          "quantity": 1
+        },
+        {
+          "id": "item-207",
+          "name": "Girros Scale",
+          "quantity": 3
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-105",
+    "sourceId": 105,
+    "name": "Girros Mail",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-girros",
+    "setName": "Girros",
+    "variant": null,
+    "setBonus": null,
+    "stats": {
+      "defence": 20,
+      "maxDefence": 48,
+      "augmentedDefence": 72,
+      "resistances": {
+        "fire": 0,
+        "water": -3,
+        "thunder": 2,
+        "ice": 0,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-301",
+          "name": "Great Girros Hide",
+          "quantity": 2
+        },
+        {
+          "id": "item-304",
+          "name": "Great Girros Tail",
+          "quantity": 1
+        },
+        {
+          "id": "item-303",
+          "name": "Great Girros Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-159",
+          "name": "Paralysis Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  }
+]

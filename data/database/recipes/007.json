@@ -1,0 +1,4359 @@
+[
+  {
+    "id": "awakening-kjarr",
+    "name": "Kjárr Alchemy",
+    "category": "Awakening Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [
+      {
+        "name": "Large Elder Dragon Bone",
+        "quantity": 1
+      }
+    ],
+    "inputPool": [
+      {
+        "name": "Kulve Taroth Golden Scale",
+        "points": 5
+      },
+      {
+        "name": "Kulve Taroth Golden Shell",
+        "points": 5
+      },
+      {
+        "name": "Kulve Taroth Golden Nugget",
+        "points": 1
+      },
+      {
+        "name": "Kulve Taroth Golden Spiralhorn",
+        "points": 30
+      },
+      {
+        "name": "Kulve Taroth Golden Tailshell",
+        "points": 30
+      },
+      {
+        "name": "Kulve Taroth Golden Glimstone",
+        "points": 200
+      },
+      {
+        "name": "Kulve Taroth Emperor Nugget",
+        "points": 5
+      },
+      {
+        "name": "Kulve Taroth Golden Scale+",
+        "points": 20
+      },
+      {
+        "name": "Kulve Taroth Golden Shell+",
+        "points": 40
+      },
+      {
+        "name": "Kulve Taroth Golden Nugget+",
+        "points": 10
+      },
+      {
+        "name": "Kulve Taroth Golden Spiralhorn+",
+        "points": 60
+      },
+      {
+        "name": "Kulve Taroth Golden Tailshell+",
+        "points": 80
+      },
+      {
+        "name": "Golden Dragonsphire",
+        "points": 300
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 100
+    },
+    "pool": [
+      {
+        "name": "Taroth Blaze \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10022"
+      },
+      {
+        "name": "Taroth Blaze \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10023"
+      },
+      {
+        "name": "Taroth Blaze \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10024"
+      },
+      {
+        "name": "Taroth Blaze \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10025"
+      },
+      {
+        "name": "Kjárr Fellsword \"Numb\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10363"
+      },
+      {
+        "name": "Kjárr Fellsword \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10364"
+      },
+      {
+        "name": "Kjárr Fellsword \"King\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10365"
+      },
+      {
+        "name": "Kjárr Fellsword \"Magma\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10366"
+      },
+      {
+        "name": "Kjárr Fellsword \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10367"
+      },
+      {
+        "name": "Kjárr Fellsword \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10368"
+      },
+      {
+        "name": "Kjárr Fellsword \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-great-sword-10369"
+      },
+      {
+        "name": "Taroth Sword \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10049"
+      },
+      {
+        "name": "Taroth Sword \"Poison\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10050"
+      },
+      {
+        "name": "Taroth Sword \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10051"
+      },
+      {
+        "name": "Taroth Sword \"Fire\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10052"
+      },
+      {
+        "name": "Kjárr Sword \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10370"
+      },
+      {
+        "name": "Kjárr Sword \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10371"
+      },
+      {
+        "name": "Kjárr Sword \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10372"
+      },
+      {
+        "name": "Kjárr Sword \"Magma\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10373"
+      },
+      {
+        "name": "Kjárr Sword \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10374"
+      },
+      {
+        "name": "Kjárr Sword \"Fire\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10375"
+      },
+      {
+        "name": "Kjárr Sword \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-long-sword-10376"
+      },
+      {
+        "name": "Taroth Slicer \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10076"
+      },
+      {
+        "name": "Taroth Slicer \"Dragon\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10077"
+      },
+      {
+        "name": "Taroth Slicer \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10078"
+      },
+      {
+        "name": "Taroth Slicer \"Fire\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10079"
+      },
+      {
+        "name": "Kjárr Slicer \"Numb\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10377"
+      },
+      {
+        "name": "Kjárr Slicer \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10378"
+      },
+      {
+        "name": "Kjárr Slicer \"King\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10379"
+      },
+      {
+        "name": "Kjárr Slicer \"Myth\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10380"
+      },
+      {
+        "name": "Kjárr Slicer \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10381"
+      },
+      {
+        "name": "Kjárr Slicer \"Dragon\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10382"
+      },
+      {
+        "name": "Kjárr Slicer \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-10383"
+      },
+      {
+        "name": "Taroth Daggers \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10103"
+      },
+      {
+        "name": "Taroth Daggers \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10104"
+      },
+      {
+        "name": "Taroth Daggers \"Poison\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10105"
+      },
+      {
+        "name": "Taroth Daggers \"Fire\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10106"
+      },
+      {
+        "name": "Kjárr Daggers \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10384"
+      },
+      {
+        "name": "Kjárr Daggers \"Rage\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10385"
+      },
+      {
+        "name": "Kjárr Daggers \"Magma\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10386"
+      },
+      {
+        "name": "Kjárr Daggers \"Lurk\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10387"
+      },
+      {
+        "name": "Kjárr Daggers \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10388"
+      },
+      {
+        "name": "Kjárr Daggers \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10389"
+      },
+      {
+        "name": "Kjárr Daggers \"Dragon\"",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-10390"
+      },
+      {
+        "name": "Taroth Hammer \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10128"
+      },
+      {
+        "name": "Taroth Hammer \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10129"
+      },
+      {
+        "name": "Taroth Hammer \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10130"
+      },
+      {
+        "name": "Taroth Hammer \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10131"
+      },
+      {
+        "name": "Kjárr Hammer \"Numb\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10391"
+      },
+      {
+        "name": "Kjárr Hammer \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10392"
+      },
+      {
+        "name": "Kjárr Hammer \"Gyre\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10393"
+      },
+      {
+        "name": "Kjárr Hammer \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10394"
+      },
+      {
+        "name": "Kjárr Hammer \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10395"
+      },
+      {
+        "name": "Kjárr Hammer \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10396"
+      },
+      {
+        "name": "Kjárr Hammer \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-hammer-10397"
+      },
+      {
+        "name": "Taroth Pipe \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10153"
+      },
+      {
+        "name": "Taroth Pipe \"Dragon\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10154"
+      },
+      {
+        "name": "Taroth Pipe \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10155"
+      },
+      {
+        "name": "Taroth Pipe \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10156"
+      },
+      {
+        "name": "Kjárr Pipe \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10398"
+      },
+      {
+        "name": "Kjárr Pipe \"Rage\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10399"
+      },
+      {
+        "name": "Kjárr Pipe \"Myth\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10400"
+      },
+      {
+        "name": "Kjárr Pipe \"Crusher\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10401"
+      },
+      {
+        "name": "Kjárr Pipe \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10402"
+      },
+      {
+        "name": "Kjárr Pipe \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10403"
+      },
+      {
+        "name": "Kjárr Pipe \"Dragon\"",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-10404"
+      },
+      {
+        "name": "Taroth Crest \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10178"
+      },
+      {
+        "name": "Taroth Crest \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10179"
+      },
+      {
+        "name": "Taroth Crest \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10180"
+      },
+      {
+        "name": "Taroth Crest \"Poison\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10181"
+      },
+      {
+        "name": "Kjárr Crest \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10405"
+      },
+      {
+        "name": "Kjárr Crest \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10406"
+      },
+      {
+        "name": "Kjárr Crest \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10407"
+      },
+      {
+        "name": "Kjárr Crest \"King\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10408"
+      },
+      {
+        "name": "Kjárr Crest \"Crusher\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10409"
+      },
+      {
+        "name": "Kjárr Crest \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10410"
+      },
+      {
+        "name": "Kjárr Crest \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-lance-10411"
+      },
+      {
+        "name": "Taroth Buster \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10205"
+      },
+      {
+        "name": "Taroth Buster \"Poison\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10206"
+      },
+      {
+        "name": "Taroth Buster \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10207"
+      },
+      {
+        "name": "Taroth Buster \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10208"
+      },
+      {
+        "name": "Kjárr Buster \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10412"
+      },
+      {
+        "name": "Kjárr Buster \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10413"
+      },
+      {
+        "name": "Kjárr Buster \"King\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10414"
+      },
+      {
+        "name": "Kjárr Buster \"Bomber\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10415"
+      },
+      {
+        "name": "Kjárr Buster \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10416"
+      },
+      {
+        "name": "Kjárr Buster \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10417"
+      },
+      {
+        "name": "Kjárr Buster \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-gunlance-10418"
+      },
+      {
+        "name": "Taroth Axe \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10232"
+      },
+      {
+        "name": "Taroth Axe \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10233"
+      },
+      {
+        "name": "Taroth Axe \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10234"
+      },
+      {
+        "name": "Taroth Axe \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10235"
+      },
+      {
+        "name": "Kjárr Axe \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10419"
+      },
+      {
+        "name": "Kjárr Axe \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10420"
+      },
+      {
+        "name": "Kjárr Axe \"King\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10421"
+      },
+      {
+        "name": "Kjárr Axe \"Bomber\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10422"
+      },
+      {
+        "name": "Kjárr Axe \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10423"
+      },
+      {
+        "name": "Kjárr Axe \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10424"
+      },
+      {
+        "name": "Kjárr Axe \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-10425"
+      },
+      {
+        "name": "Taroth Strongarm \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10257"
+      },
+      {
+        "name": "Taroth Strongarm \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10258"
+      },
+      {
+        "name": "Taroth Strongarm \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10259"
+      },
+      {
+        "name": "Taroth Strongarm \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10260"
+      },
+      {
+        "name": "Kjárr Strongarm \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10426"
+      },
+      {
+        "name": "Kjárr Strongarm \"Numb\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10427"
+      },
+      {
+        "name": "Kjárr Strongarm \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10428"
+      },
+      {
+        "name": "Kjárr Strongarm \"King\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10429"
+      },
+      {
+        "name": "Kjárr Strongarm \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10430"
+      },
+      {
+        "name": "Kjárr Strongarm \"Crusher\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10431"
+      },
+      {
+        "name": "Kjárr Strongarm \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-10432"
+      },
+      {
+        "name": "Taroth Glaive \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10282"
+      },
+      {
+        "name": "Taroth Glaive \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10283"
+      },
+      {
+        "name": "Taroth Glaive \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10284"
+      },
+      {
+        "name": "Taroth Glaive \"Sleep\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10285"
+      },
+      {
+        "name": "Kjárr Glaive \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10433"
+      },
+      {
+        "name": "Kjárr Glaive \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10434"
+      },
+      {
+        "name": "Kjárr Glaive \"King\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10435"
+      },
+      {
+        "name": "Kjárr Glaive \"Crusher\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10436"
+      },
+      {
+        "name": "Kjárr Glaive \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10437"
+      },
+      {
+        "name": "Kjárr Glaive \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10438"
+      },
+      {
+        "name": "Kjárr Glaive \"Paralysis\"",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-10439"
+      },
+      {
+        "name": "Taroth Blitz \"Pierce\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10309"
+      },
+      {
+        "name": "Taroth Blitz \"Spread\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10310"
+      },
+      {
+        "name": "Taroth Blitz \"Shot\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10311"
+      },
+      {
+        "name": "Taroth Blitz \"Support\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10312"
+      },
+      {
+        "name": "Kjárr Blitz \"Bomber\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10440"
+      },
+      {
+        "name": "Kjárr Blitz \"Claw\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10441"
+      },
+      {
+        "name": "Kjárr Blitz \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10442"
+      },
+      {
+        "name": "Kjárr Blitz \"King\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10443"
+      },
+      {
+        "name": "Kjárr Blitz \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10444"
+      },
+      {
+        "name": "Kjárr Blitz \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-10445"
+      },
+      {
+        "name": "Taroth Assault \"Support\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10334"
+      },
+      {
+        "name": "Taroth Assault \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10335"
+      },
+      {
+        "name": "Taroth Assault \"Icewater\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10336"
+      },
+      {
+        "name": "Taroth Assault \"Pierce\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10337"
+      },
+      {
+        "name": "Kjárr Assault \"Rage\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10446"
+      },
+      {
+        "name": "Kjárr Assault \"Horn\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10447"
+      },
+      {
+        "name": "Kjárr Assault \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10448"
+      },
+      {
+        "name": "Kjárr Assault \"Magma\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10449"
+      },
+      {
+        "name": "Kjárr Assault \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10450"
+      },
+      {
+        "name": "Kjárr Assault \"Ice\"",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-10451"
+      },
+      {
+        "name": "Taroth Arrow \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10359"
+      },
+      {
+        "name": "Taroth Arrow \"Thunder\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10360"
+      },
+      {
+        "name": "Taroth Arrow \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10361"
+      },
+      {
+        "name": "Taroth Arrow \"Fire\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10362"
+      },
+      {
+        "name": "Kjárr Bow \"Spark\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10452"
+      },
+      {
+        "name": "Kjárr Bow \"Stream\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10453"
+      },
+      {
+        "name": "Kjárr Bow \"King\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10454"
+      },
+      {
+        "name": "Kjárr Bow \"Decay\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10455"
+      },
+      {
+        "name": "Kjárr Bow \"Water\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10456"
+      },
+      {
+        "name": "Kjárr Bow \"Blast\"",
+        "kind": "weapon",
+        "id": "weapon-bow-10457"
+      }
+    ],
+    "outputQuantity": 1,
+    "output": "Random appraisal weapon",
+    "randomResult": true,
+    "unlock": "Complete The Eternal Gold Rush.",
+    "notes": "Up to three weapons per operation; melding points shown per weapon."
+  },
+  {
+    "id": "sealing-safi",
+    "name": "Sealing Alchemy",
+    "category": "Sealing Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Large Dracolite",
+      "quantity": "1–3"
+    },
+    "inputPool": [
+      {
+        "name": "Safi's Hellsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20001"
+      },
+      {
+        "name": "Safi's Aquasplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20002"
+      },
+      {
+        "name": "Safi's Boltsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20003"
+      },
+      {
+        "name": "Safi's Frostsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20004"
+      },
+      {
+        "name": "Safi's Draksplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20005"
+      },
+      {
+        "name": "Safi's Bindsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20006"
+      },
+      {
+        "name": "Safi's Dreamsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20007"
+      },
+      {
+        "name": "Safi's Shattersplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20008"
+      },
+      {
+        "name": "Safi's Venomsplitter",
+        "kind": "weapon",
+        "id": "weapon-great-sword-20009"
+      },
+      {
+        "name": "Safi's Hellblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20010"
+      },
+      {
+        "name": "Safi's Aquablade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20011"
+      },
+      {
+        "name": "Safi's Boltblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20012"
+      },
+      {
+        "name": "Safi's Frostblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20013"
+      },
+      {
+        "name": "Safi's Drakblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20014"
+      },
+      {
+        "name": "Safi's Bindblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20015"
+      },
+      {
+        "name": "Safi's Dreamblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20016"
+      },
+      {
+        "name": "Safi's Shatterblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20017"
+      },
+      {
+        "name": "Safi's Venomblade",
+        "kind": "weapon",
+        "id": "weapon-long-sword-20018"
+      },
+      {
+        "name": "Safi's Hellfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20019"
+      },
+      {
+        "name": "Safi's Aquafang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20020"
+      },
+      {
+        "name": "Safi's Boltfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20021"
+      },
+      {
+        "name": "Safi's Frostfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20022"
+      },
+      {
+        "name": "Safi's Drakfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20023"
+      },
+      {
+        "name": "Safi's Bindfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20024"
+      },
+      {
+        "name": "Safi's Dreamfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20025"
+      },
+      {
+        "name": "Safi's Shatterfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20026"
+      },
+      {
+        "name": "Safi's Venomfang",
+        "kind": "weapon",
+        "id": "weapon-sword-and-shield-20027"
+      },
+      {
+        "name": "Safi's Hellclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20028"
+      },
+      {
+        "name": "Safi's Aquaclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20029"
+      },
+      {
+        "name": "Safi's Boltclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20030"
+      },
+      {
+        "name": "Safi's Frostclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20031"
+      },
+      {
+        "name": "Safi's Drakclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20032"
+      },
+      {
+        "name": "Safi's Bindclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20033"
+      },
+      {
+        "name": "Safi's Dreamclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20034"
+      },
+      {
+        "name": "Safi's Shatterclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20035"
+      },
+      {
+        "name": "Safi's Venomclaws",
+        "kind": "weapon",
+        "id": "weapon-dual-blades-20036"
+      },
+      {
+        "name": "Safi's Hellcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20037"
+      },
+      {
+        "name": "Safi's Aquacrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20038"
+      },
+      {
+        "name": "Safi's Boltcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20039"
+      },
+      {
+        "name": "Safi's Frostcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20040"
+      },
+      {
+        "name": "Safi's Drakcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20041"
+      },
+      {
+        "name": "Safi's Bindcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20042"
+      },
+      {
+        "name": "Safi's Dreamcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20043"
+      },
+      {
+        "name": "Safi's Shattercrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20044"
+      },
+      {
+        "name": "Safi's Venomcrusher",
+        "kind": "weapon",
+        "id": "weapon-hammer-20045"
+      },
+      {
+        "name": "Safi's Hellhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20046"
+      },
+      {
+        "name": "Safi's Aquahorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20047"
+      },
+      {
+        "name": "Safi's Bolthorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20048"
+      },
+      {
+        "name": "Safi's Frosthorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20049"
+      },
+      {
+        "name": "Safi's Drakhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20050"
+      },
+      {
+        "name": "Safi's Bindhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20051"
+      },
+      {
+        "name": "Safi's Dreamhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20052"
+      },
+      {
+        "name": "Safi's Shatterhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20053"
+      },
+      {
+        "name": "Safi's Venomhorn",
+        "kind": "weapon",
+        "id": "weapon-hunting-horn-20054"
+      },
+      {
+        "name": "Safi's Hellsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20055"
+      },
+      {
+        "name": "Safi's Aquasnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20056"
+      },
+      {
+        "name": "Safi's Boltsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20057"
+      },
+      {
+        "name": "Safi's Frostsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20058"
+      },
+      {
+        "name": "Safi's Draksnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20059"
+      },
+      {
+        "name": "Safi's Bindsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20060"
+      },
+      {
+        "name": "Safi's Dreamsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20061"
+      },
+      {
+        "name": "Safi's Shattersnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20062"
+      },
+      {
+        "name": "Safi's Venomsnout",
+        "kind": "weapon",
+        "id": "weapon-lance-20063"
+      },
+      {
+        "name": "Safi's Hellbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20064"
+      },
+      {
+        "name": "Safi's Aquabuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20065"
+      },
+      {
+        "name": "Safi's Boltbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20066"
+      },
+      {
+        "name": "Safi's Frostbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20067"
+      },
+      {
+        "name": "Safi's Drakbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20068"
+      },
+      {
+        "name": "Safi's Bindbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20069"
+      },
+      {
+        "name": "Safi's Dreambuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20070"
+      },
+      {
+        "name": "Safi's Shatterbuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20071"
+      },
+      {
+        "name": "Safi's Venombuster",
+        "kind": "weapon",
+        "id": "weapon-gunlance-20072"
+      },
+      {
+        "name": "Safi's Hellaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20073"
+      },
+      {
+        "name": "Safi's Aquaaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20074"
+      },
+      {
+        "name": "Safi's Boltaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20075"
+      },
+      {
+        "name": "Safi's Frostaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20076"
+      },
+      {
+        "name": "Safi's Drakaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20077"
+      },
+      {
+        "name": "Safi's Bindaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20078"
+      },
+      {
+        "name": "Safi's Dreamaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20079"
+      },
+      {
+        "name": "Safi's Shatteraxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20080"
+      },
+      {
+        "name": "Safi's Venomaxe",
+        "kind": "weapon",
+        "id": "weapon-switch-axe-20081"
+      },
+      {
+        "name": "Safi's Hellshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20082"
+      },
+      {
+        "name": "Safi's Aquashield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20083"
+      },
+      {
+        "name": "Safi's Boltshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20084"
+      },
+      {
+        "name": "Safi's Frostshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20085"
+      },
+      {
+        "name": "Safi's Drakshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20086"
+      },
+      {
+        "name": "Safi's Bindshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20087"
+      },
+      {
+        "name": "Safi's Dreamshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20088"
+      },
+      {
+        "name": "Safi's Shattershield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20089"
+      },
+      {
+        "name": "Safi's Venomshield",
+        "kind": "weapon",
+        "id": "weapon-charge-blade-20090"
+      },
+      {
+        "name": "Safi's Hellspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20091"
+      },
+      {
+        "name": "Safi's Aquaspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20092"
+      },
+      {
+        "name": "Safi's Boltspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20093"
+      },
+      {
+        "name": "Safi's Frostspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20094"
+      },
+      {
+        "name": "Safi's Drakspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20095"
+      },
+      {
+        "name": "Safi's Bindspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20096"
+      },
+      {
+        "name": "Safi's Dreamspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20097"
+      },
+      {
+        "name": "Safi's Shatterspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20098"
+      },
+      {
+        "name": "Safi's Venomspear",
+        "kind": "weapon",
+        "id": "weapon-insect-glaive-20099"
+      },
+      {
+        "name": "Safi's Hellshot",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-20100"
+      },
+      {
+        "name": "Safi's Aquashot",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-20101"
+      },
+      {
+        "name": "Safi's Boltshot",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-20102"
+      },
+      {
+        "name": "Safi's Frostshot",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-20103"
+      },
+      {
+        "name": "Safi's Drakshot",
+        "kind": "weapon",
+        "id": "weapon-light-bowgun-20104"
+      },
+      {
+        "name": "Safi's Snipecannon",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-20105"
+      },
+      {
+        "name": "Safi's Scorchcannon",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-20106"
+      },
+      {
+        "name": "Safi's Burstcannon",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-20107"
+      },
+      {
+        "name": "Safi's Rapidcannon",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-20108"
+      },
+      {
+        "name": "Safi's Freezecannon",
+        "kind": "weapon",
+        "id": "weapon-heavy-bowgun-20109"
+      },
+      {
+        "name": "Safi's Hellbow",
+        "kind": "weapon",
+        "id": "weapon-bow-20110"
+      },
+      {
+        "name": "Safi's Aquabow",
+        "kind": "weapon",
+        "id": "weapon-bow-20111"
+      },
+      {
+        "name": "Safi's Boltbow",
+        "kind": "weapon",
+        "id": "weapon-bow-20112"
+      },
+      {
+        "name": "Safi's Frostbow",
+        "kind": "weapon",
+        "id": "weapon-bow-20113"
+      },
+      {
+        "name": "Safi's Drakbow",
+        "kind": "weapon",
+        "id": "weapon-bow-20114"
+      },
+      {
+        "name": "Safi's Shatterbow",
+        "kind": "weapon",
+        "id": "weapon-bow-20115"
+      }
+    ],
+    "cost": {
+      "researchPoints": 50
+    },
+    "inputDescription": "Surrender one unwanted awakened Safi’jiiva weapon.",
+    "notes": "Yield increases with awakening level; Lv 6 yields two Large Dracolite."
+  },
+  {
+    "id": "guiding-1",
+    "name": "Special Track: Great Jagras",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Great Jagras",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 50,
+      "meldingPoints": 50
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-2",
+    "name": "Special Track: Kulu-Ya-Ku",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Kulu-Ya-Ku",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 50,
+      "meldingPoints": 50
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-3",
+    "name": "Special Track: Pukei-Pukei",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Pukei-Pukei",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 100,
+      "meldingPoints": 100
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-4",
+    "name": "Special Track: Barroth",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Barroth",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 100,
+      "meldingPoints": 100
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-5",
+    "name": "Special Track: Tobi-Kadachi",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Tobi-Kadachi",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 100,
+      "meldingPoints": 100
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-6",
+    "name": "Special Track: Anjanath",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Anjanath",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-7",
+    "name": "Special Track: Rathian",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Rathian",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-8",
+    "name": "Special Track: Tzitzi-Ya-Ku",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Tzitzi-Ya-Ku",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 50,
+      "meldingPoints": 50
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-9",
+    "name": "Special Track: Paolumu",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Paolumu",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-10",
+    "name": "Special Track: Great Girros",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Great Girros",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 50,
+      "meldingPoints": 50
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-11",
+    "name": "Special Track: Radobaan",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Radobaan",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-12",
+    "name": "Special Track: Legiana",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Legiana",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-13",
+    "name": "Special Track: Odogaron",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Odogaron",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-14",
+    "name": "Special Track: Rathalos",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Rathalos",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-15",
+    "name": "Special Track: Diablos",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Diablos",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-16",
+    "name": "Special Track: Kirin",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Kirin",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-17",
+    "name": "Special Track: Dodogama",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Dodogama",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 50,
+      "meldingPoints": 50
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-18",
+    "name": "Special Track: Pink Rathian",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Pink Rathian",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-19",
+    "name": "Special Track: Lavasioth",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Lavasioth",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-20",
+    "name": "Special Track: Uragaan",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Uragaan",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-21",
+    "name": "Special Track: Azure Rathalos",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Azure Rathalos",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-22",
+    "name": "Special Track: Black Diablos",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Black Diablos",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-23",
+    "name": "Special Track: Teostra",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Teostra",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-24",
+    "name": "Special Track: Lunastra",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Lunastra",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-25",
+    "name": "Special Track: Kushala Daora",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Kushala Daora",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-26",
+    "name": "Special Track: Banbaro",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Banbaro",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-27",
+    "name": "Special Track: Viper Tobi-Kadachi",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Viper Tobi-Kadachi",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-28",
+    "name": "Special Track: Nightshade Paolumu",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Nightshade Paolumu",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-29",
+    "name": "Special Track: Coral Pukei-Pukei",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Coral Pukei-Pukei",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 150,
+      "meldingPoints": 150
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-30",
+    "name": "Special Track: Barioth",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Barioth",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-31",
+    "name": "Special Track: Nargacuga",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Nargacuga",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-32",
+    "name": "Special Track: Glavenus",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Glavenus",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-33",
+    "name": "Special Track: Tigrex",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Tigrex",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-34",
+    "name": "Special Track: Brachydios",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Brachydios",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-35",
+    "name": "Special Track: Shrieking Legiana",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Shrieking Legiana",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-36",
+    "name": "Special Track: Fulgur Anjanath",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Fulgur Anjanath",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 200,
+      "meldingPoints": 200
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-37",
+    "name": "Special Track: Acidic Glavenus",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Acidic Glavenus",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-38",
+    "name": "Special Track: Ebony Odogaron",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Ebony Odogaron",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-39",
+    "name": "Special Track: Velkhana",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Velkhana",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-40",
+    "name": "Special Track: Seething Bazelgeuse",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Seething Bazelgeuse",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-41",
+    "name": "Special Track: Blackveil Vaal Hazak",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Blackveil Vaal Hazak",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-42",
+    "name": "Special Track: Namielle",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Namielle",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-43",
+    "name": "Special Track: Savage Deviljho",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Savage Deviljho",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-44",
+    "name": "Special Track: Ruiner Nergigante",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Ruiner Nergigante",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-45",
+    "name": "Special Track: Zinogre",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Zinogre",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-46",
+    "name": "Special Track: Yian Garuga",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Yian Garuga",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-47",
+    "name": "Special Track: Brute Tigrex",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Brute Tigrex",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 300,
+      "meldingPoints": 300
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  },
+  {
+    "id": "guiding-48",
+    "name": "Special Track: Gold Rathian",
+    "category": "Guiding Alchemy",
+    "game": "iceborne",
+    "rank": "MR",
+    "method": "meld",
+    "ingredients": [],
+    "result": {
+      "name": "Special Track: Gold Rathian",
+      "quantity": 1
+    },
+    "inputPool": [
+      {
+        "name": "Fierce Dragonvein Bone",
+        "points": 10
+      },
+      {
+        "name": "Heavy Dragonvein Bone",
+        "points": 20
+      },
+      {
+        "name": "Dragonvein Solidbone",
+        "points": 30
+      },
+      {
+        "name": "Elder Dragonvein Bone",
+        "points": 50
+      },
+      {
+        "name": "Spiritvein Slogbone",
+        "points": 40
+      },
+      {
+        "name": "Spiritvein Solidbone",
+        "points": 60
+      },
+      {
+        "name": "Elder Spiritvein Bone",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem Shard",
+        "points": 100
+      },
+      {
+        "name": "Spiritvein Gem",
+        "points": 300
+      },
+      {
+        "name": "Great Spiritvein Gem",
+        "points": 600
+      }
+    ],
+    "cost": {
+      "researchPoints": 500,
+      "meldingPoints": 500
+    },
+    "unlock": "Discover this monster’s Guiding Lands material.",
+    "inputDescription": "Contribute Guiding Lands bones or Spiritvein gems."
+  }
+]

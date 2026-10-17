@@ -1,0 +1,1549 @@
+{
+  "name": "Anjanath",
+  "source": "https://mhworld.kiranico.com/en/monsters/ZqptN/anjanath",
+  "hitzones": [
+    {
+      "part": "Nose",
+      "cut": 80,
+      "impact": 75,
+      "shot": 90,
+      "fire": 0,
+      "water": 30,
+      "thunder": 15,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 70,
+      "impact": 70,
+      "shot": 65,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 0,
+      "water": 20,
+      "thunder": 5,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 80,
+      "impact": 45,
+      "shot": 90,
+      "fire": 0,
+      "water": 30,
+      "thunder": 15,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 30,
+      "impact": 30,
+      "shot": 45,
+      "fire": 0,
+      "water": 15,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 30,
+      "impact": 30,
+      "shot": 10,
+      "fire": 0,
+      "water": 15,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 60,
+      "impact": 60,
+      "shot": 75,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs (Wounded)",
+      "cut": 45,
+      "impact": 45,
+      "shot": 50,
+      "fire": 0,
+      "water": 15,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Wounded)",
+      "cut": 60,
+      "impact": 60,
+      "shot": 75,
+      "fire": 0,
+      "water": 20,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Nose",
+      "cut": 65,
+      "impact": 63,
+      "shot": 55,
+      "fire": 0,
+      "water": 30,
+      "thunder": 15,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 60,
+      "impact": 60,
+      "shot": 45,
+      "fire": 0,
+      "water": 25,
+      "thunder": 10,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Wings",
+      "cut": 63,
+      "impact": 45,
+      "shot": 55,
+      "fire": 0,
+      "water": 30,
+      "thunder": 15,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Legs",
+      "cut": 21,
+      "impact": 21,
+      "shot": 15,
+      "fire": 0,
+      "water": 15,
+      "thunder": 5,
+      "ice": 10,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 150,
+      "break": 750,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Legs",
+      "flinch": 80,
+      "break": 240,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 100,
+      "break": null,
+      "sever": 350,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "8 seconds",
+      "duration": 8
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 160,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 180,
+      "increase": 130,
+      "max": 570,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→8→6→4→2"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Pelt",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 62
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Hindlegs",
+      "item": "Anjanath Scale",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Pelt",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Pelt",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Scale",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Flame Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone L",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Flame Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Pelt",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Scale",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Fang",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Flame Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Pelt",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Scale",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Pelt+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Nosebone+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 62
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Anjanath Nosebone+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Hindlegs",
+      "item": "Anjanath Scale+",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Pelt+",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Pelt+",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Scale+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Inferno Sac",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Nosebone+",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Tail",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Nosebone+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Pelt+",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Inferno Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Scale+",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 6
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Fang+",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Nosebone+",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Pelt+",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Inferno Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Scale+",
+      "quantity": 3,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Plate",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Fur",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Heavy Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 62
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Heavy Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Hindlegs",
+      "item": "Anjanath Shard",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Conflagrant Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Lash",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Fur",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Fur",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Shard",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Conflagrant Sac",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Heavy Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Lash",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Anjanath Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Lash",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Heavy Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Fur",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Shard",
+      "quantity": 2,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Hardfang",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Heavy Anjanath Nosebone",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Lash",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Mantle",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Fur",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Anjanath Shard",
+      "quantity": 3,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Flickering Flamepelt",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Flickering Flamepelt",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Flickering Flamepelt",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Flamepelt",
+      "quantity": 1,
+      "chance": 54
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 21
+    }
+  ],
+  "questIds": [
+    "quest-205",
+    "quest-305",
+    "quest-306",
+    "quest-502",
+    "quest-605",
+    "quest-153",
+    "quest-351",
+    "quest-352",
+    "quest-451",
+    "quest-431",
+    "quest-551",
+    "quest-552",
+    "quest-651",
+    "quest-652",
+    "quest-653",
+    "quest-654",
+    "quest-655",
+    "quest-667",
+    "quest-634",
+    "quest-751",
+    "quest-752",
+    "quest-50601",
+    "quest-61104",
+    "quest-67605",
+    "quest-66101",
+    "quest-66601",
+    "quest-66608",
+    "quest-63110",
+    "quest-1302",
+    "quest-1151",
+    "quest-1153",
+    "quest-1231",
+    "quest-1251",
+    "quest-1252",
+    "quest-1253",
+    "quest-1263",
+    "quest-1354",
+    "quest-1452",
+    "quest-66805",
+    "quest-61812",
+    "quest-66826",
+    "quest-67101",
+    "quest-63072"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 18538,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.40",
+        "x1.40",
+        "x1.90",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 31664,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x8.40",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 47272,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 47272,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x12.54",
+        "x1.40",
+        "x4.75",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (25%)",
+      "health": 3528,
+      "modifiers": [
+        "x1.55",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (15%)",
+      "health": 5681,
+      "modifiers": [
+        "x3.20",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 18239,
+      "modifiers": [
+        "x7.00",
+        "x1.00",
+        "x4.40",
+        "x1.30",
+        "x2.00",
+        "x1.15",
+        "x1.50",
+        "x1.00"
+      ]
+    }
+  ]
+}

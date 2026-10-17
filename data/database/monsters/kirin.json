@@ -1,0 +1,1172 @@
+{
+  "name": "Kirin",
+  "source": "https://mhworld.kiranico.com/en/monsters/BQruK/kirin",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 55,
+      "impact": 55,
+      "shot": 45,
+      "fire": 25,
+      "water": 20,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 31,
+      "impact": 31,
+      "shot": 22,
+      "fire": 20,
+      "water": 15,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body (Electricity)",
+      "cut": 20,
+      "impact": 20,
+      "shot": 10,
+      "fire": 15,
+      "water": 10,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Lower Body",
+      "cut": 29,
+      "impact": 29,
+      "shot": 20,
+      "fire": 20,
+      "water": 15,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Lower Body (Electricity)",
+      "cut": 20,
+      "impact": 20,
+      "shot": 10,
+      "fire": 15,
+      "water": 10,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Body (Electricity)",
+      "cut": 18,
+      "impact": 18,
+      "shot": 10,
+      "fire": 15,
+      "water": 10,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Lower Body (Electricity)",
+      "cut": 18,
+      "impact": 18,
+      "shot": 10,
+      "fire": 15,
+      "water": 10,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 200,
+      "break": 200,
+      "sever": null,
+      "notes": "≤32% HP"
+    },
+    {
+      "part": "Body",
+      "flinch": 240,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Lower Body",
+      "flinch": 260,
+      "break": null,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 65,
+      "increase": 110,
+      "max": 725
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": "-2 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 200,
+      "increase": 20,
+      "max": 750
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Body Carve",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Body Carve",
+      "item": "Kirin Tail",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Body Carve",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Body Carve",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Break Horn",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 68
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 68
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Kirin Tail",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Hide",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Tail",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Tail",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Mane",
+      "quantity": 2,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Hide",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Tail",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Lightcrystal",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Mane",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Hide",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Kirin Thundertail",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Kirin Azure Horn",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horn",
+      "item": "Kirin Azure Horn",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horn",
+      "item": "Kirin Thunderhorn",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Kirin Thundertail",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Novacrystal",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Mane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Hide+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Blood",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Thundertail",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Bone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Novacrystal",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Thundertail",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Azure Horn",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Novacrystal",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Hide+",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Elder Dragon Blood",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Elder Dragon Bone",
+      "quantity": 2,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Azure Horn",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Novacrystal",
+      "quantity": 2,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Thundertail",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Hide+",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Elder Dragon Blood",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Elder Dragon Bone",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Sullied Streamstone",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Shining Streamstone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Kirin Thundertail+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Kirin Silvermane",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Kirin Azure Horn+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Horn",
+      "item": "Kirin Azure Horn+",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Horn",
+      "item": "Kirin Azure Horn",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Kirin Silvermane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Kirin Silvermane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Kirin Thundertail+",
+      "quantity": 1,
+      "chance": 34
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Kirin Silvermane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Purecrystal",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Silvermane",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Finehide",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pure Dragon Blood",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Kirin Thundertail+",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Purecrystal",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Thundertail+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Azure Horn+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Purecrystal",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Kirin Finehide",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Pure Dragon Blood",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 2,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Azure Horn+",
+      "quantity": 1,
+      "chance": 26
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Purecrystal",
+      "quantity": 2,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Thundertail+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Kirin Finehide",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Pure Dragon Blood",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Solemn Azure Horn",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Solemn Azure Horn",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Solemn Azure Horn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Azure Horn",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Elder Spiritvein Bone",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 1
+    }
+  ],
+  "questIds": [
+    "quest-806",
+    "quest-572",
+    "quest-871",
+    "quest-971",
+    "quest-66104",
+    "quest-62503",
+    "quest-1571",
+    "quest-1671",
+    "quest-51602",
+    "quest-66815",
+    "quest-67838"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 21440,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 36616,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x8.78",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 54672,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 54672,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Coral Highlands (11%)",
+      "health": 21440,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    }
+  ]
+}

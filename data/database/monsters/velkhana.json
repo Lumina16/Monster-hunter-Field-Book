@@ -1,0 +1,828 @@
+{
+  "name": "Velkhana",
+  "source": "https://mhworld.kiranico.com/en/monsters/J1pFn/velkhana",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 55,
+      "impact": 55,
+      "shot": 45,
+      "fire": 20,
+      "water": 0,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Broken)",
+      "cut": 65,
+      "impact": 65,
+      "shot": 55,
+      "fire": 20,
+      "water": 0,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 35,
+      "impact": 45,
+      "shot": 30,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Neck (Broken)",
+      "cut": 45,
+      "impact": 55,
+      "shot": 40,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Torso",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 30,
+      "water": 10,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 40,
+      "impact": 40,
+      "shot": 20,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Broken)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 45,
+      "impact": 40,
+      "shot": 30,
+      "fire": 30,
+      "water": 10,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 35,
+      "impact": 30,
+      "shot": 20,
+      "fire": 30,
+      "water": 10,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 35,
+      "shot": 35,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Broken)",
+      "cut": 50,
+      "impact": 45,
+      "shot": 45,
+      "fire": 25,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 200,
+      "break": 400,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    },
+    {
+      "part": "Body",
+      "flinch": 280,
+      "break": null,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 240,
+      "break": null,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 200,
+      "break": null,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    },
+    {
+      "part": "Wings",
+      "flinch": 160,
+      "break": 320,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    },
+    {
+      "part": "Tail",
+      "flinch": 240,
+      "break": null,
+      "sever": 360,
+      "notes": null
+    },
+    {
+      "part": "Tail (Broken)",
+      "flinch": null,
+      "break": null,
+      "notes": "Ice Break",
+      "secondBreak": 40
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 65,
+      "increase": 110,
+      "max": 725
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 40,
+      "increase": 20,
+      "max": 440,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 150,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 300,
+      "increase": 100,
+      "max": 700,
+      "duration": 7
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": "-2 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 200,
+      "increase": 400,
+      "max": 2200
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Crystal Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Crystal Shard",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Velkhana Cortex",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Velkhana Fellwing",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Velkhana Crownhorn",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Velkhana Crownhorn",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Crystal Shard",
+      "quantity": 2,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Velkhana Fellwing",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Crystal Shard",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Velkhana Lash",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Velkhana Cortex",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Crystal Shard",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Velkhana Cortex",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Velkhana Cortex",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Crystal Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Velkhana Lash",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pure Dragon Blood",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Hardclaw",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Fellwing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Cortex",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Crownhorn",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Crystal Shard",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Fellwing",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Crownhorn",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Lash",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Crystal",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Hardclaw",
+      "quantity": 2,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Velkhana Cortex",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Crystal Shard",
+      "quantity": 3,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Aurora Crownhorn",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Aurora Crownhorn",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Aurora Crownhorn",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Crownhorn",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Elder Spiritvein Bone",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-1306",
+    "quest-1404",
+    "quest-1501",
+    "quest-1151",
+    "quest-1152",
+    "quest-1153",
+    "quest-1154",
+    "quest-1155",
+    "quest-1161",
+    "quest-1162",
+    "quest-1163",
+    "quest-1164",
+    "quest-1171",
+    "quest-1181",
+    "quest-1191",
+    "quest-1251",
+    "quest-1252",
+    "quest-1253",
+    "quest-1261",
+    "quest-1262",
+    "quest-1263",
+    "quest-1271",
+    "quest-1272",
+    "quest-1273",
+    "quest-1281",
+    "quest-1282",
+    "quest-1291",
+    "quest-1351",
+    "quest-1352",
+    "quest-1353",
+    "quest-1361",
+    "quest-1362",
+    "quest-1371",
+    "quest-1372",
+    "quest-1381",
+    "quest-1382",
+    "quest-1391",
+    "quest-1392",
+    "quest-1393",
+    "quest-1394",
+    "quest-1521",
+    "quest-1692",
+    "quest-63142",
+    "quest-61807",
+    "quest-66816",
+    "quest-67819",
+    "quest-67832",
+    "quest-67835"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 23040,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 39348,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x8.78",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 58752,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 58752,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Hoarfrost Reach (11%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    }
+  ]
+}

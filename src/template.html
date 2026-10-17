@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-edition="world">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="font-src data:;">
+<meta id="themeMeta" name="theme-color" content="#0e1714">
+<meta name="description" content="An offline field guide to Monster Hunter: World and Iceborne, with monster, weapon, equipment and item libraries, crafting recipes, story routes, field notes and maps.">
+<title>Hunter’s Field Guide · World & Iceborne</title>
+<style>@@STYLES@@</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to guide</a>
+<header class="masthead">
+ <div class="brand-group"><button class="emblem-button" id="menuOpen" type="button" aria-label="Open guide navigation" aria-expanded="false" aria-controls="guideMenu"><span class="emblem-core" aria-hidden="true"><svg viewBox="0 0 48 48"><path class="badge-edge" d="M24 2 43 13v22L24 46 5 35V13Z"/><path class="badge-face" d="M24 5 40 14.5v19L24 43 8 33.5v-19Z"/><path class="badge-snow" d="M24 11v26M12.7 17.5l22.6 13M12.7 30.5l22.6-13M19 13l5 5 5-5M19 35l5-5 5 5M13 22l7 1-2-7M35 26l-7-1 2 7M13 26l7-1-2 7M35 22l-7 1 2-7"/></svg></span><span class="badge-frost" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i></span></button><a href="#world/overview" class="brand" aria-label="Hunter’s Field Guide home" id="brandHome"><span><small>RESEARCH COMMISSION</small><strong>Hunter’s Field Guide</strong></span></a></div>
+ <div class="edition-switch" id="editionSwitch" role="tablist" aria-label="Choose game"><button type="button" id="worldTab" role="tab" aria-selected="true" data-edition="world"><span class="edition-dot"></span>WORLD</button><button type="button" id="iceborneTab" role="tab" aria-selected="false" data-edition="iceborne"><span class="edition-dot"></span>ICEBORNE</button></div>
+ <div id="sharedSectionTabs" class="shared-section-tabs" role="tablist" aria-label="Item libraries" hidden></div>
+ <div class="header-actions"><button class="search-trigger" id="searchOpen" aria-label="Search the guide"><span data-icon="search"></span><span class="search-label">Search guide</span><kbd>/</kbd></button><button class="icon-btn" id="savedOpen" aria-label="Open saved entries"><span data-icon="bookmark"></span><span id="savedCount" class="count">0</span></button><button class="icon-btn" id="musicOpen" aria-label="Open camp music player" aria-expanded="false"><span data-icon="music"></span></button><button class="icon-btn" id="settingsOpen" aria-label="Open settings"><span data-icon="settings"></span></button></div>
+</header>
+<div id="menuBackdrop" class="menu-backdrop" hidden aria-hidden="true"></div>
+<nav class="guide-menu" id="guideMenu" aria-label="Guide sections" hidden><div class="guide-menu-heading"><div><p class="eyebrow">FIELD GUIDE</p><strong id="menuCurrent">World · Overview</strong></div><button class="icon-btn" id="menuClose" aria-label="Close navigation"><span data-icon="close"></span></button></div><div id="navItems" class="guide-menu-items"></div><div class="guide-menu-footer"><button class="text-btn" id="creditsOpen"><span data-icon="book"></span>Sources & credits</button></div></nav>
+<div id="stageBoundary" class="stage-boundary"><main id="main" tabindex="-1">
+ <section id="view-overview" class="view" aria-label="Overview"></section>
+ <section id="view-bestiary" class="view" hidden aria-label="Monster bestiary"></section>
+ <section id="view-weapons" class="view" hidden aria-label="Weapon guides"></section>
+ <section id="view-progression" class="view" hidden aria-label="Speedrun"></section>
+ <section id="view-equipment" class="view" hidden aria-label="Equipment and skills"></section>
+ <section id="view-notes" class="view" hidden aria-label="Hunting guides"></section>
+ <section id="view-preparation" class="view" hidden aria-label="Recipes and Elder Melder"></section>
+ <section id="view-locales" class="view" hidden aria-label="Hunting locales"></section>
+</main></div>
+<dialog id="detailDialog" class="detail-dialog"><button class="dialog-close icon-btn" aria-label="Close profile" data-close="detailDialog"><span data-icon="close"></span></button><div id="detailBody"></div></dialog>
+<dialog id="searchDialog" class="search-dialog" aria-label="Search the field guide"><section class="search-window" id="searchWindow" tabindex="-1" autofocus><div class="search-head"><label class="sr-only" for="globalSearch">Search guide</label><div class="search-query"><input id="globalSearch" type="search" inputmode="search" placeholder="Search" autocomplete="off" aria-label="Search the field guide"></div><button class="icon-btn" data-close="searchDialog" aria-label="Close search"><span data-icon="close"></span></button></div><div class="search-meta"><span id="searchEdition">World + Iceborne</span></div><div id="searchResults" class="search-results" role="listbox" aria-label="Search results"></div></section><div id="searchEffects" aria-hidden="true"></div></dialog>
+<dialog id="savedDialog" class="small-dialog"><div class="dialog-top"><div><p class="eyebrow">YOUR FIELD JOURNAL</p><h2>Saved entries</h2></div><button class="icon-btn" data-close="savedDialog" aria-label="Close saved entries"><span data-icon="close"></span></button></div><div id="savedList"></div><p class="quiet small">Bookmarks and checklists are saved in this browser when local storage is available.</p></dialog>
+<aside id="musicDock" class="music-dock" aria-label="Camp music player" hidden><div class="music-title"><span data-icon="music"></span><div><strong>Camp music</strong><small id="musicEdition">GLOBAL MUSIC LIBRARY</small></div><button class="icon-btn" id="musicClose" aria-label="Hide music player"><span data-icon="close"></span></button></div><div class="track-name"><label class="sr-only" id="trackName" for="musicTrack">Choose soundtrack</label><select class="music-track-select" id="musicTrack" aria-label="Choose soundtrack from the global library"></select></div><p id="musicEmpty" class="quiet small" hidden>Choose a soundtrack from your device.</p><div class="audio-controls"><button class="play-btn" id="audioPlay" aria-label="Play music"><span data-icon="play"></span></button><label class="sr-only" for="audioVolume">Music volume</label><span data-icon="volume"></span><input type="range" id="audioVolume" min="0" max="100" value="25" aria-label="Music volume"><span id="volumeValue">25%</span><button class="icon-btn active" id="audioLoop" aria-label="Playback mode" aria-haspopup="menu" aria-controls="playbackOptions" aria-expanded="false"><span data-icon="repeat"></span></button></div><div id="playbackOptions" class="playback-options" role="menu" aria-label="Playback mode" hidden><button role="menuitemradio" aria-checked="false" data-playback-mode="one">Repeat one</button><button role="menuitemradio" aria-checked="false" data-playback-mode="library">Repeat library</button><button role="menuitemradio" aria-checked="false" data-playback-mode="shuffle">Shuffle</button></div><div class="audio-time"><span id="audioTime">0:00</span><input type="range" id="audioSeek" min="0" max="1000" value="0" aria-label="Seek music"><span id="audioDuration">0:00</span></div><div class="music-buttons"><label class="secondary-btn file-label" for="musicFile">Choose audio</label><input type="file" id="musicFile" accept="audio/*,.mp3,.wav,.ogg,.m4a" hidden></div><p class="quiet tiny" id="musicStatus" role="status" hidden></p></aside>
+<dialog id="itemDialog" class="item-dialog"><button class="dialog-close icon-btn" data-close="itemDialog" aria-label="Back to previous record"><span data-icon="close"></span></button><div id="itemBody"></div></dialog>
+<dialog id="settingsDialog" class="settings-dialog"><div id="settingsBody"></div></dialog>
+<audio id="bgAudio" preload="metadata"></audio>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript">Enable JavaScript to browse the guide.</div></noscript>
+<script type="application/json" id="guide-data">@@DATA@@</script>
+<script>@@APP@@</script>
+</body>
+</html>

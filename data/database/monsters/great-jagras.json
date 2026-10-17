@@ -1,0 +1,1210 @@
+{
+  "name": "Great Jagras",
+  "source": "https://mhworld.kiranico.com/en/monsters/zJ1Sb/great-jagras",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 80,
+      "impact": 85,
+      "shot": 75,
+      "fire": 30,
+      "water": 0,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 65,
+      "impact": 70,
+      "shot": 60,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 50,
+      "impact": 45,
+      "shot": 40,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 45,
+      "impact": 40,
+      "shot": 35,
+      "fire": 15,
+      "water": 0,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 65,
+      "impact": 60,
+      "shot": 55,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 45,
+      "impact": 40,
+      "shot": 35,
+      "fire": 15,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 45,
+      "shot": 40,
+      "fire": 15,
+      "water": 0,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Stomach (Inflated)",
+      "cut": 90,
+      "impact": 95,
+      "shot": 85,
+      "fire": 30,
+      "water": 0,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 65,
+      "impact": 70,
+      "shot": 60,
+      "fire": 30,
+      "water": 0,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Neck",
+      "cut": 50,
+      "impact": 55,
+      "shot": 45,
+      "fire": 20,
+      "water": 0,
+      "thunder": 10,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Forelegs",
+      "cut": 50,
+      "impact": 45,
+      "shot": 45,
+      "fire": 25,
+      "water": 0,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Stomach (Inflated)",
+      "cut": 70,
+      "impact": 75,
+      "shot": 65,
+      "fire": 30,
+      "water": 0,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 150,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Stomach  (Inflated)",
+      "flinch": 120,
+      "break": 360,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Stomach (Inflated)",
+      "flinch": 120,
+      "break": 360,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 210,
+      "break": 210,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 240,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 270,
+      "break": null,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 30,
+      "increase": 50,
+      "max": 330
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 100,
+      "increase": 75,
+      "max": 550,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 40,
+      "increase": 20,
+      "max": 440,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "30→25→20→15→10"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 100,
+      "increase": 90,
+      "max": 370,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 500,
+      "durationText": "25 seconds",
+      "initial": 100,
+      "increase": 90,
+      "max": 370,
+      "duration": 25,
+      "damageByRank": {
+        "HR": 260,
+        "MR": 520
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 150,
+      "increase": 45,
+      "max": 585
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "12 seconds",
+      "initial": 130,
+      "increase": 75,
+      "max": 430,
+      "duration": 12
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "12→8→4"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→7→4"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Hide",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Forelegs",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Belly",
+      "item": "Great Jagras Hide",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Hide",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Chipped Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Hide",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Scale",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Iron Ore",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone S",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Hide",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Scale",
+      "quantity": 2,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Claw",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Hide",
+      "quantity": 3,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Scale",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Hide+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Great Jagras Mane",
+      "quantity": 2,
+      "chance": 63
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Great Jagras Hide+",
+      "quantity": 2,
+      "chance": 37
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Forelegs",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Belly",
+      "item": "Great Jagras Hide+",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Hide+",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Mane",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Hide+",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Scale+",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Mane",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Hide+",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Scale+",
+      "quantity": 2,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Mane",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Claw+",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Hide+",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Mane",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Scale+",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 36
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Thickhide",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Forelegs",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Belly",
+      "item": "Great Jagras Thickhide",
+      "quantity": 2,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Thickhide",
+      "quantity": 1,
+      "chance": 35
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Thickhide",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Shard",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Toughbone",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Thickhide",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Great Jagras Shard",
+      "quantity": 2,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Mane+",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Hardclaw",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Thickhide",
+      "quantity": 3,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Great Jagras Shard",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Rugged Mane",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Rugged Mane",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Rugged Mane",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Rugged Mane",
+      "quantity": 1,
+      "chance": 100
+    }
+  ],
+  "questIds": [
+    "quest-102",
+    "quest-103",
+    "quest-205",
+    "quest-305",
+    "quest-306",
+    "quest-241",
+    "quest-153",
+    "quest-251",
+    "quest-351",
+    "quest-352",
+    "quest-451",
+    "quest-651",
+    "quest-652",
+    "quest-654",
+    "quest-50751",
+    "quest-50701",
+    "quest-61606",
+    "quest-67105",
+    "quest-66101",
+    "quest-66106",
+    "quest-65605",
+    "quest-66601",
+    "quest-63110",
+    "quest-1151",
+    "quest-1152",
+    "quest-1153",
+    "quest-1155",
+    "quest-1251",
+    "quest-1253",
+    "quest-1353",
+    "quest-66805",
+    "quest-67607"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 13200,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x4.20",
+        "x1.40",
+        "x1.80",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 22550,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x8.02",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 33660,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 33660,
+      "modifiers": [
+        "x8.00",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (25%)",
+      "health": 1408,
+      "modifiers": [
+        "x0.70",
+        "x1.00",
+        "x0.90",
+        "x0.90",
+        "x0.90",
+        "x0.90",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (15%)",
+      "health": 3850,
+      "modifiers": [
+        "x2.75",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 12760,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

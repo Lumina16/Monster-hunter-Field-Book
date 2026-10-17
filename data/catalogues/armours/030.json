@@ -1,0 +1,4016 @@
+[
+  {
+    "id": "armour-1515",
+    "sourceId": 1515,
+    "name": "Brachydium Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-raging-brachy-alpha-plus",
+    "setName": "Raging Brachy α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1283",
+          "name": "Brach Warhead",
+          "quantity": 2
+        },
+        {
+          "id": "item-1284",
+          "name": "Flashpoint Slime",
+          "quantity": 3
+        },
+        {
+          "id": "item-1286",
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1516",
+    "sourceId": 1516,
+    "name": "Brachydium Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-raging-brachy-beta-plus",
+    "setName": "Raging Brachy β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1283",
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "id": "item-1285",
+          "name": "Brach Obliterator",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1517",
+    "sourceId": 1517,
+    "name": "Brachydium Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-raging-brachy-beta-plus",
+    "setName": "Raging Brachy β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1283",
+          "name": "Brach Warhead",
+          "quantity": 1
+        },
+        {
+          "id": "item-1284",
+          "name": "Flashpoint Slime",
+          "quantity": 3
+        },
+        {
+          "id": "item-912",
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1518",
+    "sourceId": 1518,
+    "name": "Brachydium Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-raging-brachy-beta-plus",
+    "setName": "Raging Brachy β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1285",
+          "name": "Brach Obliterator",
+          "quantity": 2
+        },
+        {
+          "id": "item-1284",
+          "name": "Flashpoint Slime",
+          "quantity": 3
+        },
+        {
+          "id": "item-996",
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1519",
+    "sourceId": 1519,
+    "name": "Brachydium Faulds β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-raging-brachy-beta-plus",
+    "setName": "Raging Brachy β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1285",
+          "name": "Brach Obliterator",
+          "quantity": 1
+        },
+        {
+          "id": "item-911",
+          "name": "Brachydios Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-935",
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1520",
+    "sourceId": 1520,
+    "name": "Brachydium Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-raging-brachy-beta-plus",
+    "setName": "Raging Brachy β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Brachydios Will",
+      "skills": [
+        {
+          "id": "skill-agitator-secret",
+          "name": "Agitator Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-artillery-secret",
+          "name": "Artillery Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 170,
+      "maxDefence": 188,
+      "augmentedDefence": 208,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1282",
+          "name": "Indestructible Ebonshell",
+          "quantity": 2
+        },
+        {
+          "id": "item-1283",
+          "name": "Brach Warhead",
+          "quantity": 2
+        },
+        {
+          "id": "item-1284",
+          "name": "Flashpoint Slime",
+          "quantity": 3
+        },
+        {
+          "id": "item-1286",
+          "name": "Immortal Reactor",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1546",
+    "sourceId": 1546,
+    "name": "Frostfang Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-alpha-plus",
+    "setName": "Frostfang Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1547",
+    "sourceId": 1547,
+    "name": "Frostfang Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-alpha-plus",
+    "setName": "Frostfang Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 4
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1548",
+    "sourceId": 1548,
+    "name": "Frostfang Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-alpha-plus",
+    "setName": "Frostfang Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1549",
+    "sourceId": 1549,
+    "name": "Frostfang Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3,
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-alpha-plus",
+    "setName": "Frostfang Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 3
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1550",
+    "sourceId": 1550,
+    "name": "Frostfang Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-alpha-plus",
+    "setName": "Frostfang Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1551",
+    "sourceId": 1551,
+    "name": "Frostfang Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-beta-plus",
+    "setName": "Frostfang Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1552",
+    "sourceId": 1552,
+    "name": "Frostfang Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-beta-plus",
+    "setName": "Frostfang Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 4
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1553",
+    "sourceId": 1553,
+    "name": "Frostfang Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-beta-plus",
+    "setName": "Frostfang Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1554",
+    "sourceId": 1554,
+    "name": "Frostfang Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-beta-plus",
+    "setName": "Frostfang Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 3
+        },
+        {
+          "id": "item-1310",
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1555",
+    "sourceId": 1555,
+    "name": "Frostfang Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-frostfang-barioth-beta-plus",
+    "setName": "Frostfang Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Frostfang Absolute Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 1
+        },
+        {
+          "id": "skill-slugger-secret",
+          "name": "Slugger Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 186,
+      "augmentedDefence": 206,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1308",
+          "name": "Frostfang Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-1309",
+          "name": "Silversnow Pelt",
+          "quantity": 2
+        },
+        {
+          "id": "item-1307",
+          "name": "Silverwhite Frostfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1536",
+    "sourceId": 1536,
+    "name": "Escadora Wisdom α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 3
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-alatreon-alpha-plus",
+    "setName": "Alatreon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "id": "item-1305",
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "id": "item-1302",
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1537",
+    "sourceId": 1537,
+    "name": "Escadora Soul α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-alatreon-alpha-plus",
+    "setName": "Alatreon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-1302",
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1538",
+    "sourceId": 1538,
+    "name": "Escadora Armguards α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-alatreon-alpha-plus",
+    "setName": "Alatreon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-1304",
+          "name": "Alatreon Diretail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1539",
+    "sourceId": 1539,
+    "name": "Escadora Might α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 4
+      },
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-alatreon-alpha-plus",
+    "setName": "Alatreon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1305",
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "id": "item-1306",
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1540",
+    "sourceId": 1540,
+    "name": "Escadora Sheath α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 4
+      }
+    ],
+    "setId": "armourset-alatreon-alpha-plus",
+    "setName": "Alatreon α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "id": "item-1304",
+          "name": "Alatreon Diretail",
+          "quantity": 1
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1541",
+    "sourceId": 1541,
+    "name": "Escadora Wisdom β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 3
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alatreon-beta-plus",
+    "setName": "Alatreon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "id": "item-1305",
+          "name": "Skyswayer",
+          "quantity": 2
+        },
+        {
+          "id": "item-1302",
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1542",
+    "sourceId": 1542,
+    "name": "Escadora Soul β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alatreon-beta-plus",
+    "setName": "Alatreon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-1302",
+          "name": "Alatreon Riptalon",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1543",
+    "sourceId": 1543,
+    "name": "Escadora Armguards β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-alatreon-beta-plus",
+    "setName": "Alatreon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 2
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-1304",
+          "name": "Alatreon Diretail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1544",
+    "sourceId": 1544,
+    "name": "Escadora Might β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-dragon-resistance",
+        "name": "Dragon Resistance",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-alatreon-beta-plus",
+    "setName": "Alatreon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1303",
+          "name": "Alatreon Direwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1305",
+          "name": "Skyswayer",
+          "quantity": 1
+        },
+        {
+          "id": "item-1306",
+          "name": "Azure Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1545",
+    "sourceId": 1545,
+    "name": "Escadora Sheath β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-alatreon-beta-plus",
+    "setName": "Alatreon β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Alatreon Divinity",
+      "skills": [
+        {
+          "id": "skill-element-conversion",
+          "name": "Element Conversion",
+          "pieces": 2
+        },
+        {
+          "id": "skill-all-elemental-resistance",
+          "name": "All Elemental Resistance",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 160,
+      "maxDefence": 178,
+      "augmentedDefence": 198,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1300",
+          "name": "Alatreon Pallium",
+          "quantity": 3
+        },
+        {
+          "id": "item-1301",
+          "name": "Alatreon Mantle",
+          "quantity": 2
+        },
+        {
+          "id": "item-1304",
+          "name": "Alatreon Diretail",
+          "quantity": 1
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1526",
+    "sourceId": 1526,
+    "name": "Kulve Taroth's Fury α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kulve-taroth-alpha-plus",
+    "setName": "Kulve Taroth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 6
+        },
+        {
+          "id": "item-1297",
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1527",
+    "sourceId": 1527,
+    "name": "Kulve Taroth's Ire α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 3
+      },
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulve-taroth-alpha-plus",
+    "setName": "Kulve Taroth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1294",
+          "name": "Kulve Taroth Golden Nugget+",
+          "quantity": 5
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1528",
+    "sourceId": 1528,
+    "name": "Kulve Taroth's Rage α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kulve-taroth-alpha-plus",
+    "setName": "Kulve Taroth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1529",
+    "sourceId": 1529,
+    "name": "Kulve Taroth's Malice α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulve-taroth-alpha-plus",
+    "setName": "Kulve Taroth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1294",
+          "name": "Kulve Taroth Golden Nugget+",
+          "quantity": 5
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1530",
+    "sourceId": 1530,
+    "name": "Kulve Taroth's Wrath α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulve-taroth-alpha-plus",
+    "setName": "Kulve Taroth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 3
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 3
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1297",
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1531",
+    "sourceId": 1531,
+    "name": "Kulve Taroth's Fury β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulve-taroth-beta-plus",
+    "setName": "Kulve Taroth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 6
+        },
+        {
+          "id": "item-1297",
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1532",
+    "sourceId": 1532,
+    "name": "Kulve Taroth's Ire β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kulve-taroth-beta-plus",
+    "setName": "Kulve Taroth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1294",
+          "name": "Kulve Taroth Golden Nugget+",
+          "quantity": 5
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1533",
+    "sourceId": 1533,
+    "name": "Kulve Taroth's Rage β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kulve-taroth-beta-plus",
+    "setName": "Kulve Taroth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1534",
+    "sourceId": 1534,
+    "name": "Kulve Taroth's Malice β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kulve-taroth-beta-plus",
+    "setName": "Kulve Taroth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1292",
+          "name": "Kulve Taroth Golden Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1294",
+          "name": "Kulve Taroth Golden Nugget+",
+          "quantity": 5
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1535",
+    "sourceId": 1535,
+    "name": "Kulve Taroth's Wrath β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kulve-taroth-beta-plus",
+    "setName": "Kulve Taroth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kulve Taroth Essence",
+      "skills": [
+        {
+          "id": "skill-guts",
+          "name": "Guts",
+          "pieces": 2
+        },
+        {
+          "id": "skill-free-meal-secret",
+          "name": "Free Meal Secret",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": 4,
+        "water": -2,
+        "thunder": 3,
+        "ice": -2,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1293",
+          "name": "Kulve Taroth Golden Shell+",
+          "quantity": 3
+        },
+        {
+          "id": "item-1296",
+          "name": "Kulve Taroth Golden Tailshell+",
+          "quantity": 3
+        },
+        {
+          "id": "item-1295",
+          "name": "Kulve Taroth Golden Spiralhorn+",
+          "quantity": 4
+        },
+        {
+          "id": "item-1297",
+          "name": "Golden Dragonsphire",
+          "quantity": 1
+        }
+      ],
+      "zenny": 36000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1581",
+    "sourceId": 1581,
+    "name": "Tentacle Cowl  γ+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 3
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-gamma-plus",
+    "setName": "Namielle γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1298",
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "id": "item-990",
+          "name": "Namielle Hardclaw",
+          "quantity": 6
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1582",
+    "sourceId": 1582,
+    "name": "Tentacle Cloak  γ+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 4
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-namielle-gamma-plus",
+    "setName": "Namielle γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1298",
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "id": "item-989",
+          "name": "Namielle Lash",
+          "quantity": 3
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1583",
+    "sourceId": 1583,
+    "name": "Tentacle Gloves  γ+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 3
+      },
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-gamma-plus",
+    "setName": "Namielle γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1298",
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "id": "item-987",
+          "name": "Namielle Fellwing",
+          "quantity": 5
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1584",
+    "sourceId": 1584,
+    "name": "Tentacle Coil  γ+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 3
+      },
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-namielle-gamma-plus",
+    "setName": "Namielle γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1298",
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "id": "item-987",
+          "name": "Namielle Fellwing",
+          "quantity": 5
+        },
+        {
+          "id": "item-990",
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1585",
+    "sourceId": 1585,
+    "name": "Tentacle Greaves  γ+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 4
+      },
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 4
+      }
+    ],
+    "setId": "armourset-namielle-gamma-plus",
+    "setName": "Namielle γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 176,
+      "maxDefence": 194,
+      "augmentedDefence": 214,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1298",
+          "name": "Namielle Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 5
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 3
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1586",
+    "sourceId": 1586,
+    "name": "Rimeguard Helm  γ+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-coalescence",
+        "name": "Coalescence",
+        "level": 3
+      },
+      {
+        "id": "skill-resuscitate",
+        "name": "Resuscitate",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-gamma-plus",
+    "setName": "Velkhana γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1336",
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "id": "item-956",
+          "name": "Velkhana Crownhorn",
+          "quantity": 5
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1587",
+    "sourceId": 1587,
+    "name": "Rimeguard Mail γ+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-velkhana-gamma-plus",
+    "setName": "Velkhana γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1336",
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 6
+        },
+        {
+          "id": "item-959",
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1588",
+    "sourceId": 1588,
+    "name": "Rimeguard Vambraces  γ+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-velkhana-gamma-plus",
+    "setName": "Velkhana γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1336",
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 7
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1589",
+    "sourceId": 1589,
+    "name": "Rimeguard Coil  γ+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 3
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-gamma-plus",
+    "setName": "Velkhana γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1336",
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "id": "item-957",
+          "name": "Velkhana Lash",
+          "quantity": 4
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1590",
+    "sourceId": 1590,
+    "name": "Rimeguard Greaves  γ+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-velkhana-gamma-plus",
+    "setName": "Velkhana γ+",
+    "variant": "gamma-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 180,
+      "maxDefence": 198,
+      "augmentedDefence": 218,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1336",
+          "name": "Velkhana Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 5
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 8
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1457",
+    "sourceId": 1457,
+    "name": "Oolong Hair α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-oolong-alpha-plus",
+    "setName": "Oolong α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Joyful Blessing",
+      "skills": [
+        {
+          "id": "skill-joy-s-gift",
+          "name": "Joy's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-joy-s-gratitude",
+          "name": "Joy's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1030",
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1458",
+    "sourceId": 1458,
+    "name": "Oolong Vest α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-oolong-alpha-plus",
+    "setName": "Oolong α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Joyful Blessing",
+      "skills": [
+        {
+          "id": "skill-joy-s-gift",
+          "name": "Joy's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-joy-s-gratitude",
+          "name": "Joy's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1030",
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1459",
+    "sourceId": 1459,
+    "name": "Oolong Sleeves α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-coalescence",
+        "name": "Coalescence",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-oolong-alpha-plus",
+    "setName": "Oolong α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Joyful Blessing",
+      "skills": [
+        {
+          "id": "skill-joy-s-gift",
+          "name": "Joy's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-joy-s-gratitude",
+          "name": "Joy's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1030",
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1460",
+    "sourceId": 1460,
+    "name": "Oolong Waist α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-oolong-alpha-plus",
+    "setName": "Oolong α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Joyful Blessing",
+      "skills": [
+        {
+          "id": "skill-joy-s-gift",
+          "name": "Joy's Gift",
+          "pieces": 3
+        },
+        {
+          "id": "skill-joy-s-gratitude",
+          "name": "Joy's Gratitude",
+          "pieces": 5
+        }
+      ]
+    },
+    "stats": {
+      "defence": 120,
+      "maxDefence": 158,
+      "augmentedDefence": 178,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 1,
+        "ice": 4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1030",
+          "name": "Joyful Ticket",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

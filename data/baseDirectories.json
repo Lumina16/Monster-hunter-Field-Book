@@ -1,0 +1,139 @@
+[
+  {
+    "id": "atlas-research-base",
+    "name": "Research Base",
+    "kind": "base",
+    "game": "world",
+    "mapAvailable": false,
+    "reason": "A separately usable map image was not verified; the facility directory is available.",
+    "description": "The Third Fleet’s airship base. Its services include the Tailraider Safari.",
+    "source": "https://monsterhunterwiki.org/wiki/Research_Base",
+    "sources": [
+      "https://monsterhunterwiki.org/wiki/Research_Base",
+      "https://mhw.poedb.tw/eng/panel_tutorial"
+    ],
+    "facilities": [
+      {
+        "name": "Smithy",
+        "description": "Forge and improve equipment."
+      },
+      {
+        "name": "Provisions",
+        "description": "Purchase supplies."
+      },
+      {
+        "name": "Resource Center",
+        "description": "Manage bounties, investigations and deliveries."
+      },
+      {
+        "name": "Tailraider Safari",
+        "description": "Dispatch a team of Palicoes and collect the materials they bring back."
+      }
+    ],
+    "links": [
+      {
+        "name": "Coral Highlands",
+        "localeId": "coral-highlands"
+      },
+      {
+        "name": "Rotten Vale",
+        "localeId": "rotten-vale"
+      }
+    ],
+    "directory": true
+  },
+  {
+    "id": "atlas-astera-gathering-hub",
+    "name": "Astera Gathering Hub · Celestial Pursuit",
+    "kind": "base",
+    "game": "world",
+    "mapAvailable": false,
+    "reason": "A standalone Gathering Hub map image was not verified; the facility directory is available.",
+    "description": "Astera’s Gathering Hub, reached from the lift or the stairs near the Canteen.",
+    "source": "https://mhw.poedb.tw/eng/panel_tutorial",
+    "sources": [
+      "https://mhw.poedb.tw/eng/panel_tutorial",
+      "https://monsterhunterwiki.org/wiki/Astera"
+    ],
+    "facilities": [
+      {
+        "name": "Arena Counter",
+        "description": "Accept Arena and Challenge quests."
+      },
+      {
+        "name": "Quest Counter",
+        "description": "Post or join available quests."
+      },
+      {
+        "name": "Event Manager",
+        "description": "Manage the hub’s community features."
+      },
+      {
+        "name": "Notice Board",
+        "description": "Check notices and available login bonuses."
+      },
+      {
+        "name": "Canteen",
+        "description": "Eat before departing on a quest."
+      },
+      {
+        "name": "Hub Provisions",
+        "description": "Purchase hunting supplies."
+      },
+      {
+        "name": "Your room",
+        "description": "Access the hunter’s room services."
+      }
+    ],
+    "links": [],
+    "directory": true
+  },
+  {
+    "id": "atlas-seliana-gathering-hub",
+    "name": "Seliana Gathering Hub · Lunar Terrace",
+    "kind": "base",
+    "game": "iceborne",
+    "mapAvailable": false,
+    "reason": "A standalone Gathering Hub map image was not verified; the facility directory is available.",
+    "description": "Seliana’s social hub combines quest preparation with hot springs, footbaths and a sauna.",
+    "source": "https://news.capcomusa.com/lets/browse/get-the-hottest-details-on-glavenus-new-gathering-hub-and-more-in-the-mhw-iceborne-developer-diary-1",
+    "sources": [
+      "https://news.capcomusa.com/lets/browse/get-the-hottest-details-on-glavenus-new-gathering-hub-and-more-in-the-mhw-iceborne-developer-diary-1",
+      "https://mhw.poedb.tw/eng/panel_tutorial",
+      "https://monsterhunterwiki.org/wiki/Seliana",
+      "https://gamewith.net/monsterhunterworld-iceborne/article/show/10806"
+    ],
+    "facilities": [
+      {
+        "name": "Quest and Arena counters",
+        "description": "Post or join quests and accept Arena challenges."
+      },
+      {
+        "name": "Canteen",
+        "description": "Eat before the next hunt."
+      },
+      {
+        "name": "Smithy access",
+        "description": "Reach the workshop from the Gathering Hub."
+      },
+      {
+        "name": "Resource Center",
+        "description": "Manage bounties, investigations and deliveries."
+      },
+      {
+        "name": "Botanical Research and Argosy",
+        "description": "Collect cultivated materials and manage imported shipments."
+      },
+      {
+        "name": "Hub Provisions",
+        "description": "Purchase supplies."
+      },
+      {
+        "name": "Hot springs, footbaths and sauna",
+        "description": "Social spaces for hunters between quests."
+      }
+    ],
+    "links": [],
+    "directory": true
+  }
+]

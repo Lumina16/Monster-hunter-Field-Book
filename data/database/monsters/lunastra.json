@@ -1,0 +1,1286 @@
+{
+  "name": "Lunastra",
+  "source": "https://mhworld.kiranico.com/en/monsters/j8gFA/lunastra",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 40,
+      "impact": 60,
+      "shot": 45,
+      "fire": 0,
+      "water": 7,
+      "thunder": 7,
+      "ice": 30,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 33,
+      "impact": 38,
+      "shot": 33,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 20,
+      "impact": 20,
+      "shot": 20,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 20,
+      "impact": 20,
+      "shot": 20,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 25,
+      "impact": 30,
+      "shot": 20,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 30,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 55,
+      "impact": 35,
+      "shot": 40,
+      "fire": 0,
+      "water": 7,
+      "thunder": 7,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 45,
+      "impact": 38,
+      "shot": 55,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 37,
+      "impact": 60,
+      "shot": 45,
+      "fire": 0,
+      "water": 7,
+      "thunder": 7,
+      "ice": 30,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Neck",
+      "cut": 33,
+      "impact": 37,
+      "shot": 33,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Body",
+      "cut": 17,
+      "impact": 17,
+      "shot": 20,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Back",
+      "cut": 17,
+      "impact": 17,
+      "shot": 20,
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Forelegs",
+      "cut": 25,
+      "impact": 30,
+      "shot": 20,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Hindlegs",
+      "cut": 30,
+      "impact": 25,
+      "shot": 20,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Wings",
+      "cut": 55,
+      "impact": 35,
+      "shot": 40,
+      "fire": 0,
+      "water": 7,
+      "thunder": 7,
+      "ice": 25,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 45,
+      "impact": 37,
+      "shot": 50,
+      "fire": 0,
+      "water": 3,
+      "thunder": 3,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 200,
+      "break": 200,
+      "sever": null,
+      "notes": "≤20% HP"
+    },
+    {
+      "part": "Body",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 300,
+      "break": null,
+      "sever": null,
+      "notes": "Shared"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 300,
+      "break": null,
+      "sever": null,
+      "notes": "Shared"
+    },
+    {
+      "part": "Wings",
+      "flinch": 280,
+      "break": 280,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 250,
+      "break": null,
+      "sever": 500,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "30→28→26→24→22→20"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 300,
+      "increase": 100,
+      "max": 700,
+      "duration": 7
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": "-3 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 200,
+      "increase": 20,
+      "max": 750
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Tail",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Wing",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Lunastra Horn",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Lunastra Mane",
+      "quantity": 2,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Lunastra Wing",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Lunastra Carapace",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Lunastra Tail",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Carapace",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Carapace",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Scale+",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Wing",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Blood",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Horn",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Bone",
+      "quantity": 2,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Scale+",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Wing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Horn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Mane",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Carapace",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Horn",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Wing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Tail",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Scale+",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Carapace",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Mane",
+      "quantity": 2,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Sullied Streamstone",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Shining Streamstone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Cortex",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Fellwing",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Hardhorn",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Lunastra Hardhorn",
+      "quantity": 1,
+      "chance": 65
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Lunastra Mane+",
+      "quantity": 2,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Lunastra Fellwing",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Lunastra Cortex",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Lunastra Lash",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Cortex",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Cortex",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Shard",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Fellwing",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pure Dragon Blood",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Lash",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Lunastra Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Fellwing",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Shard",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Lash",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Hardhorn",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Mane+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Lunastra Cortex",
+      "quantity": 2,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Hardhorn",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Lash",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Fellwing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Elder Dragon Gem",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Shard",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Cortex",
+      "quantity": 3,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Lunastra Mane+",
+      "quantity": 2,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Azure Mane",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Azure Mane",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Elder Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Azure Mane",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Azure Mane",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Elder Spiritvein Bone",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-50891",
+    "quest-50892",
+    "quest-50861",
+    "quest-50802",
+    "quest-50803",
+    "quest-67608",
+    "quest-62511",
+    "quest-66610",
+    "quest-63131",
+    "quest-1661",
+    "quest-1691",
+    "quest-1692",
+    "quest-67816"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 27520,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 46999,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x8.78",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 70176,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 70176,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (6%)",
+      "health": 30100,
+      "modifiers": [
+        "x11.30",
+        "x1.00",
+        "x5.00",
+        "x1.50",
+        "x2.40",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Elder's Recess (5%)",
+      "health": 30100,
+      "modifiers": [
+        "x11.30",
+        "x1.00",
+        "x5.00",
+        "x1.50",
+        "x2.40",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    }
+  ]
+}

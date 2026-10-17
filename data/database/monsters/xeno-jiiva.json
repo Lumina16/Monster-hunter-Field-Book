@@ -1,0 +1,732 @@
+{
+  "name": "Xeno'jiiva",
+  "source": "https://mhworld.kiranico.com/en/monsters/wA8F8/xeno-jiiva",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 70,
+      "impact": 70,
+      "shot": 55,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 30,
+      "impact": 30,
+      "shot": 25,
+      "fire": 15,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 25,
+      "impact": 25,
+      "shot": 25,
+      "fire": 15,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Chest",
+      "cut": 60,
+      "impact": 60,
+      "shot": 30,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 50,
+      "impact": 50,
+      "shot": 45,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 22,
+      "impact": 22,
+      "shot": 15,
+      "fire": 10,
+      "water": 5,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 15,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 25,
+      "shot": 15,
+      "fire": 10,
+      "water": 5,
+      "thunder": 5,
+      "ice": 5,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip",
+      "cut": 70,
+      "impact": 70,
+      "shot": 45,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Wounded)",
+      "cut": 80,
+      "impact": 80,
+      "shot": 60,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs (Wounded)",
+      "cut": 60,
+      "impact": 60,
+      "shot": 50,
+      "fire": 20,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Wounded)",
+      "cut": 60,
+      "impact": 60,
+      "shot": 40,
+      "fire": 15,
+      "water": 10,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Critical State)",
+      "cut": 80,
+      "impact": 100,
+      "shot": 60,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck (Critical State)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body (Critical State)",
+      "cut": 60,
+      "impact": 60,
+      "shot": 40,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Chest (Critical State)",
+      "cut": 100,
+      "impact": 80,
+      "shot": 70,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs (Critical State)",
+      "cut": 70,
+      "impact": 90,
+      "shot": 60,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs (Critical State)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 40,
+      "fire": 10,
+      "water": 20,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings (Critical State)",
+      "cut": 100,
+      "impact": 80,
+      "shot": 50,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Critical State)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 10,
+      "water": 20,
+      "thunder": 20,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail Tip (Critical State)",
+      "cut": 90,
+      "impact": 90,
+      "shot": 60,
+      "fire": 15,
+      "water": 30,
+      "thunder": 30,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 400,
+      "break": 800,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Neck",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 800,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": 150,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest (Critical)",
+      "flinch": 150,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 150,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Wings",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": 350,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail Tip",
+      "flinch": null,
+      "break": null,
+      "sever": 500,
+      "notes": "Area 3"
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 200,
+      "increase": 250,
+      "max": 800,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 120,
+      "increase": 90,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 120
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": null,
+      "damage": 3600,
+      "durationText": "120 seconds",
+      "initial": 300,
+      "increase": 50,
+      "max": 600,
+      "duration": 120,
+      "damageByRank": {
+        "HR": 800,
+        "MR": 800
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 300,
+      "increase": 100,
+      "max": 700,
+      "duration": 7
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": "-2 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 300,
+      "increase": 0,
+      "max": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Shell",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Claw",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Wing",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Horn",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Tail",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "HR",
+      "condition": "Body Carve",
+      "item": "Xeno'jiiva Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Xeno'jiiva Horn",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Xeno'jiiva Veil",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Xeno'jiiva Gem",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Xeno'jiiva Wing",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Xeno'jiiva Veil",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Forelegs",
+      "item": "Xeno'jiiva Claw",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Forelegs",
+      "item": "Xeno'jiiva Shell",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Xeno'jiiva Veil",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Xeno'jiiva Tail",
+      "quantity": 1,
+      "chance": 71
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Xeno'jiiva Gem",
+      "quantity": 1,
+      "chance": 7
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Xeno'jiiva Veil",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Xeno'jiiva Shell",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Xeno'jiiva Claw",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Xeno'jiiva Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Shell",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Soulscale",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Veil",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Claw",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Wing",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Bone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Elder Dragon Blood",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Xeno'jiiva Gem",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-804",
+    "quest-991",
+    "quest-62607",
+    "quest-62609"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

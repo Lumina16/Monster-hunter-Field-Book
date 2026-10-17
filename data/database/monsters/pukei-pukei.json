@@ -1,0 +1,1484 @@
+{
+  "name": "Pukei-Pukei",
+  "source": "https://mhworld.kiranico.com/en/monsters/nebTX/pukei-pukei",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 95,
+      "impact": 90,
+      "shot": 85,
+      "fire": 15,
+      "water": 0,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Tongue",
+      "cut": 75,
+      "impact": 80,
+      "shot": 70,
+      "fire": 15,
+      "water": 0,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 40,
+      "impact": 35,
+      "shot": 30,
+      "fire": 5,
+      "water": 0,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 35,
+      "shot": 30,
+      "fire": 0,
+      "water": 0,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 50,
+      "impact": 45,
+      "shot": 40,
+      "fire": 10,
+      "water": 0,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Legs",
+      "cut": 45,
+      "impact": 45,
+      "shot": 40,
+      "fire": 0,
+      "water": 0,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 55,
+      "impact": 50,
+      "shot": 45,
+      "fire": 10,
+      "water": 0,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tongue",
+      "cut": 76,
+      "impact": 72,
+      "shot": 68,
+      "fire": 15,
+      "water": 0,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 60,
+      "impact": 64,
+      "shot": 56,
+      "fire": 15,
+      "water": 0,
+      "thunder": 30,
+      "ice": 20,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Legs",
+      "cut": 23,
+      "impact": 23,
+      "shot": 20,
+      "fire": 0,
+      "water": 0,
+      "thunder": 15,
+      "ice": 5,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 180,
+      "break": 360,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body",
+      "flinch": 300,
+      "break": 300,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings",
+      "flinch": 210,
+      "break": 210,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Legs",
+      "flinch": 240,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 220,
+      "break": null,
+      "sever": 280,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 40,
+      "increase": 70,
+      "max": 460
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 120,
+      "increase": 100,
+      "max": 620,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 120,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 100,
+      "increase": 90,
+      "max": 370,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": "15 seconds",
+      "initial": 250,
+      "increase": 150,
+      "max": 700,
+      "duration": 15,
+      "damageByRank": {
+        "HR": 80,
+        "MR": 160
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": "-5 / 10 seconds",
+      "damage": 150,
+      "durationText": null,
+      "initial": 225,
+      "increase": 75,
+      "max": 900
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "12 seconds",
+      "initial": 130,
+      "increase": 75,
+      "max": 430,
+      "duration": 12
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "12→8→4"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "10→7→4"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "LR",
+      "condition": "Track",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Tail",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Head",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "LR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Tail",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "LR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "LR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 44
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "LR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Poison Sac",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Bone M",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Poison Sac",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Quill",
+      "quantity": 1,
+      "chance": 38
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Poison Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Shell",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "LR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Scale",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Track",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Sac+",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Tail",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Carve / Capture",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Pukei-Pukei Sac+",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Head",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Shiny Drop",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Tail",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "HR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "HR",
+      "condition": "Palico Bonus",
+      "item": "Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Plunderblade",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Large Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Toxin Sac",
+      "quantity": 1,
+      "chance": 19
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Monster Keenbone",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Sac+",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "HR",
+      "condition": "Hunt (Bronze)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Sac+",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Toxin Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Silver)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Sac+",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Wing",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Bird Wyvern Gem",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Carapace",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Toxin Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Scale+",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Mysterious Feystone",
+      "quantity": 1,
+      "chance": 55
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Glowing Feystone",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Worn Feystone",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "HR",
+      "condition": "Investigation (Purple)",
+      "item": "Warped Feystone",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Large Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Pukei-Pukei Lash",
+      "quantity": 1,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Large Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Wings",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Back",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Deadly Poison Sac",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Lash",
+      "quantity": 1,
+      "chance": 80
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Palico Bonus",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 43
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Beautiful Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deadly Poison Sac",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Large Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deadly Poison Sac",
+      "quantity": 2,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Large Pukei-Pukei Sac",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Fellwing",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Fey Wyvern Gem",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Cortex",
+      "quantity": 3,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deadly Poison Sac",
+      "quantity": 3,
+      "chance": 12
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Pukei-Pukei Shard",
+      "quantity": 3,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Ancient Feystone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Fragrant Poison Sac",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fragrant Poison Sac",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Fierce Dragonvein Bone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Fragrant Poison Sac",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Tempered Poison Sac",
+      "quantity": 1,
+      "chance": 56
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Slogbone",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Gem Shard",
+      "quantity": 1,
+      "chance": 17
+    }
+  ],
+  "questIds": [
+    "quest-205",
+    "quest-601",
+    "quest-153",
+    "quest-251",
+    "quest-351",
+    "quest-331",
+    "quest-651",
+    "quest-652",
+    "quest-656",
+    "quest-663",
+    "quest-631",
+    "quest-50910",
+    "quest-61103",
+    "quest-66106",
+    "quest-66105",
+    "quest-66601",
+    "quest-3101",
+    "quest-63003",
+    "quest-63001",
+    "quest-1131",
+    "quest-1151",
+    "quest-1152",
+    "quest-1154",
+    "quest-1164",
+    "quest-1352",
+    "quest-66804",
+    "quest-66806",
+    "quest-66819",
+    "quest-66825"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 16800,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x4.20",
+        "x1.40",
+        "x1.80",
+        "x1.20",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 28700,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x8.02",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 42840,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 42840,
+      "modifiers": [
+        "x9.50",
+        "x1.00",
+        "x11.97",
+        "x1.40",
+        "x4.50",
+        "x4.20",
+        "x5.25",
+        "x2.50"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "LR",
+      "locale": "Ancient Forest (10%)",
+      "health": 2464,
+      "modifiers": [
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Ancient Forest (10%)",
+      "health": 4900,
+      "modifiers": [
+        "x2.75",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "HR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 4900,
+      "modifiers": [
+        "x2.75",
+        "x1.00",
+        "x1.45",
+        "x1.10",
+        "x1.10",
+        "x1.10",
+        "x1.50",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 16240,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 16240,
+      "modifiers": [
+        "x4.90",
+        "x1.00",
+        "x4.20",
+        "x1.25",
+        "x1.90",
+        "x1.10",
+        "x1.30",
+        "x1.00"
+      ]
+    }
+  ]
+}

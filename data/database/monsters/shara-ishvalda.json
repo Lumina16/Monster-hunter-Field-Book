@@ -1,0 +1,670 @@
+{
+  "name": "Shara Ishvalda",
+  "source": "https://mhworld.kiranico.com/en/monsters/8mvfA/shara-ishvalda",
+  "hitzones": [
+    {
+      "part": "Rock Head Casing (Face)",
+      "cut": 50,
+      "impact": 55,
+      "shot": 45,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Head Casing (Top)",
+      "cut": 55,
+      "impact": 60,
+      "shot": 35,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Head Casing (Bottom)",
+      "cut": 50,
+      "impact": 50,
+      "shot": 30,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Lower Body",
+      "cut": 10,
+      "impact": 10,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Forelegs",
+      "cut": 19,
+      "impact": 20,
+      "shot": 15,
+      "fire": 5,
+      "water": 10,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Forelegs (Broken)",
+      "cut": 10,
+      "impact": 10,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Hindlegs",
+      "cut": 10,
+      "impact": 10,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Wings",
+      "cut": 19,
+      "impact": 20,
+      "shot": 20,
+      "fire": 5,
+      "water": 10,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Rock Wings (Broken)",
+      "cut": 10,
+      "impact": 10,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 70,
+      "impact": 75,
+      "shot": 35,
+      "fire": 10,
+      "water": 20,
+      "thunder": 0,
+      "ice": 25,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Torso",
+      "cut": 48,
+      "impact": 44,
+      "shot": 20,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 44,
+      "impact": 48,
+      "shot": 25,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 25,
+      "impact": 25,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Wings",
+      "cut": 48,
+      "impact": 48,
+      "shot": 45,
+      "fire": 5,
+      "water": 15,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 25,
+      "shot": 10,
+      "fire": 5,
+      "water": 5,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head Casing (Bottom)",
+      "flinch": 230,
+      "break": 1380,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head Casing (Top)",
+      "flinch": 190,
+      "break": 190,
+      "sever": null,
+      "notes": "4L,4R"
+    },
+    {
+      "part": "Wings",
+      "flinch": 350,
+      "break": 350,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 180,
+      "break": 360,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 450,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head (Released)",
+      "flinch": 580,
+      "break": 580,
+      "notes": "x2 Break",
+      "secondBreak": 1300
+    },
+    {
+      "part": "Body (Released)",
+      "flinch": 710,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Wings (Released)",
+      "flinch": 450,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Forelegs (Released)",
+      "flinch": 360,
+      "break": 360,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail (Released)",
+      "flinch": 500,
+      "break": null,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 60,
+      "increase": 160,
+      "max": 1500
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "11 seconds",
+      "initial": 200,
+      "increase": 150,
+      "max": 2000,
+      "duration": 11
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 200,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 600,
+        "MR": 600
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 2400,
+      "durationText": "60 seconds",
+      "initial": 250,
+      "increase": 250,
+      "max": 1000,
+      "duration": 60,
+      "damageByRank": {
+        "HR": 2400,
+        "MR": 2400
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 200,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "10 seconds",
+      "initial": 300,
+      "increase": 300,
+      "max": 1500,
+      "duration": 10
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Shara Ishvalda Petalstone",
+      "quantity": 1,
+      "chance": 21
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Body Carve",
+      "item": "Shara Ishvalda Gem",
+      "quantity": 1,
+      "chance": 4
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Shara Ishvalda Tenderplate",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Shara Ishvalda Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Left Wing Mantle",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Right Wing Mantle",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Left Foreleg",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Left Foreleg",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Right Foreleg",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Right Foreleg",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 2,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Left Leg Mantle",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Left Leg Mantle",
+      "item": "Shara Ishvalda Petalstone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Left Leg Mantle",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Right Leg Mantle",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Right Leg Mantle",
+      "item": "Shara Ishvalda Petalstone",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Break Right Leg Mantle",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Shara Ishvalda Petalstone",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Old Dragon Treasure",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Head Shell Carve",
+      "item": "Shara Ishvalda Tenderplate",
+      "quantity": 1,
+      "chance": 95
+    },
+    {
+      "rank": "MR",
+      "condition": "Head Shell Carve",
+      "item": "Shara Ishvalda Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Shara Ishvalda Gem",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Shara Ishvalda Boulderplate",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Shara Ishvalda Tenderscale",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Shara Ishvalda Petalstone",
+      "quantity": 1,
+      "chance": 18
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Shara Ishvalda Tenderclaw",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Large Elder Dragon Bone",
+      "quantity": 2,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Pure Dragon Blood",
+      "quantity": 2,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Shara Ishvalda Gem",
+      "quantity": 1,
+      "chance": 2
+    }
+  ],
+  "questIds": [
+    "quest-1602",
+    "quest-1641",
+    "quest-67807"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

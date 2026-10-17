@@ -1,0 +1,41 @@
+{
+  "armours": {
+    "$include": "catalogues/armours.json"
+  },
+  "armourSets": {
+    "$include": "catalogues/armourSets.json"
+  },
+  "decorations": {
+    "$include": "catalogues/decorations.json"
+  },
+  "skills": {
+    "$include": "catalogues/skills.json"
+  },
+  "charms": {
+    "$include": "catalogues/charms.json"
+  },
+  "kinsects": {
+    "$include": "catalogues/kinsects.json"
+  },
+  "palicoEquipment": {
+    "$include": "catalogues/palicoEquipment.json"
+  },
+  "palicoGadgets": {
+    "$include": "catalogues/palicoGadgets.json"
+  },
+  "tools": {
+    "$include": "catalogues/tools.json"
+  },
+  "canteen": {
+    "$include": "catalogues/canteen.json"
+  },
+  "foodSkills": {
+    "$include": "catalogues/foodSkills.json"
+  },
+  "smallMonsters": {
+    "$include": "catalogues/smallMonsters.json"
+  },
+  "endemicLife": {
+    "$include": "catalogues/endemicLife.json"
+  }
+}

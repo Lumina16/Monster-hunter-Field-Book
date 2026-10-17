@@ -1,0 +1,13 @@
+{
+  "$concat": [
+    {
+      "$include": "database/recipes/003/001/000.json"
+    },
+    {
+      "$include": "database/recipes/003/001/001.json"
+    },
+    {
+      "$include": "database/recipes/003/001/002.json"
+    }
+  ]
+}

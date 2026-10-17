@@ -1,0 +1,2889 @@
+[
+  {
+    "id": "weapon-insect-glaive-2820",
+    "name": "Blossomajesty",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 837,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-2819",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Lash",
+          "quantity": 3
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Silver Rathalos"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "sever"
+    },
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-845",
+    "name": "Kulu Blade I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 310,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-832",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale",
+          "quantity": 3
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Kulu-Ya-Ku"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-846",
+    "name": "Kulu Blade II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 341,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-845",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 2
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan Scale"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-847",
+    "name": "Kulu Blade III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 434,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-846",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume",
+          "quantity": 4
+        },
+        {
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Odogaron Claw"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-848",
+    "name": "Ya-Ku Wrath I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 465,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-847",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 3
+        },
+        {
+          "name": "Kulu-Ya-Ku Hide+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Scale+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Kulu-Ya-Ku Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-849",
+    "name": "Ya-Ku Wrath II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 496,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-848",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 3
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Odogaron Scale+"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-850",
+    "name": "Ya-Ku Wrath III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 527,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-849",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Beak+",
+          "quantity": 5
+        },
+        {
+          "name": "Kulu-Ya-Ku Plume+",
+          "quantity": 4
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": [
+      80,
+      60,
+      60,
+      100,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2821",
+    "name": "Yatir al-Nasr I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 651,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-850",
+    "forge": {
+      "materials": [
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 4
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Kulu-Ya-Ku Thickhide"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 1
+        },
+        {
+          "name": "Kulu-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Kulu-Ya-Ku Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Kulu-Ya-Ku Thickhide"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2822",
+    "name": "Yatir al-Nasr II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 775,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2821",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Beak",
+          "quantity": 2
+        },
+        {
+          "name": "Large Kulu-Ya-Ku Plume",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Nargacuga"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Kulu-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2823",
+    "name": "Dios Rod",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 682,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2821",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2824",
+    "name": "Electrorod",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 775,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2823",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Pounder+",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-851",
+    "name": "Luminous Blade I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 372,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-845",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Tzitzi-Ya-Ku"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-852",
+    "name": "Luminous Blade II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 434,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-851",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore",
+          "quantity": 2
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Legiana Scale"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-853",
+    "name": "Destroyer Bo I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-852",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 3
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Tzitzi-Ya-Ku Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-854",
+    "name": "Destroyer Bo II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 527,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-853",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 2
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Legiana Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-855",
+    "name": "Destroyer Bo III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 558,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-insect-glaive-854",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photophore+",
+          "quantity": 3
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Daora Dragon Scale+"
+    },
+    "sharpness": [
+      80,
+      50,
+      60,
+      120,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2825",
+    "name": "Diving Destroyer I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 682,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-insect-glaive-855",
+    "forge": {
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Tzitzi-Ya-Ku Thickhide"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Tzitzi-Ya-Ku Thickhide"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2826",
+    "name": "Diving Destroyer II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 806,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-insect-glaive-2825",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Legiana Thickhide"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Tzitzi-Ya-Ku Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2827",
+    "name": "Hidden Cane I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 682,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2825",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nargacuga Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Nargacuga Tailspear",
+          "quantity": 2
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Nargacuga"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "sever"
+    },
+    "obtain": [],
+    "family": "Nargacuga Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2828",
+    "name": "Hidden Cane II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 713,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2827",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Cutwing+",
+          "quantity": 3
+        },
+        {
+          "name": "Nargacuga Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      130,
+      20,
+      20,
+      70,
+      40,
+      30,
+      40
+    ],
+    "attributes": {
+      "kinsect bonus": "sever"
+    },
+    "obtain": [],
+    "family": "Nargacuga Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-856",
+    "name": "Frost Blade I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 434,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-851",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Legiana Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Frost Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Legiana"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-857",
+    "name": "Frost Blade II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 465,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-856",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Tail Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Legiana Webbing",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": [
+      90,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-858",
+    "name": "Freeze Gale I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-857",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Freezer Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-859",
+    "name": "Freeze Gale II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 527,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-858",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2829",
+    "name": "Freeze Gale III",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 620,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-859",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gracium",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Gracium"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2830",
+    "name": "Amber Piton",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 651,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2829",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Barioth"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2831",
+    "name": "Amber Piton+",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 744,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2830",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2832",
+    "name": "Fenrir Storm",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 775,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2831",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-3232",
+    "name": "Fenrir Rose",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 837,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-2830",
+    "forge": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "sharpness": [
+      10,
+      30,
+      50,
+      50,
+      60,
+      120,
+      30
+    ],
+    "attributes": {
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Frostfang Barioth Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-860",
+    "name": "Blooming Glaive I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 310,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-832",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Pukei-Pukei"
+    },
+    "sharpness": [
+      70,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-861",
+    "name": "Blooming Glaive II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 341,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-860",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Tail",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-862",
+    "name": "Blooming Glaive III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 403,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-insect-glaive-861",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Quill",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      50,
+      50,
+      80,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-863",
+    "name": "Datura Blade I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 465,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-862",
+    "forge": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 3
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pukei-Pukei Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pukei-Pukei Scale+"
+    },
+    "sharpness": [
+      90,
+      50,
+      80,
+      80,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-864",
+    "name": "Datura Blade II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-insect-glaive-863",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Carapace",
+          "quantity": 5
+        },
+        {
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-865",
+    "name": "Datura Blade III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 527,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-insect-glaive-864",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Wing",
+          "quantity": 2
+        },
+        {
+          "name": "Pukei-Pukei Sac+",
+          "quantity": 4
+        },
+        {
+          "name": "Pukei-Pukei Wing",
+          "quantity": 6
+        },
+        {
+          "name": "Bird Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      90,
+      120,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2833",
+    "name": "Datura Storm I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 620,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-insect-glaive-865",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pukei-Pukei Cortex"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2834",
+    "name": "Datura Storm II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 450,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-insect-glaive-2833",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "name": "Large Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Pukei-Pukei Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2835",
+    "name": "Nyx Blade I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 682,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-2833",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2836",
+    "name": "Nyx Blade II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-insect-glaive-2835",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "speed"
+    },
+    "obtain": [],
+    "family": "Nightshade Lumu Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-866",
+    "name": "Gama Cane I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 496,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-863",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Dodogama"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-867",
+    "name": "Gama Cane II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 527,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-insect-glaive-866",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      130,
+      110,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2837",
+    "name": "Gama Magus I",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 682,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-insect-glaive-867",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Dodogama Thickhide"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2838",
+    "name": "Gama Magus II",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-insect-glaive-2837",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2839",
+    "name": "Flaming Teuza",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 713,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2837",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Glavenus"
+    },
+    "sharpness": [
+      90,
+      80,
+      30,
+      30,
+      80,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2840",
+    "name": "Flaming Teuza+",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 744,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2839",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2841",
+    "name": "Glavenus Helldait",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 806,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-insect-glaive-2840",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 5
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 4
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Teostra Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "spirit_strength"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-868",
+    "name": "Bone Rod I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 279,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      90,
+      60,
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-869",
+    "name": "Bone Rod II",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 310,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-868",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      80,
+      50,
+      70,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-870",
+    "name": "Bone Rod III",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 341,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-869",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": [
+      70,
+      50,
+      50,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-871",
+    "name": "Hard Bone Rod I",
+    "type": "insect-glaive",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 434,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-insect-glaive-870",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "blunt"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  }
+]

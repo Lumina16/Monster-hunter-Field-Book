@@ -1,0 +1,2898 @@
+[
+  {
+    "id": "weapon-great-sword-2047",
+    "name": "Don Monstro",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1200,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 570,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-great-sword-2046",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 5
+        },
+        {
+          "name": "Vaal Hazak Flail",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      70,
+      80,
+      30,
+      30,
+      80,
+      60,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-great-sword-54",
+    "name": "Flammenzahn",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 720,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-46",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Pelt",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-55",
+    "name": "Flammenzahn+",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 864,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-54",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Anjanath Scale+"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-56",
+    "name": "Gnashing Flammenzahn",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 1008,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-55",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      120,
+      120,
+      40,
+      50,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-2048",
+    "name": "Gnashing Flammenzahn+",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1104,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-56",
+    "forge": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Conflagrant Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-2049",
+    "name": "Lohenzahn",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1296,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 720,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2048",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Fur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-2050",
+    "name": "Donnerzahn",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1152,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2048",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Fulgur Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-2051",
+    "name": "Donnerzahn+",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1200,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2050",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Fulgur Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-2052",
+    "name": "Fulguration's Edge",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1248,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2051",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 5
+        },
+        {
+          "name": "Fulgur Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-great-sword-57",
+    "name": "Aqua Slasher I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 576,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-45",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Jyuratodus"
+    },
+    "sharpness": [
+      90,
+      70,
+      30,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-58",
+    "name": "Aqua Slasher II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 624,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-57",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Sturdy Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Sturdy Bone"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-59",
+    "name": "Aqua Slasher III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-58",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-60",
+    "name": "Water Golem I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 768,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-great-sword-59",
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 3
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Quality Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-61",
+    "name": "Water Golem II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 816,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-great-sword-60",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 4
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-62",
+    "name": "Water Golem III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 912,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-great-sword-61",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 6
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      190,
+      70,
+      20,
+      50,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-2053",
+    "name": "Water Golem IV",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-great-sword-62",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Jyuratodus Cortex"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-2054",
+    "name": "Laguna Golem I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1056,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-great-sword-2053",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Coral Pukei-Pukei Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Coral Pukei-Pukei Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Coral Pukei-Pukei"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-2055",
+    "name": "Laguna Golem II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1152,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 510,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-great-sword-2054",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Coral Pukei-Pukei Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Coral Pukei-Pukei Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      120,
+      30,
+      30,
+      60,
+      50,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Water Element Tree"
+  },
+  {
+    "id": "weapon-great-sword-2056",
+    "name": "Beo Slasher I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-great-sword-62",
+    "forge": {
+      "materials": [
+        {
+          "name": "Beotodus Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Hardhorn",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Beotodus"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Beotodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Beotodus Hardhorn",
+          "quantity": 1
+        },
+        {
+          "name": "Beotodus Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Beotodus"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Beotodus Tree"
+  },
+  {
+    "id": "weapon-great-sword-2057",
+    "name": "Beo Slasher II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1200,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-great-sword-2056",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rimed Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Beotodus Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      60,
+      30,
+      30,
+      110,
+      40,
+      80,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Beotodus Tree"
+  },
+  {
+    "id": "weapon-great-sword-63",
+    "name": "Carapace Buster I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 624,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-great-sword-45",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Ridge",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Barroth"
+    },
+    "sharpness": [
+      80,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-64",
+    "name": "Carapace Buster II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 672,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-great-sword-63",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Kestodon Shell",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-65",
+    "name": "Carapace Buster III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 720,
+    "affinity": -20,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-great-sword-64",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Scalp",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-66",
+    "name": "Barroth Shredder I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 816,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-great-sword-65",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Claw+",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Barroth Carapace"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-67",
+    "name": "Barroth Shredder II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 864,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-great-sword-66",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Barroth Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Gastodon Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-68",
+    "name": "Barroth Shredder III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 960,
+    "affinity": -20,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-great-sword-67",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Barroth Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Immortal Dragonscale"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-2058",
+    "name": "Barroth Greatedge I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1152,
+    "affinity": -20,
+    "defense": 25,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 450,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-great-sword-68",
+    "forge": {
+      "materials": [
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Chine",
+          "quantity": 4
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Barroth Chine"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Barroth Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Kestodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Barroth Chine"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-2059",
+    "name": "Barroth Greatedge II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1296,
+    "affinity": -20,
+    "defense": 25,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 600,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-great-sword-2058",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barroth Crown",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Chine"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Barroth Tree"
+  },
+  {
+    "id": "weapon-great-sword-2060",
+    "name": "Acid Shredder I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1296,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-great-sword-2058",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-great-sword-2061",
+    "name": "Acid Shredder II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1392,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 420,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-great-sword-2060",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      60,
+      50,
+      110,
+      90,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-great-sword-69",
+    "name": "Spiked Blade I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 624,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-63",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Sleep Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Radobaan"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-70",
+    "name": "Spiked Blade II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 672,
+    "affinity": 0,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-69",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-71",
+    "name": "Radobaan Slab I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 768,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-70",
+    "forge": {
+      "materials": [
+        {
+          "name": "Radobaan Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Baptism by Ice"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Radobaan Oilshell",
+          "quantity": 3
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Radobaan Scale+"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-72",
+    "name": "Radobaan Slab II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 816,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-71",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Scale+",
+          "quantity": 8
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-73",
+    "name": "Radobaan Slab III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 912,
+    "affinity": 0,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-72",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Radobaan Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Coma Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-2062",
+    "name": "Radobaan Grindblade I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 1056,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-73",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Radobaan Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Radobaan Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-2063",
+    "name": "Radobaan Grindblade II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1200,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2062",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Bonemass",
+          "quantity": 3
+        },
+        {
+          "name": "Radobaan Oilshell+",
+          "quantity": 2
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Radobaan Tree"
+  },
+  {
+    "id": "weapon-great-sword-2064",
+    "name": "Dios Blade",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1056,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-2062",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brachydios Crown",
+          "quantity": 2
+        },
+        {
+          "name": "Brachydios Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Glowing Slime",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-great-sword-2065",
+    "name": "Brach Attack",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1200,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 570,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-great-sword-2064",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Brachydios Crown",
+          "quantity": 3
+        },
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 4
+        },
+        {
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": [
+      90,
+      30,
+      30,
+      110,
+      40,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brachydios Tree"
+  },
+  {
+    "id": "weapon-great-sword-74",
+    "name": "Dragonbone Cleaver I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 480,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Warped Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Warped Bone"
+    },
+    "upgrade": null,
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-great-sword-75",
+    "name": "Dragonbone Cleaver II",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 576,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-74",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 8
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-great-sword-76",
+    "name": "Dragonbone Cleaver III",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 768,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-great-sword-75",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 10
+        },
+        {
+          "name": "Brutal Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      120,
+      110,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "low"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-great-sword-2066",
+    "name": "Dragonseal Sword I",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1008,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-great-sword-76",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      130,
+      100,
+      30,
+      30,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-great-sword-2067",
+    "name": "Dragonseal Sword II",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1152,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 720,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-great-sword-2066",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Lavasioth Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Dragonbone Tree"
+  },
+  {
+    "id": "weapon-great-sword-2068",
+    "name": "Immovable Dharma",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1344,
+    "affinity": 0,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 540,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-great-sword-2066",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Shara Ishvalda Tenderscale",
+          "quantity": 6
+        },
+        {
+          "name": "Shara Ishvalda Tenderplate",
+          "quantity": 2
+        },
+        {
+          "name": "Shara Ishvalda Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      170,
+      30,
+      30,
+      60,
+      50,
+      10,
+      0
+    ],
+    "attributes": {
+      "elderseal": "high"
+    },
+    "obtain": [],
+    "family": "Shara Ishvalda Tree"
+  },
+  {
+    "id": "weapon-great-sword-77",
+    "name": "Thundersword",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 528,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-74",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Thunderhorn",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Hide",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Tail",
+          "quantity": 1
+        },
+        {
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Kirin"
+    },
+    "sharpness": [
+      60,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-great-sword-78",
+    "name": "Kirin Thundersword",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 720,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-77",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Hide+",
+          "quantity": 5
+        },
+        {
+          "name": "Kirin Mane",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Kirin Hide+"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      160,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-great-sword-79",
+    "name": "King Thundersword",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 768,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 540,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-78",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Azure Horn",
+          "quantity": 6
+        },
+        {
+          "name": "Kirin Thundertail",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      110,
+      20,
+      20,
+      150,
+      50,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-great-sword-2069",
+    "name": "Emperor Thundersword",
+    "type": "great-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1152,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 720,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-great-sword-79",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Kirin Azure Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Kirin Finehide",
+          "quantity": 4
+        },
+        {
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Kirin Silvermane"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Kirin Tree"
+  },
+  {
+    "id": "weapon-great-sword-80",
+    "name": "Magda Potestas I",
+    "type": "great-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 768,
+    "affinity": -20,
+    "defense": 20,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-great-sword-74",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Zorah Magdaros Heat Scale",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Carapace",
+          "quantity": 8
+        },
+        {
+          "name": "Zorah Magdaros Magma",
+          "quantity": 4
+        },
+        {
+          "name": "Zorah Magdaros Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": [
+      110,
+      50,
+      80,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Zorah Magdaros Tree"
+  }
+]

@@ -1,0 +1,3184 @@
+[
+  {
+    "id": "armour-801",
+    "sourceId": 801,
+    "name": "Alloy Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta-plus",
+    "setName": "Alloy β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 114,
+      "maxDefence": 152,
+      "augmentedDefence": 172,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-802",
+    "sourceId": 802,
+    "name": "Alloy Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-alloy-beta-plus",
+    "setName": "Alloy β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 114,
+      "maxDefence": 152,
+      "augmentedDefence": 172,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-803",
+    "sourceId": 803,
+    "name": "Vespoid Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha-plus",
+    "setName": "Vespoid α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-804",
+    "sourceId": 804,
+    "name": "Vespoid Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-vespoid-alpha-plus",
+    "setName": "Vespoid α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-805",
+    "sourceId": 805,
+    "name": "Vespoid Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha-plus",
+    "setName": "Vespoid α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-806",
+    "sourceId": 806,
+    "name": "Vespoid Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha-plus",
+    "setName": "Vespoid α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-807",
+    "sourceId": 807,
+    "name": "Vespoid Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      },
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-alpha-plus",
+    "setName": "Vespoid α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-808",
+    "sourceId": 808,
+    "name": "Vespoid Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta-plus",
+    "setName": "Vespoid β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-809",
+    "sourceId": 809,
+    "name": "Vespoid Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta-plus",
+    "setName": "Vespoid β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-810",
+    "sourceId": 810,
+    "name": "Vespoid Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-attack",
+        "name": "Paralysis Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta-plus",
+    "setName": "Vespoid β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-811",
+    "sourceId": 811,
+    "name": "Vespoid Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-paralysis-resistance",
+        "name": "Paralysis Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta-plus",
+    "setName": "Vespoid β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-812",
+    "sourceId": 812,
+    "name": "Vespoid Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-vespoid-beta-plus",
+    "setName": "Vespoid β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-689",
+          "name": "Vespoid Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-813",
+    "sourceId": 813,
+    "name": "Hornetaur Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha-plus",
+    "setName": "Hornetaur α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-814",
+    "sourceId": 814,
+    "name": "Hornetaur Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      },
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha-plus",
+    "setName": "Hornetaur α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-815",
+    "sourceId": 815,
+    "name": "Hornetaur Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha-plus",
+    "setName": "Hornetaur α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-816",
+    "sourceId": 816,
+    "name": "Hornetaur Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha-plus",
+    "setName": "Hornetaur α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-817",
+    "sourceId": 817,
+    "name": "Hornetaur Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-alpha-plus",
+    "setName": "Hornetaur α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-818",
+    "sourceId": 818,
+    "name": "Hornetaur Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-beta-plus",
+    "setName": "Hornetaur β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-819",
+    "sourceId": 819,
+    "name": "Hornetaur Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvial-expert",
+        "name": "Effluvial Expert",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-beta-plus",
+    "setName": "Hornetaur β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-820",
+    "sourceId": 820,
+    "name": "Hornetaur Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-beta-plus",
+    "setName": "Hornetaur β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-821",
+    "sourceId": 821,
+    "name": "Hornetaur Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-beta-plus",
+    "setName": "Hornetaur β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-822",
+    "sourceId": 822,
+    "name": "Hornetaur Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-hornetaur-beta-plus",
+    "setName": "Hornetaur β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-690",
+          "name": "Hornetaur Razorwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-823",
+    "sourceId": 823,
+    "name": "Kestodon Guards α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-affinity-sliding",
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kestodon-alpha-plus",
+    "setName": "Kestodon α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 3
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-824",
+    "sourceId": 824,
+    "name": "Kestodon Guards β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-affinity-sliding",
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kestodon-beta-plus",
+    "setName": "Kestodon β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 4,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-693",
+          "name": "Kestodon Husk",
+          "quantity": 3
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-825",
+    "sourceId": 825,
+    "name": "Gajau Boots α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-aquatic-polar-mobility",
+        "name": "Aquatic/Polar Mobility",
+        "level": 2
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-gajau-alpha-plus",
+    "setName": "Gajau α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 5,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-691",
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-692",
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-826",
+    "sourceId": 826,
+    "name": "Gajau Boots β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-aquatic-polar-mobility",
+        "name": "Aquatic/Polar Mobility",
+        "level": 1
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gajau-beta-plus",
+    "setName": "Gajau β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 5,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-691",
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-692",
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-827",
+    "sourceId": 827,
+    "name": "Shamos Goggles α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-detector",
+        "name": "Detector",
+        "level": 1
+      },
+      {
+        "id": "skill-geologist",
+        "name": "Geologist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-shamos-alpha-plus",
+    "setName": "Shamos α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-828",
+    "sourceId": 828,
+    "name": "Shamos Goggles β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-detector",
+        "name": "Detector",
+        "level": 1
+      },
+      {
+        "id": "skill-geologist",
+        "name": "Geologist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-shamos-beta-plus",
+    "setName": "Shamos β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 0,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-829",
+    "sourceId": 829,
+    "name": "Gastodon Horn α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gastodon-alpha-plus",
+    "setName": "Gastodon α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 3
+        },
+        {
+          "id": "item-704",
+          "name": "Prized Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-830",
+    "sourceId": 830,
+    "name": "Gastodon Horn β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      },
+      {
+        "id": "skill-blast-resistance",
+        "name": "Blast Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-gastodon-beta-plus",
+    "setName": "Gastodon β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-709",
+          "name": "Gastodon Husk",
+          "quantity": 3
+        },
+        {
+          "id": "item-704",
+          "name": "Prized Pelt",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-831",
+    "sourceId": 831,
+    "name": "Barnos Jacket α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-barnos-alpha-plus",
+    "setName": "Barnos α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-707",
+          "name": "Barnos Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-832",
+    "sourceId": 832,
+    "name": "Barnos Jacket β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      },
+      {
+        "id": "skill-iron-skin",
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barnos-beta-plus",
+    "setName": "Barnos β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-707",
+          "name": "Barnos Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-833",
+    "sourceId": 833,
+    "name": "Wulg Scarf α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-wulg-alpha-plus",
+    "setName": "Wulg α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-834",
+    "sourceId": 834,
+    "name": "Wulg Scarf β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-wulg-beta-plus",
+    "setName": "Wulg β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-835",
+    "sourceId": 835,
+    "name": "Cortos Cape α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-cortos-alpha-plus",
+    "setName": "Cortos α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-708",
+          "name": "Cortos Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-836",
+    "sourceId": 836,
+    "name": "Cortos Cape β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-hunger-resistance",
+        "name": "Hunger Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-cortos-beta-plus",
+    "setName": "Cortos β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-708",
+          "name": "Cortos Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-837",
+    "sourceId": 837,
+    "name": "Jagras Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-jagras-alpha-plus",
+    "setName": "Jagras α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-838",
+    "sourceId": 838,
+    "name": "Jagras Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-jagras-alpha-plus",
+    "setName": "Jagras α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-715",
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-839",
+    "sourceId": 839,
+    "name": "Jagras Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-alpha-plus",
+    "setName": "Jagras α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-715",
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-840",
+    "sourceId": 840,
+    "name": "Jagras Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      },
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-alpha-plus",
+    "setName": "Jagras α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-841",
+    "sourceId": 841,
+    "name": "Jagras Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-alpha-plus",
+    "setName": "Jagras α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-842",
+    "sourceId": 842,
+    "name": "Jagras Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-beta-plus",
+    "setName": "Jagras β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-843",
+    "sourceId": 843,
+    "name": "Jagras Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-beta-plus",
+    "setName": "Jagras β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-715",
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-844",
+    "sourceId": 844,
+    "name": "Jagras Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-beta-plus",
+    "setName": "Jagras β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-715",
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-845",
+    "sourceId": 845,
+    "name": "Jagras Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-beta-plus",
+    "setName": "Jagras β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-846",
+    "sourceId": 846,
+    "name": "Jagras Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-meal",
+        "name": "Free Meal",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-jagras-beta-plus",
+    "setName": "Jagras β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": -2,
+        "water": 2,
+        "thunder": -1,
+        "ice": -1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-714",
+          "name": "Great Jagras Thickhide",
+          "quantity": 1
+        },
+        {
+          "id": "item-713",
+          "name": "Great Jagras Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-716",
+          "name": "Great Jagras Mane+",
+          "quantity": 1
+        },
+        {
+          "id": "item-710",
+          "name": "Jagras Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-847",
+    "sourceId": 847,
+    "name": "Tzitzi Headgear α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-tzitzi-alpha-plus",
+    "setName": "Tzitzi α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-848",
+    "sourceId": 848,
+    "name": "Tzitzi Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-tzitzi-alpha-plus",
+    "setName": "Tzitzi α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-849",
+    "sourceId": 849,
+    "name": "Tzitzi Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stun-resistance",
+        "name": "Stun Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-tzitzi-alpha-plus",
+    "setName": "Tzitzi α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-767",
+          "name": "Tzitzi-Ya-Ku Photomembrane",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-850",
+    "sourceId": 850,
+    "name": "Tzitzi Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "id": "skill-water-attack",
+        "name": "Water Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-tzitzi-alpha-plus",
+    "setName": "Tzitzi α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 116,
+      "maxDefence": 154,
+      "augmentedDefence": 174,
+      "resistances": {
+        "fire": 0,
+        "water": 0,
+        "thunder": -3,
+        "ice": -2,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-765",
+          "name": "Tzitzi-Ya-Ku Thickhide",
+          "quantity": 2
+        },
+        {
+          "id": "item-764",
+          "name": "Tzitzi-Ya-Ku Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-766",
+          "name": "Tzitzi-Ya-Ku Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

@@ -1,0 +1,2794 @@
+[
+  {
+    "id": "weapon-long-sword-2113",
+    "name": "Wyvern Blade \"Empyrean\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 792,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-long-sword-2112",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-long-sword-2114",
+    "name": "Wyvern Blade \"Pale\"",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 891,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-2113",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Silver Rathalos Shard",
+          "quantity": 8
+        },
+        {
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Silver Rathalos Lash",
+          "quantity": 3
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 2
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Silver Rathalos"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Azure Rathalos Tree"
+  },
+  {
+    "id": "weapon-long-sword-119",
+    "name": "Bone Shotel I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 297,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      100,
+      60,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-120",
+    "name": "Bone Shotel II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 330,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-long-sword-119",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      90,
+      50,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-121",
+    "name": "Bone Shotel III",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 396,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-long-sword-120",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      10,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-122",
+    "name": "Hard Bone Shotel I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 429,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-long-sword-121",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-123",
+    "name": "Hard Bone Shotel II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 495,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-long-sword-122",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-124",
+    "name": "Hard Bone Shotel III",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 528,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-long-sword-123",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-125",
+    "name": "Bone Reaper I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 561,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-124",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 10
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-126",
+    "name": "Bone Reaper II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 627,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-125",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 20
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      100,
+      120,
+      40,
+      50,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-2115",
+    "name": "Grand Khopesh I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 759,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-126",
+    "forge": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 8
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-2116",
+    "name": "Grand Khopesh II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 825,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-2115",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-2117",
+    "name": "Grand Khopesh III",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-2116",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-long-sword-2118",
+    "name": "Icebrink",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 858,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-2116",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Crystal Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-long-sword-2119",
+    "name": "Reverent Elusarca",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 891,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-2118",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-long-sword-2120",
+    "name": "Tigrine Edge",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 825,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2115",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Tigrex"
+    },
+    "sharpness": [
+      80,
+      30,
+      30,
+      110,
+      40,
+      60,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-long-sword-2121",
+    "name": "Tigrine Edge+",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 891,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2120",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      70,
+      30,
+      30,
+      110,
+      40,
+      70,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-long-sword-2122",
+    "name": "Tigrine Need",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 924,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2121",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Daora Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Daora Cortex"
+    },
+    "sharpness": [
+      60,
+      30,
+      30,
+      110,
+      40,
+      80,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-long-sword-2123",
+    "name": "Tigerfang",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 924,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2120",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brute Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Tigrex Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Brute Tigrex"
+    },
+    "sharpness": [
+      100,
+      20,
+      30,
+      90,
+      90,
+      20,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brute Tigrex Tree"
+  },
+  {
+    "id": "weapon-long-sword-2124",
+    "name": "Ravenbite",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 957,
+    "affinity": -30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2123",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tempered Ebonjaw",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Tigrex Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Tempered Ebonjaw"
+    },
+    "sharpness": [
+      90,
+      20,
+      30,
+      90,
+      90,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Brute Tigrex Tree"
+  },
+  {
+    "id": "weapon-long-sword-127",
+    "name": "Rookslayer Long Sword",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 561,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-long-sword-124",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Bazelgeuse"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-long-sword-128",
+    "name": "Bazel Varga Rookslayer",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 660,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-long-sword-127",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      60,
+      120,
+      80,
+      60,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-long-sword-2125",
+    "name": "Rooksearer Long Sword",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 792,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-long-sword-128",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": [
+      150,
+      30,
+      30,
+      60,
+      50,
+      30,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-long-sword-2126",
+    "name": "Bazel Prozio Rooksearer",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 858,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-long-sword-2125",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Petalstone",
+          "quantity": 2
+        },
+        {
+          "name": "Scorching Silverwing",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-long-sword-129",
+    "name": "Blazing Shotel I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 462,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-121",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-130",
+    "name": "Blazing Shotel II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 528,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-129",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Nosebone",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Tail",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Rathalos Marrow"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-131",
+    "name": "Anja Scimitar I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 594,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-130",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 4
+        },
+        {
+          "name": "Anjanath Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Anjanath Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Anjanath Scale+"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-132",
+    "name": "Anja Scimitar II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 660,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-131",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Anjanath Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Rathalos Scale+"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      40,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-133",
+    "name": "Anja Scimitar III",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 693,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-132",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Fang+",
+          "quantity": 6
+        },
+        {
+          "name": "Anjanath Nosebone+",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      110,
+      120,
+      40,
+      50,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-2127",
+    "name": "Anja Direfang I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 759,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-133",
+    "forge": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Conflagrant Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Anjanath Fur"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-2128",
+    "name": "Anja Direfang II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 891,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 600,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2127",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Azure Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Fur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Anjanath Lash",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Azure Rathalos Cortex"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-2129",
+    "name": "Gnashing Fulgur I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 792,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-2127",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Fulgur Anjanath Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-2130",
+    "name": "Gnashing Fulgur II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 825,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-long-sword-2129",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fulgur Anjanath Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Heavy Fulgur Anjanath Nosebone",
+          "quantity": 2
+        },
+        {
+          "name": "Fulgur Anjanath Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Lightning Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fulgur Anjanath"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Fulgur Anjanath Tree"
+  },
+  {
+    "id": "weapon-long-sword-134",
+    "name": "Jyura Shotel I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 396,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-120",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Aqua Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Jyuratodus"
+    },
+    "sharpness": [
+      80,
+      70,
+      30,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-135",
+    "name": "Jyura Shotel II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 429,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-134",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Girros Hide",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Skin",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Great Girros Hide"
+    },
+    "sharpness": [
+      120,
+      70,
+      30,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-136",
+    "name": "Jyura Shotel III",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 462,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-135",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fang",
+          "quantity": 4
+        },
+        {
+          "name": "Jyuratodus Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-137",
+    "name": "Dipterus I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 495,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-long-sword-136",
+    "forge": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Carapace",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Scale+",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Jyuratodus Scale+"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-138",
+    "name": "Dipterus II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 561,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-137",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 4
+        },
+        {
+          "name": "Torrent Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Grand Gajau Whisker",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-139",
+    "name": "Dipterus III",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 627,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-long-sword-138",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Fin+",
+          "quantity": 6
+        },
+        {
+          "name": "Jyuratodus Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      170,
+      100,
+      30,
+      30,
+      20,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-2131",
+    "name": "Dipterus Varzea I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 759,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-long-sword-139",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Hardfang",
+          "quantity": 1
+        },
+        {
+          "name": "Jyuratodus Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Gajau Thickhide",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Jyuratodus Cortex"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-2132",
+    "name": "Dipterus Varzea II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 858,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      1
+    ],
+    "parent": "weapon-long-sword-2131",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "name": "Jyuratodus Grandfin",
+          "quantity": 2
+        },
+        {
+          "name": "Flood Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Steel Gajau Whisker",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Jyuratodus Tree"
+  },
+  {
+    "id": "weapon-long-sword-2133",
+    "name": "Mammoth Longblade I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 825,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-139",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Banbaro Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Banbaro Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Banbaro"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Banbaro Tree"
+  },
+  {
+    "id": "weapon-long-sword-2134",
+    "name": "Mammoth Longblade II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 924,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 510,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-2133",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Banbaro Great Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Banbaro Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      80,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Banbaro Tree"
+  },
+  {
+    "id": "weapon-long-sword-140",
+    "name": "Hazak Grosser I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 627,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-138",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Vaal Hazak Fang+",
+          "quantity": 5
+        },
+        {
+          "name": "Deceased Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Membrane",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Vaal Hazak"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-long-sword-141",
+    "name": "Hazak Grosser II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 660,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-long-sword-140",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Veil",
+          "quantity": 3
+        },
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 6
+        },
+        {
+          "name": "Vaal Hazak Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Vaal Hazak Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": [
+      200,
+      70,
+      20,
+      20,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-long-sword-2135",
+    "name": "Deathblade Vaal Grosser",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 825,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Dragon",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-long-sword-141",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Shadowpierce Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Deceased Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Deathweaver Membrane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      80,
+      80,
+      30,
+      30,
+      80,
+      50,
+      0
+    ],
+    "attributes": {
+      "elderseal": "average"
+    },
+    "obtain": [],
+    "family": "Vaal Hazak Tree"
+  },
+  {
+    "id": "weapon-long-sword-2136",
+    "name": "Acid Scimitar I",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 891,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-141",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-long-sword-2137",
+    "name": "Acid Scimitar II",
+    "type": "long-sword",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 957,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 390,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-long-sword-2136",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      60,
+      50,
+      110,
+      90,
+      40,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-long-sword-142",
+    "name": "Pulsar Shotel I",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 363,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 120,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-120",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Tobi-Kadachi Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Tobi-Kadachi Pelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Tobi-Kadachi"
+    },
+    "sharpness": [
+      60,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  },
+  {
+    "id": "weapon-long-sword-143",
+    "name": "Pulsar Shotel II",
+    "type": "long-sword",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 396,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Thunder",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-long-sword-142",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tobi-Kadachi Electrode",
+          "quantity": 2
+        },
+        {
+          "name": "Tobi-Kadachi Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Electro Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Coral Crystal"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {},
+    "obtain": [],
+    "family": "Tobi-Kadachi Tree"
+  }
+]

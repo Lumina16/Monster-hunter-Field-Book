@@ -1,0 +1,62 @@
+{
+  "version": {
+    "$include": "visuals/version.json"
+  },
+  "assets": {
+    "$include": "visuals/assets.json"
+  },
+  "itemNames": {
+    "$include": "visuals/itemNames.json"
+  },
+  "itemCategories": {
+    "$include": "visuals/itemCategories.json"
+  },
+  "effects": {
+    "$include": "visuals/effects.json"
+  },
+  "weapons": {
+    "$include": "visuals/weapons.json"
+  },
+  "categories": {
+    "$include": "visuals/categories.json"
+  },
+  "defaultItem": {
+    "$include": "visuals/defaultItem.json"
+  },
+  "itemNotes": {
+    "$include": "visuals/itemNotes.json"
+  },
+  "sourceNotes": {
+    "$include": "visuals/sourceNotes.json"
+  },
+  "sources": {
+    "$include": "visuals/sources.json"
+  },
+  "rarityColours": {
+    "$include": "visuals/rarityColours.json"
+  },
+  "rarityColourSource": {
+    "$include": "visuals/rarityColourSource.json"
+  },
+  "hdWeapons": {
+    "$include": "visuals/hdWeapons.json"
+  },
+  "hdArmour": {
+    "$include": "visuals/hdArmour.json"
+  },
+  "hdTools": {
+    "$include": "visuals/hdTools.json"
+  },
+  "hdDecorations": {
+    "$include": "visuals/hdDecorations.json"
+  },
+  "hdSource": {
+    "$include": "visuals/hdSource.json"
+  },
+  "hdCoverage": {
+    "$include": "visuals/hdCoverage.json"
+  },
+  "hdGaps": {
+    "$include": "visuals/hdGaps.json"
+  }
+}

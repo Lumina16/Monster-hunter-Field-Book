@@ -1,0 +1,2941 @@
+[
+  {
+    "id": "weapon-charge-blade-779",
+    "name": "Gigafrost II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 612,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-778",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Legiana Claw+",
+          "quantity": 5
+        },
+        {
+          "name": "Legiana Hide+",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      90,
+      60,
+      80,
+      80,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2754",
+    "name": "Gigafrost III",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 720,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-779",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gracium",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 1
+        },
+        {
+          "name": "Wulg Thickfur",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Gracium"
+    },
+    "sharpness": [
+      70,
+      60,
+      60,
+      100,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2755",
+    "name": "Weissritter",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 756,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-2754",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Cryo Sac",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Barioth"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2756",
+    "name": "Weissritter+",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 864,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-2755",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Obsidian Icetalon",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Shrieking Legiana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2757",
+    "name": "Elder Wolf Fang",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 900,
+    "affinity": 30,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-2756",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Barioth Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Ice Element Tree"
+  },
+  {
+    "id": "weapon-charge-blade-3231",
+    "name": "Raging Wolf Fang",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 972,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 480,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-2755",
+    "forge": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 3
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Frostfang Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Silverwhite Frostfang",
+          "quantity": 3
+        },
+        {
+          "name": "Bergcrusher Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        }
+      ],
+      "zenny": 40000,
+      "unlock": "Frostfang Ticket"
+    },
+    "sharpness": [
+      10,
+      30,
+      50,
+      50,
+      60,
+      120,
+      30
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Frostfang Barioth Tree"
+  },
+  {
+    "id": "weapon-charge-blade-780",
+    "name": "Dear Lutemis",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 468,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-770",
+    "forge": {
+      "materials": [
+        {
+          "name": "Rathian Shell",
+          "quantity": 5
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Poison Sac",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Rathian"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Shell",
+          "quantity": 4
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Rathian"
+    },
+    "sharpness": [
+      70,
+      50,
+      80,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-781",
+    "name": "Dear Lutemia",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 540,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 270,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-780",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike+",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Rathian Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Rathian Scale+"
+    },
+    "sharpness": [
+      100,
+      50,
+      50,
+      80,
+      20,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-782",
+    "name": "Dear Hecatel",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 612,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-781",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Spike+",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": [
+      90,
+      50,
+      50,
+      80,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-783",
+    "name": "Dear Hecatelia",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 684,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 330,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-782",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Spike+",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Rathian Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": [
+      70,
+      50,
+      60,
+      120,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2758",
+    "name": "Dear Rose",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 792,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 360,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-783",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Rathian Cortex",
+          "quantity": 4
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Rathian Cortex"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2759",
+    "name": "Dear Rosetta",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 936,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-2758",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 5
+        },
+        {
+          "name": "Pink Rathian Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      100,
+      30,
+      30,
+      110,
+      40,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2760",
+    "name": "Luna Eostre",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 1044,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Poison",
+        "value": 420,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-2759",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Gold Rathian Surspike",
+          "quantity": 3
+        },
+        {
+          "name": "Gold Rathian Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "name": "Rath Gleam",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Gold Rathian"
+    },
+    "sharpness": [
+      60,
+      80,
+      30,
+      30,
+      80,
+      70,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Pink Rathian Tree"
+  },
+  {
+    "id": "weapon-charge-blade-784",
+    "name": "Bone Strongarm I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 324,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": [
+      90,
+      60,
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-785",
+    "name": "Bone Strongarm II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 360,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-784",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone S",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": [
+      80,
+      50,
+      70,
+      0,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-786",
+    "name": "Bone Strongarm III",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 396,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-785",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        },
+        {
+          "name": "Ancient Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Monster Bone M"
+    },
+    "sharpness": [
+      80,
+      50,
+      50,
+      20,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-787",
+    "name": "Hard Bone Strongarm I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 432,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-786",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 5
+        },
+        {
+          "name": "Boulder Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Monster Bone L"
+    },
+    "sharpness": [
+      110,
+      70,
+      30,
+      40,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-788",
+    "name": "Hard Bone Strongarm II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 504,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-787",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "name": "Sturdy Bone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-789",
+    "name": "Hard Bone Strongarm III",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 576,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-charge-blade-788",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-790",
+    "name": "Mighty Strongarm I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 612,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-charge-blade-789",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Keenbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 10
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-791",
+    "name": "Mighty Strongarm II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 684,
+    "affinity": 0,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-charge-blade-790",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 20
+        },
+        {
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": [
+      90,
+      120,
+      40,
+      50,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2761",
+    "name": "Wild Force I",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 828,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-charge-blade-791",
+    "forge": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 8
+        },
+        {
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Thick Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Quality Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Frozen Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      50,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2762",
+    "name": "Wild Force II",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 900,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 300,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-charge-blade-2761",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Monster Solidbone"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      50,
+      80,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2763",
+    "name": "Wild Force III",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 972,
+    "affinity": 0,
+    "defense": 35,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-charge-blade-2762",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 4
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Large Elder Dragon Bone"
+    },
+    "sharpness": [
+      70,
+      100,
+      40,
+      50,
+      90,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Bone Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2764",
+    "name": "Ice Guardian",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 936,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-charge-blade-2762",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Crystal Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Velkhana Lash",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Velkhana"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2765",
+    "name": "Regal Daruq",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 972,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-charge-blade-2764",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Shara Ishvalda Tenderclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Velkhana Crownhorn",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Shara Ishvalda"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Velkhana Tree"
+  },
+  {
+    "id": "weapon-charge-blade-792",
+    "name": "Diablos Wall I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 612,
+    "affinity": -30,
+    "defense": 10,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-787",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Horn",
+          "quantity": 1
+        },
+        {
+          "name": "Diablos Fang",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Shell",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-793",
+    "name": "Diablos Wall II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 684,
+    "affinity": -30,
+    "defense": 10,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 90,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-792",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Keenbone",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Ridge",
+          "quantity": 4
+        },
+        {
+          "name": "Diablos Tailcase",
+          "quantity": 2
+        },
+        {
+          "name": "Diablos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Monster Keenbone"
+    },
+    "sharpness": [
+      140,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-794",
+    "name": "Diablos Tyrannis I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 756,
+    "affinity": -30,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-793",
+    "forge": {
+      "materials": [
+        {
+          "name": "Diablos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        },
+        {
+          "name": "Majestic Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Baptism by Ice"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Majestic Horn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Carapace",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Ridge+",
+          "quantity": 5
+        },
+        {
+          "name": "Blos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": [
+      110,
+      100,
+      40,
+      40,
+      10,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-795",
+    "name": "Diablos Tyrannis II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 828,
+    "affinity": -30,
+    "defense": 15,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-794",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 2
+        },
+        {
+          "name": "Black Spiral Horn+",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Carapace",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": [
+      90,
+      50,
+      60,
+      120,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2766",
+    "name": "Diablos Tyrannis III",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 936,
+    "affinity": -30,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 210,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-795",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Twisted Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Diablos Cortex",
+          "quantity": 6
+        },
+        {
+          "name": "Diablos Chine",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Diablos Chine"
+    },
+    "sharpness": [
+      100,
+      100,
+      40,
+      50,
+      60,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2767",
+    "name": "Thanatos Force",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 1044,
+    "affinity": -30,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Ice",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-charge-blade-2766",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 3
+        },
+        {
+          "name": "Black Diablos Cortex",
+          "quantity": 3
+        },
+        {
+          "name": "Monster Solidbone",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": [
+      70,
+      50,
+      90,
+      70,
+      70,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Diablos Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2768",
+    "name": "Sulfurteinn Machmar",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 972,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-charge-blade-2766",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": [
+      160,
+      100,
+      30,
+      30,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2769",
+    "name": "The Melting Grasp",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 1044,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Paralysis",
+        "value": 270,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      4
+    ],
+    "parent": "weapon-charge-blade-2768",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": [
+      60,
+      50,
+      110,
+      90,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Acidic Glavenus Tree"
+  },
+  {
+    "id": "weapon-charge-blade-796",
+    "name": "Jagras Strongarm I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 396,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-785",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Great Jagras"
+    },
+    "sharpness": [
+      70,
+      50,
+      50,
+      30,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-797",
+    "name": "Jagras Strongarm II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 432,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-796",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Tzitzi-Ya-Ku Claw"
+    },
+    "sharpness": [
+      100,
+      70,
+      30,
+      50,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-798",
+    "name": "Jagras Strongarm III",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 468,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-charge-blade-797",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": [
+      90,
+      70,
+      30,
+      60,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-799",
+    "name": "Jagras Escudo I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 540,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 120,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-charge-blade-798",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 6
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Great Jagras Scale+"
+    },
+    "sharpness": [
+      130,
+      70,
+      30,
+      70,
+      0,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-800",
+    "name": "Jagras Escudo II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 648,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 150,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-799",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 6
+        },
+        {
+          "name": "Jagras Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": [
+      90,
+      100,
+      40,
+      40,
+      30,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-801",
+    "name": "Jagras Escudo III",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 684,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 180,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-charge-blade-800",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 8
+        },
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": [
+      100,
+      120,
+      40,
+      50,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2770",
+    "name": "Saber's Maw I",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 792,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 240,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-charge-blade-801",
+    "forge": {
+      "materials": [
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Mane+",
+          "quantity": 3
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Great Jagras Thickhide"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Mane+",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Great Jagras Thickhide"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      40,
+      90,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2771",
+    "name": "Saber's Maw II",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 936,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Sleep",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3,
+      3
+    ],
+    "parent": "weapon-charge-blade-2770",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Thickhide",
+          "quantity": 3
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2772",
+    "name": "Scorching Demander",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 828,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-charge-blade-2770",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Glavenus"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      110,
+      40,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2773",
+    "name": "Scorching Demander+",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 864,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 300,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-charge-blade-2772",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Ebony Odogaron Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Tailedge",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Ebony Odogaron"
+    },
+    "sharpness": [
+      130,
+      30,
+      30,
+      60,
+      50,
+      50,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2774",
+    "name": "Glavenus Bardred",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 936,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Fire",
+        "value": 390,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-charge-blade-2773",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 5
+        },
+        {
+          "name": "Glavenus Hellshell",
+          "quantity": 4
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Teostra Cortex"
+    },
+    "sharpness": [
+      110,
+      30,
+      30,
+      60,
+      50,
+      70,
+      0
+    ],
+    "attributes": {
+      "phial": "power element"
+    },
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-charge-blade-802",
+    "name": "Gama Silt I",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 576,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 150,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-799",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Dodogama Hide+",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Dodogama"
+    },
+    "sharpness": [
+      80,
+      100,
+      40,
+      40,
+      40,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-charge-blade-803",
+    "name": "Gama Silt II",
+    "type": "charge-blade",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 612,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 180,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-charge-blade-802",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fire Dragon Scale+",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Jaw",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Tail",
+          "quantity": 3
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": [
+      110,
+      110,
+      40,
+      40,
+      50,
+      0,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2775",
+    "name": "Gama Escudo I",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 756,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 210,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-charge-blade-803",
+    "forge": {
+      "materials": [
+        {
+          "name": "Dodogama Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 6
+        },
+        {
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Dodogama Thickhide"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dodogama Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Dodogama Thickhide",
+          "quantity": 2
+        },
+        {
+          "name": "Gastodon Husk",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Dodogama Thickhide"
+    },
+    "sharpness": [
+      100,
+      80,
+      30,
+      30,
+      80,
+      30,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2776",
+    "name": "Gama Escudo II",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 864,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 240,
+        "hidden": false
+      }
+    ],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-charge-blade-2775",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fine Brachydios Ebonshell",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Mandible",
+          "quantity": 2
+        },
+        {
+          "name": "Dodogama Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Brachydios"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Dodogama Tree"
+  },
+  {
+    "id": "weapon-charge-blade-2777",
+    "name": "Rex Arms I",
+    "type": "charge-blade",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 900,
+    "affinity": -15,
+    "defense": 0,
+    "elements": [
+      {
+        "type": "Blast",
+        "value": 330,
+        "hidden": true
+      }
+    ],
+    "slots": [],
+    "parent": "weapon-charge-blade-2775",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Tigrex"
+    },
+    "sharpness": [
+      70,
+      30,
+      30,
+      110,
+      40,
+      70,
+      0
+    ],
+    "attributes": {
+      "phial": "impact"
+    },
+    "obtain": [],
+    "family": "Tigrex Tree"
+  }
+]

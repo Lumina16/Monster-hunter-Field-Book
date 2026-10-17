@@ -1,0 +1,771 @@
+{
+  "name": "Kulve Taroth",
+  "source": "https://mhworld.kiranico.com/en/monsters/5xbCn/kulve-taroth",
+  "hitzones": [
+    {
+      "part": "Horns",
+      "cut": 80,
+      "impact": 85,
+      "shot": 25,
+      "fire": 0,
+      "water": 30,
+      "thunder": 0,
+      "ice": 50,
+      "dragon": 35,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Chest",
+      "cut": 50,
+      "impact": 45,
+      "shot": 45,
+      "fire": 0,
+      "water": 20,
+      "thunder": 0,
+      "ice": 40,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Body",
+      "cut": 35,
+      "impact": 35,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 0,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 50,
+      "impact": 40,
+      "shot": 30,
+      "fire": 0,
+      "water": 20,
+      "thunder": 0,
+      "ice": 40,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 40,
+      "impact": 35,
+      "shot": 15,
+      "fire": 0,
+      "water": 10,
+      "thunder": 0,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 40,
+      "impact": 45,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 0,
+      "ice": 30,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head",
+      "cut": 25,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 10,
+      "thunder": 25,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 25,
+      "impact": 30,
+      "shot": 10,
+      "fire": 5,
+      "water": 10,
+      "thunder": 25,
+      "ice": 0,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Wounded)",
+      "cut": 60,
+      "impact": 75,
+      "shot": 30,
+      "fire": 25,
+      "water": 30,
+      "thunder": 50,
+      "ice": 0,
+      "dragon": 25,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Wounded)",
+      "cut": 60,
+      "impact": 75,
+      "shot": 30,
+      "fire": 25,
+      "water": 30,
+      "thunder": 50,
+      "ice": 0,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Horns",
+      "cut": 90,
+      "impact": 95,
+      "shot": 20,
+      "fire": 0,
+      "water": 10,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Chest",
+      "cut": 65,
+      "impact": 65,
+      "shot": 45,
+      "fire": 0,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Body",
+      "cut": 35,
+      "impact": 35,
+      "shot": 20,
+      "fire": 0,
+      "water": 5,
+      "thunder": 0,
+      "ice": 10,
+      "dragon": 5,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Forelegs",
+      "cut": 70,
+      "impact": 65,
+      "shot": 25,
+      "fire": 0,
+      "water": 10,
+      "thunder": 0,
+      "ice": 20,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Hindlegs",
+      "cut": 50,
+      "impact": 50,
+      "shot": 15,
+      "fire": 0,
+      "water": 5,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 50,
+      "impact": 40,
+      "shot": 20,
+      "fire": 0,
+      "water": 5,
+      "thunder": 0,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head",
+      "cut": 20,
+      "impact": 25,
+      "shot": 10,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Tail",
+      "cut": 20,
+      "impact": 25,
+      "shot": 10,
+      "fire": 0,
+      "water": 5,
+      "thunder": 10,
+      "ice": 0,
+      "dragon": 0,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head (Wounded)",
+      "cut": 80,
+      "impact": 85,
+      "shot": 30,
+      "fire": 10,
+      "water": 15,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Image†cdn.kiranico.net   Head (Wounded)",
+      "cut": 80,
+      "impact": 85,
+      "shot": 30,
+      "fire": 10,
+      "water": 15,
+      "thunder": 20,
+      "ice": 0,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 6120,
+      "break": 6120,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": null,
+      "break": 2187,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Forelegs",
+      "flinch": null,
+      "break": 3240,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Body",
+      "flinch": 8550,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": null,
+      "break": 3240,
+      "sever": null,
+      "notes": "2L,2R"
+    },
+    {
+      "part": "Forelegs (Molten)",
+      "flinch": null,
+      "break": 3240,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Body (Molten)",
+      "flinch": 8550,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Molten)",
+      "flinch": null,
+      "break": 3240,
+      "sever": null,
+      "notes": "2L,2R"
+    },
+    {
+      "part": "Head (Released)",
+      "flinch": 6120,
+      "break": 25200,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest (Released)",
+      "flinch": 8550,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs (Released)",
+      "flinch": 6570,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs (Released)",
+      "flinch": 6570,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body (Released)",
+      "flinch": 8550,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Released)",
+      "flinch": null,
+      "break": 5700,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Head",
+      "flinch": 540,
+      "break": 540,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": null,
+      "break": 100,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Forelegs",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Body",
+      "flinch": 720,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "2L,2R"
+    },
+    {
+      "part": "Forelegs (Molten)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Body (Molten)",
+      "flinch": 720,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Molten)",
+      "flinch": null,
+      "break": 120,
+      "sever": null,
+      "notes": "2L,2R"
+    },
+    {
+      "part": "Head (Released)",
+      "flinch": 540,
+      "break": 540,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest (Released)",
+      "flinch": 720,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs (Released)",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs (Released)",
+      "flinch": 400,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Body (Released)",
+      "flinch": 720,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Tail (Released)",
+      "flinch": null,
+      "break": 540,
+      "sever": null,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 1550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "12 seconds",
+      "initial": 200,
+      "increase": 300,
+      "max": 1100,
+      "duration": 12
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 200,
+      "durationText": null,
+      "initial": 120,
+      "increase": 120,
+      "max": 1920,
+      "damageByRank": {
+        "HR": 240,
+        "MR": 600
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 150,
+      "increase": 880,
+      "max": 1910,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 1400,
+      "durationText": "35 seconds",
+      "initial": 150,
+      "increase": 250,
+      "max": 900,
+      "duration": 35,
+      "damageByRank": {
+        "HR": 720,
+        "MR": 1600
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "12 seconds",
+      "initial": 150,
+      "increase": 880,
+      "max": 1910,
+      "duration": 12
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Kulve Taroth Golden Spiralhorn",
+      "quantity": 1,
+      "chance": 72
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Kulve Taroth Golden Spiralhorn",
+      "quantity": 2,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Break Horns",
+      "item": "Kulve Taroth Golden Glimstone",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Kulve Taroth Golden Tailshell",
+      "quantity": 1,
+      "chance": 71
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Kulve Taroth Golden Tailshell",
+      "quantity": 2,
+      "chance": 26
+    },
+    {
+      "rank": "HR",
+      "condition": "Wound Tail",
+      "item": "Kulve Taroth Golden Glimstone",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "HR",
+      "condition": "Gold Plating Carved",
+      "item": "Kulve Taroth Golden Shell",
+      "quantity": 1,
+      "chance": null
+    },
+    {
+      "rank": "HR",
+      "condition": "Gold Plating Carved",
+      "item": "Kulve Taroth Golden Glimstone",
+      "quantity": 1,
+      "chance": null
+    },
+    {
+      "rank": "HR",
+      "condition": "Siege Progress",
+      "item": "Golden Fragment",
+      "quantity": 1,
+      "chance": 29
+    },
+    {
+      "rank": "HR",
+      "condition": "Siege Progress",
+      "item": "Advanced Armor Sphere",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Siege Progress",
+      "item": "Fucium Ore",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "HR",
+      "condition": "Siege Progress",
+      "item": "Golden Chunk",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "HR",
+      "condition": "Siege Progress",
+      "item": "Kulve Taroth Golden Nugget",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Lustrous Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "HR",
+      "condition": "Bandit Mantle",
+      "item": "Glimmering Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Bronze)",
+      "item": "Dissolved Weapon",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Bronze)",
+      "item": "Hard Armor Sphere",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Bronze)",
+      "item": "Kulve Taroth Golden Shell",
+      "quantity": 2,
+      "chance": 17
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Bronze)",
+      "item": "Kulve Taroth Emperor Nugget",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Bronze)",
+      "item": "Bushi Ticket",
+      "quantity": 2,
+      "chance": 13
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Silver)",
+      "item": "Melded Weapon",
+      "quantity": 1,
+      "chance": 44
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Silver)",
+      "item": "Kulve Taroth Emperor Nugget",
+      "quantity": 1,
+      "chance": 31
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Silver)",
+      "item": "Sublimated Weapon",
+      "quantity": 1,
+      "chance": 25
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Gold)",
+      "item": "Sublimated Weapon",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Gold)",
+      "item": "Incandescent Weapon",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "HR",
+      "condition": "Appraisal (Blue)",
+      "item": "Incandescent Weapon",
+      "quantity": 1,
+      "chance": 100
+    }
+  ],
+  "questIds": [
+    "quest-50902",
+    "quest-50901",
+    "quest-66833"
+  ],
+  "guidingLands": [],
+  "expeditions": []
+}

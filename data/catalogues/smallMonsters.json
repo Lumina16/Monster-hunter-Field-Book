@@ -1,0 +1,6128 @@
+[
+  {
+    "id": "small-aptonoth",
+    "name": "Aptonoth",
+    "sourceId": 1,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "The Guiding Lands"
+    ],
+    "description": "Peaceful herd herbivores. When danger appears, the group flees together.",
+    "iconKey": "small-aptonoth",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/Rz9Tc/aptonoth",
+      "https://monsterhunterwiki.org/wiki/Aptonoth_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 70,
+        "impact": 70,
+        "shot": 100,
+        "fire": 40,
+        "water": 20,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 15,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 80,
+        "shot": 100,
+        "fire": 40,
+        "water": 20,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 15,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "10 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "5 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "5 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 3
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 53,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "1806b018960c884f3b293cf4d501be578193dba246f0984d4c22cdf48f0b4fc8"
+    }
+  },
+  {
+    "id": "small-jagras",
+    "name": "Jagras",
+    "sourceId": 2,
+    "category": "Fanged Wyvern",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "The Guiding Lands"
+    ],
+    "description": "Pack-hunting fanged wyverns that share territory with Great Jagras and attack vulnerable prey.",
+    "iconKey": "small-jagras",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/wa3H8/jagras",
+      "https://monsterhunterwiki.org/wiki/Jagras_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 90,
+        "impact": 90,
+        "shot": 90,
+        "fire": 50,
+        "water": 5,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 40,
+        "water": 0,
+        "thunder": 20,
+        "ice": 10,
+        "dragon": 5,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Orange"
+      },
+      {
+        "part": "Body",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Jagras Hide",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Jagras Scale",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Jagras Hide+",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Jagras Scale+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Jagras Shard",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Tough Claw",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Jagras Hide",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Jagras Scale",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Jagras Hide",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Jagras Scale",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Jagras Hide",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Jagras Scale",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Jagras Hide+",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Jagras Scale+",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Jagras Hide+",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Jagras Scale+",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Jagras Hide+",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Jagras Scale+",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 14,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 60,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "bc2b1f325b8bd87198263585a4f54d9a76fd8709a2b47d91561fd7c22c10caea"
+    }
+  },
+  {
+    "id": "small-mernos",
+    "name": "Mernos",
+    "sourceId": 3,
+    "category": "Wingdrake",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "The Guiding Lands"
+    ],
+    "description": "Forest wingdrakes that feed on vegetation. Hunters can use them for aerial transport.",
+    "iconKey": "small-mernos",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/ErdcU/mernos",
+      "https://monsterhunterwiki.org/wiki/Mernos_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 90,
+        "impact": 90,
+        "shot": 80,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 90,
+        "impact": 90,
+        "shot": 90,
+        "fire": 25,
+        "water": 25,
+        "thunder": 25,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "White"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wingdrake Finehide",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Bone S",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Warm Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Raw Meat",
+        "quantity": 2,
+        "chance": 18,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Bone S",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Warm Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Raw Meat",
+        "quantity": 2,
+        "chance": 18,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Warm Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Raw Meat",
+        "quantity": 2,
+        "chance": 18,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "High-quality Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Raw Meat",
+        "quantity": 4,
+        "chance": 18,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "High-quality Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Raw Meat",
+        "quantity": 4,
+        "chance": 18,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 32,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "High-quality Pelt",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Raw Meat",
+        "quantity": 4,
+        "chance": 18,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "5ef214d95b5f77ee8397e2741a4c68c1b344e2f0beb1c7b7434e6466dec5563e"
+    }
+  },
+  {
+    "id": "small-vespoid",
+    "name": "Vespoid",
+    "sourceId": 4,
+    "category": "Neopteron",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "Coral Highlands",
+      "Rotten Vale",
+      "Elder's Recess",
+      "Hoarfrost Reach",
+      "The Guiding Lands"
+    ],
+    "description": "Flying insects with a paralysing sting. Their fragile bodies can be destroyed before carving.",
+    "iconKey": "small-vespoid",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/REdsV/vespoid",
+      "https://monsterhunterwiki.org/wiki/Vespoid_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 85,
+        "impact": 85,
+        "shot": 85,
+        "fire": 100,
+        "water": 50,
+        "thunder": 10,
+        "ice": 50,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "White"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Vespoid Shell",
+        "quantity": 1,
+        "chance": 42,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Vespoid Wing",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Monster Fluid",
+        "quantity": 1,
+        "chance": 23,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Vespoid Carapace",
+        "quantity": 1,
+        "chance": 42,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Vespoid Innerwing",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Monster Broth",
+        "quantity": 1,
+        "chance": 23,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Vespoid Razorwing",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Monster Essence",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 8,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "53d5f9f43673e1b341b8f8bf6469613676a7d55076171b85698b7fc073b98ff5"
+    }
+  },
+  {
+    "id": "small-mosswine",
+    "name": "Mosswine",
+    "sourceId": 5,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "Rotten Vale"
+    ],
+    "description": "Small pigs that use their keen sense of smell to search for mushrooms.",
+    "iconKey": "small-mosswine",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/B05hV/mosswine",
+      "https://monsterhunterwiki.org/wiki/Mosswine_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 90,
+        "impact": 90,
+        "shot": 85,
+        "fire": 100,
+        "water": 100,
+        "thunder": 100,
+        "ice": 100,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Mosswine Hide",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Mosswine Hide",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Mosswine Hide",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 3
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "f6e25125b75ace9db3c149d3c40f37562c69db839b27d147413e05c303b1a5f6"
+    }
+  },
+  {
+    "id": "small-apceros",
+    "name": "Apceros",
+    "sourceId": 6,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Wildspire Waste",
+      "The Guiding Lands"
+    ],
+    "description": "Armoured herbivores that defend their herd rather than immediately fleeing.",
+    "iconKey": "small-apceros",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/BnetY/apceros",
+      "https://monsterhunterwiki.org/wiki/Apceros_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 60,
+        "impact": 60,
+        "shot": 60,
+        "fire": 40,
+        "water": 25,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 60,
+        "impact": 60,
+        "shot": 60,
+        "fire": 40,
+        "water": 25,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "",
+        "cut": 100,
+        "impact": 100,
+        "shot": 100,
+        "fire": 0,
+        "water": 0,
+        "thunder": 0,
+        "ice": 0,
+        "dragon": 0,
+        "stun": 0,
+        "stamina": 0
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 30,
+        "sever": null,
+        "colour": "Orange"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 3
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "95289b07337f844f4719ae59caa8a9f109219968fb994c2238e1924bbb20f60c"
+    }
+  },
+  {
+    "id": "small-kestodon",
+    "name": "Kestodon",
+    "sourceId": 7,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "The Guiding Lands"
+    ],
+    "description": "Territorial herbivores that defend themselves with headbutts. Males and females have different builds.",
+    "iconKey": "small-kestodon",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/Y7XIE/kestodon-male",
+      "https://monsterhunterwiki.org/wiki/Kestodon_%28MHWI%29"
+    ],
+    "baseHp": 120,
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 30,
+        "sever": null,
+        "colour": "Red"
+      },
+      {
+        "part": "Body",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "variants": [
+      {
+        "name": "Male",
+        "baseHp": 120
+      },
+      {
+        "name": "Female",
+        "baseHp": 90
+      }
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 35,
+        "impact": 35,
+        "shot": 35,
+        "fire": 25,
+        "water": 40,
+        "thunder": 25,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100,
+        "variant": "Male"
+      },
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 25,
+        "water": 40,
+        "thunder": 25,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100,
+        "variant": "Male"
+      },
+      {
+        "part": "Head",
+        "cut": 50,
+        "impact": 50,
+        "shot": 50,
+        "fire": 25,
+        "water": 40,
+        "thunder": 25,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100,
+        "variant": "Female"
+      },
+      {
+        "part": "Body",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 25,
+        "water": 40,
+        "thunder": 25,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100,
+        "variant": "Female"
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2,
+        "variant": "Male"
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Kestodon Husk",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3,
+        "variant": "Male"
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 4,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 4,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 4,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 5,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 5,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 5,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 6,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 6,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 6,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 7,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 7,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 8,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 8,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 9,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9,
+        "variant": "Male"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 9,
+        "variant": "Male"
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 80,
+        "pool": 1,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 1,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 80,
+        "pool": 2,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 2,
+        "variant": "Female"
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Kestodon Husk",
+        "quantity": 1,
+        "chance": 80,
+        "pool": 3,
+        "variant": "Female"
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 3,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 4,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 4,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 4,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 5,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 5,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 5,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Shell",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 6,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 6,
+        "variant": "Female"
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 26,
+        "pool": 6,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 7,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 7,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 8,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 8,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Carapace",
+        "quantity": 1,
+        "chance": 44,
+        "pool": 9,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Kestodon Scalp",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9,
+        "variant": "Female"
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 9,
+        "variant": "Female"
+      }
+    ],
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "a3c64e3f773e56e554f81e79c96c9890b8842250d8a9a702498c1b3cd76af5f5"
+    }
+  },
+  {
+    "id": "small-noios",
+    "name": "Noios",
+    "sourceId": 8,
+    "category": "Wingdrake",
+    "game": "world",
+    "habitats": [
+      "Wildspire Waste",
+      "The Guiding Lands"
+    ],
+    "description": "Desert wingdrakes whose cries can startle other monsters.",
+    "iconKey": "small-noios",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/9xofb/noios",
+      "https://monsterhunterwiki.org/wiki/Noios_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 90,
+        "impact": 90,
+        "shot": 80,
+        "fire": 10,
+        "water": 25,
+        "thunder": 25,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 90,
+        "impact": 90,
+        "shot": 90,
+        "fire": 10,
+        "water": 25,
+        "thunder": 25,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Screamer Sac",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Screamer Sac",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Screamer Sac",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wingdrake Finehide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Screamer Sac",
+        "quantity": 2,
+        "chance": 32,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Warm Pelt",
+        "quantity": 1,
+        "chance": 18,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Screamer Sac",
+        "quantity": 2,
+        "chance": 32,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 26,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "High-quality Pelt",
+        "quantity": 1,
+        "chance": 18,
+        "pool": 5
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "73b53cc7aa960e968e68a3b4e1131605553756af95cec3e3ee9b5465ed395037"
+    }
+  },
+  {
+    "id": "small-gajau",
+    "name": "Gajau",
+    "sourceId": 9,
+    "category": "Fish",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste"
+    ],
+    "description": "Aggressive fish that lunge from shallow water at nearby intruders.",
+    "iconKey": "small-gajau",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/BgzT2/gajau",
+      "https://monsterhunterwiki.org/wiki/Gajau_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 40,
+        "water": 10,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 70,
+        "impact": 70,
+        "shot": 70,
+        "fire": 40,
+        "water": 10,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 15,
+        "sever": null,
+        "colour": "Red"
+      },
+      {
+        "part": "Head",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Gajau Skin",
+        "quantity": 1,
+        "chance": 75,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Gajau Whisker",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Gajau Scale",
+        "quantity": 1,
+        "chance": 75,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Grand Gajau Whisker",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Gajau Thickhide",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Steel Gajau Whisker",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Gajau Skin",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Iron Ore",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Machalite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Gajau Skin",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Iron Ore",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Machalite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Gajau Skin",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Iron Ore",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Machalite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Gajau Scale",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Grand Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Machalite Ore",
+        "quantity": 1,
+        "chance": 16,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Dragonite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Gajau Scale",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Grand Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Machalite Ore",
+        "quantity": 1,
+        "chance": 16,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Dragonite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Gajau Scale",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Grand Gajau Whisker",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Machalite Ore",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Dragonite Ore",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "1d2c2922169117be31538a4140b55c1949ce426218cf485720b528e79d96bd24"
+    }
+  },
+  {
+    "id": "small-kelbi",
+    "name": "Kelbi",
+    "sourceId": 10,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Wildspire Waste",
+      "Coral Highlands",
+      "The Guiding Lands"
+    ],
+    "description": "Timid, agile herbivores recognised by their valuable horns.",
+    "iconKey": "small-kelbi",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/Ro3fm/kelbi",
+      "https://monsterhunterwiki.org/wiki/Kelbi_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 85,
+        "impact": 85,
+        "shot": 80,
+        "fire": 80,
+        "water": 80,
+        "thunder": 80,
+        "ice": 80,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 85,
+        "impact": 85,
+        "shot": 80,
+        "fire": 80,
+        "water": 80,
+        "thunder": 80,
+        "ice": 80,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      },
+      {
+        "part": "",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "25 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "5 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Warm Pelt",
+        "quantity": 1,
+        "chance": 60,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "White Liver",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 15,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "High-quality Pelt",
+        "quantity": 1,
+        "chance": 60,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "White Liver",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 15,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Prized Pelt",
+        "quantity": 1,
+        "chance": 60,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "White Liver",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 15,
+        "pool": 3
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 70,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "fe0e57d573ba4d2f38d462ec19cde09d6315ec02e1c524c610a70dbd8a3a0f97"
+    }
+  },
+  {
+    "id": "small-raphinos",
+    "name": "Raphinos",
+    "sourceId": 11,
+    "category": "Wingdrake",
+    "game": "world",
+    "habitats": [
+      "Coral Highlands",
+      "Rotten Vale",
+      "The Guiding Lands"
+    ],
+    "description": "Coral Highlands wingdrakes that feed on the local vegetation.",
+    "iconKey": "small-raphinos",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/bx8uZ/raphinos",
+      "https://monsterhunterwiki.org/wiki/Raphinos_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 90,
+        "impact": 90,
+        "shot": 90,
+        "fire": 50,
+        "water": 50,
+        "thunder": 100,
+        "ice": 50,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 90,
+        "impact": 90,
+        "shot": 80,
+        "fire": 50,
+        "water": 50,
+        "thunder": 100,
+        "ice": 50,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Orange"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wingdrake Finehide",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Bone S",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Wingdrake Hide+",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Nulberry",
+        "quantity": 3,
+        "chance": 16,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Warped Bone",
+        "quantity": 1,
+        "chance": 8,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "7ace8de7093ad609705b83d751ffe12a9d23983d3e1ce0bdc88441d6fb553e4a"
+    }
+  },
+  {
+    "id": "small-shamos",
+    "name": "Shamos",
+    "sourceId": 12,
+    "category": "Fanged Wyvern",
+    "game": "world",
+    "habitats": [
+      "Coral Highlands",
+      "The Guiding Lands"
+    ],
+    "description": "Nocturnal fanged wyverns that gather in packs in the Coral Highlands.",
+    "iconKey": "small-shamos",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/2r9F3/shamos",
+      "https://monsterhunterwiki.org/wiki/Shamos_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 40,
+        "water": 25,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 70,
+        "impact": 70,
+        "shot": 70,
+        "fire": 40,
+        "water": 25,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Orange"
+      },
+      {
+        "part": "Head",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Shamos Hide",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Shamos Scale",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Shamos Hide+",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Shamos Scale+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Shamos Shard",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Tough Claw",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Shamos Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Shamos Scale",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Coral Crystal",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Shamos Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Shamos Scale",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Coral Crystal",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Shamos Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sharp Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Shamos Scale",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Coral Crystal",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Shamos Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Shamos Scale+",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Coral Crystal",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Shamos Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Shamos Scale+",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Coral Crystal",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Shamos Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Piercing Claw",
+        "quantity": 1,
+        "chance": 24,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Shamos Scale+",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Coral Crystal",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "a629808c26a4c9191077a268272f4ff5fd05148f9e1323e98b524a021b8d1300"
+    }
+  },
+  {
+    "id": "small-girros",
+    "name": "Girros",
+    "sourceId": 13,
+    "category": "Fanged Wyvern",
+    "game": "world",
+    "habitats": [
+      "Rotten Vale",
+      "The Guiding Lands"
+    ],
+    "description": "Pack-living fanged wyverns whose bites can cause paralysis.",
+    "iconKey": "small-girros",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/eQ1UO/girros",
+      "https://monsterhunterwiki.org/wiki/Girros_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 90,
+        "impact": 90,
+        "shot": 90,
+        "fire": 50,
+        "water": 5,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 80,
+        "impact": 80,
+        "shot": 80,
+        "fire": 40,
+        "water": 0,
+        "thunder": 20,
+        "ice": 10,
+        "dragon": 5,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Orange"
+      },
+      {
+        "part": "Head",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "300 +100 → 700",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Girros Hide",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Girros Scale",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Girros Fang",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Girros Hide+",
+        "quantity": 1,
+        "chance": 50,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Girros Scale+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Girros Fang",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Girros Shard",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Tough Claw",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Scale",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Fang",
+        "quantity": 1,
+        "chance": 21,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sharp Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Scale",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Fang",
+        "quantity": 1,
+        "chance": 21,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sharp Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Hide",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Scale",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Fang",
+        "quantity": 1,
+        "chance": 21,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sharp Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Scale+",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Girros Fang",
+        "quantity": 2,
+        "chance": 21,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Piercing Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Scale+",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Girros Fang",
+        "quantity": 2,
+        "chance": 21,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Piercing Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Hide+",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Scale+",
+        "quantity": 1,
+        "chance": 25,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Girros Fang",
+        "quantity": 2,
+        "chance": 21,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Piercing Claw",
+        "quantity": 2,
+        "chance": 12,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 150,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "e9ec512532c9e0475ab2209683d124ea54375ca14eca9761caf43d25841a5ad4"
+    }
+  },
+  {
+    "id": "small-hornetaur",
+    "name": "Hornetaur",
+    "sourceId": 14,
+    "category": "Neopteron",
+    "game": "world",
+    "habitats": [
+      "Rotten Vale"
+    ],
+    "description": "Armoured insects that scavenge in the Rotten Vale. Their bodies are easily damaged.",
+    "iconKey": "small-hornetaur",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/Bw3C8/hornetaur",
+      "https://monsterhunterwiki.org/wiki/Hornetaur_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 80,
+        "impact": 100,
+        "shot": 80,
+        "fire": 100,
+        "water": 20,
+        "thunder": 60,
+        "ice": 100,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Orange"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Shell",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Wing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Fluid",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 1
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Shell",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 2
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Wing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 2
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Fluid",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 2
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 2
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Shell",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Wing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Fluid",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 3
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Carapace",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Innerwing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Monster Broth",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Carapace",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Innerwing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Monster Broth",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Carapace",
+        "quantity": 1,
+        "chance": 38,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Innerwing",
+        "quantity": 1,
+        "chance": 28,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Monster Broth",
+        "quantity": 1,
+        "chance": 22,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Hornetaur Head",
+        "quantity": 1,
+        "chance": 12,
+        "pool": 6
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 40,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "e5cad9fe006affd5acf31dae980c8f73cebc2349b6e1f51fdb538c1809461a16"
+    }
+  },
+  {
+    "id": "small-gastodon",
+    "name": "Gastodon",
+    "sourceId": 15,
+    "category": "Herbivore",
+    "game": "world",
+    "habitats": [
+      "Elder's Recess",
+      "The Guiding Lands"
+    ],
+    "description": "Territorial herbivores with strong foreheads, adapted to the heat of the Recess.",
+    "iconKey": "small-gastodon",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/vmLtJ/gastodon",
+      "https://monsterhunterwiki.org/wiki/Gastodon_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 35,
+        "impact": 35,
+        "shot": 35,
+        "fire": 5,
+        "water": 15,
+        "thunder": 25,
+        "ice": 15,
+        "dragon": 5,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 65,
+        "impact": 65,
+        "shot": 65,
+        "fire": 10,
+        "water": 25,
+        "thunder": 40,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 55,
+        "sever": null,
+        "colour": "Red"
+      },
+      {
+        "part": "Head",
+        "flinch": 50,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Gastodon Carapace",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Gastodon Carapace",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Gastodon Horn",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Gastodon Husk",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Gastodon Horn",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Gastodon Carapace",
+        "quantity": 1,
+        "chance": 45,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Gastodon Horn",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 4
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Gastodon Carapace",
+        "quantity": 1,
+        "chance": 45,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Gastodon Horn",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 5
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Gastodon Carapace",
+        "quantity": 1,
+        "chance": 45,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Gastodon Horn",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Quality Bone",
+        "quantity": 1,
+        "chance": 20,
+        "pool": 6
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "e522ed53b05c094f9b612fc0e0a15017a4bc4a0bc758e40f1fcc4ab9c7e62390"
+    }
+  },
+  {
+    "id": "small-barnos",
+    "name": "Barnos",
+    "sourceId": 16,
+    "category": "Wingdrake",
+    "game": "world",
+    "habitats": [
+      "Elder's Recess",
+      "The Guiding Lands"
+    ],
+    "description": "Wingdrakes that thrive in the volcanic environment of the Elder’s Recess.",
+    "iconKey": "small-barnos",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/QZrSK/barnos",
+      "https://monsterhunterwiki.org/wiki/Barnos_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 45,
+        "impact": 45,
+        "shot": 45,
+        "fire": 20,
+        "water": 0,
+        "thunder": 10,
+        "ice": 10,
+        "dragon": 50,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 45,
+        "impact": 45,
+        "shot": 45,
+        "fire": 20,
+        "water": 0,
+        "thunder": 10,
+        "ice": 10,
+        "dragon": 50,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 35,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "70 +30 → 670",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "LR",
+        "method": "Body carve",
+        "item": "Wingdrake Hide",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 1
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Barnos Hide+",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 2
+      },
+      {
+        "rank": "HR",
+        "method": "Body carve",
+        "item": "Barnos Talon",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Barnos Hardclaw",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 3
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wingdrake Finehide",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 3
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Potion",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 4
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Potion",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 5
+      },
+      {
+        "rank": "LR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Potion",
+        "quantity": 1,
+        "chance": 100,
+        "pool": 6
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Barnos Hide+",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Barnos Talon",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Silver)",
+        "item": "Dragonvein Crystal",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 7
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Barnos Hide+",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Barnos Talon",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Gold)",
+        "item": "Dragonvein Crystal",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 8
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Barnos Hide+",
+        "quantity": 1,
+        "chance": 40,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Barnos Talon",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Sturdy Bone",
+        "quantity": 2,
+        "chance": 16,
+        "pool": 9
+      },
+      {
+        "rank": "HR",
+        "method": "Investigation Reward (Bronze)",
+        "item": "Dragonvein Crystal",
+        "quantity": 1,
+        "chance": 14,
+        "pool": 9
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "a022e2515bb4e34ea9c93e3e7f011cf29218463c1dbe11ce6bb34695a88a1cd6"
+    }
+  },
+  {
+    "id": "small-popo",
+    "name": "Popo",
+    "sourceId": 101,
+    "category": "Herbivore",
+    "game": "iceborne",
+    "habitats": [
+      "Hoarfrost Reach"
+    ],
+    "description": "Cold-adapted herd herbivores with thick fur and long tusks.",
+    "iconKey": "small-popo",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/BvLUJ/popo",
+      "https://monsterhunterwiki.org/wiki/Popo_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 70,
+        "impact": 70,
+        "shot": 100,
+        "fire": 40,
+        "water": 20,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 15,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 80,
+        "shot": 100,
+        "fire": 40,
+        "water": 20,
+        "thunder": 30,
+        "ice": 20,
+        "dragon": 15,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "10 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "5 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "5 +0",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Raw Meat",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Prized Pelt",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 80,
+    "ranks": [
+      "MR"
+    ],
+    "image": {
+      "$embedded": "e01cf557b259c667cf7fb12bf11e66096db3a4042a3ed4e9b95e2582ff578179"
+    }
+  },
+  {
+    "id": "small-anteka",
+    "name": "Anteka",
+    "sourceId": 102,
+    "category": "Herbivore",
+    "game": "iceborne",
+    "habitats": [
+      "Hoarfrost Reach",
+      "The Guiding Lands"
+    ],
+    "description": "Timid tundra herbivores that defend themselves with their antlers when cornered.",
+    "iconKey": "small-anteka",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/BDPt0/anteka",
+      "https://monsterhunterwiki.org/wiki/Anteka_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 85,
+        "impact": 85,
+        "shot": 80,
+        "fire": 80,
+        "water": 80,
+        "thunder": 80,
+        "ice": 80,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 85,
+        "impact": 85,
+        "shot": 80,
+        "fire": 80,
+        "water": 80,
+        "thunder": 80,
+        "ice": 80,
+        "dragon": 0,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      },
+      {
+        "part": "Body",
+        "flinch": 1,
+        "sever": null,
+        "colour": "Green"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "25 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "5 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Anteka Antler",
+        "quantity": 1,
+        "chance": 70,
+        "pool": 1
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Prized Pelt",
+        "quantity": 1,
+        "chance": 30,
+        "pool": 1
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Prized Pelt",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 2
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Anteka Antler",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 2
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 70,
+    "ranks": [
+      "MR"
+    ],
+    "image": {
+      "$embedded": "9158925050e5516bd21360a53cd1b6f459ef490e46f0fdf0274dcd5538211711"
+    }
+  },
+  {
+    "id": "small-wulg",
+    "name": "Wulg",
+    "sourceId": 103,
+    "category": "Fanged Wyvern",
+    "game": "iceborne",
+    "habitats": [
+      "Hoarfrost Reach",
+      "The Guiding Lands"
+    ],
+    "description": "Furred fanged wyverns that hunt in groups and can cling to a hunter.",
+    "iconKey": "small-wulg",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/qpVH9/wulg",
+      "https://monsterhunterwiki.org/wiki/Wulg_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 90,
+        "shot": 90,
+        "fire": 50,
+        "water": 5,
+        "thunder": 25,
+        "ice": 0,
+        "dragon": 5,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 70,
+        "impact": 80,
+        "shot": 80,
+        "fire": 50,
+        "water": 5,
+        "thunder": 30,
+        "ice": 0,
+        "dragon": 5,
+        "stun": 0,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 25,
+        "sever": null,
+        "colour": "Orange"
+      },
+      {
+        "part": "Body",
+        "flinch": 30,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wulg Thickfur",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 1
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Tough Claw",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 1
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 60,
+    "ranks": [
+      "MR"
+    ],
+    "image": {
+      "$embedded": "9f9138eaa20341dbfbb5fde373bcbda9570243f069acd060d0976da4489d3759"
+    }
+  },
+  {
+    "id": "small-cortos",
+    "name": "Cortos",
+    "sourceId": 104,
+    "category": "Wingdrake",
+    "game": "iceborne",
+    "habitats": [
+      "Hoarfrost Reach",
+      "The Guiding Lands"
+    ],
+    "description": "Hoarfrost Reach wingdrakes adapted to its freezing climate.",
+    "iconKey": "small-cortos",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/Wb0c8/cortos",
+      "https://monsterhunterwiki.org/wiki/Cortos_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Body",
+        "cut": 45,
+        "impact": 45,
+        "shot": 45,
+        "fire": 50,
+        "water": 0,
+        "thunder": 10,
+        "ice": 0,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 100
+      },
+      {
+        "part": "Head",
+        "cut": 45,
+        "impact": 45,
+        "shot": 45,
+        "fire": 60,
+        "water": 5,
+        "thunder": 10,
+        "ice": 0,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Body",
+        "flinch": 35,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "7 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30→25→20→15→10",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Captures",
+        "buildup": "150 +0",
+        "decay": "-5 / 5 seconds",
+        "damage": "",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Cortos Hardclaw",
+        "quantity": 1,
+        "chance": 65,
+        "pool": 1
+      },
+      {
+        "rank": "MR",
+        "method": "Body carve",
+        "item": "Wingdrake Finehide",
+        "quantity": 1,
+        "chance": 35,
+        "pool": 1
+      }
+    ],
+    "unresolvedDropPools": [],
+    "baseHp": 100,
+    "ranks": [
+      "MR"
+    ],
+    "image": {
+      "$embedded": "291d4b5c3294f1c4139e28f86ed91cfcab407474e061d1725527cf3597a88d80"
+    }
+  },
+  {
+    "id": "small-gajalaka",
+    "name": "Gajalaka",
+    "sourceId": 100,
+    "category": "Lynian",
+    "game": "world",
+    "habitats": [
+      "Ancient Forest",
+      "Wildspire Waste",
+      "Coral Highlands",
+      "Rotten Vale",
+      "Elder's Recess",
+      "The Guiding Lands"
+    ],
+    "description": "Masked Lynians that use weapons and status-inflicting attacks. They can become useful allies through the cultural-exchange quests.",
+    "iconKey": "small-gajalaka",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/55Ycn/gajalaka",
+      "https://monsterhunterwiki.org/wiki/Gajalaka_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 80,
+        "impact": 90,
+        "shot": 90,
+        "fire": 35,
+        "water": 30,
+        "thunder": 50,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 45,
+        "impact": 65,
+        "shot": 70,
+        "fire": 35,
+        "water": 30,
+        "thunder": 50,
+        "ice": 40,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 0
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 10,
+        "sever": null,
+        "colour": "Red"
+      },
+      {
+        "part": "Body",
+        "flinch": 50,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "10 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [],
+    "unresolvedDropPools": [
+      {
+        "pool": 1,
+        "rows": [
+          {
+            "rank": "LR",
+            "method": "Body carve",
+            "item": "First-aid Med",
+            "quantity": 1,
+            "chance": 60
+          },
+          {
+            "rank": "LR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 2,
+        "rows": [
+          {
+            "rank": "HR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "HR",
+            "method": "Body carve",
+            "item": "Throwing Knife",
+            "quantity": 1,
+            "chance": 35
+          },
+          {
+            "rank": "HR",
+            "method": "Body carve",
+            "item": "First-aid Med",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 3,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Kulve Taroth Golden Nugget",
+            "quantity": 1,
+            "chance": 55
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Throwing Knife",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Kulve Taroth Golden Scale",
+            "quantity": 1,
+            "chance": 5
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      }
+    ],
+    "baseHp": 120,
+    "rewardNotes": "Lynians leave dropped supplies rather than normal body carves. Their extracted contextual drop pools are retained separately because the source does not label each activation condition.",
+    "ranks": [
+      "LR",
+      "HR",
+      "MR"
+    ],
+    "image": {
+      "$embedded": "5498f796deee8d2370c5da006c0974feb14a28fd82b6d092cc9f358f16c7c2b8"
+    }
+  },
+  {
+    "id": "small-boaboa",
+    "name": "Boaboa",
+    "sourceId": 141,
+    "category": "Lynian",
+    "game": "iceborne",
+    "habitats": [
+      "Hoarfrost Reach",
+      "The Guiding Lands"
+    ],
+    "description": "Hoarfrost Reach Lynians that hunt with spears. Their tribe can be befriended through the local cultural-exchange quests.",
+    "iconKey": "small-boaboa",
+    "sources": [
+      "https://mhworld.kiranico.com/en/monsters/XYdC6/boaboa",
+      "https://monsterhunterwiki.org/wiki/Boaboa_%28MHWI%29"
+    ],
+    "hitzones": [
+      {
+        "part": "Head",
+        "cut": 75,
+        "impact": 80,
+        "shot": 80,
+        "fire": 40,
+        "water": 30,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 100,
+        "stamina": 100
+      },
+      {
+        "part": "Body",
+        "cut": 45,
+        "impact": 65,
+        "shot": 70,
+        "fire": 40,
+        "water": 30,
+        "thunder": 50,
+        "ice": 25,
+        "dragon": 10,
+        "stun": 0,
+        "stamina": 0
+      }
+    ],
+    "extracts": [
+      {
+        "part": "Head",
+        "flinch": 20,
+        "sever": null,
+        "colour": "Red"
+      },
+      {
+        "part": "Body",
+        "flinch": 50,
+        "sever": null,
+        "colour": "Red"
+      }
+    ],
+    "ailments": [
+      {
+        "name": "Stun",
+        "buildup": "45 +25 → 95",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "10 seconds",
+        "other": ""
+      },
+      {
+        "name": "Blast",
+        "buildup": "30 +10 → 50",
+        "decay": "",
+        "damage": "100 Damage",
+        "duration": "",
+        "other": ""
+      },
+      {
+        "name": "Blind",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "20→16→12→8",
+        "other": ""
+      },
+      {
+        "name": "Sleep",
+        "buildup": "30 +20 → 70",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "40 seconds",
+        "other": ""
+      },
+      {
+        "name": "Dung",
+        "buildup": "",
+        "decay": "",
+        "damage": "",
+        "duration": "30 seconds",
+        "other": ""
+      },
+      {
+        "name": "Poison",
+        "buildup": "40 +30 → 100",
+        "decay": "-5 / 10 seconds",
+        "damage": "700 Damage",
+        "duration": "35 seconds",
+        "other": ""
+      },
+      {
+        "name": "Paralysis",
+        "buildup": "20 +10 → 40",
+        "decay": "-5 / 10 seconds",
+        "damage": "",
+        "duration": "15 seconds",
+        "other": ""
+      }
+    ],
+    "rewards": [],
+    "unresolvedDropPools": [
+      {
+        "pool": 1,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "First-aid Med+",
+            "quantity": 1,
+            "chance": 60
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 2,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Throwing Knife",
+            "quantity": 1,
+            "chance": 35
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "First-aid Med+",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 3,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Paralysis Knife",
+            "quantity": 1,
+            "chance": 35
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "First-aid Med+",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 4,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Poison Knife",
+            "quantity": 1,
+            "chance": 35
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "First-aid Med+",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 5,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "EZ Ration",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Sleep Knife",
+            "quantity": 1,
+            "chance": 35
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "First-aid Med+",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 6,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Throwing Knife",
+            "quantity": 1,
+            "chance": 75
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Kulve Taroth Golden Nugget",
+            "quantity": 1,
+            "chance": 25
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      },
+      {
+        "pool": 7,
+        "rows": [
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Kulve Taroth Golden Nugget",
+            "quantity": 1,
+            "chance": 55
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Throwing Knife",
+            "quantity": 1,
+            "chance": 40
+          },
+          {
+            "rank": "MR",
+            "method": "Body carve",
+            "item": "Kulve Taroth Golden Scale",
+            "quantity": 1,
+            "chance": 5
+          }
+        ],
+        "context": "Extracted Lynian drop pool; activation context is not labelled by the source."
+      }
+    ],
+    "baseHp": 120,
+    "rewardNotes": "Lynians leave dropped supplies rather than normal body carves. Their extracted contextual drop pools are retained separately because the source does not label each activation condition.",
+    "ranks": [
+      "MR"
+    ],
+    "image": {
+      "$embedded": "2ac900f748d323019e0b6fbd786b0a314757929432e5c35430dc2ac60c46c07f"
+    }
+  }
+]

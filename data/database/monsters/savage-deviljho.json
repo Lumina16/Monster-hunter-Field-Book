@@ -1,0 +1,920 @@
+{
+  "name": "Savage Deviljho",
+  "source": "https://mhworld.kiranico.com/en/monsters/B02Tk/savage-deviljho",
+  "hitzones": [
+    {
+      "part": "Head",
+      "cut": 40,
+      "impact": 45,
+      "shot": 25,
+      "fire": 20,
+      "water": 25,
+      "thunder": 25,
+      "ice": 10,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Neck",
+      "cut": 22,
+      "impact": 22,
+      "shot": 15,
+      "fire": 10,
+      "water": 10,
+      "thunder": 15,
+      "ice": 10,
+      "dragon": 15,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Chest",
+      "cut": 45,
+      "impact": 40,
+      "shot": 25,
+      "fire": 25,
+      "water": 20,
+      "thunder": 30,
+      "ice": 10,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Back",
+      "cut": 20,
+      "impact": 25,
+      "shot": 15,
+      "fire": 5,
+      "water": 15,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Forelegs",
+      "cut": 20,
+      "impact": 25,
+      "shot": 45,
+      "fire": 5,
+      "water": 15,
+      "thunder": 10,
+      "ice": 10,
+      "dragon": 20,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Hindlegs",
+      "cut": 33,
+      "impact": 36,
+      "shot": 20,
+      "fire": 15,
+      "water": 5,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail",
+      "cut": 36,
+      "impact": 33,
+      "shot": 20,
+      "fire": 15,
+      "water": 5,
+      "thunder": 20,
+      "ice": 10,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Head (Broken)",
+      "cut": 55,
+      "impact": 60,
+      "shot": 40,
+      "fire": 20,
+      "water": 25,
+      "thunder": 25,
+      "ice": 15,
+      "dragon": 30,
+      "stun": 100,
+      "stamina": 100
+    },
+    {
+      "part": "Chest (Broken)",
+      "cut": 60,
+      "impact": 55,
+      "shot": 45,
+      "fire": 25,
+      "water": 20,
+      "thunder": 30,
+      "ice": 15,
+      "dragon": 25,
+      "stun": 0,
+      "stamina": 100
+    },
+    {
+      "part": "Tail (Broken)",
+      "cut": 40,
+      "impact": 40,
+      "shot": 25,
+      "fire": 15,
+      "water": 5,
+      "thunder": 20,
+      "ice": 15,
+      "dragon": 10,
+      "stun": 0,
+      "stamina": 100
+    }
+  ],
+  "breaks": [
+    {
+      "part": "Head",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Neck",
+      "flinch": 450,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Chest",
+      "flinch": 300,
+      "break": 600,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Torso",
+      "flinch": 450,
+      "break": 900,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Forelegs",
+      "flinch": 300,
+      "break": null,
+      "sever": null,
+      "notes": null
+    },
+    {
+      "part": "Hindlegs",
+      "flinch": 300,
+      "break": null,
+      "sever": null,
+      "notes": "L,R"
+    },
+    {
+      "part": "Tail",
+      "flinch": 200,
+      "break": null,
+      "sever": 400,
+      "notes": null
+    }
+  ],
+  "ailments": [
+    {
+      "name": "Ivy",
+      "decay": null,
+      "damage": null,
+      "durationText": "10 seconds",
+      "duration": 10
+    },
+    {
+      "name": "Mount",
+      "decay": null,
+      "damage": null,
+      "durationText": null,
+      "initial": 50,
+      "increase": 100,
+      "max": 550
+    },
+    {
+      "name": "Stun",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "7 seconds",
+      "initial": 150,
+      "increase": 120,
+      "max": 630,
+      "duration": 7
+    },
+    {
+      "name": "Blast",
+      "decay": null,
+      "damage": 100,
+      "durationText": null,
+      "initial": 70,
+      "increase": 30,
+      "max": 670,
+      "damageByRank": {
+        "HR": 300,
+        "MR": 300
+      }
+    },
+    {
+      "name": "Blind",
+      "decay": null,
+      "damage": null,
+      "durationText": "20→16→12→8"
+    },
+    {
+      "name": "Sleep",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "40 seconds",
+      "initial": 100,
+      "increase": 100,
+      "max": 550,
+      "duration": 40
+    },
+    {
+      "name": "Dung",
+      "decay": null,
+      "damage": null,
+      "durationText": "30 seconds",
+      "duration": 30
+    },
+    {
+      "name": "Poison",
+      "decay": "-5 / 10 seconds",
+      "damage": 320,
+      "durationText": "20 seconds",
+      "initial": 100,
+      "increase": 100,
+      "max": 550,
+      "duration": 20,
+      "damageByRank": {
+        "HR": 320,
+        "MR": 320
+      }
+    },
+    {
+      "name": "Captures",
+      "decay": "-5 / 5 seconds",
+      "damage": null,
+      "durationText": null,
+      "initial": 150,
+      "increase": 0,
+      "max": null
+    },
+    {
+      "name": "Stamina",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    },
+    {
+      "name": "Paralysis",
+      "decay": "-5 / 10 seconds",
+      "damage": null,
+      "durationText": "8 seconds",
+      "initial": 100,
+      "increase": 150,
+      "max": 900,
+      "duration": 8
+    },
+    {
+      "name": "Pitfall Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "15→12→9→6→3"
+    },
+    {
+      "name": "Shock Trap",
+      "decay": null,
+      "damage": null,
+      "durationText": "8→6→4→2"
+    },
+    {
+      "name": "Elderseal",
+      "decay": null,
+      "damage": null,
+      "durationText": null
+    }
+  ],
+  "rewards": [
+    {
+      "rank": "MR",
+      "condition": "Track",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Blackpiel",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Ripper",
+      "quantity": 1,
+      "chance": 17
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Vile Fang",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Black Blood",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Carve / Capture",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Vile Fang",
+      "quantity": 1,
+      "chance": 61
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Deviljho Blackpiel",
+      "quantity": 2,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 5
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Head",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 66
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Blackpiel",
+      "quantity": 1,
+      "chance": 32
+    },
+    {
+      "rank": "MR",
+      "condition": "Wound Chest",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 2
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Black Blood",
+      "quantity": 1,
+      "chance": 50
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 28
+    },
+    {
+      "rank": "MR",
+      "condition": "Shiny Drop",
+      "item": "Large Wyvern Tear",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Flail",
+      "quantity": 1,
+      "chance": 75
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 22
+    },
+    {
+      "rank": "MR",
+      "condition": "Tail Carve",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 45
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Blackpiel",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Ripper",
+      "quantity": 1,
+      "chance": 24
+    },
+    {
+      "rank": "MR",
+      "condition": "Plunderblade",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 1
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Giant Scale",
+      "quantity": 1,
+      "chance": 70
+    },
+    {
+      "rank": "MR",
+      "condition": "Bandit Mantle",
+      "item": "Magnificent Scale",
+      "quantity": 1,
+      "chance": 30
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Blackpiel",
+      "quantity": 1,
+      "chance": 27
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Shard",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Ripper",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Black Blood",
+      "quantity": 1,
+      "chance": 14
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Flail",
+      "quantity": 1,
+      "chance": 11
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Vile Fang",
+      "quantity": 1,
+      "chance": 9
+    },
+    {
+      "rank": "MR",
+      "condition": "Hunt (Bronze)",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 3
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Ripper",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Blackpiel",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Flail",
+      "quantity": 1,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Shard",
+      "quantity": 2,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Vile Fang",
+      "quantity": 1,
+      "chance": 13
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Black Blood",
+      "quantity": 2,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Silver)",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 8
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Vile Fang",
+      "quantity": 1,
+      "chance": 23
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Flail",
+      "quantity": 1,
+      "chance": 20
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Black Blood",
+      "quantity": 2,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Crook",
+      "quantity": 1,
+      "chance": 16
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Ripper",
+      "quantity": 2,
+      "chance": 15
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Gold)",
+      "item": "Deviljho Gem",
+      "quantity": 1,
+      "chance": 10
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Carved Feystone",
+      "quantity": 1,
+      "chance": 60
+    },
+    {
+      "rank": "MR",
+      "condition": "Investigation (Purple)",
+      "item": "Sealed Feystone",
+      "quantity": 1,
+      "chance": 40
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Low)",
+      "item": "Bloodstained Ebonhide",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Bloodstained Ebonhide",
+      "quantity": 1,
+      "chance": 63
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Mid)",
+      "item": "Dragonvein Solidbone",
+      "quantity": 1,
+      "chance": 37
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (High)",
+      "item": "Bloodstained Ebonhide",
+      "quantity": 1,
+      "chance": 100
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spattered Hide",
+      "quantity": 1,
+      "chance": 64
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Spiritvein Solidbone",
+      "quantity": 1,
+      "chance": 33
+    },
+    {
+      "rank": "MR",
+      "condition": "Guiding Lands (Tempered)",
+      "item": "Great Spiritvein Gem",
+      "quantity": 1,
+      "chance": 3
+    }
+  ],
+  "questIds": [
+    "quest-1502",
+    "quest-1321",
+    "quest-1322",
+    "quest-1351",
+    "quest-1352",
+    "quest-1353",
+    "quest-1361",
+    "quest-1362",
+    "quest-1371",
+    "quest-1372",
+    "quest-1381",
+    "quest-1382",
+    "quest-1391",
+    "quest-1392",
+    "quest-1393",
+    "quest-1394",
+    "quest-1421",
+    "quest-1422",
+    "quest-1423",
+    "quest-1451",
+    "quest-1452",
+    "quest-1461",
+    "quest-1471",
+    "quest-1481",
+    "quest-1482",
+    "quest-1483",
+    "quest-1491",
+    "quest-1492",
+    "quest-1521",
+    "quest-1551",
+    "quest-1552",
+    "quest-1561",
+    "quest-1562",
+    "quest-1571",
+    "quest-1572",
+    "quest-1581",
+    "quest-1591",
+    "quest-1592",
+    "quest-1593",
+    "quest-1594",
+    "quest-1661",
+    "quest-1691",
+    "quest-51601",
+    "quest-66812",
+    "quest-66817",
+    "quest-66824",
+    "quest-66827",
+    "quest-63074"
+  ],
+  "guidingLands": [
+    {
+      "players": 1,
+      "level": 1,
+      "health": 23040,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x4.60",
+        "x1.40",
+        "x2.20",
+        "x1.30",
+        "x1.80",
+        "x1.50"
+      ]
+    },
+    {
+      "players": 2,
+      "level": 1,
+      "health": 39348,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x8.78",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 3,
+      "level": 1,
+      "health": 58752,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    },
+    {
+      "players": 4,
+      "level": 1,
+      "health": 58752,
+      "modifiers": [
+        "x13.00",
+        "x1.00",
+        "x13.11",
+        "x1.40",
+        "x5.50",
+        "x4.55",
+        "x6.30",
+        "x3.75"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "rank": "MR",
+      "locale": "Ancient Forest (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Wildspire Waste (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Coral Highlands (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Rotten Vale (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Elder's Recess (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    },
+    {
+      "rank": "MR",
+      "locale": "Hoarfrost Reach (5%)",
+      "health": 23040,
+      "modifiers": [
+        "x10.50",
+        "x1.00",
+        "x4.60",
+        "x1.45",
+        "x2.30",
+        "x1.30",
+        "x1.50",
+        "x1.50"
+      ]
+    }
+  ]
+}

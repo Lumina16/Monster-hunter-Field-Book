@@ -1,0 +1,773 @@
+[
+  {
+    "id": "great-sword",
+    "name": "Great Sword",
+    "short": "Read the next opening, plant your feet, and turn one precise charged slash into a huge punish.",
+    "role": "Severing • deliberate raw burst",
+    "reach": "Long swings; positioning matters more than chasing",
+    "defense": "Emergency block costs sharpness; Tackle reduces damage and resists knockback",
+    "mobility": "Slow drawn; sheathe between openings",
+    "complexity": "Medium",
+    "strengths": [
+      "Charged Slash, Strong Charged Slash and True Charged Slash form a powerful punish sequence.",
+      "Tackle can protect a charge and advance the charge sequence when timed against an attack.",
+      "Excellent reach and concentrated severing damage for a head, tail or wake-up opening."
+    ],
+    "tradeoffs": [
+      "A missed finisher wastes a long opening; Tackle still takes damage.",
+      "Charging too long overcharges the slash and reduces its power.",
+      "Guard is an escape option rather than a replacement for positioning."
+    ],
+    "loop": [
+      "Charged Slash",
+      "Strong Charged Slash",
+      "True Charged Slash",
+      "Evade and sheathe"
+    ],
+    "iceborne": "Slinger Burst after an attack provides a shortcut to True Charged Slash and lets you redirect. Landing its first hit on a suitable weak point strengthens the second hit into True Charged Slash (Power).",
+    "iceborneLoop": [
+      "Draw Slash",
+      "Slinger Burst",
+      "True Charged Slash",
+      "Evade and sheathe"
+    ],
+    "skills": [
+      "Focus for shorter charges",
+      "Weakness Exploit",
+      "Critical Eye / Critical Boost",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Holding every charge to maximum when the opening is already ending.",
+      "Trying to walk after a running monster with the sword drawn."
+    ],
+    "progression": "Favor usable sharpness and strong raw damage; add Focus and affinity without giving up survivability.",
+    "worldProgression": "Build raw damage, usable sharpness and Focus; add affinity as High Rank armor improves.",
+    "iceborneProgression": "Upgrade to a Master Rank raw weapon early. Later choose sustained True Charged Slash play or a deliberate draw-attack/Frostcraft direction.",
+    "tip": "A safe level-two hit beats a level-three swing into empty space.",
+    "source": "https://mhworld.kiranico.com/en/guide/great-sword",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/great-sword",
+      "https://mhworld.kiranico.com/en/weapons?type=0"
+    ]
+  },
+  {
+    "id": "long-sword",
+    "name": "Long Sword",
+    "short": "Keep a long blade moving, build Spirit levels, and turn a monster's attack into your next opening.",
+    "role": "Severing • reach and counterattacks",
+    "reach": "Long; broad sweeps can interrupt nearby allies",
+    "defense": "No shield; evade or time Foresight Slash",
+    "mobility": "Fluid steps, Fade Slash and mobile attack chains",
+    "complexity": "Medium",
+    "strengths": [
+      "Ordinary hits fill the Spirit Gauge; landing Spirit Roundslash raises its level through white, yellow and red.",
+      "Foresight Slash can evade an incoming attack and lead into Spirit Roundslash when the counter succeeds.",
+      "Spirit Thrust into Spirit Helm Breaker spends a Spirit level for a strong punish."
+    ],
+    "tradeoffs": [
+      "Damage depends on building and maintaining the colored Spirit levels.",
+      "Counters require timing and room; there is no block to fall back on.",
+      "Spirit Helm Breaker can miss or be interrupted if started without a real opening."
+    ],
+    "loop": [
+      "Overhead Slash and Thrust",
+      "Spirit Blade combo",
+      "Spirit Roundslash",
+      "Spirit Thrust → Spirit Helm Breaker at a safe opening"
+    ],
+    "iceborne": "Special Sheathe branches into Iai Slash for gradual Spirit regeneration or Iai Spirit Slash for a counter. Correctly timing Iai Spirit Slash preserves your current Spirit level. Slinger Burst can be woven into Spirit combos.",
+    "iceborneLoop": [
+      "Build Spirit Gauge",
+      "Spirit Roundslash",
+      "Special Sheathe → Iai Slash",
+      "Counter or punish with Spirit Helm Breaker"
+    ],
+    "skills": [
+      "Weakness Exploit",
+      "Critical Eye",
+      "Critical Boost",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Spending Spirit levels repeatedly before reaching red.",
+      "Starting a long Spirit combo while a monster is already winding up."
+    ],
+    "progression": "Prioritize raw damage, affinity and comfortable sharpness; learn short attacks that leave time to counter.",
+    "worldProgression": "Use a strong raw blade with reliable sharpness; build affinity and preserve red Spirit when possible.",
+    "iceborneProgression": "Replace High Rank weapons with Master Rank upgrades and improve affinity. Quick Sheath provides only a small Special Sheathe benefit in this game.",
+    "tip": "Practice countering a predictable roar, then learn the same timing against attacks.",
+    "source": "https://mhworld.kiranico.com/en/guide/long-sword",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/long-sword",
+      "https://mhworld.kiranico.com/en/weapons?type=3"
+    ]
+  },
+  {
+    "id": "sword-and-shield",
+    "name": "Sword & Shield",
+    "short": "Use quick attacks, flexible footwork and immediate item access to stay ready for almost anything.",
+    "role": "Severing and blunt • adaptable close combat",
+    "reach": "Short; stay close to the chosen weak point",
+    "defense": "Light emergency guard and an evasive Backstep",
+    "mobility": "High, with fast sheathing and short commitments",
+    "complexity": "Low",
+    "strengths": [
+      "Sword strings can change direction with Spiral Slash; shield strikes can build stun at the head.",
+      "Use items with the weapon drawn while guarding, including healing and hunting tools.",
+      "Backstep leads into Charged Slash, Scaling Slash and a Falling Bash punish."
+    ],
+    "tradeoffs": [
+      "The short sword struggles to reach high parts without a knockdown.",
+      "Its small shield absorbs less comfortably than a Lance shield.",
+      "Shield strikes do not apply the sword's element or status; choose attacks to suit the build."
+    ],
+    "loop": [
+      "Advancing Slash",
+      "Lateral Slash → Return Stroke",
+      "Spiral Slash to reposition",
+      "Backstep → Charged Slash",
+      "Scaling Slash → Falling Bash"
+    ],
+    "iceborne": "Perfect Rush follows Backstep or Slinger Burst and rewards timed inputs with stronger hits. Claw Uppercut follows an evade and contributes to wounding. You can switch between ordinary Slinger fire and Burst mode with the weapon drawn.",
+    "iceborneLoop": [
+      "Short sword attacks",
+      "Backstep",
+      "Leaping Slash",
+      "Timed Perfect Rush",
+      "Evade and reposition"
+    ],
+    "skills": [
+      "Weakness Exploit / Critical Eye",
+      "Critical Boost",
+      "Health Boost",
+      "Wide-Range only for an intentional item-support build"
+    ],
+    "mistakes": [
+      "Holding guard through every heavy attack instead of using movement.",
+      "Spamming the full sword/shield string when a short repositioning combo would keep attacks on the weak point."
+    ],
+    "progression": "Build damage and survivability first; item access does not force you into a healing-only role.",
+    "worldProgression": "Choose reliable raw or matchup-specific elemental weapons, then add affinity and enough sharpness for frequent hits.",
+    "iceborneProgression": "Build around good raw damage and affinity for Perfect Rush; keep elemental options for appropriate matchups.",
+    "tip": "Support the party by attacking too; your shield and sword are useful hunting tools.",
+    "source": "https://mhworld.kiranico.com/en/guide/sword-and-shield",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/sword-and-shield",
+      "https://mhworld.kiranico.com/en/weapons?type=1"
+    ]
+  },
+  {
+    "id": "dual-blades",
+    "name": "Dual Blades",
+    "short": "Trade reach for relentless paired strikes, rapid repositioning and strong elemental pressure.",
+    "role": "Severing • close-range elemental offense",
+    "reach": "Very short; legs and lowered weak points are accessible targets",
+    "defense": "No guard; evade and preserve an escape reserve",
+    "mobility": "Very high, especially in Demon Mode",
+    "complexity": "Medium",
+    "strengths": [
+      "Demon Mode changes attacks and dodges while steadily draining stamina.",
+      "Demon Mode hits fill the Demon Gauge; Archdemon Mode keeps enhanced options available outside Demon Mode while spending that gauge.",
+      "Frequent hits reward matching your element to the monster and the part you can actually reach."
+    ],
+    "tradeoffs": [
+      "Stamina and sharpness need frequent attention.",
+      "Blade Dance commits you to a long animation.",
+      "High tails and wings can be awkward until the monster falls."
+    ],
+    "loop": [
+      "Activate Demon Mode",
+      "Demon Flurry Rush",
+      "Rising Slash → Demon Fangs",
+      "Blade Dance only during a long opening",
+      "Exit Demon Mode and recover stamina"
+    ],
+    "iceborne": "Slinger Burst adds an evasive repositioning option. The Demon Mode spinning combo can lead into a Clutch Claw attack; its Spinning Rising Slash helps wound a part in the fully updated game.",
+    "iceborneLoop": [
+      "Demon Flurry Rush",
+      "Roundslash → Double Roundslash",
+      "Clutch Claw follow-up",
+      "Spinning Rising Slash",
+      "Recover and resume pressure"
+    ],
+    "skills": [
+      "Matching elemental attack",
+      "Critical Element when available",
+      "Weakness Exploit / affinity",
+      "Stamina Surge / Marathon Runner for comfort",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Leaving Demon Mode active until stamina hits zero.",
+      "Using Blade Dance as a gap closer while the monster is free to retaliate."
+    ],
+    "progression": "Maintain several elemental pairs and usable sharpness; stamina comfort helps keep damage consistent.",
+    "worldProgression": "Grow an elemental weapon collection and add Critical Element once your equipment permits it.",
+    "iceborneProgression": "Upgrade each relevant element into Master Rank and balance element, affinity, sharpness and stamina management.",
+    "tip": "Switch out of Demon Mode before you need to dodge, rather than after stamina runs out.",
+    "source": "https://mhworld.kiranico.com/en/guide/dual-blades",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/dual-blades",
+      "https://mhworld.kiranico.com/en/weapons?type=2"
+    ]
+  },
+  {
+    "id": "hammer",
+    "name": "Hammer",
+    "short": "Circle the head, charge while moving, and turn accurate impacts into knockouts.",
+    "role": "Blunt • head pressure and stun",
+    "reach": "Compact swings, with a useful advancing charged upswing",
+    "defense": "No shield; dodge and use safe charge releases",
+    "mobility": "Good movement while charging",
+    "complexity": "Low",
+    "strengths": [
+      "Blunt hits to the head build stun; charge levels offer different tools rather than one attack to repeat.",
+      "Power Charge improves attacks and is worth renewing after sheathing or being knocked out of it.",
+      "The Big Bang chain rewards a long, reliable opening such as a topple or knockout."
+    ],
+    "tradeoffs": [
+      "Head access requires learning each monster's attack recovery.",
+      "Big Bang must keep connecting to continue its chain.",
+      "A Hammer does not sever tails through its normal blunt attacks."
+    ],
+    "loop": [
+      "Power Charge",
+      "Charged Brutal Upswing to a short opening",
+      "Evade and reposition",
+      "Big Bang chain on a knockdown"
+    ],
+    "iceborne": "Fire Slinger Burst while charging without abandoning the charge. Several charged attacks can link directly into Clutch Claw follow-ups, making head wounds easier to maintain during suitable openings.",
+    "iceborneLoop": [
+      "Power Charge",
+      "Charged Brutal Big Bang",
+      "Clutch Claw follow-up",
+      "Wounding weapon attack",
+      "Big Bang chain on a later knockdown"
+    ],
+    "skills": [
+      "Weakness Exploit",
+      "Critical Eye / Critical Boost",
+      "Health Boost",
+      "Slugger for optional stun comfort"
+    ],
+    "mistakes": [
+      "Starting Big Bang while the monster is still moving freely.",
+      "Releasing level-three charge while moving when you wanted the stationary slam."
+    ],
+    "progression": "Favor strong raw damage, affinity and comfortable sharpness; extra stun skills do not replace accurate head hits.",
+    "worldProgression": "Use a strong raw Hammer and build affinity while maintaining health and defense.",
+    "iceborneProgression": "Move to Master Rank raw upgrades early; add sharpness management as your armor slots improve.",
+    "tip": "Stop moving before releasing a stationary level-three charge; your movement changes the attack.",
+    "source": "https://mhworld.kiranico.com/en/guide/hammer",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/hammer",
+      "https://mhworld.kiranico.com/en/weapons?type=4"
+    ]
+  },
+  {
+    "id": "hunting-horn",
+    "name": "Hunting Horn",
+    "short": "Fight with a long-reaching blunt instrument while turning attack notes into powerful melodies.",
+    "role": "Blunt • damage, stun and team buffs",
+    "reach": "Long arcs; the head can be reached from useful angles",
+    "defense": "No shield; use spacing and shorter performances",
+    "mobility": "Strong drawn movement with Self-Improvement active",
+    "complexity": "High",
+    "strengths": [
+      "Attacks generate notes; the horn's note colors determine its song list.",
+      "Queue melodies, then play a Performance to activate them. Encore can enhance or extend compatible effects.",
+      "Self-Improvement buffs you; other melodies can help nearby teammates. Recital hits also contribute real damage and stun."
+    ],
+    "tradeoffs": [
+      "Building a song does not automatically activate it: World requires performing it.",
+      "Recitals and encores can leave long openings for the monster.",
+      "A high attack number is not the whole choice; the available songs matter."
+    ],
+    "loop": [
+      "Attack notes for Self-Improvement",
+      "Performance → Encore when safe",
+      "Attack notes for a useful team melody",
+      "Damaging Performance at an opening",
+      "Refresh the needed songs"
+    ],
+    "iceborne": "Echo Attack adds a spinning hit and an Echo note. New Echo melodies vary by horn, including attack waves or lingering buff areas. Impact/Dragon Echo Wave setups reward arranging the song queue before a large opening; check each horn's song list.",
+    "iceborneLoop": [
+      "Keep essential melodies active",
+      "Attack → Echo Attack",
+      "Build compatible Echo melodies",
+      "Performance at a long opening",
+      "Encore if the opening remains safe"
+    ],
+    "skills": [
+      "Horn Maestro",
+      "Weakness Exploit / affinity",
+      "Critical Boost",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Standing far away playing songs while contributing no weapon damage.",
+      "Forcing a full multi-song encore after the opening has ended."
+    ],
+    "progression": "Choose a useful song list with solid raw damage and sharpness; keep your own buffs active while learning recital positioning.",
+    "worldProgression": "Prioritize useful melodies and Horn Maestro, then raw damage, sharpness and affinity.",
+    "iceborneProgression": "Compare Master Rank song lists and Echo options; combine Horn Maestro with a damage build you can play aggressively.",
+    "tip": "Prepare songs through attacks that hit the monster, then make the performance itself part of the punish.",
+    "source": "https://mhworld.kiranico.com/en/guide/hunting-horn",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/hunting-horn",
+      "https://mhworld.kiranico.com/en/weapons?type=5"
+    ]
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "short": "Hold the weak point with accurate thrusts, guarded movement and well-timed counters.",
+    "role": "Severing • precise pressure and defense",
+    "reach": "Long, accurate mid and high thrusts",
+    "defense": "Strong shield, Counter-thrust and Power Guard",
+    "mobility": "Slow walking; Guard Dash, hops and Dash Attack cover ground",
+    "complexity": "Medium",
+    "strengths": [
+      "Three-thrust strings can reset with a hop or counter to keep pressure on one part.",
+      "Guard Dash moves with protection and can follow into a Leaping Thrust.",
+      "Power Guard offers flexible counter direction, but its stamina drain and chip damage demand care."
+    ],
+    "tradeoffs": [
+      "Blocking consumes stamina and can still cause chip damage and knockback.",
+      "Some attacks need Guard Up; other special attacks still require avoidance.",
+      "Staying defensive without attacking makes hunts much longer."
+    ],
+    "loop": [
+      "Mid or High Thrust I",
+      "Thrust II",
+      "Thrust III",
+      "Counter-thrust or hop reset",
+      "Guard Dash → Leaping Thrust to follow movement"
+    ],
+    "iceborne": "Slinger Guard allows protected Slinger aiming and Burst fire. Counter Claw catches a suitable incoming hit and grapples onto the monster for a wounding follow-up; attachment is not complete immunity to damage.",
+    "iceborneLoop": [
+      "Thrust string",
+      "Counter-thrust",
+      "Counter Claw for a suitable physical hit",
+      "Wounding weapon attack",
+      "Return to guarded pressure"
+    ],
+    "skills": [
+      "Guard, adjusted to the matchup",
+      "Guard Up where needed",
+      "Weakness Exploit / affinity",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Holding Power Guard until stamina disappears.",
+      "Sheathing after every small reposition instead of learning Guard Dash and hops."
+    ],
+    "progression": "Buy enough Guard comfort to keep counterattacking, then improve raw damage, affinity and sharpness.",
+    "worldProgression": "Build Guard comfort and an upgraded raw Lance; add affinity and sharpness management as you progress.",
+    "iceborneProgression": "Master Rank attacks punish weak guard setups; reassess Guard and Guard Up per matchup while upgrading your damage gear.",
+    "tip": "Think of the shield as a way to keep attacking at the weak point, not a reason to wait behind it.",
+    "source": "https://mhworld.kiranico.com/en/guide/lance",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/lance",
+      "https://mhworld.kiranico.com/en/weapons?type=6"
+    ]
+  },
+  {
+    "id": "gunlance",
+    "name": "Gunlance",
+    "short": "Mix a sturdy shield and heavy thrusts with close-range shell blasts that punish tough hides.",
+    "role": "Severing and shelling • close-range artillery",
+    "reach": "Long thrusts; shell range depends on shell type",
+    "defense": "Strong shield, but no Lance-style Counter-thrust",
+    "mobility": "Slow drawn movement; deliberate hops and positioning",
+    "complexity": "Medium",
+    "strengths": [
+      "Shells use a reloadable magazine rather than inventory ammunition; shell level strongly matters.",
+      "Normal favors Full Burst, Long favors charged shelling, and Wide supports strong single-shell/poke-shell play.",
+      "Much of shell damage ignores part toughness; thrusts and swings still care about hitzones."
+    ],
+    "tradeoffs": [
+      "Shelling consumes sharpness, and very poor sharpness harms or prevents shelling.",
+      "Quick Reload restores shells but does not replace a full reload for Wyrmstake Cannon.",
+      "Long attacks and Wyvern's Fire need a safe opening and room around teammates."
+    ],
+    "loop": [
+      "Rising Slash",
+      "Overhead Smash",
+      "Full Burst with a Normal-shell Gunlance",
+      "Wide Sweep",
+      "Quick Reload → Overhead Smash"
+    ],
+    "iceborne": "Load Slinger ammo to create Wyrmstake Blast, then plant it in a chosen part. Nearby shell explosions trigger extra blasts from that stake; aim subsequent shelling at the planted area. This differs from the ordinary Wyrmstake Cannon.",
+    "iceborneLoop": [
+      "Load Slinger ammo into Wyrmstake Blast",
+      "Plant Wyrmstake Blast",
+      "Shell or charged shell near the stake",
+      "Quick Reload",
+      "Repeat while maintaining the stake"
+    ],
+    "skills": [
+      "Artillery for shelling",
+      "Capacity Boost",
+      "Focus for charged-shell play",
+      "Guard / Evade Extender for comfort",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Choosing by displayed attack alone while ignoring shell type and level.",
+      "Using the Normal Full Burst loop on every Gunlance regardless of its shelling strengths."
+    ],
+    "progression": "Pick a shelling style first, then build around its level and supporting skills; melee-heavy styles also need raw and affinity.",
+    "worldProgression": "Upgrade the shell level of your preferred type and add Artillery plus Capacity Boost.",
+    "iceborneProgression": "Seek strong Master Rank shell levels and maintain Wyrmstake Blast. Choose shell-focused or mixed melee damage deliberately.",
+    "tip": "The listed loop demonstrates Normal shelling; a Long charged-shell loop and a Wide poke-shell loop are equally valid styles.",
+    "source": "https://mhworld.kiranico.com/en/guide/gunlance",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/gunlance",
+      "https://mhworld.kiranico.com/en/weapons?type=7"
+    ]
+  },
+  {
+    "id": "switch-axe",
+    "name": "Switch Axe",
+    "short": "Flow between a far-reaching axe and a phial-powered sword while managing two different gauges.",
+    "role": "Severing • morphing sustained offense",
+    "reach": "Long Axe sweeps; Sword favors close contact",
+    "defense": "No shield or dedicated counter; evade and space carefully",
+    "mobility": "Good in Axe mode, restricted in Sword mode",
+    "complexity": "Medium",
+    "strengths": [
+      "Axe mode provides reach and restores the Switch Gauge; Sword attacks spend that gauge and apply the weapon's phial effect.",
+      "Sword hits build the separate Amp Gauge. Amped Sword attacks trigger additional bursts.",
+      "Morph attacks connect the two forms; an amped Element Discharge can become a clinging Zero Sum Discharge."
+    ],
+    "tradeoffs": [
+      "An empty Switch Gauge can force an exposed reload instead of the morph you expected.",
+      "Sword mobility is limited and Zero Sum Discharge does not make you invincible.",
+      "Phial type changes the weapon's damage or utility; it is separate from Charge Blade's stored phials."
+    ],
+    "loop": [
+      "Axe attacks and positioning",
+      "Morph Slash into Sword",
+      "Sword Double Slash / Heavenward Flurry to build Amp",
+      "Amped Sword attacks during the opening",
+      "Morph back before the Switch Gauge empties"
+    ],
+    "iceborne": "After sufficient Wild Swing hits, Heavy Slam activates Power Axe for stronger part damage and flinching potential. This is separate from Amped Sword mode. Improved Axe Fade Slash and Slinger Burst aid disengagement; Clutch Claw routes support Zero Sum Discharge when amped.",
+    "iceborneLoop": [
+      "Wild Swing → Heavy Slam",
+      "Power Axe pressure on a chosen part",
+      "Morph and build Amp in Sword mode",
+      "Amped Sword punish or safe Zero Sum Discharge",
+      "Axe Fade Slash to disengage"
+    ],
+    "skills": [
+      "Power Prolonger",
+      "Evade Extender / Evade Window for comfort",
+      "Weakness Exploit / affinity",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Ignoring the Switch Gauge and triggering an exposed reload.",
+      "Clinging through dangerous monster attacks just to finish a Zero Sum Discharge."
+    ],
+    "progression": "Build raw damage and sharpness with a suitable phial; add evasion comfort before forcing longer Sword openings.",
+    "worldProgression": "Choose a good raw/phial combination, learn gauge-aware morphing, then add affinity and sharpness support.",
+    "iceborneProgression": "Upgrade into Master Rank and use Power Prolonger plus evasion comfort; choose between Axe control and amped Sword opportunities.",
+    "tip": "Look at both gauges: Switch energy permits Sword mode, while Amp charge enables its extra bursts.",
+    "source": "https://mhworld.kiranico.com/en/guide/switch-axe",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/switch-axe",
+      "https://mhworld.kiranico.com/en/weapons?type=8"
+    ]
+  },
+  {
+    "id": "charge-blade",
+    "name": "Charge Blade",
+    "short": "Store Sword energy in phials, charge the shield, then convert a guarded opening into an Axe punish.",
+    "role": "Severing and phial damage • resource-heavy burst",
+    "reach": "Short Sword, long Axe swings and discharge coverage",
+    "defense": "Sword-mode shield and timed guard points; Axe mode cannot guard",
+    "mobility": "Flexible in Sword mode, committed in Axe mode",
+    "complexity": "High",
+    "strengths": [
+      "Sword hits build energy. Load it into phials before overheating; spend phials to charge the shield or fuel discharges.",
+      "A charged shield improves guarding and unlocks Super Amped Element Discharge; ordinary Amped Element Discharge remains a useful smaller punish.",
+      "Impact phials can stun at the head. Power Element phials depend strongly on elemental matchup and hitzone."
+    ],
+    "tradeoffs": [
+      "Shield charge, stored phials and Sword heat are different resources.",
+      "Guard points are timed guards, not invincibility; excessive knockback can prevent your counter.",
+      "Super Amped Element Discharge spends all stored phials and needs space and time to land."
+    ],
+    "loop": [
+      "Sword: Forward Slash → Charged Double Slash",
+      "Load Phials",
+      "Discharge wind-up → Elemental Roundslash to charge the shield",
+      "Refill phials with Sword attacks",
+      "Amped or Super Amped Element Discharge at a safe opening"
+    ],
+    "iceborne": "Cancel a discharge wind-up into Savage Axe Slash to activate Power Axe while phials remain. Rotating Axe attacks gain extra hits and phials drain over time. Choose sustained Savage Axe attacks or a discharge punish according to the opening; neither is mandatory for every encounter.",
+    "iceborneLoop": [
+      "Charge shield and refill phials",
+      "Discharge wind-up → Savage Axe Slash",
+      "Axe attacks across a weak part",
+      "Return to Sword and refill",
+      "Choose Savage Axe or a discharge for the next opening"
+    ],
+    "skills": [
+      "Capacity Boost",
+      "Focus for Sword energy comfort",
+      "Guard for manageable counter reactions",
+      "Artillery for Impact phials only",
+      "Elemental attack for Power Element phials"
+    ],
+    "mistakes": [
+      "Adding Artillery to boost Power Element phials; it does not.",
+      "Forcing a full discharge after every block without checking the recovery window."
+    ],
+    "progression": "Choose Impact or Power Element deliberately; build the matching skills and enough Guard comfort before chasing burst damage.",
+    "worldProgression": "A strong Impact weapon is a flexible start; combine Capacity Boost, useful Guard and phial-appropriate damage skills.",
+    "iceborneProgression": "Decide whether your build favors Savage Axe, Impact discharges or elemental discharges, then balance affinity or phial skills accordingly.",
+    "tip": "Learn a repeatable charge-shield-refill routine before adding guard-point counters and full discharges.",
+    "source": "https://mhworld.kiranico.com/en/guide/charge-blade",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/charge-blade",
+      "https://mhworld.kiranico.com/en/weapons?type=9"
+    ]
+  },
+  {
+    "id": "insect-glaive",
+    "name": "Insect Glaive",
+    "short": "Coordinate a swift glaive and a Kinsect to collect extracts, reposition freely and punish from the ground or air.",
+    "role": "Severing • extract buffs and aerial mobility",
+    "reach": "Good staff reach with access to aerial approaches",
+    "defense": "No guard; mobility and spacing are your protection",
+    "mobility": "Very high, with Vault and Midair Evade",
+    "complexity": "Medium",
+    "strengths": [
+      "Send the Kinsect to harvest extracts: red improves attacks, white improves movement, orange supports defense, and green heals.",
+      "Red plus white is a useful baseline; combining red, white and orange gives a stronger temporary triple buff.",
+      "Mark a part for Kinsect pressure and trigger its dust while fighting; Vault provides independent access to mounting attacks."
+    ],
+    "tradeoffs": [
+      "Losing red extract greatly weakens the normal attack routine.",
+      "Aerial movement spends stamina and does not make you safe from every hitbox.",
+      "Grounded attacks are important damage tools; endless helicopter attacks are not a complete plan."
+    ],
+    "loop": [
+      "Kinsect: harvest red and white extracts",
+      "Recall Kinsect",
+      "Strong Rising Slash → Strong Reaping Slash",
+      "Strong Wide Sweep → Tornado Slash",
+      "Evade and refresh extracts"
+    ],
+    "iceborne": "Spend Slinger ammo to boost the Kinsect, allowing it to carry two extracts before recall. The ammo and glaive's Kinsect bonus influence the boost. Descending Thrust adds an aerial dive that marks a part and can draw a Kinsect follow-up; aerial Clutch Claw is also available.",
+    "iceborneLoop": [
+      "Boost Kinsect with Slinger ammo",
+      "Collect and recall extracts",
+      "Grounded glaive combo",
+      "Vault → Descending Thrust when appropriate",
+      "Maintain extracts and Kinsect pressure"
+    ],
+    "skills": [
+      "Power Prolonger for extract comfort",
+      "Weakness Exploit / affinity",
+      "Sharpness management",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Attacking for a long period without red extract.",
+      "Assuming every airborne hit contributes equally to mounting or damage."
+    ],
+    "progression": "Upgrade the Kinsect as well as the glaive; a comfortable Kinsect speed makes extract collection easier.",
+    "worldProgression": "Pair a raw glaive with a Kinsect you can aim reliably; improve affinity, sharpness and extract uptime.",
+    "iceborneProgression": "Upgrade both partners into Master Rank and choose a useful Kinsect bonus; learn Descending Thrust alongside grounded damage.",
+    "tip": "Find each monster's red-extract part early, then make collecting it a repeatable opening action.",
+    "source": "https://mhworld.kiranico.com/en/guide/insect-glaive",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/insect-glaive",
+      "https://mhworld.kiranico.com/en/weapons?type=10"
+    ]
+  },
+  {
+    "id": "light-bowgun",
+    "name": "Light Bowgun",
+    "short": "Stay mobile, choose a strong ammunition plan, and weave precise shooting with status control and mines.",
+    "role": "Shot and ammo-specific damage • mobile gunner",
+    "reach": "Ammo-dependent; use the reticle to judge critical distance",
+    "defense": "No shield; evade and respect gunner vulnerability to physical hits",
+    "mobility": "High, though recoil and reload can immobilize you",
+    "complexity": "Medium",
+    "strengths": [
+      "Each gun has a different ammo table: capacity, recoil, reload and rapid-fire support matter more than raw attack alone.",
+      "Normal rewards accurate weak-point hits, Spread works close, Pierce wants a long path, and elemental ammo needs a matching target.",
+      "Supported status ammo can create openings; Wyvernblast mines add damage when triggered."
+    ],
+    "tradeoffs": [
+      "Build for selected ammo rather than carrying one gun as the best option for every type.",
+      "Sticky explosions do not use affinity like ordinary bullets; do not copy a Spread build blindly.",
+      "You need ammunition and crafting materials, with crafting shortcuts prepared before a hunt."
+    ],
+    "loop": [
+      "Choose primary ammo and appropriate distance",
+      "Fire into the selected hitzone",
+      "Evade after the firing opening",
+      "Reload or craft during recovery",
+      "Place Wyvernblast when the monster is controlled"
+    ],
+    "iceborne": "Evading Reload mods can reload rounds through a sliding evade; the number of installed mods determines rounds restored. New options include Wyvernblast Counter and other bowgun customizations. Test the exact gun/ammo/mod combination in the Training Area.",
+    "iceborneLoop": [
+      "Fire chosen ammo",
+      "Evade → sliding Evading Reload if configured",
+      "Resume aimed fire",
+      "Craft ammunition during a safe pause",
+      "Use Wyvernblast or supported status ammo for openings"
+    ],
+    "skills": [
+      "Free Elem/Ammo Up where it improves the chosen magazine",
+      "Relevant Normal / Pierce / Spread skill",
+      "Elemental attack for elemental ammo",
+      "Artillery for Sticky ammo",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Ignoring recoil and reload ratings when comparing guns.",
+      "Firing outside useful range or running out of crafting materials halfway through a hunt."
+    ],
+    "progression": "Pick a primary ammo plan and configure mods for safe recoil/reload; tailor damage skills to that ammo.",
+    "worldProgression": "Choose a gun with comfortable primary-ammo handling, then add matching shot skills and ammo capacity where useful.",
+    "iceborneProgression": "Upgrade the gun and retest its mod thresholds; consider Evading Reload only where it supports your chosen ammo.",
+    "tip": "Rapid fire, moving shots and moving reload depend on the exact ammunition and handling; check the ammo details screen.",
+    "source": "https://mhworld.kiranico.com/en/guide/light-bowgun",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/light-bowgun",
+      "https://mhworld.kiranico.com/en/weapons?type=13"
+    ]
+  },
+  {
+    "id": "heavy-bowgun",
+    "name": "Heavy Bowgun",
+    "short": "Trade agility for powerful ammunition setups, larger magazines and a deliberate choice between shielding and evasion.",
+    "role": "Shot and ammo-specific damage • heavy gunner",
+    "reach": "Ammo-dependent; Pierce and Spread require very different positions",
+    "defense": "Optional shield mods guard while ready and facing the attack, not during firing, reload or evasion",
+    "mobility": "Slow walking and sheathing, with a long committed evade",
+    "complexity": "Medium",
+    "strengths": [
+      "A suitable ammo table and mods support sustained Normal, Spread, Pierce or explosive-ammo play.",
+      "The gun provides either Wyvernheart machine-gun fire or Wyvernsnipe piercing special ammo; these recharge over time.",
+      "Shield mods can support a guarded playstyle when paired with suitable skills and careful timing."
+    ],
+    "tradeoffs": [
+      "A shield does not protect you through firing and reload animations.",
+      "Long movement and sheathing commitments punish late reactions.",
+      "Cluster and Wyvern ammo can disrupt teammates; explosive ammo also uses different damage skills from ordinary bullets."
+    ],
+    "loop": [
+      "Aim at the chosen critical-distance hitzone",
+      "Fire a safe volley",
+      "Stop firing to guard or reposition",
+      "Reload during a real opening",
+      "Use Wyvernheart / Wyvernsnipe when safe"
+    ],
+    "iceborne": "Special Scope offers a distinct supercritical-distance damage mechanic, while additional mods change special-ammo behavior or projectile handling. Scope play narrows awareness; shield comfort and maximum-damage scope setups solve different problems.",
+    "iceborneLoop": [
+      "Set the chosen ammo's firing distance",
+      "Use Special Scope only if configured",
+      "Fire a controlled volley",
+      "Guard or evade before the next attack",
+      "Reload and craft safely"
+    ],
+    "skills": [
+      "Matching Normal / Pierce / Spread skill",
+      "Free Elem/Ammo Up where useful",
+      "Guard / Guard Up for a shield build",
+      "Artillery for Sticky ammo",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Continuing to fire while expecting an installed shield to block.",
+      "Mixing shot, explosive and elemental skills without a clear primary-ammo plan."
+    ],
+    "progression": "Build around the gun's strongest practical ammo and handling, then choose a shield or evasion plan.",
+    "worldProgression": "Select comfortable recoil/reload and a clear primary ammo type before optimizing affinity or special-ammo damage.",
+    "iceborneProgression": "Reconfigure mods for Master Rank ammo options; add scope damage only if you can maintain its distance and awareness.",
+    "tip": "End the volley early enough to be ready for the incoming hit; guarding starts after the firing recovery ends.",
+    "source": "https://mhworld.kiranico.com/en/guide/heavy-bowgun",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/heavy-bowgun",
+      "https://mhworld.kiranico.com/en/weapons?type=12"
+    ]
+  },
+  {
+    "id": "bow",
+    "name": "Bow",
+    "short": "Keep charged arrows on an elemental weak point while balancing dash movement, coatings and stamina recovery.",
+    "role": "Shot • mobile elemental offense",
+    "reach": "Short-to-mid range; coatings and shot choice change useful distance",
+    "defense": "No guard; maintain a stamina reserve for avoidance",
+    "mobility": "High through Charging Sidestep, limited by stamina",
+    "complexity": "Medium",
+    "strengths": [
+      "Successive shots and Charging Sidestep raise or maintain charge; Power Shot adds a close fan of arrows.",
+      "Match the bow's element to the target and aim at useful shot/element hitzones.",
+      "Power Coating boosts damage while stocks last; Close-range Coating is unlimited but shortens useful range. Supported status coatings provide optional control."
+    ],
+    "tradeoffs": [
+      "Shots, charging and sidesteps compete for stamina; constant dash spam can remove your escape.",
+      "Not every bow accepts every coating.",
+      "Dragon Piercer has a long commitment and is a situational tool rather than the default elemental damage loop."
+    ],
+    "loop": [
+      "Quick Shot",
+      "Charged Shot",
+      "Power Shot",
+      "Charging Sidestep → Charged Shot while stamina permits",
+      "Pause to recover stamina"
+    ],
+    "iceborne": "Thousand Dragons releases a close-range spread and can consume equipped Slinger ammo to strengthen the attack. It is separate from Dragon Piercer. Clutch Claw attacks help create better parts to shoot and supply Slinger ammo.",
+    "iceborneLoop": [
+      "Build shot charge",
+      "Charged Shot → Power Shot",
+      "Charging Sidestep to stay on target",
+      "Recover stamina",
+      "Use Thousand Dragons only at a suitable close opening"
+    ],
+    "skills": [
+      "Constitution",
+      "Stamina Surge",
+      "Matching elemental attack / Critical Element",
+      "Bow Charge Plus when available",
+      "Health Boost"
+    ],
+    "mistakes": [
+      "Dashing until there is no stamina left for the monster's next attack.",
+      "Standing far away with Close-range Coating and wondering why damage falls."
+    ],
+    "progression": "Build several elemental bows and enough stamina support to sustain useful charge; add affinity and Bow Charge Plus as available.",
+    "worldProgression": "Grow an elemental bow collection and combine stamina skills with elemental damage; rare decorations are upgrades, not prerequisites to play.",
+    "iceborneProgression": "Upgrade elemental matchups into Master Rank and improve charge/stamina support before pursuing narrow endgame damage setups.",
+    "tip": "Spend stamina on accurate arrows and necessary movement, then recover before your escape reserve disappears.",
+    "source": "https://mhworld.kiranico.com/en/guide/bow",
+    "image": null,
+    "sources": [
+      "https://mhworld.kiranico.com/en/guide/bow",
+      "https://mhworld.kiranico.com/en/weapons?type=11"
+    ]
+  }
+]

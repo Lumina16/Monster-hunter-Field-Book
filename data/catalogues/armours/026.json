@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "armour-1301",
+    "sourceId": 1301,
+    "name": "Rimeguard Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      },
+      {
+        "id": "skill-coalescence",
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-alpha-plus",
+    "setName": "Velkhana α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-957",
+          "name": "Velkhana Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-833",
+          "name": "Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1302",
+    "sourceId": 1302,
+    "name": "Rimeguard Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-velkhana-beta-plus",
+    "setName": "Velkhana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-956",
+          "name": "Velkhana Crownhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1303",
+    "sourceId": 1303,
+    "name": "Rimeguard Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-velkhana-beta-plus",
+    "setName": "Velkhana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-825",
+          "name": "Legiana Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1304",
+    "sourceId": 1304,
+    "name": "Rimeguard Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-beta-plus",
+    "setName": "Velkhana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-955",
+          "name": "Velkhana Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-956",
+          "name": "Velkhana Crownhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-959",
+          "name": "Velkhana Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1305",
+    "sourceId": 1305,
+    "name": "Rimeguard Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-velkhana-beta-plus",
+    "setName": "Velkhana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-958",
+          "name": "Velkhana Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1306",
+    "sourceId": 1306,
+    "name": "Rimeguard Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-velkhana-beta-plus",
+    "setName": "Velkhana β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Velkhana Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-frostcraft",
+          "name": "Frostcraft",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -1,
+        "ice": 4,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-954",
+          "name": "Velkhana Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-953",
+          "name": "Crystal Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-957",
+          "name": "Velkhana Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-833",
+          "name": "Odogaron Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1307",
+    "sourceId": 1307,
+    "name": "Fellshroud Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-alpha-plus",
+    "setName": "Blackveil Hazak α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-983",
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        },
+        {
+          "id": "item-984",
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1308",
+    "sourceId": 1308,
+    "name": "Fellshroud Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-alpha-plus",
+    "setName": "Blackveil Hazak α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 3
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1309",
+    "sourceId": 1309,
+    "name": "Fellshroud Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-alpha-plus",
+    "setName": "Blackveil Hazak α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-985",
+          "name": "Vaal Hazak Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-983",
+          "name": "Shadowpierce Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1310",
+    "sourceId": 1310,
+    "name": "Fellshroud Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 2
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-alpha-plus",
+    "setName": "Blackveil Hazak α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-985",
+          "name": "Vaal Hazak Fellwing",
+          "quantity": 4
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1311",
+    "sourceId": 1311,
+    "name": "Fellshroud Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-alpha-plus",
+    "setName": "Blackveil Hazak α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-982",
+          "name": "Vaal Hazak Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1312",
+    "sourceId": 1312,
+    "name": "Fellshroud Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-beta-plus",
+    "setName": "Blackveil Hazak β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-983",
+          "name": "Shadowpierce Fang",
+          "quantity": 1
+        },
+        {
+          "id": "item-984",
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1313",
+    "sourceId": 1313,
+    "name": "Fellshroud Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 2
+      },
+      {
+        "id": "skill-dragon-attack",
+        "name": "Dragon Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-beta-plus",
+    "setName": "Blackveil Hazak β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 3
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1314",
+    "sourceId": 1314,
+    "name": "Fellshroud Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-beta-plus",
+    "setName": "Blackveil Hazak β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-985",
+          "name": "Vaal Hazak Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-983",
+          "name": "Shadowpierce Fang",
+          "quantity": 2
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1315",
+    "sourceId": 1315,
+    "name": "Fellshroud Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-eating",
+        "name": "Speed Eating",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-beta-plus",
+    "setName": "Blackveil Hazak β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-985",
+          "name": "Vaal Hazak Fellwing",
+          "quantity": 4
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1316",
+    "sourceId": 1316,
+    "name": "Fellshroud Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-effluvia-resistance",
+        "name": "Effluvia Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-blackveil-hazak-beta-plus",
+    "setName": "Blackveil Hazak β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Vaal Soulvein",
+      "skills": [
+        {
+          "id": "skill-super-recovery",
+          "name": "Super Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": -2,
+        "water": 4,
+        "thunder": 1,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-980",
+          "name": "Vaal Hazak Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-979",
+          "name": "Deceased Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-982",
+          "name": "Vaal Hazak Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-981",
+          "name": "Deathweaver Membrane",
+          "quantity": 2
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1317",
+    "sourceId": 1317,
+    "name": "Kaiser Crown α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-alpha-plus",
+    "setName": "Teostra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-961",
+          "name": "Teostra Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-963",
+          "name": "Teostra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1318",
+    "sourceId": 1318,
+    "name": "Kaiser Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "id": "skill-special-ammo-boost",
+        "name": "Special Ammo Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-alpha-plus",
+    "setName": "Teostra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-961",
+          "name": "Teostra Mane+",
+          "quantity": 4
+        },
+        {
+          "id": "item-962",
+          "name": "Teostra Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1319",
+    "sourceId": 1319,
+    "name": "Kaiser Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-alpha-plus",
+    "setName": "Teostra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-963",
+          "name": "Teostra Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-799",
+          "name": "Fulgur Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1320",
+    "sourceId": 1320,
+    "name": "Kaiser Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-alpha-plus",
+    "setName": "Teostra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-966",
+          "name": "Teostra Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1321",
+    "sourceId": 1321,
+    "name": "Kaiser Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-alpha-plus",
+    "setName": "Teostra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-965",
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-966",
+          "name": "Teostra Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-793",
+          "name": "Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1322",
+    "sourceId": 1322,
+    "name": "Kaiser Crown β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-beta-plus",
+    "setName": "Teostra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-961",
+          "name": "Teostra Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-963",
+          "name": "Teostra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1323",
+    "sourceId": 1323,
+    "name": "Kaiser Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-beta-plus",
+    "setName": "Teostra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-961",
+          "name": "Teostra Mane+",
+          "quantity": 4
+        },
+        {
+          "id": "item-962",
+          "name": "Teostra Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1324",
+    "sourceId": 1324,
+    "name": "Kaiser Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-beta-plus",
+    "setName": "Teostra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-963",
+          "name": "Teostra Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-799",
+          "name": "Fulgur Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1325",
+    "sourceId": 1325,
+    "name": "Kaiser Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-teostra-beta-plus",
+    "setName": "Teostra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-966",
+          "name": "Teostra Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1326",
+    "sourceId": 1326,
+    "name": "Kaiser Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-teostra-beta-plus",
+    "setName": "Teostra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Teostra Technique",
+      "skills": [
+        {
+          "id": "skill-master-s-touch",
+          "name": "Master's Touch",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-960",
+          "name": "Teostra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-965",
+          "name": "Fire Dragon Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-966",
+          "name": "Teostra Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-793",
+          "name": "Anjanath Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1327",
+    "sourceId": 1327,
+    "name": "Kushala Glare α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-alpha-plus",
+    "setName": "Kushala α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-978",
+          "name": "Daora Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1328",
+    "sourceId": 1328,
+    "name": "Kushala Cista α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kushala-alpha-plus",
+    "setName": "Kushala α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-975",
+          "name": "Daora Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-977",
+          "name": "Daora Lash",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 6
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1329",
+    "sourceId": 1329,
+    "name": "Kushala Grip α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kushala-alpha-plus",
+    "setName": "Kushala α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-975",
+          "name": "Daora Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-976",
+          "name": "Daora Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1330",
+    "sourceId": 1330,
+    "name": "Kushala Cocoon α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-alpha-plus",
+    "setName": "Kushala α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-976",
+          "name": "Daora Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1331",
+    "sourceId": 1331,
+    "name": "Kushala Crus α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-alpha-plus",
+    "setName": "Kushala α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-978",
+          "name": "Daora Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-977",
+          "name": "Daora Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1332",
+    "sourceId": 1332,
+    "name": "Kushala Glare β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kushala-beta-plus",
+    "setName": "Kushala β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-978",
+          "name": "Daora Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1333",
+    "sourceId": 1333,
+    "name": "Kushala Cista β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta-plus",
+    "setName": "Kushala β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-975",
+          "name": "Daora Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-977",
+          "name": "Daora Lash",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 6
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1334",
+    "sourceId": 1334,
+    "name": "Kushala Grip β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta-plus",
+    "setName": "Kushala β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-975",
+          "name": "Daora Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-976",
+          "name": "Daora Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1335",
+    "sourceId": 1335,
+    "name": "Kushala Cocoon β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kushala-beta-plus",
+    "setName": "Kushala β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-976",
+          "name": "Daora Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1336",
+    "sourceId": 1336,
+    "name": "Kushala Crus β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kushala-beta-plus",
+    "setName": "Kushala β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kushala Daora Flight",
+      "skills": [
+        {
+          "id": "skill-nullify-wind-pressure",
+          "name": "Nullify Wind Pressure",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 156,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": -3,
+        "ice": 4,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-973",
+          "name": "Daora Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-978",
+          "name": "Daora Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-977",
+          "name": "Daora Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1337",
+    "sourceId": 1337,
+    "name": "Kirin Horn α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-alpha-plus",
+    "setName": "Kirin α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-946",
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-899",
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1338",
+    "sourceId": 1338,
+    "name": "Kirin Jacket α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kirin-alpha-plus",
+    "setName": "Kirin α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 3
+        },
+        {
+          "id": "item-912",
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1339",
+    "sourceId": 1339,
+    "name": "Kirin Longarms α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kirin-alpha-plus",
+    "setName": "Kirin α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 2
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1340",
+    "sourceId": 1340,
+    "name": "Kirin Hoop α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kirin-alpha-plus",
+    "setName": "Kirin α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1341",
+    "sourceId": 1341,
+    "name": "Kirin Leg Guards α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-alpha-plus",
+    "setName": "Kirin α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-946",
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1342",
+    "sourceId": 1342,
+    "name": "Kirin Horn β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-marathon-runner",
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-beta-plus",
+    "setName": "Kirin β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-946",
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-899",
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1343",
+    "sourceId": 1343,
+    "name": "Kirin Jacket β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-kirin-beta-plus",
+    "setName": "Kirin β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 3
+        },
+        {
+          "id": "item-912",
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1344",
+    "sourceId": 1344,
+    "name": "Kirin Longarms β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-kirin-beta-plus",
+    "setName": "Kirin β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 2
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1345",
+    "sourceId": 1345,
+    "name": "Kirin Hoop β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-beta-plus",
+    "setName": "Kirin β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1346",
+    "sourceId": 1346,
+    "name": "Kirin Leg Guards β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-kirin-beta-plus",
+    "setName": "Kirin β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Kirin Divinity",
+      "skills": [
+        {
+          "id": "skill-great-luck",
+          "name": "Great Luck",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 154,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": -3,
+        "water": -2,
+        "thunder": 4,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-945",
+          "name": "Kirin Silvermane",
+          "quantity": 3
+        },
+        {
+          "id": "item-946",
+          "name": "Kirin Azure Horn+",
+          "quantity": 2
+        },
+        {
+          "id": "item-944",
+          "name": "Kirin Thundertail+",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1347",
+    "sourceId": 1347,
+    "name": "Tentacle Cowl α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 3
+      },
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-alpha-plus",
+    "setName": "Namielle α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-990",
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "id": "item-869",
+          "name": "Uragaan Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1348",
+    "sourceId": 1348,
+    "name": "Tentacle Cloak α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-blight-resistance",
+        "name": "Blight Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-alpha-plus",
+    "setName": "Namielle α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-990",
+          "name": "Namielle Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 1
+        },
+        {
+          "id": "item-826",
+          "name": "Rimed Hide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1349",
+    "sourceId": 1349,
+    "name": "Tentacle Gloves α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-alpha-plus",
+    "setName": "Namielle α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-987",
+          "name": "Namielle Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 1
+        },
+        {
+          "id": "item-789",
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1350",
+    "sourceId": 1350,
+    "name": "Tentacle Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-namielle-alpha-plus",
+    "setName": "Namielle α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Namielle Divinity",
+      "skills": [
+        {
+          "id": "skill-element-acceleration",
+          "name": "Element Acceleration",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-element-acceleration",
+          "name": "True Element Acceleration",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 176,
+      "augmentedDefence": 196,
+      "resistances": {
+        "fire": -3,
+        "water": 4,
+        "thunder": 3,
+        "ice": 0,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-986",
+          "name": "Namielle Finehide",
+          "quantity": 2
+        },
+        {
+          "id": "item-988",
+          "name": "Namielle Whisker",
+          "quantity": 2
+        },
+        {
+          "id": "item-989",
+          "name": "Namielle Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 21000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

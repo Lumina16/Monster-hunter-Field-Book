@@ -1,0 +1,3375 @@
+[
+  {
+    "id": "armour-1001",
+    "sourceId": 1001,
+    "name": "Rathian Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-alpha-plus",
+    "setName": "Rathian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1002",
+    "sourceId": 1002,
+    "name": "Rathian Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta-plus",
+    "setName": "Rathian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-800",
+          "name": "Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1003",
+    "sourceId": 1003,
+    "name": "Rathian Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta-plus",
+    "setName": "Rathian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1004",
+    "sourceId": 1004,
+    "name": "Rathian Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathian-beta-plus",
+    "setName": "Rathian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-800",
+          "name": "Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-803",
+          "name": "Rathian Surspike",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1005",
+    "sourceId": 1005,
+    "name": "Rathian Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathian-beta-plus",
+    "setName": "Rathian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-800",
+          "name": "Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1006",
+    "sourceId": 1006,
+    "name": "Rathian Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathian-beta-plus",
+    "setName": "Rathian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": 2,
+        "water": 0,
+        "thunder": -2,
+        "ice": 0,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-801",
+          "name": "Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1007",
+    "sourceId": 1007,
+    "name": "Rath Heart Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-cliffhanger",
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha-plus",
+    "setName": "Rath Heart α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1008",
+    "sourceId": 1008,
+    "name": "Rath Heart Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha-plus",
+    "setName": "Rath Heart α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1009",
+    "sourceId": 1009,
+    "name": "Rath Heart Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha-plus",
+    "setName": "Rath Heart α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-803",
+          "name": "Rathian Surspike",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1010",
+    "sourceId": 1010,
+    "name": "Rath Heart Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha-plus",
+    "setName": "Rath Heart α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1011",
+    "sourceId": 1011,
+    "name": "Rath Heart Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-alpha-plus",
+    "setName": "Rath Heart α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1012",
+    "sourceId": 1012,
+    "name": "Rath Heart Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-beta-plus",
+    "setName": "Rath Heart β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1013",
+    "sourceId": 1013,
+    "name": "Rath Heart Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-beta-plus",
+    "setName": "Rath Heart β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-694",
+          "name": "Shamos Shard",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1014",
+    "sourceId": 1014,
+    "name": "Rath Heart Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-heart-beta-plus",
+    "setName": "Rath Heart β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-803",
+          "name": "Rathian Surspike",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1015",
+    "sourceId": 1015,
+    "name": "Rath Heart Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-handicraft",
+        "name": "Handicraft",
+        "level": 1
+      },
+      {
+        "id": "skill-poison-resistance",
+        "name": "Poison Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta-plus",
+    "setName": "Rath Heart β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 4
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1016",
+    "sourceId": 1016,
+    "name": "Rath Heart Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-heart-beta-plus",
+    "setName": "Rath Heart β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-poison-duration-up",
+          "name": "Poison Duration Up",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": 3,
+        "water": 0,
+        "thunder": -3,
+        "ice": 0,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-806",
+          "name": "Pink Rathian Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-805",
+          "name": "Pink Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-802",
+          "name": "Rathian Weave",
+          "quantity": 1
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1017",
+    "sourceId": 1017,
+    "name": "Lumu Hat α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha-plus",
+    "setName": "Lumu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1018",
+    "sourceId": 1018,
+    "name": "Lumu Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      },
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha-plus",
+    "setName": "Lumu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1019",
+    "sourceId": 1019,
+    "name": "Lumu Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha-plus",
+    "setName": "Lumu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1020",
+    "sourceId": 1020,
+    "name": "Lumu Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha-plus",
+    "setName": "Lumu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1021",
+    "sourceId": 1021,
+    "name": "Lumu Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-alpha-plus",
+    "setName": "Lumu α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1022",
+    "sourceId": 1022,
+    "name": "Lumu Hat β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-beta-plus",
+    "setName": "Lumu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1023",
+    "sourceId": 1023,
+    "name": "Lumu Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-master-mounter",
+        "name": "Master Mounter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta-plus",
+    "setName": "Lumu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1024",
+    "sourceId": 1024,
+    "name": "Lumu Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-artillery",
+        "name": "Artillery",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta-plus",
+    "setName": "Lumu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1025",
+    "sourceId": 1025,
+    "name": "Lumu Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-beta-plus",
+    "setName": "Lumu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-811",
+          "name": "Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1026",
+    "sourceId": 1026,
+    "name": "Lumu Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-beta-plus",
+    "setName": "Lumu β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 130,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": 0,
+        "ice": 1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-813",
+          "name": "Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1027",
+    "sourceId": 1027,
+    "name": "Lumu Phantasm Hood α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-alpha-plus",
+    "setName": "Lumu Phantasm α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1028",
+    "sourceId": 1028,
+    "name": "Lumu Phantasm Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-alpha-plus",
+    "setName": "Lumu Phantasm α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1029",
+    "sourceId": 1029,
+    "name": "Lumu Phantasm Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-alpha-plus",
+    "setName": "Lumu Phantasm α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1030",
+    "sourceId": 1030,
+    "name": "Lumu Phantasm Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-alpha-plus",
+    "setName": "Lumu Phantasm α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1031",
+    "sourceId": 1031,
+    "name": "Lumu Phantasm Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-alpha-plus",
+    "setName": "Lumu Phantasm α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1032",
+    "sourceId": 1032,
+    "name": "Lumu Phantasm Hood β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-beta-plus",
+    "setName": "Lumu Phantasm β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1033",
+    "sourceId": 1033,
+    "name": "Lumu Phantasm Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-beta-plus",
+    "setName": "Lumu Phantasm β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1034",
+    "sourceId": 1034,
+    "name": "Lumu Phantasm Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-beta-plus",
+    "setName": "Lumu Phantasm β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1035",
+    "sourceId": 1035,
+    "name": "Lumu Phantasm Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-beta-plus",
+    "setName": "Lumu Phantasm β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-815",
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1036",
+    "sourceId": 1036,
+    "name": "Lumu Phantasm Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lumu-phantasm-beta-plus",
+    "setName": "Lumu Phantasm β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 132,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": -3,
+        "thunder": 2,
+        "ice": 1,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-814",
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-816",
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-812",
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1037",
+    "sourceId": 1037,
+    "name": "Baan Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-slugger",
+        "name": "Slugger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha-plus",
+    "setName": "Baan α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1038",
+    "sourceId": 1038,
+    "name": "Baan Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha-plus",
+    "setName": "Baan α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1039",
+    "sourceId": 1039,
+    "name": "Baan Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha-plus",
+    "setName": "Baan α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1040",
+    "sourceId": 1040,
+    "name": "Baan Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      },
+      {
+        "id": "skill-sleep-resistance",
+        "name": "Sleep Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-alpha-plus",
+    "setName": "Baan α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1041",
+    "sourceId": 1041,
+    "name": "Baan Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-alpha-plus",
+    "setName": "Baan α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1042",
+    "sourceId": 1042,
+    "name": "Baan Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-beta-plus",
+    "setName": "Baan β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "id": "item-688",
+          "name": "Monster Essence",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1043",
+    "sourceId": 1043,
+    "name": "Baan Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta-plus",
+    "setName": "Baan β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1044",
+    "sourceId": 1044,
+    "name": "Baan Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-sleep-attack",
+        "name": "Sleep Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-baan-beta-plus",
+    "setName": "Baan β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1045",
+    "sourceId": 1045,
+    "name": "Baan Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-guard",
+        "name": "Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-beta-plus",
+    "setName": "Baan β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-818",
+          "name": "Radobaan Oilshell+",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 1
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1046",
+    "sourceId": 1046,
+    "name": "Baan Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-baan-beta-plus",
+    "setName": "Baan β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 134,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 0,
+        "water": 2,
+        "thunder": 0,
+        "ice": -1,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-817",
+          "name": "Radobaan Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-819",
+          "name": "Large Wyvern Bonemass",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1047",
+    "sourceId": 1047,
+    "name": "Artian Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-alpha-plus",
+    "setName": "Artian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1048",
+    "sourceId": 1048,
+    "name": "Artian Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 3
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-alpha-plus",
+    "setName": "Artian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-703",
+          "name": "Lightning Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1049",
+    "sourceId": 1049,
+    "name": "Artian Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-alpha-plus",
+    "setName": "Artian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1050",
+    "sourceId": 1050,
+    "name": "Artian Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-alpha-plus",
+    "setName": "Artian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-701",
+          "name": "Flood Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

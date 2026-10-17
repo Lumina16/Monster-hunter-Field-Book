@@ -1,0 +1,19 @@
+{
+  "file": "Hunter_Field_Guide_World_Iceborne.html",
+  "size_bytes": 60197906,
+  "sha256": "9d719eba5e65a62b70201ff7ddc08940105087547bee7f5e09153073ed3d4515",
+  "recovered_base_sha256": "d4deb6eec9c9da70dfc3bf1fd689ab37c3205757f425e6439a8bea1f0e2f7aaf",
+  "changes": [
+    "Consistent spacing between Gradients and Saved visual presets",
+    "Settings groups start collapsed on opening and reopening"
+  ],
+  "verification": [
+    "Recovered base reproduces saved app exactly",
+    "All embedded asset checksums validated by builder",
+    "JavaScript syntax check passed",
+    "Full-app Settings DOM regression passed"
+  ],
+  "limits": [
+    "DOM checks do not establish real phone animation smoothness"
+  ]
+}

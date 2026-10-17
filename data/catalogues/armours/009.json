@@ -1,0 +1,3784 @@
+[
+  {
+    "id": "armour-441",
+    "sourceId": 441,
+    "name": "Strategist Spectacles α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-strategist-alpha",
+    "setName": "Strategist α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-442",
+    "sourceId": 442,
+    "name": "Lavasioth Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha",
+    "setName": "Lavasioth α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-443",
+    "sourceId": 443,
+    "name": "Lavasioth Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-heat-guard",
+        "name": "Heat Guard",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha",
+    "setName": "Lavasioth α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-444",
+    "sourceId": 444,
+    "name": "Lavasioth Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-affinity-sliding",
+        "name": "Affinity Sliding",
+        "level": 1
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha",
+    "setName": "Lavasioth α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 4
+        },
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-188",
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-445",
+    "sourceId": 445,
+    "name": "Lavasioth Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha",
+    "setName": "Lavasioth α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-189",
+          "name": "Grand Gajau Whisker",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-446",
+    "sourceId": 446,
+    "name": "Lavasioth Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-alpha",
+    "setName": "Lavasioth α",
+    "variant": "alpha",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 4
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-447",
+    "sourceId": 447,
+    "name": "Lavasioth Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta",
+    "setName": "Lavasioth β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-448",
+    "sourceId": 448,
+    "name": "Lavasioth Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lavasioth-beta",
+    "setName": "Lavasioth β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 2
+        },
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-449",
+    "sourceId": 449,
+    "name": "Lavasioth Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-affinity-sliding",
+        "name": "Affinity Sliding",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta",
+    "setName": "Lavasioth β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 4
+        },
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 6
+        },
+        {
+          "id": "item-188",
+          "name": "Gajau Scale",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-450",
+    "sourceId": 450,
+    "name": "Lavasioth Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lavasioth-beta",
+    "setName": "Lavasioth β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-386",
+          "name": "Lavasioth Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 2
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-189",
+          "name": "Grand Gajau Whisker",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-451",
+    "sourceId": 451,
+    "name": "Lavasioth Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lavasioth-beta",
+    "setName": "Lavasioth β",
+    "variant": "beta",
+    "setBonus": null,
+    "stats": {
+      "defence": 56,
+      "maxDefence": 76,
+      "augmentedDefence": 88,
+      "resistances": {
+        "fire": 3,
+        "water": -3,
+        "thunder": 1,
+        "ice": -2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-387",
+          "name": "Lavasioth Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-388",
+          "name": "Lavasioth Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-389",
+          "name": "Lavasioth Fin+",
+          "quantity": 4
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-452",
+    "sourceId": 452,
+    "name": "Legiana Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha",
+    "setName": "Legiana α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-168",
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-288",
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-453",
+    "sourceId": 453,
+    "name": "Legiana Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      },
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha",
+    "setName": "Legiana α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 6
+        },
+        {
+          "id": "item-325",
+          "name": "Legiana Claw+",
+          "quantity": 3
+        },
+        {
+          "id": "item-326",
+          "name": "Legiana Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-327",
+          "name": "Legiana Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-454",
+    "sourceId": 454,
+    "name": "Legiana Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-airborne",
+        "name": "Airborne",
+        "level": 1
+      },
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha",
+    "setName": "Legiana α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-321",
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-455",
+    "sourceId": 455,
+    "name": "Legiana Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha",
+    "setName": "Legiana α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-168",
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-322",
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-456",
+    "sourceId": 456,
+    "name": "Legiana Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-draw",
+        "name": "Critical Draw",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-alpha",
+    "setName": "Legiana α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-326",
+          "name": "Legiana Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-289",
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-457",
+    "sourceId": 457,
+    "name": "Legiana Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta",
+    "setName": "Legiana β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-168",
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-288",
+          "name": "Tzitzi-Ya-Ku Scale+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-458",
+    "sourceId": 458,
+    "name": "Legiana Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-window",
+        "name": "Evade Window",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta",
+    "setName": "Legiana β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 6
+        },
+        {
+          "id": "item-325",
+          "name": "Legiana Claw+",
+          "quantity": 3
+        },
+        {
+          "id": "item-326",
+          "name": "Legiana Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-327",
+          "name": "Legiana Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-459",
+    "sourceId": 459,
+    "name": "Legiana Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-airborne",
+        "name": "Airborne",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-legiana-beta",
+    "setName": "Legiana β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-321",
+          "name": "Legiana Tail Webbing",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-460",
+    "sourceId": 460,
+    "name": "Legiana Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-attack",
+        "name": "Ice Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta",
+    "setName": "Legiana β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 4
+        },
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-168",
+          "name": "Freezer Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-322",
+          "name": "Legiana Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-461",
+    "sourceId": 461,
+    "name": "Legiana Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-ice-resistance",
+        "name": "Ice Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-legiana-beta",
+    "setName": "Legiana β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Legiana Favor",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-bow-charge-plus",
+          "name": "Bow Charge Plus",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": -1,
+        "water": 2,
+        "thunder": -3,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-323",
+          "name": "Legiana Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-324",
+          "name": "Legiana Hide+",
+          "quantity": 2
+        },
+        {
+          "id": "item-326",
+          "name": "Legiana Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-289",
+          "name": "Tzitzi-Ya-Ku Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-462",
+    "sourceId": 462,
+    "name": "Odogaron Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha",
+    "setName": "Odogaron α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "id": "item-336",
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-463",
+    "sourceId": 463,
+    "name": "Odogaron Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      },
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha",
+    "setName": "Odogaron α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-333",
+          "name": "Odogaron Plate",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-464",
+    "sourceId": 464,
+    "name": "Odogaron Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha",
+    "setName": "Odogaron α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-332",
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-185",
+          "name": "Hornetaur Innerwing",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-465",
+    "sourceId": 465,
+    "name": "Odogaron Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha",
+    "setName": "Odogaron α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 6
+        },
+        {
+          "id": "item-336",
+          "name": "Odogaron Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-337",
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-338",
+          "name": "Odogaron Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-466",
+    "sourceId": 466,
+    "name": "Odogaron Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-alpha",
+    "setName": "Odogaron α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "id": "item-337",
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-467",
+    "sourceId": 467,
+    "name": "Odogaron Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bleeding-resistance",
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-beta",
+    "setName": "Odogaron β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "id": "item-336",
+          "name": "Odogaron Claw+",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-468",
+    "sourceId": 468,
+    "name": "Odogaron Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-speed-sharpening",
+        "name": "Speed Sharpening",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-beta",
+    "setName": "Odogaron β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-333",
+          "name": "Odogaron Plate",
+          "quantity": 1
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 5
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-469",
+    "sourceId": 469,
+    "name": "Odogaron Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-beta",
+    "setName": "Odogaron β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 4
+        },
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-332",
+          "name": "Odogaron Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-185",
+          "name": "Hornetaur Innerwing",
+          "quantity": 4
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-470",
+    "sourceId": 470,
+    "name": "Odogaron Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-odogaron-beta",
+    "setName": "Odogaron β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 6
+        },
+        {
+          "id": "item-336",
+          "name": "Odogaron Claw+",
+          "quantity": 4
+        },
+        {
+          "id": "item-337",
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-338",
+          "name": "Odogaron Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-471",
+    "sourceId": 471,
+    "name": "Odogaron Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-odogaron-beta",
+    "setName": "Odogaron β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Odogaron Mastery",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        },
+        {
+          "id": "skill-protective-polish",
+          "name": "Protective Polish",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": -2,
+        "ice": -3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-334",
+          "name": "Odogaron Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-335",
+          "name": "Odogaron Sinew+",
+          "quantity": 2
+        },
+        {
+          "id": "item-337",
+          "name": "Odogaron Fang+",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-472",
+    "sourceId": 472,
+    "name": "Rathalos Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha",
+    "setName": "Rathalos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-473",
+    "sourceId": 473,
+    "name": "Rathalos Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha",
+    "setName": "Rathalos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-350",
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-474",
+    "sourceId": 474,
+    "name": "Rathalos Vambraces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-resistance",
+        "name": "Fire Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha",
+    "setName": "Rathalos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-475",
+    "sourceId": 475,
+    "name": "Rathalos Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha",
+    "setName": "Rathalos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-342",
+          "name": "Rathalos Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-476",
+    "sourceId": 476,
+    "name": "Rathalos Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha",
+    "setName": "Rathalos α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-477",
+    "sourceId": 477,
+    "name": "Rathalos Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta",
+    "setName": "Rathalos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-478",
+    "sourceId": 478,
+    "name": "Rathalos Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta",
+    "setName": "Rathalos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-350",
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-479",
+    "sourceId": 479,
+    "name": "Rathalos Vambraces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-resistance",
+        "name": "Fire Resistance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta",
+    "setName": "Rathalos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-343",
+          "name": "Rath Wingtalon",
+          "quantity": 6
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-480",
+    "sourceId": 480,
+    "name": "Rathalos Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta",
+    "setName": "Rathalos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-348",
+          "name": "Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-342",
+          "name": "Rathalos Tail",
+          "quantity": 2
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-481",
+    "sourceId": 481,
+    "name": "Rathalos Greaves β",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-beta",
+    "setName": "Rathalos β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 54,
+      "maxDefence": 74,
+      "augmentedDefence": 86,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-347",
+          "name": "Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-346",
+          "name": "Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 9000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-482",
+    "sourceId": 482,
+    "name": "Rath Soul Helm α",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-intimidator",
+        "name": "Intimidator",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha",
+    "setName": "Rath Soul α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-350",
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-483",
+    "sourceId": 483,
+    "name": "Rath Soul Mail α",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-intimidator",
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha",
+    "setName": "Rath Soul α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-192",
+          "name": "Barnos Hide+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-484",
+    "sourceId": 484,
+    "name": "Rath Soul Braces α",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha",
+    "setName": "Rath Soul α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-353",
+          "name": "Azure Rathalos Tail",
+          "quantity": 1
+        },
+        {
+          "id": "item-193",
+          "name": "Barnos Talon",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-485",
+    "sourceId": 485,
+    "name": "Rath Soul Coil α",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-piercing-shots",
+        "name": "Piercing Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha",
+    "setName": "Rath Soul α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-486",
+    "sourceId": 486,
+    "name": "Rath Soul Greaves α",
+    "type": "legs",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      },
+      {
+        "id": "skill-cliffhanger",
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha",
+    "setName": "Rath Soul α",
+    "variant": "alpha",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-353",
+          "name": "Azure Rathalos Tail",
+          "quantity": 2
+        },
+        {
+          "id": "item-345",
+          "name": "Rathalos Plate",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-487",
+    "sourceId": 487,
+    "name": "Rath Soul Helm β",
+    "type": "head",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta",
+    "setName": "Rath Soul β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 3
+        },
+        {
+          "id": "item-350",
+          "name": "Rathalos Ruby",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-488",
+    "sourceId": 488,
+    "name": "Rath Soul Mail β",
+    "type": "chest",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta",
+    "setName": "Rath Soul β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-192",
+          "name": "Barnos Hide+",
+          "quantity": 6
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-489",
+    "sourceId": 489,
+    "name": "Rath Soul Braces β",
+    "type": "arms",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-beta",
+    "setName": "Rath Soul β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 6
+        },
+        {
+          "id": "item-354",
+          "name": "Azure Rathalos Wing",
+          "quantity": 2
+        },
+        {
+          "id": "item-353",
+          "name": "Azure Rathalos Tail",
+          "quantity": 1
+        },
+        {
+          "id": "item-193",
+          "name": "Barnos Talon",
+          "quantity": 4
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-490",
+    "sourceId": 490,
+    "name": "Rath Soul Coil β",
+    "type": "waist",
+    "gender": "both",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rath-soul-beta",
+    "setName": "Rath Soul β",
+    "variant": "beta",
+    "setBonus": {
+      "name": "Rathalos Mastery",
+      "skills": [
+        {
+          "id": "skill-critical-element",
+          "name": "Critical Element",
+          "pieces": 2
+        },
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 56,
+      "maxDefence": 68,
+      "augmentedDefence": 82,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-351",
+          "name": "Azure Rathalos Scale+",
+          "quantity": 4
+        },
+        {
+          "id": "item-352",
+          "name": "Azure Rathalos Carapace",
+          "quantity": 4
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 1
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

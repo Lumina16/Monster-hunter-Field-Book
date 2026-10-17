@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "armour-1051",
+    "sourceId": 1051,
+    "name": "Artian Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-alpha-plus",
+    "setName": "Artian α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1052",
+    "sourceId": 1052,
+    "name": "Artian Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-beta-plus",
+    "setName": "Artian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1053",
+    "sourceId": 1053,
+    "name": "Artian Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 2
+      },
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-beta-plus",
+    "setName": "Artian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-703",
+          "name": "Lightning Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1054",
+    "sourceId": 1054,
+    "name": "Artian Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-artian-beta-plus",
+    "setName": "Artian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1055",
+    "sourceId": 1055,
+    "name": "Artian Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-eye",
+        "name": "Critical Eye",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-artian-beta-plus",
+    "setName": "Artian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-701",
+          "name": "Flood Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1056",
+    "sourceId": 1056,
+    "name": "Artian Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-artian-beta-plus",
+    "setName": "Artian β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Ancient Divinity",
+      "skills": [
+        {
+          "id": "skill-critical-status",
+          "name": "Critical Status",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 1,
+        "water": -2,
+        "thunder": -2,
+        "ice": 2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1057",
+    "sourceId": 1057,
+    "name": "Clockwork Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-alpha-plus",
+    "setName": "Clockwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1058",
+    "sourceId": 1058,
+    "name": "Clockwork Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "id": "skill-special-ammo-boost",
+        "name": "Special Ammo Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-alpha-plus",
+    "setName": "Clockwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1059",
+    "sourceId": 1059,
+    "name": "Clockwork Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 3
+      },
+      {
+        "id": "skill-tremor-resistance",
+        "name": "Tremor Resistance",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-alpha-plus",
+    "setName": "Clockwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1060",
+    "sourceId": 1060,
+    "name": "Clockwork Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      },
+      {
+        "id": "skill-sleep-functionality",
+        "name": "Sleep Functionality",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-alpha-plus",
+    "setName": "Clockwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1061",
+    "sourceId": 1061,
+    "name": "Clockwork Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-clockwork-alpha-plus",
+    "setName": "Clockwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1062",
+    "sourceId": 1062,
+    "name": "Clockwork Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-beta-plus",
+    "setName": "Clockwork β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1063",
+    "sourceId": 1063,
+    "name": "Clockwork Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-clockwork-beta-plus",
+    "setName": "Clockwork β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-779",
+          "name": "Torpor Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1064",
+    "sourceId": 1064,
+    "name": "Clockwork Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-clockwork-beta-plus",
+    "setName": "Clockwork β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1065",
+    "sourceId": 1065,
+    "name": "Clockwork Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-clockwork-beta-plus",
+    "setName": "Clockwork β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 4
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1066",
+    "sourceId": 1066,
+    "name": "Clockwork Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-bombardier",
+        "name": "Bombardier",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-clockwork-beta-plus",
+    "setName": "Clockwork β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Commission Alchemy",
+      "skills": [
+        {
+          "id": "skill-bombardier-secret",
+          "name": "Bombardier Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 142,
+      "maxDefence": 174,
+      "augmentedDefence": 194,
+      "resistances": {
+        "fire": 2,
+        "water": 2,
+        "thunder": 2,
+        "ice": -1,
+        "dragon": -1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 2
+        },
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1067",
+    "sourceId": 1067,
+    "name": "Ingot Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-alpha-plus",
+    "setName": "Ingot α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1068",
+    "sourceId": 1068,
+    "name": "Ingot Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-alpha-plus",
+    "setName": "Ingot α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1069",
+    "sourceId": 1069,
+    "name": "Ingot Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ingot-alpha-plus",
+    "setName": "Ingot α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1070",
+    "sourceId": 1070,
+    "name": "Ingot Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-alpha-plus",
+    "setName": "Ingot α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1071",
+    "sourceId": 1071,
+    "name": "Ingot Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-alpha-plus",
+    "setName": "Ingot α+",
+    "variant": "alpha-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1072",
+    "sourceId": 1072,
+    "name": "Ingot Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ingot-beta-plus",
+    "setName": "Ingot β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1073",
+    "sourceId": 1073,
+    "name": "Ingot Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-resistance",
+        "name": "Thunder Resistance",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-beta-plus",
+    "setName": "Ingot β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-684",
+          "name": "Spiritvein Crystal",
+          "quantity": 5
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1074",
+    "sourceId": 1074,
+    "name": "Ingot Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-beta-plus",
+    "setName": "Ingot β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-695",
+          "name": "Bathycite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1075",
+    "sourceId": 1075,
+    "name": "Ingot Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-beta-plus",
+    "setName": "Ingot β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1076",
+    "sourceId": 1076,
+    "name": "Ingot Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-defense-boost",
+        "name": "Defense Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ingot-beta-plus",
+    "setName": "Ingot β+",
+    "variant": "beta-plus",
+    "setBonus": null,
+    "stats": {
+      "defence": 136,
+      "maxDefence": 168,
+      "augmentedDefence": 188,
+      "resistances": {
+        "fire": -2,
+        "water": 0,
+        "thunder": 3,
+        "ice": -1,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-696",
+          "name": "Gracium",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1077",
+    "sourceId": 1077,
+    "name": "Barioth Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-alpha-plus",
+    "setName": "Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-873",
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1078",
+    "sourceId": 1078,
+    "name": "Barioth Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-alpha-plus",
+    "setName": "Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-872",
+          "name": "Barioth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1079",
+    "sourceId": 1079,
+    "name": "Barioth Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-barioth-alpha-plus",
+    "setName": "Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-874",
+          "name": "Barioth Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1080",
+    "sourceId": 1080,
+    "name": "Barioth Faulds α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      },
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-alpha-plus",
+    "setName": "Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-873",
+          "name": "Barioth Greatspike",
+          "quantity": 2
+        },
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1081",
+    "sourceId": 1081,
+    "name": "Barioth Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-alpha-plus",
+    "setName": "Barioth α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-872",
+          "name": "Barioth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1082",
+    "sourceId": 1082,
+    "name": "Barioth Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-evade-extender",
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-beta-plus",
+    "setName": "Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 1
+        },
+        {
+          "id": "item-873",
+          "name": "Barioth Greatspike",
+          "quantity": 3
+        },
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1083",
+    "sourceId": 1083,
+    "name": "Barioth Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-beta-plus",
+    "setName": "Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-872",
+          "name": "Barioth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1084",
+    "sourceId": 1084,
+    "name": "Barioth Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-up",
+        "name": "Recovery Up",
+        "level": 2
+      },
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-beta-plus",
+    "setName": "Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 1
+        },
+        {
+          "id": "item-874",
+          "name": "Barioth Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-687",
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1085",
+    "sourceId": 1085,
+    "name": "Barioth Faulds β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-beta-plus",
+    "setName": "Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-870",
+          "name": "Barioth Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-873",
+          "name": "Barioth Greatspike",
+          "quantity": 2
+        },
+        {
+          "id": "item-712",
+          "name": "Wulg Thickfur",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1086",
+    "sourceId": 1086,
+    "name": "Barioth Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-constitution",
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "id": "skill-quick-sheath",
+        "name": "Quick Sheath",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-barioth-beta-plus",
+    "setName": "Barioth β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Barioth Hidden Art",
+      "skills": [
+        {
+          "id": "skill-punishing-draw",
+          "name": "Punishing Draw",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 138,
+      "maxDefence": 170,
+      "augmentedDefence": 190,
+      "resistances": {
+        "fire": -3,
+        "water": 2,
+        "thunder": -2,
+        "ice": 3,
+        "dragon": 0
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-871",
+          "name": "Barioth Thickfur",
+          "quantity": 2
+        },
+        {
+          "id": "item-875",
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "id": "item-872",
+          "name": "Barioth Hardclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1087",
+    "sourceId": 1087,
+    "name": "Rathalos Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-alpha-plus",
+    "setName": "Rathalos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 4
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1088",
+    "sourceId": 1088,
+    "name": "Rathalos Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha-plus",
+    "setName": "Rathalos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-842",
+          "name": "Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1089",
+    "sourceId": 1089,
+    "name": "Rathalos Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-alpha-plus",
+    "setName": "Rathalos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-842",
+          "name": "Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1090",
+    "sourceId": 1090,
+    "name": "Rathalos Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      },
+      {
+        "id": "skill-focus",
+        "name": "Focus",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-alpha-plus",
+    "setName": "Rathalos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1091",
+    "sourceId": 1091,
+    "name": "Rathalos Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-alpha-plus",
+    "setName": "Rathalos α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1092",
+    "sourceId": 1092,
+    "name": "Rathalos Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta-plus",
+    "setName": "Rathalos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 4
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-349",
+          "name": "Rathalos Medulla",
+          "quantity": 2
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1093",
+    "sourceId": 1093,
+    "name": "Rathalos Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta-plus",
+    "setName": "Rathalos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-842",
+          "name": "Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1094",
+    "sourceId": 1094,
+    "name": "Rathalos Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-jump-master",
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-beta-plus",
+    "setName": "Rathalos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-842",
+          "name": "Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 4
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1095",
+    "sourceId": 1095,
+    "name": "Rathalos Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-rathalos-beta-plus",
+    "setName": "Rathalos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1096",
+    "sourceId": 1096,
+    "name": "Rathalos Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rathalos-beta-plus",
+    "setName": "Rathalos β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 140,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": -2,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-840",
+          "name": "Rathalos Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-841",
+          "name": "Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 15000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1097",
+    "sourceId": 1097,
+    "name": "Rath Soul Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      },
+      {
+        "id": "skill-cliffhanger",
+        "name": "Cliffhanger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha-plus",
+    "setName": "Rath Soul α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 2
+        },
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1098",
+    "sourceId": 1098,
+    "name": "Rath Soul Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-free-elem-ammo-up",
+        "name": "Free Elem/Ammo Up",
+        "level": 1
+      },
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha-plus",
+    "setName": "Rath Soul α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-847",
+          "name": "Azure Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 4
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1099",
+    "sourceId": 1099,
+    "name": "Rath Soul Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-partbreaker",
+        "name": "Partbreaker",
+        "level": 2
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha-plus",
+    "setName": "Rath Soul α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-843",
+          "name": "Rath Wingtalon+",
+          "quantity": 1
+        },
+        {
+          "id": "item-707",
+          "name": "Barnos Hardclaw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1100",
+    "sourceId": 1100,
+    "name": "Rath Soul Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-piercing-shots",
+        "name": "Piercing Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-rath-soul-alpha-plus",
+    "setName": "Rath Soul α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-mind-s-eye-ballistics",
+          "name": "Mind's Eye/Ballistics",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 148,
+      "maxDefence": 172,
+      "augmentedDefence": 192,
+      "resistances": {
+        "fire": 3,
+        "water": 2,
+        "thunder": 2,
+        "ice": -3,
+        "dragon": -4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-846",
+          "name": "Azure Rathalos Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-848",
+          "name": "Azure Rathalos Fellwing",
+          "quantity": 1
+        },
+        {
+          "id": "item-706",
+          "name": "Wingdrake Finehide",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

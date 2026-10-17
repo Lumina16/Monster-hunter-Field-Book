@@ -1,0 +1,2128 @@
+[
+  {
+    "id": "weapon-insect-glaive-2884",
+    "name": "Guild Palace Rod",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 775,
+    "affinity": 10,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 360,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Fest Ticket",
+          "quantity": 2
+        },
+        {
+          "name": "Amber Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 5
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fest Ticket"
+    },
+    "upgrade": null,
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-insect-glaive-2885",
+    "name": "Royal March Banner",
+    "type": "insect-glaive",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 837,
+    "affinity": 15,
+    "defense": 30,
+    "elements": [
+      {
+        "type": "Water",
+        "value": 450,
+        "hidden": true
+      }
+    ],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-insect-glaive-2884",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Hero King Coin",
+          "quantity": 1
+        },
+        {
+          "name": "Namielle Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Large Elder Dragon Bone",
+          "quantity": 5
+        },
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Hero King Coin"
+    },
+    "sharpness": [
+      140,
+      30,
+      30,
+      60,
+      50,
+      40,
+      0
+    ],
+    "attributes": {
+      "kinsect bonus": "stamina_health"
+    },
+    "obtain": [],
+    "family": "Guild Palace Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2886",
+    "name": "Defender Light Bowgun I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 169,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2887",
+    "name": "Defender Light Bowgun II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 221,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-2886",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Anjanath Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Anjanath"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2888",
+    "name": "Defender Light Bowgun III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 247,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-2887",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Commendation",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3000,
+      "unlock": "Invader in the Waste"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2889",
+    "name": "Defender Light Bowgun IV",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 273,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-2888",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pink Rathian Scale+",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Pink Rathian"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2890",
+    "name": "Defender Light Bowgun V",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 286,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-2889",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Immortal Dragonscale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Defender Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-912",
+    "name": "Chain Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 130,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": null,
+    "forge": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-913",
+    "name": "Chain Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 1,
+    "attack": 143,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-912",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Iron Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 200
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-914",
+    "name": "Chain Blitz III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 156,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-913",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Iron Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "The Best Kind of Quest"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-915",
+    "name": "High Chain Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 169,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-914",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Monster Bone M",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Dragonite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-916",
+    "name": "High Chain Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-915",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Coral Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Machalite Ore",
+          "quantity": 10
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-917",
+    "name": "High Chain Blitz III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-916",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Carbalite Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Carbalite Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-918",
+    "name": "Cross Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 208,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-917",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Fucium Ore",
+          "quantity": 8
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 5
+        },
+        {
+          "name": "Dragonite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Dragonvein Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Fucium Ore"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-919",
+    "name": "Cross Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 234,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-918",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "name": "Fucium Ore",
+          "quantity": 13
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 20
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2891",
+    "name": "Crossblitzer I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 273,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-919",
+    "forge": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 10
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 2
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Eltalite Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Carbalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Spiritvein Crystal",
+          "quantity": 2
+        },
+        {
+          "name": "Gracium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Banbaro Blockade"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2892",
+    "name": "Crossblitzer II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2891",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 4
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "name": "Bathycite Ore",
+          "quantity": 2
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2893",
+    "name": "Crossblitzer III",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 338,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2892",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Pure Dragon Blood",
+          "quantity": 3
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 3
+        },
+        {
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Pure Dragon Blood"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Ore Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2894",
+    "name": "Blackwing Bowgun I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 338,
+    "affinity": 20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-light-bowgun-2892",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Garuga Shard",
+          "quantity": 3
+        },
+        {
+          "name": "Garuga Silverpelt",
+          "quantity": 4
+        },
+        {
+          "name": "Garuga Auricle",
+          "quantity": 2
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Yian Garuga"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Yian Garuga Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2895",
+    "name": "Blackwing Bowgun II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 351,
+    "affinity": 25,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3
+    ],
+    "parent": "weapon-light-bowgun-2894",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Scratched Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Garuga Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Fancy Beak",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Scratched Shell"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Yian Garuga Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-920",
+    "name": "Nergal Spitter",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 247,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-918",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nergigante Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "name": "Nergigante Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-921",
+    "name": "Cataclysm's Trigger",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 8,
+    "attack": 260,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-920",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Xeno'jiiva Horn",
+          "quantity": 2
+        },
+        {
+          "name": "Nergigante Horn+",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Talon",
+          "quantity": 5
+        },
+        {
+          "name": "Nergigante Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Land of Convergence"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2896",
+    "name": "Ruinous Cataclysm",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "attack": 351,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-921",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "name": "Nergigante Hardclaw",
+          "quantity": 4
+        },
+        {
+          "name": "Eternal Regrowth Plate",
+          "quantity": 5
+        },
+        {
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 80000,
+      "unlock": "Ruiner Nergigante"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Nergigante Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-922",
+    "name": "Lumu Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 169,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-914",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Shell",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Pelt",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Paolumu"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-923",
+    "name": "Lumu Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 182,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-922",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Diablos Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Shell",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Shamos Scale",
+          "quantity": 5
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Diablos Shell"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-924",
+    "name": "Lumu Typhon I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 195,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-923",
+    "forge": {
+      "materials": [
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 6
+        },
+        {
+          "name": "Paolumu Webbing",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Pelt+",
+          "quantity": 4
+        },
+        {
+          "name": "Shamos Scale+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Paolumu Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-925",
+    "name": "Lumu Typhon II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 208,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-924",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blos Medulla",
+          "quantity": 2
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 4
+        },
+        {
+          "name": "Paolumu Wing",
+          "quantity": 3
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Diablos Carapace"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-926",
+    "name": "Lumu Typhon III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 221,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-925",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Elder Dragon Bone",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Carapace+",
+          "quantity": 5
+        },
+        {
+          "name": "Paolumu Scale+",
+          "quantity": 7
+        },
+        {
+          "name": "Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Elder Dragon Bone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2897",
+    "name": "Lumu Typhon IV",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 273,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-926",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Paolumu Fellwing",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 1
+        },
+        {
+          "name": "Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Shamos Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Paolumu Thickfur"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2898",
+    "name": "Nightmare's Seed I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 286,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-2897",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Nightshade Paolumu Thickfur",
+          "quantity": 3
+        },
+        {
+          "name": "Paolumu Cortex",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 2
+        },
+        {
+          "name": "Torpor Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 20000,
+      "unlock": "Nightshade Paolumu"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2899",
+    "name": "Nightmare's Seed II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 312,
+    "affinity": 15,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2
+    ],
+    "parent": "weapon-light-bowgun-2898",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Black Diablos Chine",
+          "quantity": 2
+        },
+        {
+          "name": "Nightshade Paolumu Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Nightshade Paolumu Fellwing",
+          "quantity": 3
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Paolumu Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2900",
+    "name": "Glavenus Blitz",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2897",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Glavenus Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Glavenus Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Molten Bursa",
+          "quantity": 2
+        },
+        {
+          "name": "Eltalite Ore",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2901",
+    "name": "Acid Blitz I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 312,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2900",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Acidic Glavenus Tailedge",
+          "quantity": 1
+        },
+        {
+          "name": "Honed Acidcryst",
+          "quantity": 4
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Acidic Glavenus"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2902",
+    "name": "Acid Blitz II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 325,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2901",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Acidic Glavenus Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Acidic Glavenus Spineshell",
+          "quantity": 3
+        },
+        {
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Blackveil Vaal Hazak"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Glavenus Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-927",
+    "name": "Bazel Typhoon I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 247,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-924",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Scale+",
+          "quantity": 5
+        },
+        {
+          "name": "Bazelgeuse Fuse",
+          "quantity": 4
+        },
+        {
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Bazelgeuse"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-928",
+    "name": "Bazel Typhoon II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 7,
+    "attack": 260,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-927",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Teostra Powder",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Wing",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Talon",
+          "quantity": 4
+        },
+        {
+          "name": "Bazelgeuse Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Fire Dragon Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2903",
+    "name": "Bazelcore",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 364,
+    "affinity": -10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-light-bowgun-928",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Bazelgeuse Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Bazelgeuse Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Distilled Blast Fluid",
+          "quantity": 3
+        },
+        {
+          "name": "Meldspar Ore",
+          "quantity": 5
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Seething Bazelgeuse"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Bazelgeuse Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-929",
+    "name": "Jagras Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 2,
+    "attack": 169,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-913",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Hide",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 3
+        },
+        {
+          "name": "Sharp Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1000,
+      "unlock": "Great Jagras"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-930",
+    "name": "Jagras Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 3,
+    "attack": 182,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-929",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 2
+        },
+        {
+          "name": "Coral Bone",
+          "quantity": 2
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 2000,
+      "unlock": "Tzitzi-Ya-Ku Claw"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-931",
+    "name": "Jagras Blitz III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 195,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-930",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Bone+",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Scale",
+          "quantity": 5
+        },
+        {
+          "name": "Great Jagras Claw",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 3
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Monster Bone+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-932",
+    "name": "Jagras Fire I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 208,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-931",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Scale+",
+          "quantity": 6
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Mane",
+          "quantity": 6
+        },
+        {
+          "name": "Piercing Claw",
+          "quantity": 5
+        }
+      ],
+      "zenny": 6000,
+      "unlock": "Great Jagras Scale+"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-933",
+    "name": "Jagras Fire II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 234,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      2
+    ],
+    "parent": "weapon-light-bowgun-932",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Hardbone",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 6
+        },
+        {
+          "name": "Jagras Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Tzitzi-Ya-Ku Claw+",
+          "quantity": 5
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Monster Hardbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-934",
+    "name": "Jagras Fire III",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 6,
+    "attack": 247,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-light-bowgun-933",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Vaal Hazak Talon",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Claw+",
+          "quantity": 8
+        },
+        {
+          "name": "Great Jagras Hide+",
+          "quantity": 6
+        },
+        {
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Deceased Scale"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2904",
+    "name": "Saber's Howl I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "attack": 299,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-light-bowgun-934",
+    "forge": {
+      "materials": [
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Mane+",
+          "quantity": 3
+        },
+        {
+          "name": "Fey Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Great Jagras Thickhide"
+    },
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Great Jagras Shard",
+          "quantity": 2
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 1
+        },
+        {
+          "name": "Great Jagras Mane+",
+          "quantity": 2
+        },
+        {
+          "name": "Jagras Shard",
+          "quantity": 2
+        }
+      ],
+      "zenny": 16000,
+      "unlock": "Great Jagras Thickhide"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2905",
+    "name": "Saber's Howl II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 338,
+    "affinity": 0,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      3,
+      2
+    ],
+    "parent": "weapon-light-bowgun-2904",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Great Jagras Thickhide",
+          "quantity": 3
+        },
+        {
+          "name": "Tough Claw",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Monster Slogbone"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Great Jagras Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2906",
+    "name": "Rex Fusillade I",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 312,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-2904",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Tigrex Shard",
+          "quantity": 4
+        },
+        {
+          "name": "Monster Slogbone",
+          "quantity": 3
+        },
+        {
+          "name": "Thick Bone",
+          "quantity": 5
+        }
+      ],
+      "zenny": 24000,
+      "unlock": "Tigrex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2907",
+    "name": "Rex Fusillade II",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "attack": 325,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2906",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Blackcurl Stouthorn",
+          "quantity": 2
+        },
+        {
+          "name": "Tigrex Hardfang",
+          "quantity": 4
+        },
+        {
+          "name": "Tigrex Lash",
+          "quantity": 1
+        },
+        {
+          "name": "Tigrex Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 32000,
+      "unlock": "Black Diablos Chine"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-2908",
+    "name": "Accursed Fire",
+    "type": "light-bowgun",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "attack": 351,
+    "affinity": -20,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      2,
+      1
+    ],
+    "parent": "weapon-light-bowgun-2907",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Brute Tigrex Hardclaw",
+          "quantity": 3
+        },
+        {
+          "name": "Brute Tigrex Shard",
+          "quantity": 5
+        },
+        {
+          "name": "Brute Tigrex Hardfang",
+          "quantity": 2
+        },
+        {
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 56000,
+      "unlock": "Brute Tigrex"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Tigrex Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-935",
+    "name": "Flame Blitz I",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "LR",
+    "rarity": 4,
+    "attack": 195,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [],
+    "parent": "weapon-light-bowgun-930",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 1
+        },
+        {
+          "name": "Rathalos Webbing",
+          "quantity": 2
+        },
+        {
+          "name": "Flame Sac",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Marrow",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4000,
+      "unlock": "Rathalos"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  },
+  {
+    "id": "weapon-light-bowgun-936",
+    "name": "Flame Blitz II",
+    "type": "light-bowgun",
+    "game": "world",
+    "rank": "HR",
+    "rarity": 5,
+    "attack": 208,
+    "affinity": 10,
+    "defense": 0,
+    "elements": [],
+    "slots": [
+      1
+    ],
+    "parent": "weapon-light-bowgun-935",
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "name": "Rathalos Scale",
+          "quantity": 6
+        },
+        {
+          "name": "Rathalos Tail",
+          "quantity": 2
+        },
+        {
+          "name": "Rathalos Plate",
+          "quantity": 1
+        },
+        {
+          "name": "Inferno Sac",
+          "quantity": 3
+        }
+      ],
+      "zenny": 8000,
+      "unlock": "Inferno Sac"
+    },
+    "sharpness": null,
+    "attributes": {},
+    "obtain": [],
+    "family": "Rathalos Tree"
+  }
+]

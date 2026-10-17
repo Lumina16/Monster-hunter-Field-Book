@@ -1,0 +1,3933 @@
+[
+  {
+    "id": "armour-1401",
+    "sourceId": 1401,
+    "name": "Zinogre Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 3
+      },
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zinogre-alpha-plus",
+    "setName": "Zinogre α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-924",
+          "name": "Zinogre Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-926",
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 3
+        },
+        {
+          "id": "item-927",
+          "name": "Fulgurbug",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1402",
+    "sourceId": 1402,
+    "name": "Zinogre Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-zinogre-beta-plus",
+    "setName": "Zinogre β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-926",
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 2
+        },
+        {
+          "id": "item-923",
+          "name": "Zinogre Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-928",
+          "name": "Zinogre Skymerald",
+          "quantity": 1
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1403",
+    "sourceId": 1403,
+    "name": "Zinogre Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-zinogre-beta-plus",
+    "setName": "Zinogre β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-921",
+          "name": "Zinogre Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-924",
+          "name": "Zinogre Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-1010",
+          "name": "Woodland Greatbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1404",
+    "sourceId": 1404,
+    "name": "Zinogre Braces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-recovery-speed",
+        "name": "Recovery Speed",
+        "level": 1
+      },
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zinogre-beta-plus",
+    "setName": "Zinogre β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-921",
+          "name": "Zinogre Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-925",
+          "name": "Zinogre Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-927",
+          "name": "Fulgurbug",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1405",
+    "sourceId": 1405,
+    "name": "Zinogre Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-power-prolonger",
+        "name": "Power Prolonger",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-zinogre-beta-plus",
+    "setName": "Zinogre β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-921",
+          "name": "Zinogre Cortex",
+          "quantity": 2
+        },
+        {
+          "id": "item-923",
+          "name": "Zinogre Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-998",
+          "name": "Forest Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1406",
+    "sourceId": 1406,
+    "name": "Zinogre Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-thunder-attack",
+        "name": "Thunder Attack",
+        "level": 1
+      },
+      {
+        "id": "skill-latent-power",
+        "name": "Latent Power",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-zinogre-beta-plus",
+    "setName": "Zinogre β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Zinogre Essence",
+      "skills": [
+        {
+          "id": "skill-latent-power-secret",
+          "name": "Latent Power Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 158,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": -1,
+        "water": -1,
+        "thunder": 4,
+        "ice": -4,
+        "dragon": 1
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-922",
+          "name": "Zinogre Electrofur+",
+          "quantity": 3
+        },
+        {
+          "id": "item-924",
+          "name": "Zinogre Hardclaw",
+          "quantity": 2
+        },
+        {
+          "id": "item-926",
+          "name": "Zinogre Deathly Shocker",
+          "quantity": 3
+        },
+        {
+          "id": "item-927",
+          "name": "Fulgurbug",
+          "quantity": 3
+        }
+      ],
+      "zenny": 18000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1407",
+    "sourceId": 1407,
+    "name": "Golden Lunehelm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-alpha-plus",
+    "setName": "Golden Lune α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1408",
+    "sourceId": 1408,
+    "name": "Golden Lunemail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-golden-lune-alpha-plus",
+    "setName": "Golden Lune α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-809",
+          "name": "Gold Rathian Surspike",
+          "quantity": 1
+        },
+        {
+          "id": "item-1023",
+          "name": "Dragonvein Solidbone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1409",
+    "sourceId": 1409,
+    "name": "Golden Lunebraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      },
+      {
+        "id": "skill-poison-attack",
+        "name": "Poison Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-alpha-plus",
+    "setName": "Golden Lune α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "id": "item-804",
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1410",
+    "sourceId": 1410,
+    "name": "Golden Lunecoil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 3
+      },
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-golden-lune-alpha-plus",
+    "setName": "Golden Lune α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-809",
+          "name": "Gold Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "id": "item-1002",
+          "name": "Guiding Wasteland Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1411",
+    "sourceId": 1411,
+    "name": "Golden Lunegreaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "id": "skill-spread-power-shots",
+        "name": "Spread/Power Shots",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-golden-lune-alpha-plus",
+    "setName": "Golden Lune α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 3
+        },
+        {
+          "id": "item-1014",
+          "name": "Guiding Wasteland Dragonbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1412",
+    "sourceId": 1412,
+    "name": "Golden Lunehelm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-beta-plus",
+    "setName": "Golden Lune β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1413",
+    "sourceId": 1413,
+    "name": "Golden Lunemail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-beta-plus",
+    "setName": "Golden Lune β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-809",
+          "name": "Gold Rathian Surspike",
+          "quantity": 1
+        },
+        {
+          "id": "item-1023",
+          "name": "Dragonvein Solidbone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1414",
+    "sourceId": 1414,
+    "name": "Golden Lunebraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-resentment",
+        "name": "Resentment",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-beta-plus",
+    "setName": "Golden Lune β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "id": "item-804",
+          "name": "Rathian Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1415",
+    "sourceId": 1415,
+    "name": "Golden Lunecoil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-divine-blessing",
+        "name": "Divine Blessing",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-golden-lune-beta-plus",
+    "setName": "Golden Lune β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-809",
+          "name": "Gold Rathian Surspike",
+          "quantity": 2
+        },
+        {
+          "id": "item-1002",
+          "name": "Guiding Wasteland Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1416",
+    "sourceId": 1416,
+    "name": "Golden Lunegreaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-weakness-exploit",
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-golden-lune-beta-plus",
+    "setName": "Golden Lune β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Gold Rathian Essence",
+      "skills": [
+        {
+          "id": "skill-divine-blessing-secret",
+          "name": "Divine Blessing Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-status",
+          "name": "True Critical Status",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 3,
+        "water": -2,
+        "thunder": -4,
+        "ice": 0,
+        "dragon": 4
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-808",
+          "name": "Gold Rathian Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 3
+        },
+        {
+          "id": "item-1014",
+          "name": "Guiding Wasteland Dragonbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1417",
+    "sourceId": 1417,
+    "name": "Silver Solhelm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-alpha-plus",
+    "setName": "Silver Sol α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1418",
+    "sourceId": 1418,
+    "name": "Silver Solmail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-alpha-plus",
+    "setName": "Silver Sol α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 4
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 3
+        },
+        {
+          "id": "item-1017",
+          "name": "Guiding Reef Dragonbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1419",
+    "sourceId": 1419,
+    "name": "Silver Solbraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 3
+      },
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-silver-sol-alpha-plus",
+    "setName": "Silver Sol α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 6
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-852",
+          "name": "Silver Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-1023",
+          "name": "Dragonvein Solidbone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1420",
+    "sourceId": 1420,
+    "name": "Silver Solcoil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      },
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-silver-sol-alpha-plus",
+    "setName": "Silver Sol α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "id": "item-1005",
+          "name": "Guiding Reef Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1421",
+    "sourceId": 1421,
+    "name": "Silver Solgreaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      },
+      {
+        "id": "skill-fire-attack",
+        "name": "Fire Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-alpha-plus",
+    "setName": "Silver Sol α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 6
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-852",
+          "name": "Silver Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1422",
+    "sourceId": 1422,
+    "name": "Silver Solhelm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-beta-plus",
+    "setName": "Silver Sol β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1423",
+    "sourceId": 1423,
+    "name": "Silver Solmail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4
+    ],
+    "skills": [
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-beta-plus",
+    "setName": "Silver Sol β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 4
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 3
+        },
+        {
+          "id": "item-1017",
+          "name": "Guiding Reef Dragonbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1424",
+    "sourceId": 1424,
+    "name": "Silver Solbraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 3
+      }
+    ],
+    "setId": "armourset-silver-sol-beta-plus",
+    "setName": "Silver Sol β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 6
+        },
+        {
+          "id": "item-851",
+          "name": "Silver Rathalos Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-852",
+          "name": "Silver Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-1023",
+          "name": "Dragonvein Solidbone",
+          "quantity": 8
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1425",
+    "sourceId": 1425,
+    "name": "Silver Solcoil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-windproof",
+        "name": "Windproof",
+        "level": 1
+      },
+      {
+        "id": "skill-critical-boost",
+        "name": "Critical Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-silver-sol-beta-plus",
+    "setName": "Silver Sol β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 4
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-853",
+          "name": "Rath Gleam",
+          "quantity": 2
+        },
+        {
+          "id": "item-1005",
+          "name": "Guiding Reef Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1426",
+    "sourceId": 1426,
+    "name": "Silver Solgreaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-slinger-capacity",
+        "name": "Slinger Capacity",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-silver-sol-beta-plus",
+    "setName": "Silver Sol β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Silver Rathalos Essence",
+      "skills": [
+        {
+          "id": "skill-slinger-ammo-secret",
+          "name": "Slinger Ammo Secret",
+          "pieces": 2
+        },
+        {
+          "id": "skill-true-critical-element",
+          "name": "True Critical Element",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 4,
+        "water": -3,
+        "thunder": -2,
+        "ice": -2,
+        "dragon": 3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-850",
+          "name": "Silver Rathalos Cortex",
+          "quantity": 6
+        },
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-852",
+          "name": "Silver Rathalos Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-790",
+          "name": "Large Wyvern Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1427",
+    "sourceId": 1427,
+    "name": "Empress Crown α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-offensive-guard",
+        "name": "Offensive Guard",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-alpha-plus",
+    "setName": "Lunastra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-968",
+          "name": "Lunastra Mane+",
+          "quantity": 3
+        },
+        {
+          "id": "item-970",
+          "name": "Lunastra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1428",
+    "sourceId": 1428,
+    "name": "Empress Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-alpha-plus",
+    "setName": "Lunastra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-972",
+          "name": "Lunastra Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-968",
+          "name": "Lunastra Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1001",
+          "name": "Serene Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1429",
+    "sourceId": 1429,
+    "name": "Empress Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-alpha-plus",
+    "setName": "Lunastra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-969",
+          "name": "Lunastra Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-1024",
+          "name": "Elder Dragonvein Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1430",
+    "sourceId": 1430,
+    "name": "Empress Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-alpha-plus",
+    "setName": "Lunastra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-970",
+          "name": "Lunastra Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-434",
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1431",
+    "sourceId": 1431,
+    "name": "Empress Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 3
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lunastra-alpha-plus",
+    "setName": "Lunastra α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-972",
+          "name": "Lunastra Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1013",
+          "name": "Tempered Cragbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1432",
+    "sourceId": 1432,
+    "name": "Empress Crown β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-beta-plus",
+    "setName": "Lunastra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-968",
+          "name": "Lunastra Mane+",
+          "quantity": 3
+        },
+        {
+          "id": "item-970",
+          "name": "Lunastra Hardhorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-792",
+          "name": "Large Elder Dragon Gem",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1433",
+    "sourceId": 1433,
+    "name": "Empress Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-peak-performance",
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-beta-plus",
+    "setName": "Lunastra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-972",
+          "name": "Lunastra Fellwing",
+          "quantity": 3
+        },
+        {
+          "id": "item-968",
+          "name": "Lunastra Mane+",
+          "quantity": 2
+        },
+        {
+          "id": "item-1001",
+          "name": "Serene Crystal",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1434",
+    "sourceId": 1434,
+    "name": "Empress Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 2
+      },
+      {
+        "id": "skill-blast-attack",
+        "name": "Blast Attack",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lunastra-beta-plus",
+    "setName": "Lunastra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-969",
+          "name": "Lunastra Lash",
+          "quantity": 1
+        },
+        {
+          "id": "item-1024",
+          "name": "Elder Dragonvein Bone",
+          "quantity": 6
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1435",
+    "sourceId": 1435,
+    "name": "Empress Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-health-boost",
+        "name": "Health Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-lunastra-beta-plus",
+    "setName": "Lunastra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 3
+        },
+        {
+          "id": "item-970",
+          "name": "Lunastra Hardhorn",
+          "quantity": 1
+        },
+        {
+          "id": "item-434",
+          "name": "Teostra Powder",
+          "quantity": 4
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1436",
+    "sourceId": 1436,
+    "name": "Empress Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-wide-range",
+        "name": "Wide-Range",
+        "level": 2
+      },
+      {
+        "id": "skill-tool-specialist",
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-lunastra-beta-plus",
+    "setName": "Lunastra β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Lunastra Essence",
+      "skills": [
+        {
+          "id": "skill-tool-specialist-secret",
+          "name": "Tool Specialist Secret",
+          "pieces": 3
+        }
+      ]
+    },
+    "stats": {
+      "defence": 164,
+      "maxDefence": 182,
+      "augmentedDefence": 202,
+      "resistances": {
+        "fire": 3,
+        "water": 1,
+        "thunder": 1,
+        "ice": -3,
+        "dragon": -2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-967",
+          "name": "Lunastra Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-971",
+          "name": "Lunastra Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-972",
+          "name": "Lunastra Fellwing",
+          "quantity": 2
+        },
+        {
+          "id": "item-1013",
+          "name": "Tempered Cragbone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1437",
+    "sourceId": 1437,
+    "name": "Ruinous Helm α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      },
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-alpha-plus",
+    "setName": "Ruiner Nergi α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-950",
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "id": "item-899",
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1438",
+    "sourceId": 1438,
+    "name": "Ruinous Mail α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-alpha-plus",
+    "setName": "Ruiner Nergi α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-951",
+          "name": "Nergigante Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1439",
+    "sourceId": 1439,
+    "name": "Ruinous Vambraces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-alpha-plus",
+    "setName": "Ruiner Nergi α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-949",
+          "name": "Nergigante Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-912",
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1440",
+    "sourceId": 1440,
+    "name": "Ruinous Coil α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 3
+      },
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-alpha-plus",
+    "setName": "Ruiner Nergi α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-950",
+          "name": "Annihilating Greathorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1441",
+    "sourceId": 1441,
+    "name": "Ruinous Greaves α+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      },
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-alpha-plus",
+    "setName": "Ruiner Nergi α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-935",
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1442",
+    "sourceId": 1442,
+    "name": "Ruinous Helm β+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-maximum-might",
+        "name": "Maximum Might",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-beta-plus",
+    "setName": "Ruiner Nergi β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-950",
+          "name": "Annihilating Greathorn",
+          "quantity": 3
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 4
+        },
+        {
+          "id": "item-899",
+          "name": "Glavenus Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1443",
+    "sourceId": 1443,
+    "name": "Ruinous Mail β+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-stamina-surge",
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-beta-plus",
+    "setName": "Ruiner Nergi β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-951",
+          "name": "Nergigante Hardclaw",
+          "quantity": 3
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-882",
+          "name": "Nargacuga Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1444",
+    "sourceId": 1444,
+    "name": "Ruinous Vambraces β+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-agitator",
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-beta-plus",
+    "setName": "Ruiner Nergi β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-949",
+          "name": "Nergigante Flail",
+          "quantity": 1
+        },
+        {
+          "id": "item-912",
+          "name": "Brachydios Pallium",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1445",
+    "sourceId": 1445,
+    "name": "Ruinous Coil β+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-attack-boost",
+        "name": "Attack Boost",
+        "level": 2
+      },
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-beta-plus",
+    "setName": "Ruiner Nergi β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-950",
+          "name": "Annihilating Greathorn",
+          "quantity": 2
+        },
+        {
+          "id": "item-844",
+          "name": "Rathalos Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  },
+  {
+    "id": "armour-1446",
+    "sourceId": 1446,
+    "name": "Ruinous Greaves β+",
+    "type": "legs",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      4,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-earplugs",
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
+    "setId": "armourset-ruiner-nergi-beta-plus",
+    "setName": "Ruiner Nergi β+",
+    "variant": "beta-plus",
+    "setBonus": {
+      "name": "Nergigante Ambition",
+      "skills": [
+        {
+          "id": "skill-hasten-recovery",
+          "name": "Hasten Recovery",
+          "pieces": 2
+        }
+      ]
+    },
+    "stats": {
+      "defence": 166,
+      "maxDefence": 184,
+      "augmentedDefence": 204,
+      "resistances": {
+        "fire": 1,
+        "water": 1,
+        "thunder": -3,
+        "ice": 1,
+        "dragon": -3
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-948",
+          "name": "Nergigante Cortex",
+          "quantity": 3
+        },
+        {
+          "id": "item-947",
+          "name": "Immortal Shard",
+          "quantity": 2
+        },
+        {
+          "id": "item-952",
+          "name": "Eternal Regrowth Plate",
+          "quantity": 2
+        },
+        {
+          "id": "item-935",
+          "name": "Bazelgeuse Mantle",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/legs.json"
+  },
+  {
+    "id": "armour-1447",
+    "sourceId": 1447,
+    "name": "Guildwork Head α+",
+    "type": "head",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 3
+      },
+      {
+        "id": "skill-honey-hunter",
+        "name": "Honey Hunter",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-guildwork-alpha-plus",
+    "setName": "Guildwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Guild Pride",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-carving-master",
+          "name": "Carving Master",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1026",
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "id": "item-998",
+          "name": "Forest Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-1010",
+          "name": "Woodland Greatbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-1029",
+          "name": "Steam Ticket",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/heads.json"
+  },
+  {
+    "id": "armour-1448",
+    "sourceId": 1448,
+    "name": "Guildwork Body α+",
+    "type": "chest",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      1,
+      1
+    ],
+    "skills": [
+      {
+        "id": "skill-cliffhanger",
+        "name": "Cliffhanger",
+        "level": 1
+      },
+      {
+        "id": "skill-flinch-free",
+        "name": "Flinch Free",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-guildwork-alpha-plus",
+    "setName": "Guildwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Guild Pride",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-carving-master",
+          "name": "Carving Master",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1026",
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "id": "item-1000",
+          "name": "Wasteland Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-1012",
+          "name": "Wasteland Cragbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-1027",
+          "name": "Boaboa Ticket",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/chests.json"
+  },
+  {
+    "id": "armour-1449",
+    "sourceId": 1449,
+    "name": "Guildwork Braces α+",
+    "type": "arms",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-geologist",
+        "name": "Geologist",
+        "level": 2
+      },
+      {
+        "id": "skill-botanist",
+        "name": "Botanist",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-guildwork-alpha-plus",
+    "setName": "Guildwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Guild Pride",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-carving-master",
+          "name": "Carving Master",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1026",
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "id": "item-1004",
+          "name": "Reef Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-1016",
+          "name": "Coral Crimsonbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-785",
+          "name": "Ancient Fragment",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/arms.json"
+  },
+  {
+    "id": "armour-1450",
+    "sourceId": 1450,
+    "name": "Guildwork Waist α+",
+    "type": "waist",
+    "gender": "both",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "slots": [
+      3,
+      2
+    ],
+    "skills": [
+      {
+        "id": "skill-forager-s-luck",
+        "name": "Forager's Luck",
+        "level": 1
+      },
+      {
+        "id": "skill-detector",
+        "name": "Detector",
+        "level": 1
+      }
+    ],
+    "setId": "armourset-guildwork-alpha-plus",
+    "setName": "Guildwork α+",
+    "variant": "alpha-plus",
+    "setBonus": {
+      "name": "Guild Pride",
+      "skills": [
+        {
+          "id": "skill-good-luck",
+          "name": "Good Luck",
+          "pieces": 2
+        },
+        {
+          "id": "skill-carving-master",
+          "name": "Carving Master",
+          "pieces": 4
+        }
+      ]
+    },
+    "stats": {
+      "defence": 162,
+      "maxDefence": 180,
+      "augmentedDefence": 200,
+      "resistances": {
+        "fire": 2,
+        "water": 1,
+        "thunder": 1,
+        "ice": 2,
+        "dragon": 2
+      }
+    },
+    "forge": {
+      "materials": [
+        {
+          "id": "item-1026",
+          "name": "Research Commission Ticket+",
+          "quantity": 1
+        },
+        {
+          "id": "item-1007",
+          "name": "Effluvial Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-1019",
+          "name": "Effluvial Frenzybone",
+          "quantity": 2
+        },
+        {
+          "id": "item-1028",
+          "name": "Thermae Ticket",
+          "quantity": 1
+        }
+      ],
+      "zenny": 24000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/armors/armor_base.csv",
+    "priceSource": "https://github.com/TanukiSharp/MHWMasterDataUtils/blob/8c25b6256f1a604183c386e2211900f53d24019f/MHWMasterDataUtils.Exporter/data/waists.json"
+  }
+]

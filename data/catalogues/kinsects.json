@@ -1,0 +1,4031 @@
+[
+  {
+    "id": "kinsect-1",
+    "sourceId": 1,
+    "name": "Culldrone I",
+    "game": "both",
+    "rank": null,
+    "rarity": 1,
+    "previous": null,
+    "previousName": null,
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 1,
+      "speed": 1,
+      "heal": 1
+    },
+    "forge": {
+      "materials": [],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-2",
+    "sourceId": 2,
+    "name": "Culldrone II",
+    "game": "both",
+    "rank": null,
+    "rarity": 2,
+    "previous": "kinsect-1",
+    "previousName": "Culldrone I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 2,
+      "speed": 2,
+      "heal": 2
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-3",
+    "sourceId": 3,
+    "name": "Culldrone III",
+    "game": "both",
+    "rank": null,
+    "rarity": 2,
+    "previous": "kinsect-2",
+    "previousName": "Culldrone II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 3,
+      "speed": 3,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        },
+        {
+          "id": "item-147",
+          "name": "Monster Bone M",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-4",
+    "sourceId": 4,
+    "name": "Alucanid I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-3",
+    "previousName": "Culldrone III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 6,
+      "speed": 3,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-115",
+          "name": "Iron Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-5",
+    "sourceId": 5,
+    "name": "Alucanid II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-4",
+    "previousName": "Alucanid I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 8,
+      "speed": 4,
+      "heal": 6
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-6",
+    "sourceId": 6,
+    "name": "Alucanid III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-5",
+    "previousName": "Alucanid II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 10,
+      "speed": 5,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-264",
+          "name": "Anjanath Fang",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-7",
+    "sourceId": 7,
+    "name": "Monarch Alucanid I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-6",
+    "previousName": "Alucanid III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 12,
+      "speed": 6,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-154",
+          "name": "Piercing Claw",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-8",
+    "sourceId": 8,
+    "name": "Monarch Alucanid II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-7",
+    "previousName": "Monarch Alucanid I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 13,
+      "speed": 6,
+      "heal": 10
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-158",
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-9",
+    "sourceId": 9,
+    "name": "Monarch Alucanid III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-8",
+    "previousName": "Monarch Alucanid II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 14,
+      "speed": 7,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-10",
+    "sourceId": 10,
+    "name": "Empresswing I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-6",
+    "previousName": "Alucanid III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 13,
+      "speed": 5,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-11",
+    "sourceId": 11,
+    "name": "Empresswing II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-10",
+    "previousName": "Empresswing I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 14,
+      "speed": 5,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-12",
+    "sourceId": 12,
+    "name": "Empresswing III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-11",
+    "previousName": "Empresswing II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 15,
+      "speed": 5,
+      "heal": 10
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-13",
+    "sourceId": 13,
+    "name": "Rigiprayne I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-3",
+    "previousName": "Culldrone III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 3,
+      "speed": 3,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-120",
+          "name": "Earth Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-14",
+    "sourceId": 14,
+    "name": "Rigiprayne II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-13",
+    "previousName": "Rigiprayne I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 3,
+      "speed": 4,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-15",
+    "sourceId": 15,
+    "name": "Rigiprayne III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-14",
+    "previousName": "Rigiprayne II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 4,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-286",
+          "name": "Tzitzi-Ya-Ku Claw",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-16",
+    "sourceId": 16,
+    "name": "Cancadaman I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-15",
+    "previousName": "Rigiprayne III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 10,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-184",
+          "name": "Hornetaur Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-17",
+    "sourceId": 17,
+    "name": "Cancadaman II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-16",
+    "previousName": "Cancadaman I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 11,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-18",
+    "sourceId": 18,
+    "name": "Cancadaman III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-17",
+    "previousName": "Cancadaman II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 12,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-19",
+    "sourceId": 19,
+    "name": "Fiddlebrix I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-15",
+    "previousName": "Rigiprayne III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 9,
+      "speed": 4,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-206",
+          "name": "Shamos Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-20",
+    "sourceId": 20,
+    "name": "Fiddlebrix II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-19",
+    "previousName": "Fiddlebrix I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 10,
+      "speed": 4,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-21",
+    "sourceId": 21,
+    "name": "Fiddlebrix III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-20",
+    "previousName": "Fiddlebrix II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 11,
+      "speed": 4,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-22",
+    "sourceId": 22,
+    "name": "Windchopper I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-3",
+    "previousName": "Culldrone III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 6,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-23",
+    "sourceId": 23,
+    "name": "Windchopper II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-22",
+    "previousName": "Windchopper I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 8,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-117",
+          "name": "Dragonite Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-116",
+          "name": "Machalite Ore",
+          "quantity": 3
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-24",
+    "sourceId": 24,
+    "name": "Windchopper III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-23",
+    "previousName": "Windchopper II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 10,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-275",
+          "name": "Rathian Webbing",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-25",
+    "sourceId": 25,
+    "name": "Grancathar I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-24",
+    "previousName": "Windchopper III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 13,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-185",
+          "name": "Hornetaur Innerwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-26",
+    "sourceId": 26,
+    "name": "Grancathar II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-25",
+    "previousName": "Grancathar I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 14,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-27",
+    "sourceId": 27,
+    "name": "Grancathar III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-26",
+    "previousName": "Grancathar II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 15,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-28",
+    "sourceId": 28,
+    "name": "Pseudocath I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-24",
+    "previousName": "Windchopper III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 8,
+      "speed": 13,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-118",
+          "name": "Carbalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-156",
+          "name": "Monster Broth",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-29",
+    "sourceId": 29,
+    "name": "Pseudocath II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-28",
+    "previousName": "Pseudocath I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 10,
+      "speed": 14,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-119",
+          "name": "Fucium Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-30",
+    "sourceId": 30,
+    "name": "Pseudocath III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-29",
+    "previousName": "Pseudocath II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 12,
+      "speed": 15,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-152",
+          "name": "Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-31",
+    "sourceId": 31,
+    "name": "Mauldrone I",
+    "game": "both",
+    "rank": null,
+    "rarity": 1,
+    "previous": null,
+    "previousName": null,
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 1,
+      "speed": 1,
+      "heal": 1
+    },
+    "forge": {
+      "materials": [],
+      "zenny": 100
+    },
+    "upgrade": null,
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-32",
+    "sourceId": 32,
+    "name": "Mauldrone II",
+    "game": "both",
+    "rank": null,
+    "rarity": 2,
+    "previous": "kinsect-31",
+    "previousName": "Mauldrone I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 2,
+      "speed": 2,
+      "heal": 2
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-146",
+          "name": "Monster Bone S",
+          "quantity": 3
+        }
+      ],
+      "zenny": 200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-33",
+    "sourceId": 33,
+    "name": "Mauldrone III",
+    "game": "both",
+    "rank": null,
+    "rarity": 2,
+    "previous": "kinsect-32",
+    "previousName": "Mauldrone II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 3,
+      "speed": 3,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-138",
+          "name": "Boulder Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-147",
+          "name": "Monster Bone M",
+          "quantity": 1
+        }
+      ],
+      "zenny": 300
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-34",
+    "sourceId": 34,
+    "name": "Foebeetle I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-33",
+    "previousName": "Mauldrone III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 6,
+      "speed": 4,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-138",
+          "name": "Boulder Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-35",
+    "sourceId": 35,
+    "name": "Foebeetle II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-34",
+    "previousName": "Foebeetle I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 8,
+      "speed": 5,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-135",
+          "name": "Sturdy Bone",
+          "quantity": 3
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-36",
+    "sourceId": 36,
+    "name": "Foebeetle III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-35",
+    "previousName": "Foebeetle II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 10,
+      "speed": 6,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-312",
+          "name": "Wyvern Bonemass",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-37",
+    "sourceId": 37,
+    "name": "Carnage Beetle I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-36",
+    "previousName": "Foebeetle III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 11,
+      "speed": 8,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-122",
+          "name": "Dragonvein Crystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-38",
+    "sourceId": 38,
+    "name": "Carnage Beetle II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-37",
+    "previousName": "Carnage Beetle I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 12,
+      "speed": 9,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-158",
+          "name": "Toxin Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-39",
+    "sourceId": 39,
+    "name": "Carnage Beetle III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-38",
+    "previousName": "Carnage Beetle II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 13,
+      "speed": 11,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-40",
+    "sourceId": 40,
+    "name": "Bonnetfille I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-36",
+    "previousName": "Foebeetle III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 12,
+      "speed": 6,
+      "heal": 6
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-202",
+          "name": "Jagras Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-41",
+    "sourceId": 41,
+    "name": "Bonnetfille II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-40",
+    "previousName": "Bonnetfille I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 13,
+      "speed": 6,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-42",
+    "sourceId": 42,
+    "name": "Bonnetfille III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-41",
+    "previousName": "Bonnetfille II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 14,
+      "speed": 6,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-43",
+    "sourceId": 43,
+    "name": "Ladytarge I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-33",
+    "previousName": "Mauldrone III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 4,
+      "heal": 6
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-146",
+          "name": "Monster Bone S",
+          "quantity": 3
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-44",
+    "sourceId": 44,
+    "name": "Ladytarge II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-43",
+    "previousName": "Ladytarge I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 5,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-135",
+          "name": "Sturdy Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-139",
+          "name": "Coral Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-45",
+    "sourceId": 45,
+    "name": "Ladytarge III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-44",
+    "previousName": "Ladytarge II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 5,
+      "speed": 6,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-303",
+          "name": "Great Girros Fang",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-46",
+    "sourceId": 46,
+    "name": "Ladypavise I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-45",
+    "previousName": "Ladytarge III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 7,
+      "speed": 6,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-211",
+          "name": "Girros Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-47",
+    "sourceId": 47,
+    "name": "Ladypavise II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-46",
+    "previousName": "Ladypavise I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 8,
+      "speed": 6,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-160",
+          "name": "Omniplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-48",
+    "sourceId": 48,
+    "name": "Ladypavise III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-47",
+    "previousName": "Ladypavise II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 9,
+      "speed": 6,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-49",
+    "sourceId": 49,
+    "name": "Arkmaiden I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-45",
+    "previousName": "Ladytarge III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 5,
+      "speed": 6,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-179",
+          "name": "Vespoid Carapace",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-50",
+    "sourceId": 50,
+    "name": "Arkmaiden II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-49",
+    "previousName": "Arkmaiden I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 6,
+      "speed": 6,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-51",
+    "sourceId": 51,
+    "name": "Arkmaiden III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-50",
+    "previousName": "Arkmaiden II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 7,
+      "speed": 6,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-52",
+    "sourceId": 52,
+    "name": "Gullshad I",
+    "game": "both",
+    "rank": null,
+    "rarity": 3,
+    "previous": "kinsect-33",
+    "previousName": "Mauldrone III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 3,
+      "speed": 6,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-148",
+          "name": "Monster Bone L",
+          "quantity": 1
+        },
+        {
+          "id": "item-137",
+          "name": "Ancient Bone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 500
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-53",
+    "sourceId": 53,
+    "name": "Gullshad II",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-52",
+    "previousName": "Gullshad I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 3,
+      "speed": 8,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-135",
+          "name": "Sturdy Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-140",
+          "name": "Warped Bone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-54",
+    "sourceId": 54,
+    "name": "Gullshad III",
+    "game": "both",
+    "rank": null,
+    "rarity": 4,
+    "previous": "kinsect-53",
+    "previousName": "Gullshad II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 3,
+      "speed": 10,
+      "heal": 5
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-149",
+          "name": "Monster Bone+",
+          "quantity": 2
+        },
+        {
+          "id": "item-294",
+          "name": "Paolumu Shell",
+          "quantity": 1
+        }
+      ],
+      "zenny": 1200
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-55",
+    "sourceId": 55,
+    "name": "Bullshroud I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-54",
+    "previousName": "Gullshad III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 5,
+      "speed": 13,
+      "heal": 5
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-191",
+          "name": "Wingdrake Hide+",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-56",
+    "sourceId": 56,
+    "name": "Bullshroud II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-55",
+    "previousName": "Bullshroud I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 5,
+      "speed": 14,
+      "heal": 6
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-123",
+          "name": "Lightcrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-57",
+    "sourceId": 57,
+    "name": "Bullshroud III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-56",
+    "previousName": "Bullshroud II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 5,
+      "speed": 15,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-58",
+    "sourceId": 58,
+    "name": "Whispervesp I",
+    "game": "both",
+    "rank": null,
+    "rarity": 5,
+    "previous": "kinsect-54",
+    "previousName": "Gullshad III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 3,
+      "speed": 12,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-150",
+          "name": "Monster Keenbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-136",
+          "name": "Quality Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-180",
+          "name": "Vespoid Innerwing",
+          "quantity": 2
+        }
+      ],
+      "zenny": 2400
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-59",
+    "sourceId": 59,
+    "name": "Whispervesp II",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": "kinsect-58",
+    "previousName": "Whispervesp I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 3,
+      "speed": 13,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-141",
+          "name": "Brutal Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-164",
+          "name": "Inferno Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 3600
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-60",
+    "sourceId": 60,
+    "name": "Whispervesp III",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-59",
+    "previousName": "Whispervesp II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 3,
+      "speed": 15,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-173",
+          "name": "Elder Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-151",
+          "name": "Monster Hardbone",
+          "quantity": 3
+        },
+        {
+          "id": "item-125",
+          "name": "Firecell Stone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-61",
+    "sourceId": 61,
+    "name": "Dragon Soul",
+    "game": "both",
+    "rank": null,
+    "rarity": 6,
+    "previous": null,
+    "previousName": null,
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 12,
+      "speed": 11,
+      "heal": 1
+    },
+    "forge": null,
+    "upgrade": null,
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-62",
+    "sourceId": 62,
+    "name": "True Dragon Soul",
+    "game": "both",
+    "rank": null,
+    "rarity": 7,
+    "previous": "kinsect-61",
+    "previousName": "Dragon Soul",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 15,
+      "speed": 14,
+      "heal": 1
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-469",
+          "name": "Aetheryte Shard",
+          "quantity": 5
+        },
+        {
+          "id": "item-467",
+          "name": "Behemoth Shearclaw",
+          "quantity": 1
+        },
+        {
+          "id": "item-142",
+          "name": "Dragonbone Relic",
+          "quantity": 2
+        },
+        {
+          "id": "item-124",
+          "name": "Novacrystal",
+          "quantity": 2
+        }
+      ],
+      "zenny": 4800
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-63",
+    "sourceId": 63,
+    "name": "Nexus Dragon Soul",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "previous": "kinsect-62",
+    "previousName": "True Dragon Soul",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 17,
+      "speed": 16,
+      "heal": 1
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        },
+        {
+          "id": "item-466",
+          "name": "Behemoth Great Horn",
+          "quantity": 1
+        },
+        {
+          "id": "item-1053",
+          "name": "Unity Symbol",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-64",
+    "sourceId": 64,
+    "name": "Vezirstag I Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-9",
+    "previousName": "Monarch Alucanid III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 14,
+      "speed": 9,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-65",
+    "sourceId": 65,
+    "name": "Vezirstag II Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-64",
+    "previousName": "Vezirstag I Velox",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 15,
+      "speed": 10,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-800",
+          "name": "Rathian Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-66",
+    "sourceId": 66,
+    "name": "Vezirstag III Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-65",
+    "previousName": "Vezirstag II Velox",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Poison",
+      "power": 16,
+      "speed": 11,
+      "heal": 12
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-67",
+    "sourceId": 67,
+    "name": "Vezirstag I Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-12",
+    "previousName": "Empresswing III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 16,
+      "speed": 5,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-68",
+    "sourceId": 68,
+    "name": "Vezirstag II Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-67",
+    "previousName": "Vezirstag I Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 18,
+      "speed": 6,
+      "heal": 12
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-759",
+          "name": "Anjanath Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-69",
+    "sourceId": 69,
+    "name": "Vezirstag III Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-68",
+    "previousName": "Vezirstag II Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 20,
+      "speed": 7,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-70",
+    "sourceId": 70,
+    "name": "Bilbobrix I Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-18",
+    "previousName": "Cancadaman III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 4,
+      "speed": 13,
+      "heal": 16
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-71",
+    "sourceId": 71,
+    "name": "Bilbobrix II Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-70",
+    "previousName": "Bilbobrix I Velox",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 5,
+      "speed": 14,
+      "heal": 18
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-781",
+          "name": "Odogaron Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-72",
+    "sourceId": 72,
+    "name": "Bilbobrix III Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-71",
+    "previousName": "Bilbobrix II Velox",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Paralysis",
+      "power": 6,
+      "speed": 15,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-73",
+    "sourceId": 73,
+    "name": "Bilbobrix I Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-21",
+    "previousName": "Fiddlebrix III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 12,
+      "speed": 4,
+      "heal": 16
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-74",
+    "sourceId": 74,
+    "name": "Bilbobrix II Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-73",
+    "previousName": "Bilbobrix I Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 13,
+      "speed": 5,
+      "heal": 18
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-780",
+          "name": "Radobaan Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-75",
+    "sourceId": 75,
+    "name": "Bilbobrix III Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-74",
+    "previousName": "Bilbobrix II Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 14,
+      "speed": 6,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-76",
+    "sourceId": 76,
+    "name": "Foliacath I Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-27",
+    "previousName": "Grancathar III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 4,
+      "speed": 16,
+      "heal": 12
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-77",
+    "sourceId": 77,
+    "name": "Foliacath II Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-76",
+    "previousName": "Foliacath I Medis",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 5,
+      "speed": 18,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-78",
+    "sourceId": 78,
+    "name": "Foliacath III Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-77",
+    "previousName": "Foliacath II Medis",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 6,
+      "speed": 20,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-79",
+    "sourceId": 79,
+    "name": "Foliacath I Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-30",
+    "previousName": "Pseudocath III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 13,
+      "speed": 16,
+      "heal": 3
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-682",
+          "name": "Eltalite Ore",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-80",
+    "sourceId": 80,
+    "name": "Foliacath II Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-79",
+    "previousName": "Foliacath I Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 14,
+      "speed": 18,
+      "heal": 4
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-683",
+          "name": "Meldspar Ore",
+          "quantity": 2
+        },
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-81",
+    "sourceId": 81,
+    "name": "Foliacath III Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-80",
+    "previousName": "Foliacath II Forz",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Blast",
+      "power": 15,
+      "speed": 20,
+      "heal": 5
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-788",
+          "name": "Large Elder Dragon Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-82",
+    "sourceId": 82,
+    "name": "Elscarad I",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-3",
+    "previousName": "Culldrone III",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 6,
+      "speed": 6,
+      "heal": 10
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-807",
+          "name": "Gold Rathian Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-998",
+          "name": "Forest Crystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-1000",
+          "name": "Wasteland Crystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-83",
+    "sourceId": 83,
+    "name": "Elscarad II",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-82",
+    "previousName": "Elscarad I",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 9,
+      "speed": 9,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-121",
+          "name": "Coral Crystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-1007",
+          "name": "Effluvial Crystal",
+          "quantity": 1
+        },
+        {
+          "id": "item-1047",
+          "name": "Spiritvein Solidbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-84",
+    "sourceId": 84,
+    "name": "Elscarad III",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "previous": "kinsect-83",
+    "previousName": "Elscarad II",
+    "stats": {
+      "attackType": "Sever",
+      "dust": "Heal",
+      "power": 12,
+      "speed": 12,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-1048",
+          "name": "Elder Spiritvein Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-1055",
+          "name": "Tempered Green Scale",
+          "quantity": 1
+        },
+        {
+          "id": "item-1056",
+          "name": "Tempered Pink Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-85",
+    "sourceId": 85,
+    "name": "Gleambeetle I Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-39",
+    "previousName": "Carnage Beetle III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 14,
+      "speed": 12,
+      "heal": 5
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-698",
+          "name": "Deadly Poison Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-86",
+    "sourceId": 86,
+    "name": "Gleambeetle II Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-85",
+    "previousName": "Gleambeetle I Velox",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 15,
+      "speed": 13,
+      "heal": 6
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-782",
+          "name": "Rathalos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-87",
+    "sourceId": 87,
+    "name": "Gleambeetle III Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-86",
+    "previousName": "Gleambeetle II Velox",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Poison",
+      "power": 17,
+      "speed": 14,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-845",
+          "name": "Azure Rathalos Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-88",
+    "sourceId": 88,
+    "name": "Gleambeetle I Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-42",
+    "previousName": "Bonnetfille III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 15,
+      "speed": 6,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-89",
+    "sourceId": 89,
+    "name": "Gleambeetle II Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-88",
+    "previousName": "Gleambeetle I Medis",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 17,
+      "speed": 7,
+      "heal": 10
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-865",
+          "name": "Uragaan Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-90",
+    "sourceId": 90,
+    "name": "Gleambeetle III Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-89",
+    "previousName": "Gleambeetle II Medis",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 19,
+      "speed": 8,
+      "heal": 11
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-858",
+          "name": "Black Diablos Cortex",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-91",
+    "sourceId": 91,
+    "name": "Ladytower I Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-48",
+    "previousName": "Ladypavise III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 10,
+      "speed": 6,
+      "heal": 16
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-699",
+          "name": "Ultraplegia Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-92",
+    "sourceId": 92,
+    "name": "Ladytower II Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-91",
+    "previousName": "Ladytower I Forz",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 11,
+      "speed": 7,
+      "heal": 18
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-783",
+          "name": "Diablos Cortex",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-93",
+    "sourceId": 93,
+    "name": "Ladytower III Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-92",
+    "previousName": "Ladytower II Forz",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Paralysis",
+      "power": 12,
+      "speed": 8,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-778",
+          "name": "Dragonbone Artifact",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-94",
+    "sourceId": 94,
+    "name": "Ladytower I Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-51",
+    "previousName": "Arkmaiden III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 7,
+      "speed": 8,
+      "heal": 16
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-95",
+    "sourceId": 95,
+    "name": "Ladytower II Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-94",
+    "previousName": "Ladytower I Velox",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 8,
+      "speed": 9,
+      "heal": 18
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-861",
+          "name": "Lavasioth Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-96",
+    "sourceId": 96,
+    "name": "Ladytower III Velox",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-95",
+    "previousName": "Ladytower II Velox",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 9,
+      "speed": 11,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-964",
+          "name": "Hellfire Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-97",
+    "sourceId": 97,
+    "name": "Valorwing I Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-57",
+    "previousName": "Bullshroud III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 7,
+      "speed": 16,
+      "heal": 7
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-702",
+          "name": "Cryo Sac",
+          "quantity": 1
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-98",
+    "sourceId": 98,
+    "name": "Valorwing II Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-97",
+    "previousName": "Valorwing I Forz",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 8,
+      "speed": 18,
+      "heal": 8
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-784",
+          "name": "Purecrystal",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-99",
+    "sourceId": 99,
+    "name": "Valorwing III Forz",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-98",
+    "previousName": "Valorwing II Forz",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 10,
+      "speed": 20,
+      "heal": 9
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-943",
+          "name": "Kirin Finehide",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-100",
+    "sourceId": 100,
+    "name": "Valorwing I Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 9,
+    "previous": "kinsect-60",
+    "previousName": "Whispervesp III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 3,
+      "speed": 16,
+      "heal": 12
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-686",
+          "name": "Monster Toughbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-685",
+          "name": "Thick Bone",
+          "quantity": 3
+        },
+        {
+          "id": "item-700",
+          "name": "Conflagrant Sac",
+          "quantity": 2
+        }
+      ],
+      "zenny": 6000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-101",
+    "sourceId": 101,
+    "name": "Valorwing II Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-100",
+    "previousName": "Valorwing I Medis",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 4,
+      "speed": 18,
+      "heal": 13
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-786",
+          "name": "Monster Slogbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-697",
+          "name": "Frozen Bone",
+          "quantity": 1
+        },
+        {
+          "id": "item-810",
+          "name": "Paolumu Thickfur",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-102",
+    "sourceId": 102,
+    "name": "Valorwing III Medis",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-101",
+    "previousName": "Valorwing II Medis",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Blast",
+      "power": 5,
+      "speed": 20,
+      "heal": 14
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-791",
+          "name": "Pure Dragon Blood",
+          "quantity": 2
+        },
+        {
+          "id": "item-787",
+          "name": "Monster Solidbone",
+          "quantity": 2
+        },
+        {
+          "id": "item-974",
+          "name": "Daora Shard",
+          "quantity": 1
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-103",
+    "sourceId": 103,
+    "name": "Arginesse I",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 10,
+    "previous": "kinsect-33",
+    "previousName": "Mauldrone III",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 6,
+      "speed": 6,
+      "heal": 10
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-849",
+          "name": "Silver Rathalos Shard",
+          "quantity": 1
+        },
+        {
+          "id": "item-1010",
+          "name": "Woodland Greatbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-1012",
+          "name": "Wasteland Cragbone",
+          "quantity": 1
+        }
+      ],
+      "zenny": 8000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-104",
+    "sourceId": 104,
+    "name": "Arginesse II",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 11,
+    "previous": "kinsect-103",
+    "previousName": "Arginesse I",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 9,
+      "speed": 9,
+      "heal": 15
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-1016",
+          "name": "Coral Crimsonbone",
+          "quantity": 1
+        },
+        {
+          "id": "item-1019",
+          "name": "Effluvial Frenzybone",
+          "quantity": 1
+        },
+        {
+          "id": "item-1047",
+          "name": "Spiritvein Solidbone",
+          "quantity": 2
+        }
+      ],
+      "zenny": 10000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  },
+  {
+    "id": "kinsect-105",
+    "sourceId": 105,
+    "name": "Arginesse III",
+    "game": "iceborne",
+    "rank": "MR",
+    "rarity": 12,
+    "previous": "kinsect-104",
+    "previousName": "Arginesse II",
+    "stats": {
+      "attackType": "Blunt",
+      "dust": "Heal",
+      "power": 11,
+      "speed": 12,
+      "heal": 20
+    },
+    "forge": null,
+    "upgrade": {
+      "materials": [
+        {
+          "id": "item-1048",
+          "name": "Elder Spiritvein Bone",
+          "quantity": 2
+        },
+        {
+          "id": "item-1057",
+          "name": "Tempered Red Scale",
+          "quantity": 1
+        },
+        {
+          "id": "item-1058",
+          "name": "Tempered Azure Scale",
+          "quantity": 1
+        }
+      ],
+      "zenny": 12000
+    },
+    "source": "https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data/weapons/kinsect_base.csv",
+    "priceSource": "https://mhworld.kiranico.com/en/kinsects"
+  }
+]
