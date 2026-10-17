@@ -25,7 +25,7 @@ jobs:
       - name: Install build dependencies
         run: |
           python -m pip install -r android/requirements.txt
-          sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36' 'build-tools;35.0.0'
       - name: Build and check native Android
         working-directory: android
         run: |
