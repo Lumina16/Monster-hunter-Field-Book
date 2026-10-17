@@ -20,7 +20,9 @@ Added paged browsing, exact-count Bestiary grids, per-collection filters/sorts, 
 
 Settings now connect native backups, scoped resets, the interactive rarity/slot/effect legend, per-collection default sorting and imported offline music controls. Existing native bookmarks/settings remain in app storage. The retained test certificate is used for the downloadable update; no private key is published.
 
-Data comparison: all 10,174 records, 528,819 nested values and 296 embedded media references match the frozen HTML. Database integrity passes and all link targets exist. Compilation/API tests and APK verification are recorded separately when the build completes.
+Data comparison: all 10,174 records, 528,819 nested values and 296 embedded media references match the frozen HTML. Database integrity passes and all link targets exist. All 22 native checks passed, including the API 24/36 matrix. Lint has zero errors and 46 warnings, mostly English UI strings, drawing allocations and programmatic View constructors. The retained development certificate verifies with APK v2/v3, and all uncompressed ZIP entries are aligned to 4 bytes. Full evidence is in `ANDROID_0.2.0_VERIFICATION.json`.
+
+APK: `Monster_Hunter_Field_Book_0.2.0.apk` (101,972,285 bytes). SHA-256: `bdba4e9a2be08a5ed343a9239b7ae8d9279a1d9848f8f4c370efa96151e7f703`.
 
 The source contains 71 large monsters, 120 creatures, 3,544 weapons, 3,610 equipment entries, 1,778 items, 403 recipes, 522 quests, 7 locales, 6 map/base directories, 70 field notes, 14 weapon handbooks, 8 build templates and 21 preparation notes. Counts refer to the supplied reference, not a claim of newly researched game coverage.
 
