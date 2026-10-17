@@ -8,7 +8,7 @@
 - `npm test` loads the full built app in jsdom and checks Settings opening, reopening, all grouped settings categories, manual expansion and matching Gradients spacing. It also rejects unexpected runtime errors.
 - A fresh archive of only tracked source is rebuilt to check that ignored/generated files are not build dependencies.
 
-jsdom checks DOM behaviour and computed CSS rules; it does not prove actual phone rendering, GPU animation smoothness or Android performance. Music playback and device-specific local-file persistence require real-browser/device testing.
+jsdom checks DOM behaviour and computed CSS rules; it does not prove actual phone rendering, GPU animation smoothness or Android performance. The DOM fixture trims inert encoded-media payloads to bound test memory; the real release retains them, and the builder verifies their checksums. Music playback and device-specific local-file persistence require real-browser/device testing.
 
 ## Earlier completed-app checks
 

@@ -9,7 +9,10 @@ const virtualConsole = new VirtualConsole();
 virtualConsole.on('jsdomError', error => {
   if (!String(error.message).includes('Not implemented')) errors.push(error);
 });
-const dom = new JSDOM(fs.readFileSync(file, 'utf8'), {
+// jsdom does not render this media. Trim only encoded payloads in the test
+// fixture to avoid spending gigabytes on inert HTML text nodes.
+const fixture = fs.readFileSync(file, 'utf8').replace(/data:[^"'\s<>]*?;base64,[A-Za-z0-9+/=]+/g, 'data:,');
+const dom = new JSDOM(fixture, {
   url: 'https://field-book.test/', runScripts: 'dangerously', pretendToBeVisual: true,
   virtualConsole,
   beforeParse(window) {
