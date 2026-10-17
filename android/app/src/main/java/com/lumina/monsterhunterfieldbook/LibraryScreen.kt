@@ -109,7 +109,7 @@ class LibraryScreen(private val a:MainActivity,private val section:String,privat
         else list=ListView(a).apply{dividerHeight=0;setPadding(a.dp(6),0,a.dp(6),a.dp(6))}
         list.adapter=adapter;listSlot.addView(list,FrameLayout.LayoutParams(-1,-1))
         list.setOnScrollListener(object:AbsListView.OnScrollListener{
-            override fun onScrollStateChanged(v:AbsListView?,state:Int){if(state==SCROLL_STATE_IDLE)capturePosition()}
+            override fun onScrollStateChanged(v:AbsListView?,state:Int){if(state==AbsListView.OnScrollListener.SCROLL_STATE_IDLE)capturePosition()}
             override fun onScroll(v:AbsListView?,first:Int,visible:Int,total:Int){}
         })
         selector.onItemSelectedListener=object:AdapterView.OnItemSelectedListener{

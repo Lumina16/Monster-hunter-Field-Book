@@ -3,6 +3,8 @@ package com.lumina.monsterhunterfieldbook
 import android.view.View
 import android.view.ViewGroup
 import android.widget.GridView
+import android.widget.CheckBox
+import android.app.AlertDialog
 import org.json.*
 import org.junit.Assert.*
 import org.junit.Test
@@ -84,6 +86,20 @@ class NativeLibrariesTest {
         assertTrue(walk(a.root).filterIsInstance<RecordPanel>().any{it.record.id==record.id})
         a.onBackPressed();Shadows.shadowOf(android.os.Looper.getMainLooper()).idleFor(Duration.ofSeconds(1))
         assertEquals(6,walk(a.root).filterIsInstance<GridView>().single().numColumns)
+        controller.pause().stop().destroy()
+    }
+    @Test fun resetRequiresTickAndPreservesProgressAndBookmarks(){
+        NativePrefs(RuntimeEnvironment.getApplication()).reset()
+        val controller=Robolectric.buildActivity(MainActivity::class.java).setup();val a=controller.get()
+        a.catalogue.executor.submit{}.get(30,TimeUnit.SECONDS);Shadows.shadowOf(android.os.Looper.getMainLooper()).idleFor(Duration.ofSeconds(5))
+        a.prefs.set("theme","sakura");a.prefs.set("bookmarks","[\"saved-entry\"]");a.prefs.set("progress:world","{\"task\":true}")
+        a.backups.resetAllSettings()
+        val dialog=org.robolectric.shadows.ShadowAlertDialog.getLatestAlertDialog()
+        val reset=dialog.getButton(AlertDialog.BUTTON_POSITIVE)
+        assertFalse(reset.isEnabled)
+        walk(dialog.window!!.decorView).filterIsInstance<CheckBox>().single().isChecked=true
+        assertTrue(reset.isEnabled);reset.performClick()
+        assertEquals("game",a.prefs.text("theme","game"));assertEquals("[\"saved-entry\"]",a.prefs.text("bookmarks","[]"));assertEquals("{\"task\":true}",a.prefs.text("progress:world","{}"))
         controller.pause().stop().destroy()
     }
 }

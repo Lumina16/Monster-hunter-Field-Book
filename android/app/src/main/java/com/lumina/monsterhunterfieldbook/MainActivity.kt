@@ -299,6 +299,7 @@ class MainActivity:Activity(){
         val host=column();settings=SettingsPanel(this,host,category);settings!!.rebuild();present("settings",host,if(prefs.text("settingsLayout","center")=="split"&&wide)1000 else 840)
     }
     fun closeTop()=dismiss()
+    fun rebuildSettings(){settings?.rebuild()}
     fun settingsHeading(title:String)=heading(title)
     fun showSearch(kind:String?=null){
         if(overlays.lastOrNull()?.kind=="search")return

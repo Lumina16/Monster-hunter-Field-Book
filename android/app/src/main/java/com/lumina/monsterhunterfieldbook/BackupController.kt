@@ -12,7 +12,7 @@ object NativeBackup {
     const val MAX_BYTES=2*1024*1024
     private val integers=mapOf("font" to 75..160,"lineSpacing" to 0..20,"letterSpacing" to 0..20,"wordSpacing" to 0..12,"iconSize" to 75..140,"gradientStrength" to 0..60,"speed" to 0..100,"volume" to 0..100)
     private val flags=setOf("animations","gradients","glow","particles","blur","imageMotion","musicEnabled","confirmExit","rememberScroll","singleGroup","rememberGroups","searchHistory","followTheme","musicPaused","rememberMusicPosition")
-    private val objects=setOf("bookmarks","recent","visualProfiles","readingGroups","campChecks","musicPositions")
+    private val objects=setOf("bookmarks","recent","visualProfiles","readingGroups","campChecks","musicPositions","trackOrder","hiddenTracks")
     private val enums=mapOf("density" to setOf("compact","comfortable"),"startup" to setOf("overview","last"),"settingsLayout" to setOf("center","split"),"performance" to setOf("full","light"),"transition" to setOf("liquid","fade","slide","zoom","none"),"touch" to setOf("ripple","halo","glow","sparks","none"),"musicMode" to setOf("one","library","shuffle"),"edition" to setOf("world","iceborne"),"columns" to setOf("auto","1","2","3","4","5","6"),"rows" to (1..8).map{it.toString()}.toSet(),"gradientAngle" to setOf("0","1","2"))
     fun encode(values:JSONObject):String {
         val copy=JSONObject(values.toString());copy.remove("tracks");copy.remove("speedUndo")
@@ -38,8 +38,8 @@ object NativeBackup {
             if(key in setOf("customBg","customAccent","customInk"))require(value is Int||value is Long){"Invalid colour."}
             if(value is String){
                 require(value.length<=MAX_BYTES/2){"Setting value is too large."}
-                if(key in objects||key.startsWith("progress:")||key.startsWith("goals:")||key.startsWith("filter:")){
-                    if(key in setOf("bookmarks","recent")){
+                if(key in objects||key.startsWith("progress:")||key.startsWith("goals:")||key.startsWith("filter:")||key.startsWith("mapView:")){
+                    if(key in setOf("bookmarks","recent","trackOrder","hiddenTracks")){
                         val array=JSONArray(value);require(array.length()<=20000){"Too many saved entries."};for(i in 0 until array.length())require(array.get(i) is String){"Invalid saved entry."}
                     }else if(key=="visualProfiles"){
                         val profiles=JSONArray(value);require(profiles.length()<=200){"Too many saved looks."}
@@ -47,6 +47,8 @@ object NativeBackup {
                     }else{
                         val objectValue=JSONObject(value)
                         if(key=="readingGroups"||key=="campChecks"||key.startsWith("progress:")||key.startsWith("goals:"))objectValue.keys().forEach{require(objectValue.get(it) is Boolean){"Invalid checklist value."}}
+                        if(key=="musicPositions")objectValue.keys().forEach{require(objectValue.get(it) is Number&&objectValue.getDouble(it)>=0){"Invalid music position."}}
+                        if(key.startsWith("mapView:"))listOf("scale","x","y").forEach{require(objectValue.optDouble(it,0.0).isFinite()){ "Invalid map position." }}
                         if(key.startsWith("filter:")){
                             require(objectValue.optString("game","all") in setOf("all","world","iceborne")){"Invalid collection filter."}
                             require(objectValue.optString("sort","name") in setOf("name","rarity","attack","source","tree")){"Invalid collection sort."}
@@ -98,20 +100,20 @@ class BackupController(private val a:MainActivity) {
         val marks=runCatching{JSONArray(values.optString("bookmarks","[]")).length()}.getOrDefault(0)
         AlertDialog.Builder(a).setTitle("Restore native backup?").setMessage("Restores settings, filters, "+marks+" bookmarks and saved progress from this file. Imported music files stay on this device.").setNegativeButton("Cancel",null).setPositiveButton("Restore"){_,_->
             listOf("tracks","trackOrder","hiddenTracks").forEach{key->if(a.prefs.values.has(key))values.put(key,a.prefs.values.get(key))}
-            a.prefs.applySnapshot(values);a.reloadStoredState();a.afterPreference("reset");a.toast("Backup restored.")
+            a.prefs.applySnapshot(values);a.reloadStoredState();a.afterPreference("reset");a.rebuildSettings();a.toast("Backup restored.")
         }.show()
     }
     fun resetAllSettings(){
-        val checked=booleanArrayOf(false)
-        val dialog=AlertDialog.Builder(a).setTitle("Reset All Settings").setMultiChoiceItems(arrayOf("Reset appearance, effects, browsing and music settings"),checked){_,_,value->checked[0]=value}
-            .setMessage("Bookmarks, campaign progress, checklists, music files, history and saved looks are kept.")
+        val box=a.column();a.pad(box,18)
+        box.addView(a.text("Bookmarks, campaign progress, checklists, music files, history and saved looks are kept.",14f));a.gap(box)
+        val checked=CheckBox(a).apply{text="Reset appearance, effects, browsing and music settings";setTextColor(a.ink);minHeight=a.dp(50)};box.addView(checked)
+        val dialog=AlertDialog.Builder(a).setTitle("Reset All Settings").setView(box)
             .setNegativeButton("Cancel",null).setPositiveButton("Reset"){_,_->
+                if(!checked.isChecked)return@setPositiveButton
                 val keep=JSONObject();a.prefs.values.keys().forEach{key->if(key in personal||key.startsWith("progress:")||key.startsWith("goals:"))keep.put(key,a.prefs.values.get(key))}
-                a.prefs.applySnapshot(keep);a.reloadStoredState();a.afterPreference("reset");a.closeTop();a.showSettings("About & reset")
+                a.prefs.applySnapshot(keep);a.reloadStoredState();a.afterPreference("reset");a.rebuildSettings()
             }.create()
-        dialog.setOnShowListener{dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=false;dialog.listView.setOnItemClickListener{_,_,position,_->
-            checked[position]=dialog.listView.isItemChecked(position);dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=checked[0]
-        }};dialog.show()
+        dialog.setOnShowListener{dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=false;checked.setOnCheckedChangeListener{_,value->dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=value}};dialog.show()
     }
     fun selectiveReset(){
         val labels=arrayOf("Appearance","Motion & effects","Browsing options","Saved filters & positions","Bookmarks","Speedrun & checklists","Search history","Saved visual presets","Music settings")
@@ -125,7 +127,7 @@ class BackupController(private val a:MainActivity) {
                     4->key=="bookmarks";5->key.startsWith("progress:")||key.startsWith("goals:")||key in setOf("campChecks","speedUndo")
                     6->key=="recent";7->key=="visualProfiles";else->key in setOf("musicEnabled","musicPaused","followTheme","volume","musicMode","musicTrack","musicPositions","rememberMusicPosition")
                 }}}.toList()
-                remove.forEach{a.prefs.values.remove(it)};a.prefs.save();a.reloadStoredState();a.afterPreference("reset");a.toast("Selected data reset.")
+                remove.forEach{a.prefs.values.remove(it)};a.prefs.save();a.reloadStoredState();a.afterPreference("reset");a.rebuildSettings();a.toast("Selected data reset.")
             }.show()
         }.show()
     }
