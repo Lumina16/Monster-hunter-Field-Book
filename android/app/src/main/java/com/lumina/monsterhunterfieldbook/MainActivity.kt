@@ -195,7 +195,11 @@ class MainActivity:Activity(){
             else->{library=LibraryScreen(this,activeSection,libraryStates[activeSection]);content.addView(library,FrameLayout.LayoutParams(-1,-1))}
         }
     }
-    fun refreshCurrentSection(){renderBase()}
+    fun refreshCurrentSection(){
+        val position=(content.getChildAt(0) as? ScrollView)?.scrollY?:0
+        renderBase()
+        (content.getChildAt(0) as? ScrollView)?.let{view->view.post{view.scrollTo(0,position)}}
+    }
     fun replaceLibraryState(section:String,state:JSONObject){library=null;libraryStates[section]=state}
     fun worldComplete()=RouteProgress.completeAll(libraryData.getJSONObject("speedrun").getJSONArray("world"),RouteProgress.state(prefs,"world"))
     fun switchEdition(next:String){if(edition==next)return;if(activeSection=="progression"&&next=="iceborne"&&!worldComplete())return;edition=next;prefs.set("edition",next);audio.play(next);renderBase()}
@@ -258,7 +262,7 @@ class MainActivity:Activity(){
     private fun present(kind:String,body:View,width:Int=840,menu:Boolean=false):View{
         val container=FrameLayout(this);container.setBackgroundColor(alphaColour(bg,205));container.isClickable=true
         val holder=BoundPanel();holder.capWidth=width;holder.background=surface();holder.elevation=dp(12).toFloat();holder.isClickable=true
-        holder.fill=kind in listOf("search","settings","record","saved","credits")
+        holder.fill=kind in listOf("search","settings","record","saved","credits","checklist")
         holder.addView(body,FrameLayout.LayoutParams(-1,if(holder.fill)-1 else -2));val p=FrameLayout.LayoutParams(-1,if(holder.fill) -1 else -2,if(menu)Gravity.TOP or Gravity.START else Gravity.CENTER)
         p.setMargins(dp(12),dp(if(menu)80 else 12),dp(12),dp(12));container.addView(holder,p)
         val overlay=Overlay(kind,container,holder);overlays+=overlay;root.addView(container,FrameLayout.LayoutParams(-1,-1))
@@ -402,8 +406,11 @@ class MainActivity:Activity(){
     }
     fun showCampChecklist(){
         val body=column();body.addView(heading("Before leaving camp"));val checks=runCatching{JSONObject(prefs.text("campChecks","{}"))}.getOrDefault(JSONObject());val items=libraryData.getJSONArray("checklist")
-        for(i in 0 until items.length())body.addView(CheckBox(this).apply{text=items.getString(i);setTextColor(ink);isChecked=checks.optBoolean(i.toString());minHeight=dp(50);setOnCheckedChangeListener{_,v->checks.put(i.toString(),v);prefs.set("campChecks",checks.toString())}})
-        body.addView(button("Clear camp checklist"){prefs.set("campChecks","{}");dismiss();showCampChecklist()});present("checklist",body,650)
+        val scroll=ScrollView(this);val list=column();pad(list,12);scroll.addView(list);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
+        for(i in 0 until items.length())list.addView(CheckBox(this).apply{text=items.getString(i);setTextColor(ink);isChecked=checks.optBoolean(i.toString());minHeight=dp(50);setOnCheckedChangeListener{_,v->checks.put(i.toString(),v);prefs.set("campChecks",checks.toString())}})
+        body.addView(button("Clear camp checklist"){
+            prefs.set("campChecks","{}");for(i in 0 until list.childCount)(list.getChildAt(i) as? CheckBox)?.isChecked=false
+        });present("checklist",body,650)
     }
     private fun readable(value:Any):String=when(value){is JSONArray->(0 until value.length()).joinToString(" · "){readable(value.get(it))};is JSONObject->value.keys().asSequence().filter{value.opt(it)!=JSONObject.NULL&&value.opt(it).toString()!="0"}.joinToString(" · "){key->"${key.replaceFirstChar{it.uppercase()}}: ${readable(value.get(key))}"};else->value.toString()}
     private fun showSaved(){
