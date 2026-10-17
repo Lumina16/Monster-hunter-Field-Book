@@ -113,7 +113,9 @@ class BackupController(private val a:MainActivity) {
                 val keep=JSONObject();a.prefs.values.keys().forEach{key->if(key in personal||key.startsWith("progress:")||key.startsWith("goals:"))keep.put(key,a.prefs.values.get(key))}
                 a.prefs.applySnapshot(keep);a.reloadStoredState();a.afterPreference("reset");a.rebuildSettings()
             }.create()
-        dialog.setOnShowListener{dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=false;checked.setOnCheckedChangeListener{_,value->dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=value}};dialog.show()
+        dialog.show()
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=false
+        checked.setOnCheckedChangeListener{_,value->dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled=value}
     }
     fun selectiveReset(){
         val labels=arrayOf("Appearance","Motion & effects","Browsing options","Saved filters & positions","Bookmarks","Speedrun & checklists","Search history","Saved visual presets","Music settings")
