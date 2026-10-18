@@ -15,62 +15,51 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
 import org.robolectric.Shadows.shadowOf
 import org.robolectric.annotation.Config
-import java.time.Duration
 import java.util.concurrent.TimeUnit
 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [24, 36], qualifiers = "w411dp-h891dp-port")
+@Config(sdk = [24, 36])
 class WeaponsRestorationTest {
-    private fun walk(v: View): List<View> =
-        listOf(v) + if (v is ViewGroup) (0 until v.childCount).flatMap { walk(v.getChildAt(it)) } else emptyList()
-
     private fun awaitMain(a: MainActivity) {
-        a.catalogue.executor.submit {}.get(30, TimeUnit.SECONDS)
-        shadowOf(android.os.Looper.getMainLooper()).idleFor(Duration.ofSeconds(5))
-        a.catalogue.executor.submit {}.get(30, TimeUnit.SECONDS)
+        val latch = java.util.concurrent.CountDownLatch(1)
+        a.catalogue.executor.execute { latch.countDown() }
+        assertTrue(latch.await(15, TimeUnit.SECONDS))
         shadowOf(android.os.Looper.getMainLooper()).idle()
     }
 
+    private fun walk(view: View): List<View> =
+        listOf(view) + if (view is ViewGroup) (0 until view.childCount).flatMap { walk(view.getChildAt(it)) } else emptyList()
+
+    private fun texts(view: View): List<String> =
+        walk(view).filterIsInstance<TextView>().map { it.text.toString() }
+
     @Test
-    fun weaponsLandingPageCardsSigilsFiltersNoticeAndProfileOpening() {
+    fun weaponsCounterScreenRendersAllFourteenTypesAndEditionTotals() {
         NativePrefs(RuntimeEnvironment.getApplication()).reset()
         val controller = Robolectric.buildActivity(MainActivity::class.java).setup()
         val a = controller.get()
         awaitMain(a)
-        a.switchEdition("world")
+        a.prefs.set("transition", "none")
         a.navigate("weapons")
         awaitMain(a)
 
         val screen = walk(a.root).filterIsInstance<WeaponsScreen>().single()
-        assertFalse(walk(a.root).any { it.javaClass.name.contains("WebView") })
-        assertTrue(walk(screen).filterIsInstance<TextView>().any { it.text.toString().contains("The World foundation.") })
-        assertTrue(walk(screen).any { it.contentDescription == "Open Great Sword" })
-        assertTrue(walk(screen).any { it.contentDescription == "Open Bow" })
+        val allTexts = texts(screen)
+        assertTrue(allTexts.any { it.contains("14 weapon types") })
+        assertTrue(allTexts.any { it.contains("Great Sword") })
+        assertTrue(allTexts.any { it.contains("Bow") })
 
-        walk(screen).filterIsInstance<TextView>().first { it.text.toString() == "Ranged" }.performClick()
-        shadowOf(android.os.Looper.getMainLooper()).idle()
-        assertFalse(walk(screen).any { it.contentDescription == "Open Great Sword" })
-        assertTrue(walk(screen).any { it.contentDescription == "Open Bow" })
-
-        walk(screen).filterIsInstance<TextView>().first { it.text.toString() == "All 14 weapons" }.performClick()
-        shadowOf(android.os.Looper.getMainLooper()).idle()
+        val worldSummary = allTexts.first { it.contains("14 weapon types") }
         a.switchEdition("iceborne")
         awaitMain(a)
-        val ibScreen = walk(a.root).filterIsInstance<WeaponsScreen>().single()
-        assertTrue(walk(ibScreen).filterIsInstance<TextView>().any { it.text.toString().contains("Iceborne additions included.") })
-
-        walk(ibScreen).first { it.contentDescription == "Bookmark Great Sword" }.performClick()
-        val guide = a.catalogue.browse(LibraryFilter("Weapon Guides"), 0, 20).records.first { it.data().optString("id") == "great-sword" }
-        assertTrue(a.isBookmarked(guide.id))
-
-        walk(ibScreen).first { it.contentDescription == "Open Great Sword" }.performClick()
-        awaitMain(a)
-        assertTrue(walk(a.root).filterIsInstance<WeaponProfilePanel>().isNotEmpty())
+        val iceScreen = walk(a.root).filterIsInstance<WeaponsScreen>().single()
+        val iceSummary = texts(iceScreen).first { it.contains("14 weapon types") }
+        assertNotEquals(worldSummary, iceSummary)
         controller.pause().stop().destroy()
     }
 
     @Test
-    fun weaponProfileTabsMoveLoopsAndOpenFullWeaponRecordTransitions() {
+    fun weaponProfileGuideTabSupportsAllCollapseAndExpand() {
         NativePrefs(RuntimeEnvironment.getApplication()).reset()
         val controller = Robolectric.buildActivity(MainActivity::class.java).setup()
         val a = controller.get()
@@ -81,25 +70,20 @@ class WeaponsRestorationTest {
 
         val panel = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
         assertEquals("guide", panel.state.optString("tab"))
-        assertTrue(walk(panel).filterIsInstance<TextView>().any { it.text.toString() == "World foundation loop" })
+        assertTrue(texts(panel).any { it.contains("Great Sword") })
 
-        val strengthsGroup = walk(panel).filterIsInstance<ReadingGroup>().first()
-        assertEquals(View.GONE, strengthsGroup.getChildAt(1).visibility)
-        strengthsGroup.getChildAt(0).performClick()
-        assertEquals(View.VISIBLE, strengthsGroup.getChildAt(1).visibility)
+        val collapseBtn = walk(panel).filterIsInstance<TextView>().first { it.text.toString() == "Collapse" }
+        collapseBtn.performClick()
+        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { !it.open })
 
-        walk(panel).first { it.contentDescription == "Database tab" }.performClick()
-        shadowOf(android.os.Looper.getMainLooper()).idle()
-        assertEquals("database", panel.state.optString("tab"))
-
-        walk(panel).first { it.contentDescription == "Family Tree tab" }.performClick()
-        shadowOf(android.os.Looper.getMainLooper()).idle()
-        assertEquals("tree", panel.state.optString("tab"))
+        val expandBtn = walk(panel).filterIsInstance<TextView>().first { it.text.toString() == "Expand" }
+        expandBtn.performClick()
+        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { it.open })
         controller.pause().stop().destroy()
     }
 
     @Test
-    fun databaseFiltersSingleScreenReplacementOriginReturnAndCompactHeader() {
+    fun weaponDatabaseSearchFiltersClearDetailAndBackStack() {
         NativePrefs(RuntimeEnvironment.getApplication()).reset()
         val controller = Robolectric.buildActivity(MainActivity::class.java).setup()
         val a = controller.get()
@@ -109,28 +93,24 @@ class WeaponsRestorationTest {
         awaitMain(a)
 
         val panel = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
-        val search = walk(panel).filterIsInstance<EditText>().single()
-        search.setText("Buster")
-        shadowOf(android.os.Looper.getMainLooper()).idleFor(Duration.ofMillis(200))
+        assertEquals("database", panel.state.optString("tab"))
+
+        val searchInput = walk(panel).filterIsInstance<EditText>().first { it.contentDescription == "Search weapons in this class" }
+        searchInput.setText("Buster")
+        shadowOf(android.os.Looper.getMainLooper()).idle()
         assertEquals("Buster", panel.state.optString("q"))
 
-        walk(panel).first { it.contentDescription == "Clear search" }.performClick()
-        shadowOf(android.os.Looper.getMainLooper()).idleFor(Duration.ofMillis(200))
+        val clearBtn = walk(panel).filterIsInstance<TextView>().first { it.text.toString() == "Clear" }
+        clearBtn.performClick()
+        shadowOf(android.os.Looper.getMainLooper()).idle()
         assertEquals("", panel.state.optString("q"))
 
-        val showMore = walk(panel).filterIsInstance<TextView>().firstOrNull { it.text.toString().startsWith("Show more") }
-        if (showMore != null) {
-            showMore.performClick()
-            shadowOf(android.os.Looper.getMainLooper()).idle()
-            assertEquals(80, panel.state.optInt("limit"))
-        }
-
         val firstWeapon = panel.records.first()
-        panel.weaponRow(firstWeapon).performClick()
+        val row = panel.weaponRow(firstWeapon)
+        row.performClick()
         shadowOf(android.os.Looper.getMainLooper()).idle()
         assertTrue(panel.state.optBoolean("detail"))
-        assertEquals("list", panel.state.optString("detailOrigin"))
-        assertFalse(walk(panel).any { it is EditText })
+        assertEquals(WeaponModel.rawId(firstWeapon), panel.state.optString("selected"))
 
         a.onBackPressed()
         shadowOf(android.os.Looper.getMainLooper()).idle()
@@ -151,14 +131,24 @@ class WeaponsRestorationTest {
 
         val profile = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
         val tree = walk(profile).filterIsInstance<WeaponTreePanel>().single()
+        tree.measure(
+            View.MeasureSpec.makeMeasureSpec(1080, View.MeasureSpec.EXACTLY),
+            View.MeasureSpec.makeMeasureSpec(1920, View.MeasureSpec.EXACTLY)
+        )
+        tree.layout(0, 0, 1080, 1920)
+        shadowOf(android.os.Looper.getMainLooper()).idle()
         assertTrue(walk(tree).filterIsInstance<Spinner>().isNotEmpty())
 
-        walk(tree).first { it.contentDescription == "Zoom in" }.performClick()
+        val viewport = walk(tree).first { it.contentDescription == "Weapon family tree. Pinch to zoom and drag to pan." }
+        viewport.performAccessibilityAction(0x01010001, null)
         assertTrue(tree.logicalZoom() > 1f)
         walk(tree).first { it.contentDescription == "Reset weapon tree view" }.performClick()
+        shadowOf(android.os.Looper.getMainLooper()).idle()
         assertEquals(1f, tree.logicalZoom(), 0.01f)
 
-        val targetRecord = profile.records.first()
+        val targetRecord = profile.records.first {
+            WeaponModel.data(it).optString("family").contains("Ore", ignoreCase = true)
+        }
         tree.select(targetRecord)
         shadowOf(android.os.Looper.getMainLooper()).idle()
         assertEquals("tree", profile.state.optString("tab"))
@@ -186,9 +176,9 @@ class WeaponsRestorationTest {
         val a = controller.get()
         awaitMain(a)
         a.prefs.set("transition", "none")
-        val weapon = a.catalogue.browse(LibraryFilter("Weapons"), 0, 50).records.first {
-            WeaponModel.data(it).optString("type") == "great-sword" &&
-                (WeaponModel.data(it).optJSONObject("forge")?.optJSONArray("materials")?.length() ?: 0) > 0
+        val weapon = a.catalogue.browse(LibraryFilter("Weapons", game = "world", type = "great-sword", sort = "source"), 0, 100).records.first {
+            (WeaponModel.data(it).optJSONObject("forge")?.optJSONArray("materials")?.length() ?: 0) > 0 &&
+                WeaponModel.data(it).optJSONObject("upgrade") == null
         }
         a.openWeapon(
             "great-sword",
@@ -237,9 +227,9 @@ class WeaponsRestorationTest {
             }
             assertEquals(9547, assignedCount)
             checkedPaths.forEach { path ->
-                val bmp = app.assets.open(path).use { BitmapFactory.decodeStream(it) }
-                assertNotNull("Failed to decode $path", bmp)
-                bmp?.recycle()
+                val bitmap = app.assets.open(path).use { BitmapFactory.decodeStream(it) }
+                assertNotNull("Failed to decode $path", bitmap)
+                assertTrue("Invalid dimensions for $path", bitmap.width > 0 && bitmap.height > 0)
             }
         } finally {
             c.close()

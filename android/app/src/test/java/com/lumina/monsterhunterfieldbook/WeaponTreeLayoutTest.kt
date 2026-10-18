@@ -4,7 +4,12 @@ import org.json.JSONArray
 import org.json.JSONObject
 import org.junit.Assert.*
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
 
+@RunWith(RobolectricTestRunner::class)
+@Config(sdk = [36])
 class WeaponTreeLayoutTest {
     private fun fakeWeapon(id: String, name: String, parent: String = "", family: String = "Ore Tree", rarity: Int = 1): FieldRecord {
         val payload = JSONObject()
@@ -45,6 +50,6 @@ class WeaponTreeLayoutTest {
         assertEquals("all", allGraph.family)
         assertEquals(3, allGraph.records.size)
         assertEquals(listOf(1), WeaponModel.slots(root))
-        assertEquals(0f, WeaponTreeLayout.clampPan(40f, 300f, 200f), 0.001f)
+        assertEquals(150f, WeaponTreeLayout.clampPan(500f, 300f, 200f), 0.001f)
     }
 }
