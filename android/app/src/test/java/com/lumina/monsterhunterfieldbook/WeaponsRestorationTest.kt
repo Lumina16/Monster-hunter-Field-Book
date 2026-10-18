@@ -105,7 +105,7 @@ class WeaponsRestorationTest {
         val a = controller.get()
         awaitMain(a)
         a.prefs.set("transition", "none")
-        a.openWeapon("great-sword", null, JSONObject().put("tab", "database"))
+        a.openWeapon("great-sword", null, "database")
         awaitMain(a)
 
         val panel = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
@@ -146,7 +146,7 @@ class WeaponsRestorationTest {
         val a = controller.get()
         awaitMain(a)
         a.prefs.set("transition", "none")
-        a.openWeapon("great-sword", null, JSONObject().put("tab", "tree"))
+        a.openWeapon("great-sword", null, "tree")
         awaitMain(a)
 
         val profile = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
@@ -192,8 +192,8 @@ class WeaponsRestorationTest {
         }
         a.openWeapon(
             "great-sword",
-            null,
-            JSONObject().put("tab", "database").put("detail", true).put("selected", WeaponModel.rawId(weapon))
+            WeaponModel.rawId(weapon),
+            "database"
         )
         awaitMain(a)
 
