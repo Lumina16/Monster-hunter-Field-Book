@@ -642,7 +642,7 @@ class WeaponTreePanel(
                     val effectAsset=visuals?.optJSONObject("effects")?.optString(key).orEmpty()
                     if(effectAsset.isNotBlank())addIcon(icons,effectAsset,24,27,name)
                 }
-                node.addView(icons,LayoutParams(-2,-2).apply{marginStart=a.dp(12)})
+                node.addView(icons,LinearLayout.LayoutParams(-2,-2).apply{marginStart=a.dp(12)})
                 addView(node,ViewGroup.LayoutParams(a.dp(WeaponTreeLayout.NODE_WIDTH),a.dp(WeaponTreeLayout.NODE_HEIGHT)))
                 nodes[WeaponTreeLayout.rawId(record)]=node
             }
@@ -657,7 +657,7 @@ class WeaponTreePanel(
                 contentDescription=label
                 tag=asset
             }
-            parent.addView(view,LayoutParams(a.dp(width),a.dp(height)).apply{if(parent.childCount>0)marginStart=a.dp(8)})
+            parent.addView(view,LinearLayout.LayoutParams(a.dp(width),a.dp(height)).apply{if(parent.childCount>0)marginStart=a.dp(8)})
             val waiting=pendingIcons.getOrPut(asset){mutableListOf()}
             waiting+=view
             if(waiting.size==1){
