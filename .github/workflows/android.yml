@@ -32,8 +32,13 @@ jobs:
       - name: Build and check native Android
         working-directory: android
         run: |
-          ./gradlew assembleRelease testDebugUnitTest lintDebug --stacktrace
-          python tools/validate_native.py --assets app/build/generated/nativeAssets
+          if ! (./gradlew assembleRelease testDebugUnitTest lintDebug --stacktrace && python tools/validate_native.py --assets app/build/generated/nativeAssets) > /tmp/build.log 2>&1; then
+            cat /tmp/build.log
+            msg=$(grep -E "(e: |FAILURE:|FAILED|Exception:|AssertionError|at com\.lumina)" /tmp/build.log | tail -n 35 | sed ':a;N;$!ba;s/\n/%0A/g')
+            echo "::error title=BuildFailure::$msg"
+            exit 1
+          fi
+          cat /tmp/build.log
       - name: Collect signing tool
         if: always()
         run: |
