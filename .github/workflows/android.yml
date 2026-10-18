@@ -1,6 +1,9 @@
 name: Android milestone checks
 
 on:
+  push:
+    branches: ['arena/**']
+    paths: ['android/**', 'data/**', 'assets/**', 'src/**', '.github/workflows/android.yml']
   pull_request:
     paths: ['android/**', 'data/**', 'assets/**', 'src/**', '.github/workflows/android.yml']
   workflow_dispatch:
