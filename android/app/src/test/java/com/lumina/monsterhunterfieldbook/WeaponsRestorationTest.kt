@@ -74,11 +74,11 @@ class WeaponsRestorationTest {
 
         val collapseBtn = walk(panel).filterIsInstance<TextView>().first { it.text.toString() == "Collapse" }
         collapseBtn.performClick()
-        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { !it.open })
+        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { it.getChildAt(1).visibility == View.GONE })
 
         val expandBtn = walk(panel).filterIsInstance<TextView>().first { it.text.toString() == "Expand" }
         expandBtn.performClick()
-        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { it.open })
+        assertTrue(walk(panel).filterIsInstance<ReadingGroup>().all { it.getChildAt(1).visibility == View.VISIBLE })
         controller.pause().stop().destroy()
     }
 
