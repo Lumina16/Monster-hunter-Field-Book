@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   recover-030:
-    if: github.event_name == 'push' && !hashFiles('_recovery_030/DONE')
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -30,6 +30,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if [ -f _recovery_030/DONE ]; then
+            echo "Already extracted."
+            exit 0
+          fi
           mkdir -p /tmp/release_020 /tmp/release_030 /tmp/jadx
           gh release download android-v0.2.0 -D /tmp/release_020
           gh release download android-v0.3.0-review -D /tmp/release_030
@@ -53,8 +57,7 @@ jobs:
 
           python3 android/tools/_inspect_030_apk.py
           touch _recovery_030/DONE
-      - name: Commit recovered artifacts back to branch
-        run: |
+
           git config user.name "Lumina16"
           git config user.email "ota16shiro@gmail.com"
           git add _recovery_030
