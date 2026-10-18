@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="3"
+    android:versionName="0.3.0-review"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="16"
+    package="com.lumina.monsterhunterfieldbook"
+    platformBuildVersionCode="36"
+    platformBuildVersionName="16">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="36"/>
+    <application
+        android:theme="@style/FieldTheme"
+        android:label="Monster Hunter Field Book"
+        android:icon="@drawable/field_emblem"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:usesCleartextTraffic="false"
+        android:enableOnBackInvokedCallback="false">
+        <activity
+            android:name="com.lumina.monsterhunterfieldbook.MainActivity"
+            android:exported="true"
+            android:configChanges="smallestScreenSize|screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
