@@ -75,7 +75,7 @@ class RecordPanel(private val a:MainActivity,val record:FieldRecord,close:()->Un
         addView(heading);a.rule(this);scroll.addView(body);a.pad(body,14);addView(scroll,LayoutParams(-1,0,1f))
         body.addView(a.text(record.kind.uppercase()+" · "+when(record.game){"world"->"WORLD";"iceborne"->"ICEBORNE";else->"WORLD + ICEBORNE"},10f,colour=a.accent));a.gap(body,10)
         if(record.image.isNotBlank()){
-            val image=ImageView(a).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription=record.name+" artwork"};body.addView(image,LayoutParams(-1,a.dp(if(record.image.contains("/icons/"))90 else 200)));a.assetImage(record.image,image);a.gap(body,10)
+            val image=ImageView(a).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription=record.name+" artwork"};body.addView(image,LayoutParams(-1,a.dp(if(record.image.contains("/icons/")||record.image.contains("/glyphs/"))90 else 200)));a.recordImage(record,image);a.gap(body,10)
         }
         listOf("summary","description","text","short","tip","overview").forEach{key->if(ContentText.useful(data.opt(key))){body.addView(a.text(ContentText.value(data.opt(key)),14f));a.gap(body,10)}}
         if(data.optJSONArray("maps")?.length()?.let{it>0}==true)mapGroup(data.getJSONArray("maps"))

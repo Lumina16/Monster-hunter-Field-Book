@@ -1,0 +1,51 @@
+{
+  "version": "0.3.0-review",
+  "versionCode": 3,
+  "applicationId": "com.lumina.monsterhunterfieldbook",
+  "minimumSdk": 24,
+  "targetSdk": 36,
+  "apk": "Monster_Hunter_Field_Book_0.3.0_review.apk",
+  "sizeBytes": 105200465,
+  "sha256": "83c9586246a2a3ff21c5f9b489b55a6b1b2e9c917a1f598b6cfbe9f202cc8f36",
+  "signing": "Retained development key; APK v2/v3 verification passed",
+  "certificateSha256": "45c1e2b2caacdb676a7ec4314efbe495601f766cb0ffa04ef4f949222f095511",
+  "zipAlignment": "All uncompressed entries aligned to 4 bytes",
+  "webViewTypeInDex": false,
+  "permissions": [],
+  "testsPassed": 35,
+  "testsFailed": 0,
+  "testMatrix": [
+    24,
+    36
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 55,
+  "data": {
+    "version": "0.3.0-review",
+    "records": 10174,
+    "kinds": {
+      "Builds": 8,
+      "Creatures": 120,
+      "Equipment": 3610,
+      "Field Notes": 70,
+      "Items": 1778,
+      "Locales": 7,
+      "Maps": 6,
+      "Monsters": 71,
+      "Preparation": 21,
+      "Quests": 522,
+      "Recipes": 403,
+      "Weapon Guides": 14,
+      "Weapons": 3544
+    },
+    "nestedValuesCompared": 528819,
+    "embeddedMediaCompared": 296,
+    "requiredImageAssignments": 9547,
+    "packagedRecordImagePathsChecked": 1034,
+    "weaponParentLinks": 2754,
+    "links": 133702,
+    "orphanLinks": 0,
+    "sourceSha256": "9d719eba5e65a62b70201ff7ddc08940105087547bee7f5e09153073ed3d4515",
+    "integrity": "ok"
+  }
+}

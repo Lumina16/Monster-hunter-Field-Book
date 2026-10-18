@@ -28,6 +28,17 @@ The source contains 71 large monsters, 120 creatures, 3,544 weapons, 3,610 equip
 
 The UI is deliberately functional at this stage. Exact visual matching, decorative motion, device performance and audio interruption checks remain future work.
 
+## 0.3.0-review — Weapons Restoration
+
+First section-by-section restoration batch covering **shared assets and Weapons**:
+
+- Restored the fourteen illustrated Weapon Handbook discipline cards with All / Melee / Ranged filtering, edition notice strip and independent bookmarks.
+- Added the integrated `WeaponProfilePanel` (`Guide`, `Database`, `Family Tree`) with World/Iceborne move loops, four database filters, token matching, sorting, batches of forty, single-screen detail transitions, sharpness bars, slots, attributes and forge/upgrade materials.
+- Rebuilt `WeaponTreePanel` and `WeaponTreeLayout` with connected parent graphs, family selection, pan/pinch/reset zoom, floating materials dock and `Info` -> `Database` -> `Back to tree` navigation.
+- Exported all 926 game icons, 24 catalogue glyphs with rarity-tinted variants, 36 reference artwork assets, and regular/bold TTF font instances (`body.ttf`, `body-bold.ttf`, `title.ttf`, `title-bold.ttf`). All 9,547 required record image assignments resolve without silent snowflake fallbacks.
+
+Verification: 35 automated tests passed across API 24/36 plus API 28 Skia render checks; 0 lint errors; 10,174 records, 528,819 nested values and 133,702 links verified. APK: `Monster_Hunter_Field_Book_0.3.0_review.apk` (`83c9586246a2a3ff21c5f9b489b55a6b1b2e9c917a1f598b6cfbe9f202cc8f36`).
+
 ## Remaining journey
 
 | Milestone | Focus |

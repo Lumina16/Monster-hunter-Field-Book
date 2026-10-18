@@ -2,6 +2,10 @@
 
 Kotlin with Android Views/Canvas and a bundled read-only SQLite catalogue. No WebView, account or content download is required. Android 7.0/API 24 onward; compile and target API 36.
 
+## 0.3.0-review — Shared assets & Weapons restoration
+
+This milestone restores the complete HTML Weapons experience (`WeaponsScreen`, `WeaponProfilePanel`, `WeaponTreePanel`, `WeaponTreeLayout`, `WeaponModel`) and exports the full shared icon, glyph, reference artwork and regular/bold font sets (`9,547` required record image assignments verified). Other sections remain scheduled for subsequent restoration batches.
+
 ## 0.2.0 — Offline libraries & progress
 
 This milestone replaces the section and record-summary previews with native libraries and a complete reader for the frozen reference data. Visual matching remains a later milestone.

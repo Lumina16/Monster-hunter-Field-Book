@@ -19,7 +19,7 @@ class Catalogue(private val context:Context) {
     private lateinit var db:SQLiteDatabase
     private var names=listOf<Triple<String,String,String>>()
     fun open(){
-        val file=context.getDatabasePath("catalogue-0.2.0.db")
+        val file=context.getDatabasePath("catalogue-0.3.0.db")
         if(!file.exists()){
             file.parentFile?.mkdirs();val tmp=java.io.File(file.path+".tmp")
             context.assets.open("catalogue.db").use{input->tmp.outputStream().use{input.copyTo(it)}}
@@ -47,7 +47,7 @@ class Catalogue(private val context:Context) {
         if(!ready)return LibraryPage(emptyList(),0)
         val clauses=mutableListOf("kind=?");val args=mutableListOf(filter.kind)
         if(filter.category.isNotBlank()){clauses+="category=?";args+=filter.category}
-        if(filter.game!="all"){clauses+="game IN (?, 'both')";args+=filter.game}
+        if(filter.game=="world")clauses+="game IN ('world', 'both')"
         if(filter.rank!="all"){clauses+="rank=?";args+=filter.rank}
         if(filter.rarity!="all"){clauses+="rarity=?";args+=filter.rarity}
         if(filter.type!="all"){clauses+="equipment_type=?";args+=filter.type}

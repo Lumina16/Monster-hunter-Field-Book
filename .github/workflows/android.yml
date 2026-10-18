@@ -1,65 +1,49 @@
 name: Android milestone checks
 
 on:
-  push:
-    branches: ['arena/03086cb6-monster-hunter-field-book']
   pull_request:
     paths: ['android/**', 'data/**', 'assets/**', 'src/**', '.github/workflows/android.yml']
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  recover-030:
-    if: github.event_name == 'push'
+  native-checks:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
+      - uses: gradle/actions/setup-gradle@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Download 0.2.0 and 0.3.0-review releases and decompile
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install build dependencies
         run: |
-          if [ -f _recovery_030/DONE ]; then
-            echo "Already extracted."
-            exit 0
-          fi
-          mkdir -p /tmp/release_020 /tmp/release_030 /tmp/jadx
-          gh release download android-v0.2.0 -D /tmp/release_020
-          gh release download android-v0.3.0-review -D /tmp/release_030
-
-          # Install jadx 1.5.1
-          curl -sL https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-1.5.1.zip -o /tmp/jadx.zip
-          unzip -q /tmp/jadx.zip -d /tmp/jadx
-          chmod +x /tmp/jadx/bin/jadx
-
-          # Decompile 0.2.0 and 0.3.0 in normal mode and fallback mode
-          /tmp/jadx/bin/jadx -d /tmp/jadx_020 --show-bad-code /tmp/release_020/Monster_Hunter_Field_Book_0.2.0.apk || true
-          /tmp/jadx/bin/jadx -d /tmp/jadx_030 --show-bad-code /tmp/release_030/Monster_Hunter_Field_Book_0.3.0_review.apk || true
-          /tmp/jadx/bin/jadx -d /tmp/jadx_030_fallback --decompilation-mode fallback /tmp/release_030/Monster_Hunter_Field_Book_0.3.0_review.apk || true
-
-          mkdir -p _recovery_030/jadx_020 _recovery_030/jadx_030 _recovery_030/jadx_030_fallback _recovery_030/res_030
-          cp -r /tmp/jadx_020/sources/com/lumina/monsterhunterfieldbook/* _recovery_030/jadx_020/
-          cp -r /tmp/jadx_030/sources/com/lumina/monsterhunterfieldbook/* _recovery_030/jadx_030/
-          cp -r /tmp/jadx_030_fallback/sources/com/lumina/monsterhunterfieldbook/* _recovery_030/jadx_030_fallback/
-          cp -r /tmp/jadx_030/resources/AndroidManifest.xml _recovery_030/res_030/ || true
-          cp -r /tmp/jadx_030/resources/res _recovery_030/res_030/ || true
-
-          python3 android/tools/_inspect_030_apk.py
-          touch _recovery_030/DONE
-
-          git config user.name "Lumina16"
-          git config user.email "ota16shiro@gmail.com"
-          git add _recovery_030
-          git commit -m "Temporary: extract 0.3.0-review APK decompilation and asset diff"
-          git push origin HEAD:${{ github.ref_name }}
+          python -m pip install -r android/requirements.txt
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36' 'build-tools;35.0.0'
+      - name: Build and check native Android
+        working-directory: android
+        run: |
+          ./gradlew assembleRelease testDebugUnitTest lintDebug --stacktrace
+          python tools/validate_native.py --assets app/build/generated/nativeAssets
+      - name: Collect signing tool
+        if: always()
+        run: |
+          mkdir -p android/app/build/outputs/signing-tool
+          cp "$ANDROID_HOME/build-tools/35.0.0/lib/apksigner.jar" android/app/build/outputs/signing-tool/
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: native-build-${{ github.sha }}
+          path: |
+            android/app/build/outputs/apk/release/*.apk
+            android/app/build/outputs/signing-tool/apksigner.jar
+            android/app/build/reports/tests/
+            android/app/build/reports/lint-results-debug.*
+            android/app/build/reports/native-validation.json
+          retention-days: 14

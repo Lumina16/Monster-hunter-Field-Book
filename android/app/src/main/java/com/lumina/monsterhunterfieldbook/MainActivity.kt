@@ -27,6 +27,7 @@ class MainActivity:Activity(){
     private lateinit var content:FrameLayout
     private lateinit var emblem:EmblemView
     private lateinit var bodyFont:Typeface
+    private lateinit var boldBody:Typeface
     private lateinit var titleFont:Typeface
     private val handler=Handler(Looper.getMainLooper())
     private val images=Executors.newFixedThreadPool(2)
@@ -49,6 +50,8 @@ class MainActivity:Activity(){
     private var settings:SettingsPanel?=null
     private var activeSection="overview"
     private var library:LibraryScreen?=null
+    private var weapons:WeaponsScreen?=null
+    private val weaponGeneration=AtomicInteger()
     private val libraryStates=mutableMapOf<String,JSONObject>()
     lateinit var libraryData:JSONObject
     lateinit var backups:BackupController
@@ -72,7 +75,7 @@ class MainActivity:Activity(){
     val useSplitLibrary get()=resources.configuration.screenWidthDp>=600 || (landscape && resources.configuration.screenWidthDp>=560)
     val historyEnabled get()=prefs.flag("searchHistory")
     fun dp(n:Number)=(n.toFloat()*resources.displayMetrics.density).roundToInt()
-    fun motionDuration(base:Long):Long{if(!prefs.flag("animations"))return 0L;val speed=prefs.number("speed",50);return if(speed==0)0L else (base*(1.65f-speed*.013f)).toLong()}
+    fun motionDuration(base:Long):Long{if(!prefs.flag("animations"))return 0L;val speed=prefs.number("speed",50);return if(speed==0)0L else (base*(if(speed<=50)1f+(50-speed)*.025f else 1f-(speed-50)*.013f)).toLong()}
     fun themeColours():IntArray{
         val theme=prefs.text("theme","game")
         val default=if(isIce)intArrayOf(Color.rgb(12,20,34),Color.rgb(159,212,237),Color.rgb(231,239,243))else intArrayOf(Color.rgb(13,21,18),Color.rgb(217,183,122),Color.rgb(238,233,220))
@@ -89,6 +92,7 @@ class MainActivity:Activity(){
         bookmarks=runCatching{JSONArray(prefs.text("bookmarks","[]"))}.getOrDefault(JSONArray())
         titleFont=runCatching{Typeface.createFromAsset(assets,"fonts/title.ttf")}.getOrDefault(Typeface.create("serif",Typeface.NORMAL))
         bodyFont=runCatching{Typeface.createFromAsset(assets,"fonts/body.ttf")}.getOrDefault(Typeface.create("sans-serif",Typeface.NORMAL))
+        boldBody=runCatching{Typeface.createFromAsset(assets,"fonts/body-bold.ttf")}.getOrDefault(Typeface.create(bodyFont,Typeface.BOLD))
         audio=FieldAudio(this,prefs);audio.play(edition);catalogue=Catalogue(this)
         root=FrameLayout(this);root.setBackgroundColor(bg);setContentView(root);fullscreen();renderBase()
         catalogue.executor.execute{
@@ -98,11 +102,7 @@ class MainActivity:Activity(){
         if(state==null)showIntro()else{
             introDone=true;audio.introductionFinished()
             when(state.getString("overlay")){"settings"->showSettings(state.getString("settingsTab")?:"Appearance");"search"->showSearch()}
-            val recordIds=state.getStringArrayList("records")?:arrayListOf()
-            if(recordIds.isNotEmpty())catalogue.executor.execute{
-                val records=recordIds.mapNotNull{catalogue.record(it)}
-                runOnUiThread{if(!destroyed)records.forEach{showRecord(it)}}
-            }
+            restoreContentOverlays(state)
         }
     }
     private fun fullscreen(){
@@ -114,14 +114,32 @@ class MainActivity:Activity(){
     override fun onWindowFocusChanged(hasFocus:Boolean){super.onWindowFocusChanged(hasFocus);if(hasFocus)fullscreen()}
     override fun onResume(){super.onResume();foreground=true;audio.resume();if(!introDone&&introStarted)introAnimator?.resume()}
     override fun onPause(){foreground=false;audio.pause();introAnimator?.pause();super.onPause()}
-    override fun onDestroy(){destroyed=true;searchGeneration.incrementAndGet();handler.removeCallbacksAndMessages(null);introAnimator?.cancel();audio.release();backups.release();fileIo.shutdownNow();images.shutdownNow();catalogue.close();super.onDestroy()}
-    override fun onConfigurationChanged(config:Configuration){super.onConfigurationChanged(config);fullscreen();val scroll=(content.getChildAt(0) as? ScrollView)?.scrollY?:0;renderBase();(content.getChildAt(0) as? ScrollView)?.post{(content.getChildAt(0) as? ScrollView)?.scrollTo(0,scroll)};settings?.takeIf{overlays.lastOrNull()?.kind=="settings"}?.rebuild();root.requestLayout()}
+    override fun onDestroy(){destroyed=true;searchGeneration.incrementAndGet();weaponGeneration.incrementAndGet();handler.removeCallbacksAndMessages(null);introAnimator?.cancel();audio.release();backups.release();fileIo.shutdownNow();images.shutdownNow();catalogue.close();super.onDestroy()}
+    override fun onConfigurationChanged(config:Configuration){
+        super.onConfigurationChanged(config);fullscreen()
+        val scroll=(content.getChildAt(0) as? ScrollView)?.scrollY?:0
+        val openWeapons=overlays.mapNotNull{overlay->((overlay.panel as? ViewGroup)?.getChildAt(0) as? WeaponProfilePanel)?.let{Triple(overlay,it,it.snapshot())}}
+        renderBase()
+        (content.getChildAt(0) as? ScrollView)?.post{(content.getChildAt(0) as? ScrollView)?.scrollTo(0,scroll)}
+        openWeapons.forEach{(overlay,panel,state)->val holder=overlay.panel as ViewGroup;holder.removeAllViews();holder.addView(WeaponProfilePanel(this,panel.guide,panel.records,state){dismiss()},FrameLayout.LayoutParams(-1,-1))}
+        settings?.takeIf{overlays.lastOrNull()?.kind=="settings"}?.rebuild();root.requestLayout()
+    }
     override fun onSaveInstanceState(out:Bundle){
         library?.let{libraryStates[activeSection]=it.snapshot()}
+        weapons?.let{libraryStates["weapons"]=it.snapshot()}
         out.putString("edition",edition);out.putString("section",activeSection);out.putString("query",searchQuery);out.putString("kind",searchKind)
-        out.putString("overlay",overlays.lastOrNull{it.kind!="record"}?.kind);out.putString("settingsTab",settings?.category)
+        out.putString("overlay",overlays.lastOrNull{it.kind !in listOf("record","weapon")}?.kind);out.putString("settingsTab",settings?.category)
         out.putString("libraries",JSONObject(libraryStates as Map<*,*>).toString());out.putStringArrayList("navigation",ArrayList(sectionHistory))
         out.putStringArrayList("records",ArrayList(overlays.mapNotNull{(it.panel as? ViewGroup)?.getChildAt(0) as? RecordPanel}.map{it.record.id}))
+        val contentOverlays=JSONArray()
+        overlays.forEach{overlay->
+            val child=(overlay.panel as? ViewGroup)?.getChildAt(0)
+            when(child){
+                is WeaponProfilePanel->contentOverlays.put(JSONObject().put("kind","weapon").put("type",child.guide.data().optString("id")).put("state",child.snapshot()))
+                is RecordPanel->contentOverlays.put(JSONObject().put("kind","record").put("id",child.record.id))
+            }
+        }
+        out.putString("contentOverlays",contentOverlays.toString())
         super.onSaveInstanceState(out)
     }
 
@@ -130,6 +148,7 @@ class MainActivity:Activity(){
         tag=size;setLineSpacing(dp(prefs.number("lineSpacing",0)).toFloat(),1.22f);letterSpacing=prefs.number("letterSpacing",0)/100f
         importantForAccessibility=View.IMPORTANT_FOR_ACCESSIBILITY_YES
     }
+    fun textBold(value:String,size:Float=14f,colour:Int=ink):TextView=text(value,size,colour=colour).apply{typeface=boldBody}
     private fun spaced(value:String):CharSequence{
         val spacing=prefs.number("wordSpacing",0);if(spacing==0)return value
         return SpannableString(value).apply{value.forEachIndexed{i,c->if(c==' ')setSpan(ScaleXSpan(1+spacing*.08f),i,i+1,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)}}
@@ -140,7 +159,9 @@ class MainActivity:Activity(){
     fun surface(colour:Int=panel,stroke:Boolean=true,radius:Float=4f):GradientDrawable=GradientDrawable().apply{
         cornerRadius=dp(radius).toFloat();setColor(colour);if(stroke)setStroke(dp(1),line)
         if(prefs.flag("gradients")&&prefs.number("gradientStrength",18)>0){
-            val t=prefs.number("gradientStrength",18)/220f;colors=intArrayOf(blend(colour,accent,t),colour);orientation=when(prefs.number("gradientAngle",0)){1->GradientDrawable.Orientation.TL_BR;2->GradientDrawable.Orientation.TOP_BOTTOM;else->GradientDrawable.Orientation.LEFT_RIGHT}
+            val t=prefs.number("gradientStrength",18)/220f
+            val baseColour=if(Color.alpha(colour)!=255)blend(bg,colour,Color.alpha(colour)/255f)else colour
+            colors=intArrayOf(blend(baseColour,accent,t),baseColour);orientation=when(prefs.number("gradientAngle",0)){1->GradientDrawable.Orientation.TL_BR;2->GradientDrawable.Orientation.TOP_BOTTOM;else->GradientDrawable.Orientation.LEFT_RIGHT}
         }
     }
     fun touch(view:View,onClick:()->Unit){
@@ -161,6 +182,7 @@ class MainActivity:Activity(){
     fun toast(message:String)=Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
     private fun renderBase(){
         library?.let{libraryStates[activeSection]=it.snapshot()};library=null
+        weapons?.let{libraryStates["weapons"]=it.snapshot()};weapons=null
         if(::base.isInitialized)root.removeView(base)
         base=column();base.setBackgroundColor(bg);root.addView(base,0,FrameLayout.LayoutParams(-1,-1))
         val header=row();header.setPadding(dp(16),dp(10),dp(12),dp(8));header.minimumHeight=dp(70)
@@ -186,11 +208,19 @@ class MainActivity:Activity(){
         };base.addView(editions)
         content=FrameLayout(this);base.addView(content,LinearLayout.LayoutParams(-1,0,1f));renderSection()
     }
-    fun navigate(section:String,remember:Boolean=true){library?.let{libraryStates[activeSection]=it.snapshot()};library=null;if(section=="progression"&&!worldComplete()&&edition=="iceborne"){edition="world";prefs.set("edition",edition);audio.play(edition)};if(remember&&section!=activeSection)sectionHistory.addLast(activeSection);activeSection=section;prefs.set("lastSection",section);renderBase()}
+    fun navigate(section:String,remember:Boolean=true){
+        library?.let{libraryStates[activeSection]=it.snapshot()};library=null
+        weapons?.let{libraryStates["weapons"]=it.snapshot()};weapons=null
+        if(section=="progression"&&!worldComplete()&&edition=="iceborne"){edition="world";prefs.set("edition",edition);audio.play(edition)}
+        if(remember&&section!=activeSection)sectionHistory.addLast(activeSection);activeSection=section;prefs.set("lastSection",section);renderBase()
+    }
     private fun renderSection(){
-        library?.let{libraryStates[activeSection]=it.snapshot()};library=null;content.removeAllViews()
+        library?.let{libraryStates[activeSection]=it.snapshot()};library=null
+        weapons?.let{libraryStates["weapons"]=it.snapshot()};weapons=null
+        content.removeAllViews()
         when(activeSection){
             "overview"->overview()
+            "weapons"->{weapons=WeaponsScreen(this,libraryStates["weapons"]);content.addView(weapons,FrameLayout.LayoutParams(-1,-1))}
             "progression"->{if(!worldComplete()&&edition=="iceborne")switchEdition("world")else content.addView(ProgressScreen(this),FrameLayout.LayoutParams(-1,-1))}
             else->{library=LibraryScreen(this,activeSection,libraryStates[activeSection]);content.addView(library,FrameLayout.LayoutParams(-1,-1))}
         }
@@ -204,13 +234,24 @@ class MainActivity:Activity(){
     fun worldComplete()=RouteProgress.completeAll(libraryData.getJSONObject("speedrun").getJSONArray("world"),RouteProgress.state(prefs,"world"))
     fun switchEdition(next:String){if(edition==next)return;if(activeSection=="progression"&&next=="iceborne"&&!worldComplete())return;edition=next;prefs.set("edition",next);audio.play(next);renderBase()}
     fun loadBitmap(path:String,callback:(Bitmap?)->Unit){
+        if(destroyed||images.isShutdown)return
         cache.get(path)?.let{callback(it);return}
-        images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull();if(bitmap!=null)cache.put(path,bitmap);runOnUiThread{if(!destroyed)callback(bitmap)}}
+        runCatching{images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull();if(bitmap!=null)cache.put(path,bitmap);runOnUiThread{if(!destroyed)callback(bitmap)}}}
     }
     fun assetImage(path:String,view:ImageView){
+        if(destroyed||images.isShutdown)return
         view.tag=path;cache.get(path)?.let{view.setImageBitmap(it);return}
-        images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull()
-            if(bitmap!=null){cache.put(path,bitmap);runOnUiThread{if(!destroyed&&view.tag==path)view.setImageBitmap(bitmap)}}}
+        runCatching{images.execute{val bitmap=runCatching{assets.open(path).use{BitmapFactory.decodeStream(it)}}.getOrNull()
+            if(bitmap!=null){cache.put(path,bitmap);runOnUiThread{if(!destroyed&&view.tag==path)view.setImageBitmap(bitmap)}}}}
+    }
+    fun recordImage(record:FieldRecord,view:ImageView){
+        val visual=libraryData.optJSONObject("nativeVisuals")?.optJSONObject("catalogueRecords")?.optJSONObject(record.id)
+        if(visual?.optString("mode")=="glyph"){
+            val tint=visual.optString("tint","accent")
+            val colour=if(tint=="accent")accent else runCatching{Color.parseColor(tint)}.getOrDefault(accent)
+            view.setColorFilter(colour)
+        }else view.clearColorFilter()
+        if(record.image.isNotBlank())assetImage(record.image,view)else{view.tag=null;view.setImageDrawable(null)}
     }
     private fun overview(){
         val hero=FrameLayout(this);content.addView(hero,FrameLayout.LayoutParams(-1,-1))
@@ -262,7 +303,7 @@ class MainActivity:Activity(){
     private fun present(kind:String,body:View,width:Int=840,menu:Boolean=false):View{
         val container=FrameLayout(this);container.setBackgroundColor(alphaColour(bg,205));container.isClickable=true
         val holder=BoundPanel();holder.capWidth=width;holder.background=surface();holder.elevation=dp(12).toFloat();holder.isClickable=true
-        holder.fill=kind in listOf("search","settings","record","saved","credits","checklist")
+        holder.fill=kind in listOf("search","settings","record","weapon","saved","credits","checklist")
         holder.addView(body,FrameLayout.LayoutParams(-1,if(holder.fill)-1 else -2));val p=FrameLayout.LayoutParams(-1,if(holder.fill) -1 else -2,if(menu)Gravity.TOP or Gravity.START else Gravity.CENTER)
         p.setMargins(dp(12),dp(if(menu)80 else 12),dp(12),dp(12));container.addView(holder,p)
         val overlay=Overlay(kind,container,holder);overlays+=overlay;root.addView(container,FrameLayout.LayoutParams(-1,-1))
@@ -361,13 +402,84 @@ class MainActivity:Activity(){
         val spacing=if(prefs.text("density","compact")=="compact")13 else 20
         setPadding(dp(12),dp(spacing),dp(12),dp(spacing));minimumHeight=dp(86)
         if(record.image.isNotBlank()){
-            val image=ImageView(this@MainActivity).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription="${record.name} artwork"};val size=if(record.image.contains("/icons/"))40 else 68;addView(image,LinearLayout.LayoutParams(dp(size*prefs.number("iconSize",100)/100),dp(size)));assetImage(record.image,image)
-        }else addView(EmblemView(this@MainActivity,accent),LinearLayout.LayoutParams(dp(38),dp(40)))
+            val image=ImageView(this@MainActivity).apply{scaleType=ImageView.ScaleType.FIT_CENTER;contentDescription="${record.name} artwork"};val size=if(record.image.contains("/icons/")||record.image.contains("/glyphs/"))40 else 68;addView(image,LinearLayout.LayoutParams(dp(size*prefs.number("iconSize",100)/100),dp(size)));recordImage(record,image)
+        }
         val info=column();info.setPadding(dp(14),0,dp(4),0);info.addView(text(record.name,16f));info.addView(text(record.summary.take(180),12f,colour=muted).apply{maxLines=3;ellipsize=TextUtils.TruncateAt.END});info.addView(text(when(record.game){"world"->"WORLD";"iceborne"->"ICEBORNE";else->"WORLD + ICEBORNE"},9f,colour=accent).apply{letterSpacing=.12f;setPadding(0,dp(6),0,0)});addView(info,LinearLayout.LayoutParams(0,-2,1f))
         touch(this){onOpen()}
     }
     private fun rememberQuery(){if(!historyEnabled||searchQuery.isBlank())return;val values=mutableListOf(searchQuery.trim());for(i in 0 until recent.length()){val term=recent.getString(i);if(term!=searchQuery.trim())values+=term};recent=JSONArray(values.take(12));prefs.set("recent",recent.toString())}
-    fun showRecord(record:FieldRecord){present("record",RecordPanel(this,record){dismiss()},1000)}
+    fun showRecord(record:FieldRecord){
+        when(record.kind){
+            "Weapon Guides"->openWeapon(record.data().optString("id"))
+            "Weapons"->{
+                val data=record.data()
+                if(record.game=="iceborne"&&!isIce)switchEdition("iceborne")
+                openWeapon(data.optString("type"),data.optString("id"),"database")
+            }
+            else->present("record",RecordPanel(this,record){dismiss()},1000)
+        }
+    }
+    fun openWeapon(type:String,selected:String?=null,tab:String="guide"){
+        if(!catalogue.ready){toast("Preparing offline catalogue…");return}
+        val generation=weaponGeneration.incrementAndGet()
+        val game=edition
+        catalogue.executor.execute{
+            val guide=catalogue.reference(type,"Weapon Guides").firstOrNull()
+            val weapons=catalogue.browse(LibraryFilter("Weapons",game=game,type=type,sort="source"),0,10000).records
+            runOnUiThread{
+                if(destroyed||generation!=weaponGeneration.get()||guide==null)return@runOnUiThread
+                val state=JSONObject().put("type",type).put("tab",tab).put("q","").put("rank","all").put("rarity","all").put("element","all").put("obtain","all").put("selected",selected?:JSONObject.NULL).put("path","upgrade").put("family","default").put("tree",JSONObject().put("zoom",1).put("x",0).put("y",0)).put("treeInitialized",false).put("treeDetails",false).put("detail",selected!=null).put("limit",40).put("filtersOpen",false)
+                present("weapon",WeaponProfilePanel(this,guide,weapons,state){dismiss()},1200)
+            }
+        }
+    }
+    private fun restoreContentOverlays(saved:Bundle){
+        val descriptors=runCatching{JSONArray(saved.getString("contentOverlays")?:"[]")}.getOrDefault(JSONArray())
+        if(descriptors.length()==0)saved.getStringArrayList("records")?.forEach{descriptors.put(JSONObject().put("kind","record").put("id",it))}
+        if(descriptors.length()==0)return
+        val game=edition
+        catalogue.executor.execute{
+            data class Restored(val descriptor:JSONObject,val record:FieldRecord,val weapons:List<FieldRecord> = emptyList())
+            val restored=mutableListOf<Restored>()
+            for(i in 0 until descriptors.length()){
+                val descriptor=descriptors.getJSONObject(i)
+                if(descriptor.optString("kind")=="weapon"){
+                    val type=descriptor.optString("type")
+                    val guide=catalogue.reference(type,"Weapon Guides").firstOrNull()?:continue
+                    restored+=Restored(descriptor,guide,catalogue.browse(LibraryFilter("Weapons",game=game,type=type,sort="source"),0,10000).records)
+                }else{
+                    val record=catalogue.record(descriptor.optString("id"))?:continue
+                    restored+=Restored(descriptor,record)
+                }
+            }
+            runOnUiThread{
+                if(destroyed)return@runOnUiThread
+                restored.forEach{item->
+                    if(item.descriptor.optString("kind")=="weapon")present("weapon",WeaponProfilePanel(this,item.record,item.weapons,item.descriptor.getJSONObject("state")){dismiss()},1200)
+                    else present("record",RecordPanel(this,item.record){dismiss()},1000)
+                }
+            }
+        }
+    }
+    fun showWeaponItem(name:String,rawId:String=""){
+        if(!catalogue.ready)return
+        catalogue.executor.execute{
+            var hits=if(rawId.isNotBlank())catalogue.reference(rawId,"Items")else emptyList()
+            if(hits.isEmpty())hits=catalogue.reference(name,"Items")
+            runOnUiThread{
+                if(destroyed)return@runOnUiThread
+                when(hits.size){0->toast("No separate item record is available.");1->showRecord(hits.first());else->showRecordList("Choose an item",hits)}
+            }
+        }
+    }
+    fun showCompatibleDecorations(level:Int){
+        if(!catalogue.ready)return
+        val game=edition
+        catalogue.executor.execute{
+            val hits=catalogue.browse(LibraryFilter("Equipment",category="decorations",game=game,sort="source"),0,10000).records.filter{it.data().optInt("slot") in 1..level}
+            runOnUiThread{if(!destroyed)showRecordList("Compatible decorations · slot $level",hits)}
+        }
+    }
     fun closeLibraryDetail():Boolean=library?.closeSelection()?:false
     fun openReference(value:String,kind:String?=null){
         if(!catalogue.ready){toast("Preparing offline catalogue…");return}
@@ -382,7 +494,7 @@ class MainActivity:Activity(){
     }
     fun isBookmarked(id:String)=(0 until bookmarks.length()).any{bookmarks.optString(it)==id}
     fun toggleBookmark(id:String){val ids=(0 until bookmarks.length()).map{bookmarks.getString(it)}.toMutableList();if(!ids.remove(id))ids+=id;bookmarks=JSONArray(ids);prefs.set("bookmarks",bookmarks.toString())}
-    fun reloadStoredState(){bookmarks=runCatching{JSONArray(prefs.text("bookmarks","[]"))}.getOrDefault(JSONArray());recent=runCatching{JSONArray(prefs.text("recent","[]"))}.getOrDefault(JSONArray());libraryStates.clear();library=null;renderBase()}
+    fun reloadStoredState(){bookmarks=runCatching{JSONArray(prefs.text("bookmarks","[]"))}.getOrDefault(JSONArray());recent=runCatching{JSONArray(prefs.text("recent","[]"))}.getOrDefault(JSONArray());libraryStates.clear();library=null;weapons=null;renderBase()}
     fun importMusic(uri:android.net.Uri){
         toast("Adding audio to the offline music library…")
         fileIo.execute{
@@ -421,7 +533,7 @@ class MainActivity:Activity(){
     }
     fun showCredits(){
         val body=column();body.addView(heading("Sources & credits"));rule(body);val scroll=ScrollView(this);val notes=column();pad(notes,20);scroll.addView(notes);body.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
-        notes.addView(text("Unofficial fan project. Monster Hunter game material belongs to Capcom and the respective rights holders.\n\nNative Kotlin milestone 0.2.0\nSource data and artwork are retained from the completed HTML guide.",14f));gap(notes)
+        notes.addView(text("Unofficial fan project. Monster Hunter game material belongs to Capcom and the respective rights holders.\n\nNative Kotlin milestone 0.3.0-review\nSource data and artwork are retained from the completed HTML guide.",14f));gap(notes)
         val credits=assets.open("credits.json").bufferedReader().use{JSONObject(it.readText())};val sources=credits.optJSONArray("sources")?:JSONArray()
         for(i in 0 until sources.length()){val source=sources.getJSONObject(i);notes.addView(text(source.optString("name"),14f,colour=accent));notes.addView(text(source.optString("url"),11f,colour=muted));gap(notes,12)}
         notes.addView(text(credits.optJSONObject("iconLicense")?.optString("licenseText")?:"",10f,colour=muted));gap(notes)
@@ -431,7 +543,11 @@ class MainActivity:Activity(){
     @Deprecated("Activity result supports Android 7+") override fun onActivityResult(request:Int,result:Int,data:Intent?){super.onActivityResult(request,result,data);backups.onResult(request,result,data)}
     @Deprecated("Back handling supports Android 7+") override fun onBackPressed(){
         if(!introDone)return
-        if(overlays.isNotEmpty()){dismiss();return}
+        if(overlays.isNotEmpty()){
+            val weaponPanel=(overlays.last().panel as? ViewGroup)?.getChildAt(0) as? WeaponProfilePanel
+            if(weaponPanel?.back()!=true)dismiss()
+            return
+        }
         if(closeLibraryDetail())return
         if(sectionHistory.isNotEmpty()){navigate(sectionHistory.removeLast(),false);return}
         if(activeSection!="overview"){navigate("overview",false);return}
