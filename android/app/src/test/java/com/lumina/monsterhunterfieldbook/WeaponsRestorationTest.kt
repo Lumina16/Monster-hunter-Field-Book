@@ -60,7 +60,7 @@ class WeaponsRestorationTest {
         assertTrue(walk(ibScreen).filterIsInstance<TextView>().any { it.text.toString().contains("Iceborne additions included.") })
 
         walk(ibScreen).first { it.contentDescription == "Bookmark Great Sword" }.performClick()
-        val guide = a.catalogue.browse(LibraryFilter("Weapon Guides"), 0, 20).records.first { it.rawId == "great-sword" }
+        val guide = a.catalogue.browse(LibraryFilter("Weapon Guides"), 0, 20).records.first { it.data().optString("id") == "great-sword" }
         assertTrue(a.isBookmarked(guide.id))
 
         walk(ibScreen).first { it.contentDescription == "Open Great Sword" }.performClick()
@@ -105,7 +105,7 @@ class WeaponsRestorationTest {
         val a = controller.get()
         awaitMain(a)
         a.prefs.set("transition", "none")
-        a.openWeapon("great-sword", JSONObject().put("tab", "database"))
+        a.openWeapon("great-sword", initialState = JSONObject().put("tab", "database"))
         awaitMain(a)
 
         val panel = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
@@ -146,7 +146,7 @@ class WeaponsRestorationTest {
         val a = controller.get()
         awaitMain(a)
         a.prefs.set("transition", "none")
-        a.openWeapon("great-sword", JSONObject().put("tab", "tree"))
+        a.openWeapon("great-sword", initialState = JSONObject().put("tab", "tree"))
         awaitMain(a)
 
         val profile = walk(a.root).filterIsInstance<WeaponProfilePanel>().single()
@@ -192,7 +192,7 @@ class WeaponsRestorationTest {
         }
         a.openWeapon(
             "great-sword",
-            JSONObject().put("tab", "database").put("detail", true).put("selected", WeaponModel.rawId(weapon))
+            initialState = JSONObject().put("tab", "database").put("detail", true).put("selected", WeaponModel.rawId(weapon))
         )
         awaitMain(a)
 

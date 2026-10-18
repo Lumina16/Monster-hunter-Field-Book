@@ -24,11 +24,7 @@ class WeaponTreeLayoutTest {
             game = "world",
             summary = "Great Sword",
             image = "art/icons/weapon-great-sword-r$rarity.png",
-            payload = payload.toString(),
-            rawId = id,
-            category = "great-sword",
-            rarity = rarity,
-            rank = "LR"
+            payload = payload.toString()
         )
     }
 

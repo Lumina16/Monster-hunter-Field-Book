@@ -637,7 +637,7 @@ class WeaponProfilePanel(
         }
     }
 
-    private fun arrival(milliseconds:Long,returning:Boolean){
+    fun arrival(milliseconds:Long,returning:Boolean){
         val mode=if(returning)"return"else a.prefs.text("transition","liquid")
         if(a.motionDuration(milliseconds)==0L||mode=="none"){resetContentTransform();return}
         contentAnimation?.cancel()
@@ -666,7 +666,7 @@ class WeaponProfilePanel(
         }
     }
 
-    private fun resetContentTransform(){
+    fun resetContentTransform(){
         host.alpha=1f
         host.translationY=0f
         host.scaleX=1f
@@ -942,7 +942,7 @@ class WeaponProfilePanel(
         })
     }
 
-    private fun updateRows(reset:Boolean){
+    fun updateRows(reset:Boolean){
         val all=WeaponModel.filtered(records,state,a.prefs.text("sortWeapons","source"))
         val limit=state.optInt("limit",40).coerceAtLeast(40)
         restoring=true
@@ -962,7 +962,7 @@ class WeaponProfilePanel(
         }
     }
 
-    private fun weaponRow(record:FieldRecord):View{
+    fun weaponRow(record:FieldRecord):View{
         val data=WeaponModel.data(record)
         val row=a.row().apply{
             gravity=Gravity.CENTER_VERTICAL
@@ -998,7 +998,7 @@ class WeaponProfilePanel(
         scroller.post{scroller.scrollTo(0,state.optInt("detailScroll:${WeaponModel.rawId(record)}"))}
     }
 
-    private fun hideKeyboard(){
+    fun hideKeyboard(){
         (a.getSystemService(android.content.Context.INPUT_METHOD_SERVICE) as? InputMethodManager)?.hideSoftInputFromWindow(windowToken,0)
     }
 

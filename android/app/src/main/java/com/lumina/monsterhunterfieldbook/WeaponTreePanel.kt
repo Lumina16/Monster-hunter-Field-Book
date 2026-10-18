@@ -234,7 +234,7 @@ class WeaponTreePanel(
         return true
     }
 
-    private fun select(record:FieldRecord){
+    fun select(record:FieldRecord){
         state.put("selected",WeaponTreeLayout.rawId(record)).put("treeDetails",true)
         viewport.updateSelection()
         showMaterials(true)
